@@ -1,0 +1,1790 @@
+[
+  {
+    "name": "癌症",
+    "en": "Cancer",
+    "category": "疾病",
+    "desc": "各类恶性肿瘤的统称，未指明具体器官",
+    "count": 225,
+    "aliases": [
+      "Cancer",
+      "cancer"
+    ]
+  },
+  {
+    "name": "心脏病发作",
+    "en": "Heart Attack",
+    "category": "疾病",
+    "desc": "心肌缺血导致的急性心脏事件（心肌梗死）",
+    "count": 68,
+    "aliases": [
+      "Heart attack",
+      "heart attack"
+    ]
+  },
+  {
+    "name": "交通事故",
+    "en": "Car Accident",
+    "category": "意外事故",
+    "desc": "道路车辆碰撞等交通意外",
+    "count": 60,
+    "aliases": [
+      "Car accident",
+      "Car collision",
+      "Traffic accident",
+      "Traffic collision",
+      "car accident",
+      "car collision",
+      "car crash",
+      "traffic accident",
+      "traffic collision"
+    ]
+  },
+  {
+    "name": "枪击",
+    "en": "Gunshot",
+    "category": "暴力冲突",
+    "desc": "枪械射击造成的伤亡",
+    "count": 35,
+    "aliases": [
+      "Gunshot",
+      "Shooting",
+      "Shot",
+      "gunshot",
+      "school shooting",
+      "shooting",
+      "shot",
+      "shot dead"
+    ]
+  },
+  {
+    "name": "中风",
+    "en": "Stroke",
+    "category": "疾病",
+    "desc": "脑部供血中断或血管破裂导致的急性脑损伤",
+    "count": 28,
+    "aliases": [
+      "Stroke",
+      "stroke"
+    ]
+  },
+  {
+    "name": "心脏骤停",
+    "en": "Cardiac Arrest",
+    "category": "疾病",
+    "desc": "心脏突然停止有效搏动",
+    "count": 26,
+    "aliases": [
+      "Cardiac arrest",
+      "cardiac arrest"
+    ]
+  },
+  {
+    "name": "心力衰竭",
+    "en": "Heart Failure",
+    "category": "疾病",
+    "desc": "心脏泵血功能严重衰退",
+    "count": 24,
+    "aliases": [
+      "Heart failure",
+      "heart failure"
+    ]
+  },
+  {
+    "name": "空袭",
+    "en": "Airstrike",
+    "category": "暴力冲突",
+    "desc": "空中军事打击造成的伤亡",
+    "count": 23,
+    "aliases": [
+      "Airstrike",
+      "Airstrikes",
+      "Israeli airstrike",
+      "Israeli strikes",
+      "Israeli–United States strikes",
+      "airstrike",
+      "airstrike injuries",
+      "airstrikes",
+      "drone attack",
+      "drone strike"
+    ]
+  },
+  {
+    "name": "疾病（未详）",
+    "en": "Illness",
+    "category": "疾病",
+    "desc": "记载为疾病但未说明具体病名",
+    "count": 19,
+    "aliases": [
+      "Illness",
+      "Prolonged illness",
+      "Short illness",
+      "illness",
+      "long illness",
+      "prolonged illness",
+      "severe illness",
+      "short illness"
+    ]
+  },
+  {
+    "name": "肺炎",
+    "en": "Pneumonia",
+    "category": "疾病",
+    "desc": "肺部实变的感染性疾病",
+    "count": 19,
+    "aliases": [
+      "Pneumonia",
+      "pneumonia"
+    ]
+  },
+  {
+    "name": "自杀",
+    "en": "Suicide",
+    "category": "自杀",
+    "desc": "自主结束生命",
+    "count": 19,
+    "aliases": [
+      "Suicide",
+      "Suicide by gunshot",
+      "suicide",
+      "suicide by gunshot"
+    ]
+  },
+  {
+    "name": "阿尔茨海默病",
+    "en": "Alzheimer's",
+    "category": "疾病",
+    "desc": "老年痴呆的最常见类型，神经退行性疾病",
+    "count": 17,
+    "aliases": [
+      "Alzheimer's",
+      "Alzheimer's disease",
+      "Alzheimer’s disease",
+      "alzheimer's",
+      "alzheimer's disease"
+    ]
+  },
+  {
+    "name": "注射死刑",
+    "en": "Lethal Injection",
+    "category": "暴力冲突",
+    "desc": "以药物注射方式执行死刑",
+    "count": 15,
+    "aliases": [
+      "Lethal injection",
+      "lethal injection"
+    ]
+  },
+  {
+    "name": "肌萎缩侧索硬化症",
+    "en": "ALS",
+    "category": "疾病",
+    "desc": "运动神经元退行性疾病，俗称渐冻症",
+    "count": 15,
+    "aliases": [
+      "ALS",
+      "als",
+      "amyotrophic lateral sclerosis"
+    ]
+  },
+  {
+    "name": "跌倒",
+    "en": "Fall",
+    "category": "意外事故",
+    "desc": "摔倒造成的伤害",
+    "count": 15,
+    "aliases": [
+      "Fall",
+      "Sturz",
+      "fall",
+      "fall injuries",
+      "sturz"
+    ]
+  },
+  {
+    "name": "帕金森病",
+    "en": "Parkinson's Disease",
+    "category": "疾病",
+    "desc": "中枢神经系统退行性疾病，以震颤和运动迟缓为特征",
+    "count": 14,
+    "aliases": [
+      "Parkinson's disease",
+      "Parkinson’s disease",
+      "parkinson's disease"
+    ]
+  },
+  {
+    "name": "肺癌",
+    "en": "Lung Cancer",
+    "category": "疾病",
+    "desc": "肺组织恶性肿瘤",
+    "count": 13,
+    "aliases": [
+      "Lung cancer",
+      "lung cancer"
+    ]
+  },
+  {
+    "name": "胰腺癌",
+    "en": "Pancreatic Cancer",
+    "category": "疾病",
+    "desc": "胰腺恶性肿瘤，恶性程度高",
+    "count": 12,
+    "aliases": [
+      "Pancreatic cancer",
+      "pancreatic cancer"
+    ]
+  },
+  {
+    "name": "脑出血",
+    "en": "Cerebral Hemorrhage",
+    "category": "疾病",
+    "desc": "脑实质内血管破裂出血",
+    "count": 12,
+    "aliases": [
+      "Cerebral haemorrhage",
+      "Cerebral hemorrhage",
+      "Intracerebral hemorrhage",
+      "brain hemorrhage",
+      "cerebral haemorrhage",
+      "cerebral hemorrhage"
+    ]
+  },
+  {
+    "name": "前列腺癌",
+    "en": "Prostate Cancer",
+    "category": "疾病",
+    "desc": "前列腺恶性肿瘤",
+    "count": 7,
+    "aliases": [
+      "Prostate cancer",
+      "prostate cancer"
+    ]
+  },
+  {
+    "name": "心脏病",
+    "en": "Heart Disease",
+    "category": "疾病",
+    "desc": "心脏疾病的统称，未指明具体类型",
+    "count": 7,
+    "aliases": [
+      "Heart disease",
+      "Heart problems",
+      "heart disease"
+    ]
+  },
+  {
+    "name": "溺水",
+    "en": "Drowning",
+    "category": "意外事故",
+    "desc": "淹没于水中导致的窒息死亡",
+    "count": 7,
+    "aliases": [
+      "Drowned",
+      "Drowning",
+      "drowning"
+    ]
+  },
+  {
+    "name": "痴呆",
+    "en": "Dementia",
+    "category": "疾病",
+    "desc": "认知功能进行性衰退综合征",
+    "count": 7,
+    "aliases": [
+      "Dementia",
+      "dementia"
+    ]
+  },
+  {
+    "name": "白血病",
+    "en": "Leukemia",
+    "category": "疾病",
+    "desc": "造血系统的恶性肿瘤，俗称血癌",
+    "count": 7,
+    "aliases": [
+      "Leukaemia",
+      "Leukemia",
+      "blood cancer",
+      "leukaemia",
+      "leukemia"
+    ]
+  },
+  {
+    "name": "脑癌",
+    "en": "Brain Cancer",
+    "category": "疾病",
+    "desc": "脑部恶性肿瘤",
+    "count": 7,
+    "aliases": [
+      "Brain cancer",
+      "Brain tumour",
+      "brain cancer"
+    ]
+  },
+  {
+    "name": "多器官衰竭",
+    "en": "Multiple Organ Failure",
+    "category": "疾病",
+    "desc": "两个以上器官功能同时衰竭",
+    "count": 5,
+    "aliases": [
+      "Multiple organ failure",
+      "multiple organ failure"
+    ]
+  },
+  {
+    "name": "直升机失事",
+    "en": "Helicopter Crash",
+    "category": "意外事故",
+    "desc": "直升机坠毁事故",
+    "count": 5,
+    "aliases": [
+      "Helicopter crash",
+      "helicopter crash"
+    ]
+  },
+  {
+    "name": "路易体痴呆",
+    "en": "Lewy Body Dementia",
+    "category": "疾病",
+    "desc": "以路易小体为特征的神经退行性痴呆",
+    "count": 5,
+    "aliases": [
+      "Lewy body dementia",
+      "dementia with Lewy bodies",
+      "dementia with lewy bodies",
+      "lewy body dementia"
+    ]
+  },
+  {
+    "name": "刺伤",
+    "en": "Stabbed",
+    "category": "暴力冲突",
+    "desc": "锐器刺戳造成的伤亡",
+    "count": 4,
+    "aliases": [
+      "Stabbed",
+      "stabbed",
+      "stabbing"
+    ]
+  },
+  {
+    "name": "安乐死",
+    "en": "Euthanized",
+    "category": "自杀",
+    "desc": "出于减轻痛苦目的经许可结束生命",
+    "count": 4,
+    "aliases": [
+      "Euthanized",
+      "euthanasia",
+      "euthanized"
+    ]
+  },
+  {
+    "name": "淋巴瘤",
+    "en": "Lymphoma",
+    "category": "疾病",
+    "desc": "淋巴系统恶性肿瘤",
+    "count": 4,
+    "aliases": [
+      "Lymphoma",
+      "lymphoma"
+    ]
+  },
+  {
+    "name": "肺纤维化",
+    "en": "Pulmonary Fibrosis",
+    "category": "疾病",
+    "desc": "肺组织瘢痕化导致呼吸功能衰竭",
+    "count": 4,
+    "aliases": [
+      "Pulmonary fibrosis",
+      "pulmonary fibrosis"
+    ]
+  },
+  {
+    "name": "胶质母细胞瘤",
+    "en": "Glioblastoma",
+    "category": "疾病",
+    "desc": "最常见的恶性脑肿瘤",
+    "count": 4,
+    "aliases": [
+      "Glioblastoma",
+      "glioblastoma"
+    ]
+  },
+  {
+    "name": "遇害",
+    "en": "Killed",
+    "category": "暴力冲突",
+    "desc": "被他人杀害",
+    "count": 4,
+    "aliases": [
+      "Killed",
+      "killed"
+    ]
+  },
+  {
+    "name": "吸入性肺炎",
+    "en": "Aspiration Pneumonia",
+    "category": "疾病",
+    "desc": "吸入异物或呕吐物引发的肺部感染",
+    "count": 3,
+    "aliases": [
+      "Aspiration pneumonia",
+      "aspiration pneumonia"
+    ]
+  },
+  {
+    "name": "处决",
+    "en": "Execution",
+    "category": "暴力冲突",
+    "desc": "依法执行死刑",
+    "count": 3,
+    "aliases": [
+      "Execution",
+      "execution"
+    ]
+  },
+  {
+    "name": "心肺骤停",
+    "en": "Cardiorespiratory Arrest",
+    "category": "疾病",
+    "desc": "心脏与呼吸功能同时停止",
+    "count": 3,
+    "aliases": [
+      "cardiorespiratory arrest"
+    ]
+  },
+  {
+    "name": "战争",
+    "en": "War",
+    "category": "暴力冲突",
+    "desc": "战争行动中死亡",
+    "count": 3,
+    "aliases": [
+      "War",
+      "war"
+    ]
+  },
+  {
+    "name": "新冠病毒感染",
+    "en": "COVID-19",
+    "category": "疾病",
+    "desc": "新型冠状病毒（COVID-19）感染",
+    "count": 3,
+    "aliases": [
+      "COVID-19",
+      "covid-19"
+    ]
+  },
+  {
+    "name": "未公开",
+    "en": "Unknown",
+    "category": "未公开",
+    "desc": "死因未对外公布",
+    "count": 3,
+    "aliases": [
+      "Unknown",
+      "unknown"
+    ]
+  },
+  {
+    "name": "痴呆与帕金森病",
+    "en": "Dementia and Parkinson's Disease",
+    "category": "疾病",
+    "desc": "痴呆与帕金森病共病",
+    "count": 3,
+    "aliases": [
+      "dementia and Parkinson's disease",
+      "dementia and parkinson's disease"
+    ]
+  },
+  {
+    "name": "空难",
+    "en": "Plane Crash",
+    "category": "意外事故",
+    "desc": "民用或军用航空器坠毁事故",
+    "count": 3,
+    "aliases": [
+      "Aircraft accident",
+      "Plane crash",
+      "aircraft accident",
+      "plane crash"
+    ]
+  },
+  {
+    "name": "肾病",
+    "en": "Kidney Disease",
+    "category": "疾病",
+    "desc": "肾脏疾病的统称",
+    "count": 3,
+    "aliases": [
+      "Kidney disease",
+      "kidney disease"
+    ]
+  },
+  {
+    "name": "肾衰竭",
+    "en": "Kidney Failure",
+    "category": "疾病",
+    "desc": "肾脏功能严重丧失",
+    "count": 3,
+    "aliases": [
+      "Kidney failure",
+      "kidney failure"
+    ]
+  },
+  {
+    "name": "脑膜炎",
+    "en": "Meningitis",
+    "category": "疾病",
+    "desc": "脑膜炎症，多由感染引起",
+    "count": 3,
+    "aliases": [
+      "Meningitis",
+      "meningitis"
+    ]
+  },
+  {
+    "name": "腹痛",
+    "en": "Colic",
+    "category": "疾病",
+    "desc": "腹部疼痛，原表记为 colic（绞痛）",
+    "count": 3,
+    "aliases": [
+      "Colic",
+      "colic"
+    ]
+  },
+  {
+    "name": "谋杀",
+    "en": "Murder",
+    "category": "暴力冲突",
+    "desc": "被他人蓄意杀害",
+    "count": 3,
+    "aliases": [
+      "Murder",
+      "murder"
+    ]
+  },
+  {
+    "name": "遇刺",
+    "en": "Assassination",
+    "category": "暴力冲突",
+    "desc": "遭暗杀身亡",
+    "count": 3,
+    "aliases": [
+      "assassinated",
+      "assassination"
+    ]
+  },
+  {
+    "name": "住宅火灾",
+    "en": "House Fire",
+    "category": "意外事故",
+    "desc": "住宅失火造成的伤亡",
+    "count": 2,
+    "aliases": [
+      "house fire"
+    ]
+  },
+  {
+    "name": "协助自杀",
+    "en": "Assisted Suicide",
+    "category": "自杀",
+    "desc": "在他人协助下结束生命",
+    "count": 2,
+    "aliases": [
+      "Assisted suicide",
+      "assisted suicide"
+    ]
+  },
+  {
+    "name": "呼吸衰竭",
+    "en": "Respiratory Failure",
+    "category": "疾病",
+    "desc": "肺部气体交换功能严重障碍",
+    "count": 2,
+    "aliases": [
+      "Respiratory failure",
+      "respiratory failure"
+    ]
+  },
+  {
+    "name": "哮喘发作",
+    "en": "Asthma Attack",
+    "category": "疾病",
+    "desc": "支气管哮喘急性发作",
+    "count": 2,
+    "aliases": [
+      "Asthma attack",
+      "asthma attack"
+    ]
+  },
+  {
+    "name": "器官衰竭",
+    "en": "Organ Failure",
+    "category": "疾病",
+    "desc": "器官功能衰竭",
+    "count": 2,
+    "aliases": [
+      "Organ failure",
+      "organ failure"
+    ]
+  },
+  {
+    "name": "地震",
+    "en": "Earthquake",
+    "category": "意外事故",
+    "desc": "地震灾害造成的伤亡",
+    "count": 2,
+    "aliases": [
+      "earthquake",
+      "earthquakes"
+    ]
+  },
+  {
+    "name": "多发性硬化",
+    "en": "Multiple Sclerosis",
+    "category": "疾病",
+    "desc": "中枢神经系统脱髓鞘疾病",
+    "count": 2,
+    "aliases": [
+      "Multiple sclerosis",
+      "multiple sclerosis"
+    ]
+  },
+  {
+    "name": "头部受伤",
+    "en": "Head Injury",
+    "category": "意外事故",
+    "desc": "头部创伤",
+    "count": 2,
+    "aliases": [
+      "Head injury",
+      "head injury"
+    ]
+  },
+  {
+    "name": "子宫内膜癌",
+    "en": "Endometrial Cancer",
+    "category": "疾病",
+    "desc": "子宫内膜恶性肿瘤",
+    "count": 2,
+    "aliases": [
+      "Endometrial cancer",
+      "endometrial cancer"
+    ]
+  },
+  {
+    "name": "心肾疾病",
+    "en": "Heart and Kidney Issues",
+    "category": "疾病",
+    "desc": "心脏与肾脏疾病共病",
+    "count": 2,
+    "aliases": [
+      "Heart and kidney issues",
+      "heart and kidney disease"
+    ]
+  },
+  {
+    "name": "心脏手术并发症",
+    "en": "Heart Surgery Complications",
+    "category": "疾病",
+    "desc": "心脏手术引发的并发症",
+    "count": 2,
+    "aliases": [
+      "Heart surgery complications",
+      "complications from heart surgery",
+      "heart surgery complications"
+    ]
+  },
+  {
+    "name": "慢性阻塞性肺病",
+    "en": "COPD",
+    "category": "疾病",
+    "desc": "慢性阻塞性肺疾病（COPD）",
+    "count": 2,
+    "aliases": [
+      "COPD",
+      "chronic obstructive pulmonary disease",
+      "copd"
+    ]
+  },
+  {
+    "name": "手术并发症",
+    "en": "Surgery Complications",
+    "category": "疾病",
+    "desc": "手术引发的并发症",
+    "count": 2,
+    "aliases": [
+      "surgery complications"
+    ]
+  },
+  {
+    "name": "术后并发症",
+    "en": "Complications from Surgery",
+    "category": "疾病",
+    "desc": "手术后发生的并发症",
+    "count": 2,
+    "aliases": [
+      "complications after surgery",
+      "complications from surgery"
+    ]
+  },
+  {
+    "name": "消化道出血",
+    "en": "Gastrointestinal Bleeding",
+    "category": "疾病",
+    "desc": "胃肠道出血",
+    "count": 2,
+    "aliases": [
+      "Gastrointestinal bleeding",
+      "gastrointestinal bleeding",
+      "gastrointestinal hemorrhage"
+    ]
+  },
+  {
+    "name": "火车事故",
+    "en": "Train Crash",
+    "category": "意外事故",
+    "desc": "铁路列车事故",
+    "count": 2,
+    "aliases": [
+      "Train crash",
+      "train crash"
+    ]
+  },
+  {
+    "name": "糖尿病",
+    "en": "Diabetes",
+    "category": "疾病",
+    "desc": "血糖代谢紊乱疾病",
+    "count": 2,
+    "aliases": [
+      "diabetes"
+    ]
+  },
+  {
+    "name": "结肠癌",
+    "en": "Colon Cancer",
+    "category": "疾病",
+    "desc": "结肠恶性肿瘤",
+    "count": 2,
+    "aliases": [
+      "Colon cancer",
+      "colon cancer"
+    ]
+  },
+  {
+    "name": "肠癌",
+    "en": "Bowel Cancer",
+    "category": "疾病",
+    "desc": "肠道恶性肿瘤",
+    "count": 2,
+    "aliases": [
+      "Bowel cancer",
+      "bowel cancer"
+    ]
+  },
+  {
+    "name": "肺病",
+    "en": "Lung Disease",
+    "category": "疾病",
+    "desc": "肺部疾病的统称",
+    "count": 2,
+    "aliases": [
+      "Lung disease",
+      "lung disease"
+    ]
+  },
+  {
+    "name": "肺部感染",
+    "en": "Lung Infection",
+    "category": "疾病",
+    "desc": "肺组织感染",
+    "count": 2,
+    "aliases": [
+      "Lung infection",
+      "lung infection"
+    ]
+  },
+  {
+    "name": "肾癌",
+    "en": "Renal Cancer",
+    "category": "疾病",
+    "desc": "肾脏恶性肿瘤",
+    "count": 2,
+    "aliases": [
+      "Kidney cancer",
+      "Renal cancer",
+      "kidney cancer",
+      "renal cancer"
+    ]
+  },
+  {
+    "name": "脑损伤",
+    "en": "Brain Injuries",
+    "category": "意外事故",
+    "desc": "脑部创伤",
+    "count": 2,
+    "aliases": [
+      "Brain injuries",
+      "brain injuries",
+      "brain injury"
+    ]
+  },
+  {
+    "name": "血管性痴呆",
+    "en": "Vascular Dementia",
+    "category": "疾病",
+    "desc": "脑血管病变导致的痴呆",
+    "count": 2,
+    "aliases": [
+      "vascular dementia"
+    ]
+  },
+  {
+    "name": "赛车事故",
+    "en": "Racing Incident",
+    "category": "意外事故",
+    "desc": "赛车运动中的碰撞事故",
+    "count": 2,
+    "aliases": [
+      "Racing collision",
+      "Racing incident",
+      "racing collision",
+      "racing incident"
+    ]
+  },
+  {
+    "name": "跌倒并发症",
+    "en": "Complications from a Fall",
+    "category": "疾病",
+    "desc": "跌倒后引发的并发症",
+    "count": 2,
+    "aliases": [
+      "complications from a fall"
+    ]
+  },
+  {
+    "name": "运动神经元病",
+    "en": "Motor Neuron Disease",
+    "category": "疾病",
+    "desc": "运动神经元退行性疾病",
+    "count": 2,
+    "aliases": [
+      "Motor neuron disease",
+      "motor neuron disease"
+    ]
+  },
+  {
+    "name": "间皮瘤",
+    "en": "Mesothelioma",
+    "category": "疾病",
+    "desc": "多见于胸膜的恶性肿瘤",
+    "count": 2,
+    "aliases": [
+      "Mesothelioma",
+      "mesothelioma"
+    ]
+  },
+  {
+    "name": "阵亡",
+    "en": "Killed in Operation",
+    "category": "暴力冲突",
+    "desc": "军事行动中作战死亡",
+    "count": 2,
+    "aliases": [
+      "Killed in operation",
+      "killed in action"
+    ]
+  },
+  {
+    "name": "乙型肝炎",
+    "en": "Hepatitis B",
+    "category": "疾病",
+    "desc": "乙型病毒性肝炎",
+    "count": 1,
+    "aliases": [
+      "hepatitis B",
+      "hepatitis b"
+    ]
+  },
+  {
+    "name": "乳腺癌",
+    "en": "Breast Cancer",
+    "category": "疾病",
+    "desc": "乳腺恶性肿瘤",
+    "count": 1,
+    "aliases": [
+      "Breast cancer",
+      "breast cancer"
+    ]
+  },
+  {
+    "name": "公交车事故",
+    "en": "Bus Accident",
+    "category": "意外事故",
+    "desc": "公交车交通事故",
+    "count": 1,
+    "aliases": [
+      "Bus accident",
+      "bus accident"
+    ]
+  },
+  {
+    "name": "副肿瘤性天疱疮",
+    "en": "Paraneoplastic Pemphigus",
+    "category": "疾病",
+    "desc": "与肿瘤相关的自身免疫性皮肤病",
+    "count": 1,
+    "aliases": [
+      "Paraneoplastic pemphigus",
+      "paraneoplastic pemphigus"
+    ]
+  },
+  {
+    "name": "动力伞坠毁",
+    "en": "Paramotor Crash",
+    "category": "意外事故",
+    "desc": "动力伞飞行事故",
+    "count": 1,
+    "aliases": [
+      "Paramotor crash",
+      "paramotor crash"
+    ]
+  },
+  {
+    "name": "动脉粥样硬化性心血管病",
+    "en": "Atherosclerotic Cardiovascular Disease",
+    "category": "疾病",
+    "desc": "动脉粥样硬化导致的心血管疾病",
+    "count": 1,
+    "aliases": [
+      "Atherosclerotic cardiovascular disease",
+      "atherosclerotic cardiovascular disease"
+    ]
+  },
+  {
+    "name": "医学并发症",
+    "en": "Medical Complications",
+    "category": "疾病",
+    "desc": "医疗过程中的并发症",
+    "count": 1,
+    "aliases": [
+      "Medical complications",
+      "medical complications"
+    ]
+  },
+  {
+    "name": "吸入烟雾",
+    "en": "Smoke Inhalation",
+    "category": "意外事故",
+    "desc": "火灾中吸入有毒烟雾",
+    "count": 1,
+    "aliases": [
+      "Smoke inhalation",
+      "smoke inhalation"
+    ]
+  },
+  {
+    "name": "唾液腺癌",
+    "en": "Salivary Gland Cancer",
+    "category": "疾病",
+    "desc": "唾液腺恶性肿瘤",
+    "count": 1,
+    "aliases": [
+      "salivary gland cancer"
+    ]
+  },
+  {
+    "name": "喉癌",
+    "en": "Laryngeal Cancer",
+    "category": "疾病",
+    "desc": "喉部恶性肿瘤",
+    "count": 1,
+    "aliases": [
+      "Laryngeal cancer",
+      "laryngeal cancer"
+    ]
+  },
+  {
+    "name": "地雷",
+    "en": "Landmine",
+    "category": "暴力冲突",
+    "desc": "地雷爆炸造成的伤亡",
+    "count": 1,
+    "aliases": [
+      "Landmine",
+      "landmine"
+    ]
+  },
+  {
+    "name": "坦克炮火",
+    "en": "Tank Fire",
+    "category": "暴力冲突",
+    "desc": "坦克炮击造成的伤亡",
+    "count": 1,
+    "aliases": [
+      "tank fire"
+    ]
+  },
+  {
+    "name": "多器官衰竭与肺炎",
+    "en": "Multiple Organ Failure and Pneumonia",
+    "category": "疾病",
+    "desc": "多器官衰竭合并肺炎",
+    "count": 1,
+    "aliases": [
+      "multiple organ failure and pneumonia"
+    ]
+  },
+  {
+    "name": "尤文肉瘤",
+    "en": "Ewing Sarcoma",
+    "category": "疾病",
+    "desc": "常见于儿童的骨与软组织恶性肿瘤",
+    "count": 1,
+    "aliases": [
+      "Ewing sarcoma",
+      "ewing sarcoma"
+    ]
+  },
+  {
+    "name": "尿路感染",
+    "en": "Urinary Tract Infection",
+    "category": "疾病",
+    "desc": "泌尿系统感染",
+    "count": 1,
+    "aliases": [
+      "urinary tract infection"
+    ]
+  },
+  {
+    "name": "帕金森病、痴呆与跌倒",
+    "en": "Parkinson’s Disease, Dementia and Fall",
+    "category": "疾病",
+    "desc": "帕金森病合并痴呆及跌倒",
+    "count": 1,
+    "aliases": [
+      "Parkinson’s disease, dementia and fall",
+      "parkinson's disease, dementia and fall"
+    ]
+  },
+  {
+    "name": "帕金森病痴呆与跌倒",
+    "en": "Parkinson's Disease Dementia and a Fall",
+    "category": "疾病",
+    "desc": "帕金森病痴呆合并跌倒",
+    "count": 1,
+    "aliases": [
+      "Parkinson's disease dementia and a fall",
+      "parkinson's disease dementia and a fall"
+    ]
+  },
+  {
+    "name": "并发症",
+    "en": "Complications",
+    "category": "疾病",
+    "desc": "并发症，未指明具体类型",
+    "count": 1,
+    "aliases": [
+      "complications"
+    ]
+  },
+  {
+    "name": "心肺肾疾病",
+    "en": "Heart, Lung and Kidney Disease",
+    "category": "疾病",
+    "desc": "心、肺、肾多器官疾病",
+    "count": 1,
+    "aliases": [
+      "heart, lung and kidney disease"
+    ]
+  },
+  {
+    "name": "心脏动脉瘤",
+    "en": "Heart Aneurysm",
+    "category": "疾病",
+    "desc": "心脏壁局部膨出",
+    "count": 1,
+    "aliases": [
+      "Heart aneurysm",
+      "heart aneurysm"
+    ]
+  },
+  {
+    "name": "心脏手术",
+    "en": "Heart Surgery",
+    "category": "疾病",
+    "desc": "心脏手术相关死亡",
+    "count": 1,
+    "aliases": [
+      "heart surgery"
+    ]
+  },
+  {
+    "name": "心脏缺陷",
+    "en": "Heart Defect",
+    "category": "疾病",
+    "desc": "先天性或后天性心脏结构异常",
+    "count": 1,
+    "aliases": [
+      "Heart defect",
+      "heart defect"
+    ]
+  },
+  {
+    "name": "心衰与慢阻肺",
+    "en": "Heart Failure and COPD",
+    "category": "疾病",
+    "desc": "心力衰竭合并慢性阻塞性肺病",
+    "count": 1,
+    "aliases": [
+      "Heart failure and COPD",
+      "heart failure and copd"
+    ]
+  },
+  {
+    "name": "心衰与肾病",
+    "en": "Heart Failure and Kidney Disease",
+    "category": "疾病",
+    "desc": "心力衰竭合并肾脏疾病",
+    "count": 1,
+    "aliases": [
+      "heart failure and kidney disease"
+    ]
+  },
+  {
+    "name": "急性呼吸衰竭",
+    "en": "Acute Respiratory Failure",
+    "category": "疾病",
+    "desc": "突发的严重呼吸功能衰竭",
+    "count": 1,
+    "aliases": [
+      "Acute respiratory failure",
+      "acute respiratory failure"
+    ]
+  },
+  {
+    "name": "急性髓系白血病",
+    "en": "Acute Myeloid Leukemia",
+    "category": "疾病",
+    "desc": "急性骨髓性白血病",
+    "count": 1,
+    "aliases": [
+      "Acute myeloid leukemia",
+      "acute myeloid leukemia"
+    ]
+  },
+  {
+    "name": "意外酒精中毒",
+    "en": "Accidental Alcohol Poisoning",
+    "category": "意外事故",
+    "desc": "意外摄入过量酒精中毒",
+    "count": 1,
+    "aliases": [
+      "Accidental alcohol poisoning",
+      "accidental alcohol poisoning"
+    ]
+  },
+  {
+    "name": "感染性休克",
+    "en": "Septic Shock",
+    "category": "疾病",
+    "desc": "严重感染导致的休克",
+    "count": 1,
+    "aliases": [
+      "Septic shock",
+      "septic shock"
+    ]
+  },
+  {
+    "name": "慢阻肺并发症",
+    "en": "Complications from COPD",
+    "category": "疾病",
+    "desc": "慢性阻塞性肺病引发的并发症",
+    "count": 1,
+    "aliases": [
+      "complications from COPD",
+      "complications from copd"
+    ]
+  },
+  {
+    "name": "摩托车事故",
+    "en": "Motorcycle Accident",
+    "category": "意外事故",
+    "desc": "摩托车交通事故",
+    "count": 1,
+    "aliases": [
+      "motorcycle accident"
+    ]
+  },
+  {
+    "name": "支气管肺炎",
+    "en": "Bronchopneumonia",
+    "category": "疾病",
+    "desc": "支气管肺组织的感染",
+    "count": 1,
+    "aliases": [
+      "Bronchopneumonia",
+      "bronchopneumonia"
+    ]
+  },
+  {
+    "name": "极限跳伞事故",
+    "en": "BASE Jumping Accident",
+    "category": "意外事故",
+    "desc": "BASE 跳伞运动事故",
+    "count": 1,
+    "aliases": [
+      "BASE jumping accident",
+      "base jumping accident"
+    ]
+  },
+  {
+    "name": "枪战",
+    "en": "Gunfight",
+    "category": "暴力冲突",
+    "desc": "交火中中弹死亡",
+    "count": 1,
+    "aliases": [
+      "gunfight"
+    ]
+  },
+  {
+    "name": "横纹肌肉瘤",
+    "en": "Rhabdomyosarcoma",
+    "category": "疾病",
+    "desc": "横纹肌来源的恶性肿瘤",
+    "count": 1,
+    "aliases": [
+      "Rhabdomyosarcoma",
+      "rhabdomyosarcoma"
+    ]
+  },
+  {
+    "name": "武装袭击",
+    "en": "Armed Attack",
+    "category": "暴力冲突",
+    "desc": "武装分子袭击造成的伤亡",
+    "count": 1,
+    "aliases": [
+      "Armed attack",
+      "armed attack"
+    ]
+  },
+  {
+    "name": "殴打致死",
+    "en": "Beating",
+    "category": "暴力冲突",
+    "desc": "被殴打致死",
+    "count": 1,
+    "aliases": [
+      "beating"
+    ]
+  },
+  {
+    "name": "流感",
+    "en": "Influenza",
+    "category": "疾病",
+    "desc": "流行性感冒",
+    "count": 1,
+    "aliases": [
+      "influenza"
+    ]
+  },
+  {
+    "name": "火灾",
+    "en": "Fire",
+    "category": "意外事故",
+    "desc": "火灾造成的伤亡",
+    "count": 1,
+    "aliases": [
+      "Fire",
+      "fire"
+    ]
+  },
+  {
+    "name": "痴呆并发症",
+    "en": "Complications from Dementia",
+    "category": "疾病",
+    "desc": "痴呆引发的并发症",
+    "count": 1,
+    "aliases": [
+      "complications from dementia"
+    ]
+  },
+  {
+    "name": "痴呆相关并发症",
+    "en": "Dementia-Related Complications",
+    "category": "疾病",
+    "desc": "与痴呆相关的并发症",
+    "count": 1,
+    "aliases": [
+      "dementia-related complications"
+    ]
+  },
+  {
+    "name": "癫痫发作",
+    "en": "Epileptic Seizure",
+    "category": "疾病",
+    "desc": "癫痫持续或急性发作",
+    "count": 1,
+    "aliases": [
+      "Epileptic seizure",
+      "epileptic seizure"
+    ]
+  },
+  {
+    "name": "皮肤癌",
+    "en": "Skin Cancer",
+    "category": "疾病",
+    "desc": "皮肤恶性肿瘤",
+    "count": 1,
+    "aliases": [
+      "Skin cancer",
+      "skin cancer"
+    ]
+  },
+  {
+    "name": "皮质基底节综合征",
+    "en": "Corticobasal Syndrome",
+    "category": "疾病",
+    "desc": "罕见的神经退行性疾病",
+    "count": 1,
+    "aliases": [
+      "corticobasal syndrome"
+    ]
+  },
+  {
+    "name": "直升机事故",
+    "en": "Helicopter Accident",
+    "category": "意外事故",
+    "desc": "直升机飞行事故",
+    "count": 1,
+    "aliases": [
+      "helicopter accident"
+    ]
+  },
+  {
+    "name": "直肠癌",
+    "en": "Rectal Cancer",
+    "category": "疾病",
+    "desc": "直肠恶性肿瘤",
+    "count": 1,
+    "aliases": [
+      "Rectal cancer",
+      "rectal cancer"
+    ]
+  },
+  {
+    "name": "短暂患病",
+    "en": "Brief Illness",
+    "category": "疾病",
+    "desc": "短期疾病后去世",
+    "count": 1,
+    "aliases": [
+      "brief illness"
+    ]
+  },
+  {
+    "name": "糖尿病与心脏病",
+    "en": "Diabetes and Heart Disease",
+    "category": "疾病",
+    "desc": "糖尿病合并心脏病",
+    "count": 1,
+    "aliases": [
+      "Diabetes and heart disease",
+      "diabetes and heart disease"
+    ]
+  },
+  {
+    "name": "糖尿病与肺癌",
+    "en": "Diabetes and Lung Cancer",
+    "category": "疾病",
+    "desc": "糖尿病合并肺癌",
+    "count": 1,
+    "aliases": [
+      "diabetes and lung cancer"
+    ]
+  },
+  {
+    "name": "糖尿病并发症",
+    "en": "Diabetes Complications",
+    "category": "疾病",
+    "desc": "糖尿病引发的并发症",
+    "count": 1,
+    "aliases": [
+      "diabetes complications"
+    ]
+  },
+  {
+    "name": "结直肠癌",
+    "en": "Colorectal Cancer",
+    "category": "疾病",
+    "desc": "结肠与直肠恶性肿瘤",
+    "count": 1,
+    "aliases": [
+      "Colorectal cancer",
+      "colorectal cancer"
+    ]
+  },
+  {
+    "name": "肉瘤",
+    "en": "Sarcoma",
+    "category": "疾病",
+    "desc": "间叶组织恶性肿瘤",
+    "count": 1,
+    "aliases": [
+      "Sarcoma",
+      "sarcoma"
+    ]
+  },
+  {
+    "name": "肝病",
+    "en": "Liver Disease",
+    "category": "疾病",
+    "desc": "肝脏疾病的统称",
+    "count": 1,
+    "aliases": [
+      "liver disease"
+    ]
+  },
+  {
+    "name": "肝癌",
+    "en": "Liver Cancer",
+    "category": "疾病",
+    "desc": "肝脏恶性肿瘤",
+    "count": 1,
+    "aliases": [
+      "Liver cancer",
+      "liver cancer"
+    ]
+  },
+  {
+    "name": "肝细胞癌",
+    "en": "Hepatocellular Carcinoma",
+    "category": "疾病",
+    "desc": "肝细胞来源的恶性肿瘤",
+    "count": 1,
+    "aliases": [
+      "Hepatocellular carcinoma",
+      "hepatocellular carcinoma"
+    ]
+  },
+  {
+    "name": "肝衰竭",
+    "en": "Liver Failure",
+    "category": "疾病",
+    "desc": "肝脏功能严重丧失",
+    "count": 1,
+    "aliases": [
+      "liver failure"
+    ]
+  },
+  {
+    "name": "肠梗阻",
+    "en": "Intestinal Blockage",
+    "category": "疾病",
+    "desc": "肠道内容物通过受阻",
+    "count": 1,
+    "aliases": [
+      "Intestinal blockage",
+      "intestinal blockage"
+    ]
+  },
+  {
+    "name": "股骨骨折",
+    "en": "Femur Fracture",
+    "category": "意外事故",
+    "desc": "股骨骨折引发的并发症",
+    "count": 1,
+    "aliases": [
+      "Femur fracture",
+      "femur fracture"
+    ]
+  },
+  {
+    "name": "肩部骨折",
+    "en": "Fractured Shoulder",
+    "category": "意外事故",
+    "desc": "肩部骨折引发的并发症",
+    "count": 1,
+    "aliases": [
+      "fractured shoulder"
+    ]
+  },
+  {
+    "name": "肺气肿",
+    "en": "Emphysema",
+    "category": "疾病",
+    "desc": "肺泡壁破坏导致的慢性肺病",
+    "count": 1,
+    "aliases": [
+      "Emphysema",
+      "emphysema"
+    ]
+  },
+  {
+    "name": "肺炎与前列腺癌",
+    "en": "Pneumonia and Prostate Cancer",
+    "category": "疾病",
+    "desc": "肺炎合并前列腺癌",
+    "count": 1,
+    "aliases": [
+      "Pneumonia and prostate cancer",
+      "pneumonia and prostate cancer"
+    ]
+  },
+  {
+    "name": "胃癌",
+    "en": "Stomach Cancer",
+    "category": "疾病",
+    "desc": "胃部恶性肿瘤",
+    "count": 1,
+    "aliases": [
+      "stomach cancer"
+    ]
+  },
+  {
+    "name": "胆管癌",
+    "en": "Bile Duct Cancer",
+    "category": "疾病",
+    "desc": "胆管恶性肿瘤",
+    "count": 1,
+    "aliases": [
+      "Bile duct cancer",
+      "bile duct cancer"
+    ]
+  },
+  {
+    "name": "胸腔积液",
+    "en": "Pleural Effusion",
+    "category": "疾病",
+    "desc": "胸膜腔液体积聚",
+    "count": 1,
+    "aliases": [
+      "pleural effusion"
+    ]
+  },
+  {
+    "name": "胸部感染",
+    "en": "Chest Infection",
+    "category": "疾病",
+    "desc": "胸腔部位感染",
+    "count": 1,
+    "aliases": [
+      "chest infection"
+    ]
+  },
+  {
+    "name": "脊髓损伤",
+    "en": "Spinal Injury",
+    "category": "意外事故",
+    "desc": "脊髓创伤",
+    "count": 1,
+    "aliases": [
+      "Spinal injury",
+      "spinal injury"
+    ]
+  },
+  {
+    "name": "脑动脉瘤",
+    "en": "Cerebral Aneurysm",
+    "category": "疾病",
+    "desc": "脑动脉局部扩张破裂",
+    "count": 1,
+    "aliases": [
+      "cerebral aneurysm"
+    ]
+  },
+  {
+    "name": "脑梗死",
+    "en": "Cerebral Infarction",
+    "category": "疾病",
+    "desc": "脑组织缺血性坏死",
+    "count": 1,
+    "aliases": [
+      "cerebral infarction"
+    ]
+  },
+  {
+    "name": "腹膜炎",
+    "en": "Peritonitis",
+    "category": "疾病",
+    "desc": "腹膜炎症",
+    "count": 1,
+    "aliases": [
+      "peritonitis"
+    ]
+  },
+  {
+    "name": "膝关节手术",
+    "en": "Knee Surgery",
+    "category": "疾病",
+    "desc": "膝关节手术相关死亡",
+    "count": 1,
+    "aliases": [
+      "knee surgery"
+    ]
+  },
+  {
+    "name": "自然死亡",
+    "en": "Natural Causes",
+    "category": "疾病",
+    "desc": "无明确疾病的自然死亡",
+    "count": 1,
+    "aliases": [
+      "natural causes"
+    ]
+  },
+  {
+    "name": "自行车事故",
+    "en": "Bicycle Accident",
+    "category": "意外事故",
+    "desc": "自行车交通事故",
+    "count": 1,
+    "aliases": [
+      "Bicycle accident",
+      "bicycle accident"
+    ]
+  },
+  {
+    "name": "船只相撞",
+    "en": "Boat Collision",
+    "category": "意外事故",
+    "desc": "船舶碰撞事故",
+    "count": 1,
+    "aliases": [
+      "boat collision"
+    ]
+  },
+  {
+    "name": "药物成瘾",
+    "en": "Drug Addiction",
+    "category": "意外事故",
+    "desc": "药物滥用成瘾",
+    "count": 1,
+    "aliases": [
+      "drug addiction"
+    ]
+  },
+  {
+    "name": "袭击",
+    "en": "Attack",
+    "category": "暴力冲突",
+    "desc": "遭袭击身亡",
+    "count": 1,
+    "aliases": [
+      "strike"
+    ]
+  },
+  {
+    "name": "袭击伤",
+    "en": "Attack Injuries",
+    "category": "暴力冲突",
+    "desc": "袭击造成的创伤",
+    "count": 1,
+    "aliases": [
+      "Attack injuries",
+      "attack injuries"
+    ]
+  },
+  {
+    "name": "警方执法事件",
+    "en": "Police Encounter",
+    "category": "暴力冲突",
+    "desc": "与警方执法相关的死亡",
+    "count": 1,
+    "aliases": [
+      "police encounter"
+    ]
+  },
+  {
+    "name": "误食",
+    "en": "Accidental Ingestion",
+    "category": "意外事故",
+    "desc": "误食有毒有害物质",
+    "count": 1,
+    "aliases": [
+      "Accidental ingestion",
+      "accidental ingestion"
+    ]
+  },
+  {
+    "name": "败血症",
+    "en": "Sepsis",
+    "category": "疾病",
+    "desc": "病原体入血导致的全身感染",
+    "count": 1,
+    "aliases": [
+      "sepsis"
+    ]
+  },
+  {
+    "name": "跌倒致头部受伤",
+    "en": "Head Injury from a Fall",
+    "category": "意外事故",
+    "desc": "跌倒造成头部创伤",
+    "count": 1,
+    "aliases": [
+      "head injury from a fall"
+    ]
+  },
+  {
+    "name": "进行性核上性麻痹",
+    "en": "Progressive Supranuclear Palsy",
+    "category": "疾病",
+    "desc": "罕见的神经退行性疾病",
+    "count": 1,
+    "aliases": [
+      "progressive supranuclear palsy"
+    ]
+  },
+  {
+    "name": "雪崩",
+    "en": "Avalanche",
+    "category": "意外事故",
+    "desc": "雪崩灾害造成的伤亡",
+    "count": 1,
+    "aliases": [
+      "avalanche"
+    ]
+  },
+  {
+    "name": "食管癌",
+    "en": "Esophageal Cancer",
+    "category": "疾病",
+    "desc": "食管恶性肿瘤",
+    "count": 1,
+    "aliases": [
+      "Esophageal cancer",
+      "esophageal cancer"
+    ]
+  },
+  {
+    "name": "骨癌",
+    "en": "Bone Cancer",
+    "category": "疾病",
+    "desc": "骨骼恶性肿瘤",
+    "count": 1,
+    "aliases": [
+      "Bone cancer",
+      "bone cancer"
+    ]
+  },
+  {
+    "name": "骨髓瘤",
+    "en": "Myeloma",
+    "category": "疾病",
+    "desc": "浆细胞恶性肿瘤",
+    "count": 1,
+    "aliases": [
+      "Myeloma",
+      "myeloma"
+    ]
+  }
+]

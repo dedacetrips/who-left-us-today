@@ -277,6 +277,26 @@ body::before{
 .no-result .big{font-family:var(--serif);font-size:34px;margin-bottom:10px;color:var(--ink-4)}
 .no-result p{font-size:13px;margin:0}
 
+/* ── 加载更多 ── */
+.load-more{
+  display:flex;align-items:center;justify-content:center;gap:9px;
+  padding:22px 0 40px;margin-top:8px;cursor:pointer;
+  font-size:12px;letter-spacing:.08em;color:var(--ink-3);
+  border-top:1px solid var(--line-2);
+}
+.load-more:hover{color:var(--accent)}
+.load-more.done{cursor:default;color:var(--ink-4)}
+.load-more.done:hover{color:var(--ink-4)}
+.load-num{color:var(--ink-4);font-size:11px}
+.load-done{letter-spacing:.1em}
+.load-spin{
+  width:11px;height:11px;border:1.5px solid var(--line-2);
+  border-top-color:var(--ink-3);border-radius:50%;
+  animation:spin 1s linear infinite;
+}
+.load-more.done .load-spin{display:none}
+@keyframes spin{to{transform:rotate(360deg)}}
+
 /* ── 页脚 ── */
 .foot{
   border-top:1px solid var(--ink);padding:26px 0 50px;
@@ -339,7 +359,7 @@ body::before{
 .sheet-orig{font-size:11.5px;color:var(--ink-3);letter-spacing:.06em;margin-top:5px}
 .sheet-role{font-size:12.5px;color:var(--ink-2);margin-top:7px;line-height:1.6}
 .sheet-facts{
-  display:grid;grid-template-columns:repeat(3,1fr);gap:0;
+  display:grid;grid-template-columns:repeat(4,1fr);gap:0;
   border-top:1px solid var(--line);border-bottom:1px solid var(--line);
   margin:20px 0 22px;
 }
@@ -347,6 +367,8 @@ body::before{
 .fact:last-child{border-right:0}
 .fact-k{display:block;font-size:9.5px;letter-spacing:.18em;color:var(--ink-4);text-transform:uppercase}
 .fact-v{display:block;font-family:var(--serif);font-size:15px;margin-top:6px;line-height:1.3}
+.fact-cat{display:inline-block;margin-left:6px;padding:1px 6px;border:1px solid var(--line-2);border-radius:20px;font-family:var(--sans);font-size:10px;color:var(--ink-3);vertical-align:1px}
+.fact-none{color:var(--ink-4)}
 .sheet-bio{font-size:14px;line-height:1.95;color:var(--ink-2);margin:0 0 20px}
 .sheet-bio::first-letter{
   font-family:var(--serif);float:left;font-size:40px;line-height:.92;
@@ -404,6 +426,9 @@ body::before{
 }
 .wiki-link{color:var(--ink-2);text-decoration:none;border-bottom:1px solid var(--line-2);padding-bottom:1px}
 .wiki-link:hover{color:var(--accent);border-bottom-color:var(--accent)}
+.src-link{color:var(--ink-2);text-decoration:none;border-bottom:1px solid var(--line-2);padding-bottom:1px;word-break:break-all}
+.src-link:hover{color:var(--accent);border-bottom-color:var(--accent)}
+.src-sep{color:var(--ink-4);margin:0 3px}
 .sheet-nav{display:flex;gap:10px;margin-top:22px}
 .nav-btn{
   flex:1;border:1px solid var(--line-2);background:transparent;color:var(--ink);
@@ -430,7 +455,8 @@ body::before{
   .stat:nth-child(2){border-right:0}
   .stat:nth-child(1),.stat:nth-child(2){border-bottom:1px solid var(--line)}
   .sheet-facts{grid-template-columns:repeat(2,1fr)}
-  .fact:nth-child(2){border-right:0}
+  .fact:nth-child(2),.fact:nth-child(4){border-right:0}
+  .fact:nth-child(1),.fact:nth-child(2){border-bottom:1px solid var(--line)}
 }
 </style>
 </head>
@@ -469,7 +495,7 @@ body::before{
     <div class="search-row">
       <label class="search-box">
         <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5" stroke-linecap="round"/></svg>
-        <input type="search" id="searchInput" placeholder="搜索姓名、国籍、作品或身份…" autocomplete="off">
+        <input type="search" id="searchInput" placeholder="搜索姓名、国家地区、作品或身份…" autocomplete="off">
       </label>
       <span class="result-count" id="resultCount"></span>
     </div>
@@ -477,9 +503,13 @@ body::before{
 
   <div class="timeline" id="timeline"></div>
 
+  <div class="load-more" id="loadMore" role="button" tabindex="0" aria-label="加载更多">
+    <span class="load-spin"></span>加载更多 <span class="load-num"></span>
+  </div>
+
   <footer class="foot">
     <div class="foot-title">关于这份记录</div>
-    <p>本页为演示版本，数据取自 2026 年 11 月 9 日至 11 月 16 日期间公开报道的逝世人物，来源包括维基百科逝世人物列表、华盛顿邮报、洛杉矶时报、芝加哥大学法学院、澎湃新闻、光明网、长虹控股集团官网、中央社等。</p>
+    <p>本页收录 2026 年 1 月 1 日至 11 月 21 日期间公开报道的逝世人物 <span id="footTotal">—</span> 位。数据由两部分构成：附有中文生平、讣告原文与头像的精选档案，以及来自历年人物资料库的基础条目。资料来源以维基百科逝世人物列表及各国官方机构、通讯社与主流媒体的公开报道为主，包括美联社、路透社、BBC、纽约时报、华盛顿邮报、中央社、澎湃新闻等，每条记录的来源标注于详情页。</p>
     <p>逝世日期以逝者本国媒体或家属、供职机构公布的信息为准；若某日无符合收录条件的人物，该日留空，不作补写。死因仅在公开披露时记录。</p>
     <p>所有文字为编辑整理，不作商业用途。</p>
     <p class="foot-org">本网站由对生命及死亡教育感兴趣的伙伴组成的去中心化团队冥冥之中（MingMingStudio）负责运营与管理。</p>
@@ -507,7 +537,7 @@ const DATA = RAW.map(x => ({
   f: x.fields || [], r: x.identity || "", s: x.summary || "",
   bio: x.bio || "", facts: x.facts || [], src: x.source || "",
   portrait: x.portrait || null, obit: x.obit || null, id: x.id,
-  cause: x.causeOfDeath || null, wiki: x.wikipedia || null
+  cause: x.causeOfDeath || null, causeCat: x.causeCategory || null, wiki: x.wikipedia || null
 }));
 const PORTRAITS = {};
 DATA.forEach(x => { if (x.portrait) PORTRAITS[x.n] = x.portrait; });
@@ -545,6 +575,7 @@ countUp($("#sAvg"), avgAge, "岁");
 countUp($("#sCountry"), countries.size);
 countUp($("#sField"), fields.size);
 $("#heroSub").textContent = `${fmtCn(minD)} — ${fmtCn(maxD)}　·　共 ${DATA.length} 位`;
+$("#footTotal").textContent = DATA.length.toLocaleString("zh-CN");
 
 /* ═══════════ 筛选器 ═══════════ */
 const fieldOrder = ["科技","文艺","影视","军政","社科","体育","医药","商业","传媒","宗教","其他"];
@@ -584,82 +615,145 @@ function match(x){
   return hay.includes(keyword);
 }
 
-/* ═══════════ 渲染时间轴 ═══════════ */
+/* ═══════════ 渲染时间轴（分批增量加载） ═══════════ */
 const timelineEl = $("#timeline");
 let lastFocused = null;
+const PAGE_SIZE = 50;
 
+let currentList = [];        // 当前筛选结果
+let renderedCount = 0;       // 已渲染条数
+let lastDate = null;         // 上一个已渲染日期
+let lastDayEl = null;        // 上一个 day 节点
+let lastMonth = null;        // 上一个月份 key
+let monthCounts = {};        // 各月计数
+let suppressLoad = false;    // 切换筛选后短暂抑制自动加载
+
+/* 筛选/搜索变化时重置并重新渲染首批 */
+function resetPaging(){ render(); }
+
+/* 渲染首批：重置状态并清空 */
 function render(){
-  const list = DATA.filter(match);
-  const byDate = {};
-  list.forEach(x => { (byDate[x.d] = byDate[x.d] || []).push(x); });
-  const ds = Object.keys(byDate).sort().reverse();
+  currentList = DATA.filter(match);
+  renderedCount = 0; lastDate = null; lastDayEl = null; lastMonth = null; monthCounts = {};
+  timelineEl.innerHTML = "";
+  /* 切换筛选/搜索时回到顶部，并短暂抑制自动加载，确保首批只渲染 50 条 */
+  window.scrollTo(0, 0);
+  suppressLoad = true;
+  setTimeout(() => { suppressLoad = false; }, 250);
 
-  $("#resultCount").textContent = list.length === DATA.length
-    ? `${DATA.length} 条记录`
-    : `${list.length} / ${DATA.length} 条`;
+  $("#resultCount").textContent = currentList.length === DATA.length
+    ? `${DATA.length} 条记录 · 已显示 0`
+    : `${currentList.length} / ${DATA.length} 条 · 已显示 0`;
 
-  if (!list.length){
+  if (!currentList.length){
     timelineEl.innerHTML = `
       <div class="no-result">
         <div class="big">†</div>
         <p>没有找到符合条件的人。<br>试试换个关键词，或点回「全部」。</p>
       </div>`;
+    updateLoadMore();
     return;
   }
 
-  /* 按月分组：跨年档案，月内按日倒序 */
-  const byMonth = {};
-  ds.forEach(d => { const m = d.slice(0,7); (byMonth[m] = byMonth[m] || []).push(d); });
+  /* 窗口内最新日期之后的空白日：合并成一段（只在首批渲染） */
+  if (activeField === "全部" && !keyword){
+    const newest = parse(currentList[0].d);
+    let c = new Date(newest); c.setDate(c.getDate() + 1);
+    const gaps = [];
+    while (c <= TODAY){ gaps.push(new Date(c)); c.setDate(c.getDate() + 1); }
+    if (gaps.length === 1) timelineEl.insertAdjacentHTML("beforeend", gapDay(gaps[0], sameDay(gaps[0], TODAY)));
+    else if (gaps.length > 1) timelineEl.insertAdjacentHTML("beforeend", gapRange(gaps[0], gaps[gaps.length-1]));
+  }
+  appendBatch();
+}
 
-  let html = "";
-  Object.keys(byMonth).sort().reverse().forEach(m => {
-    const mm = +m.split("-")[1];
-    const cnt = byMonth[m].reduce((a,d) => a + byDate[d].length, 0);
-    html += `
-      <div class="month-head">
-        <span class="month-num">${mm} 月</span>
-        <span class="month-cnt">${cnt} 位</span>
-      </div>`;
-    byMonth[m].forEach(d => {
-      const dt = parse(d);
-      const items = byDate[d];
-      const isToday = sameDay(dt, TODAY);
-      html += `
+/* 追加一批（增量，不重建已有 DOM） */
+function appendBatch(){
+  if (renderedCount >= currentList.length){ updateLoadMore(); return; }
+  const batch = currentList.slice(renderedCount, renderedCount + PAGE_SIZE);
+  const byDate = {};
+  batch.forEach(x => { (byDate[x.d] = byDate[x.d] || []).push(x); });
+  const ds = Object.keys(byDate).sort().reverse();
+
+  ds.forEach(d => {
+    const items = byDate[d];
+    if (d === lastDate && lastDayEl){          // 与上一批同日：并入已有 day
+      const cards = lastDayEl.querySelector(".cards");
+      cards.insertAdjacentHTML("beforeend", items.map(cardHTML).join(""));
+      bindCards(cards, cards.querySelectorAll(".card").length - items.length);
+      const cntEl = lastDayEl.querySelector(".day-count");
+      cntEl.textContent = cards.querySelectorAll(".card").length + " 位";
+    } else {                                    // 新的一天
+      const m = d.slice(0,7);
+      if (m !== lastMonth){                     // 新的一个月
+        const mm = +m.split("-")[1];
+        timelineEl.insertAdjacentHTML("beforeend", `
+          <div class="month-head">
+            <span class="month-num">${mm} 月</span>
+            <span class="month-cnt" data-month="${m}">0 位</span>
+          </div>`);
+        lastMonth = m; monthCounts[m] = 0;
+      }
+      const dt = parse(d), isToday = sameDay(dt, TODAY);
+      timelineEl.insertAdjacentHTML("beforeend", `
         <section class="day ${isToday?"day-today":""}">
           <header class="day-head">
             <div class="day-num">${fmtDot(d)}</div>
             <div class="day-week">${WEEK[dt.getDay()]}</div>
             <div class="day-count">${items.length} 位</div>
           </header>
-          <div class="cards">
-            ${items.map(x => cardHTML(x)).join("")}
-          </div>
-        </section>`;
-    });
+          <div class="cards">${items.map(x => cardHTML(x)).join("")}</div>
+        </section>`);
+      lastDayEl = timelineEl.lastElementChild;
+      bindCards(lastDayEl.querySelector(".cards"), 0);
+      lastDate = d;
+    }
+    monthCounts[lastMonth] = (monthCounts[lastMonth] || 0) + items.length;
+    const mh = timelineEl.querySelector(`.month-cnt[data-month="${lastMonth}"]`);
+    if (mh) mh.textContent = monthCounts[lastMonth] + " 位";
   });
 
-  /* 窗口内最新日期之后的空白日：合并成一段 */
-  if (activeField === "全部" && !keyword){
-    const newest = parse(ds[0]);
-    let c = new Date(newest);
-    c.setDate(c.getDate() + 1);
-    const gaps = [];
-    while (c <= TODAY){ gaps.push(new Date(c)); c.setDate(c.getDate() + 1); }
-    if (gaps.length === 1){
-      html = gapDay(gaps[0], sameDay(gaps[0], TODAY)) + html;
-    } else if (gaps.length > 1){
-      html = gapRange(gaps[0], gaps[gaps.length-1]) + html;
-    }
-  }
+  renderedCount += batch.length;
+  $("#resultCount").textContent = currentList.length === DATA.length
+    ? `${DATA.length} 条记录 · 已显示 ${renderedCount}`
+    : `${currentList.length} / ${DATA.length} 条 · 已显示 ${renderedCount}`;
+  updateLoadMore();
+}
 
-  timelineEl.innerHTML = html;
-  timelineEl.querySelectorAll(".card").forEach((el, i) => {
-    el.style.animationDelay = Math.min(i*35, 420) + "ms";
+/* 只给新卡片绑定事件与入场动画 */
+function bindCards(container, fromIdx){
+  const els = container.querySelectorAll(".card");
+  for (let i = fromIdx; i < els.length; i++){
+    const el = els[i], k = i - fromIdx;
+    el.style.animationDelay = Math.min(k*25, 250) + "ms";
     el.addEventListener("click", () => openSheet(+el.dataset.idx));
     el.addEventListener("keydown", e => {
       if (e.key === "Enter" || e.key === " "){ e.preventDefault(); openSheet(+el.dataset.idx); }
     });
-  });
+  }
+}
+
+/* 更新底部加载提示 */
+function updateLoadMore(){
+  const el = $("#loadMore");
+  if (!el) return;
+  if (renderedCount >= currentList.length){
+    el.innerHTML = `<span class="load-done">已显示全部 ${renderedCount} 位</span>`;
+    el.classList.add("done");
+  } else {
+    el.innerHTML = `<span class="load-spin"></span>加载更多 <span class="load-num">（已显示 ${renderedCount} / ${currentList.length}）</span>`;
+    el.classList.remove("done");
+  }
+}
+
+/* 滚动到底自动加载 */
+const loadMoreEl = $("#loadMore");
+if (loadMoreEl){
+  const io = new IntersectionObserver(entries => {
+    if (entries[0].isIntersecting && !suppressLoad && renderedCount < currentList.length) appendBatch();
+  }, { rootMargin: "300px" });
+  io.observe(loadMoreEl);
+  loadMoreEl.addEventListener("click", () => { if (renderedCount < currentList.length) appendBatch(); });
 }
 
 function gapDay(dt, isToday){
@@ -745,6 +839,43 @@ function loadObits(cb){
   document.head.appendChild(s);
 }
 
+/* ═══════════ 来源链接（打开详情时按需加载） ═══════════ */
+let srcLinksLoading=false, srcLinksQueue=[];
+function loadSourceLinks(cb){
+  if (window.SOURCE_LINKS){ cb(); return; }
+  srcLinksQueue.push(cb);
+  if (srcLinksLoading) return;
+  srcLinksLoading=true;
+  const s=document.createElement("script");
+  const timer=setTimeout(()=>{ if(!window.SOURCE_LINKS) s.onerror&&s.onerror(); },12000);
+  s.src="data/source-links.js";
+  s.onload=()=>{
+    clearTimeout(timer);
+    if(!window.SOURCE_LINKS){ s.remove(); s.onerror&&s.onerror(); return; }
+    srcLinksLoading=false; const q=srcLinksQueue; srcLinksQueue=[]; q.forEach(f=>f());
+  };
+  s.onerror=()=>{
+    clearTimeout(timer); s.remove();
+    srcLinksLoading=false; const q=srcLinksQueue; srcLinksQueue=[]; q.forEach(f=>f());
+  };
+  document.head.appendChild(s);
+}
+
+/* 把来源文本渲染为可点击链接（有 URL 用链接，其余保留纯文本） */
+function srcHTML(x){
+  const links=(window.SOURCE_LINKS&&window.SOURCE_LINKS[x.id])||[];
+  if (!links.length) return escHtml(x.src||"未标注");
+  // 一律用 sourceUrl 自带的 publisher 作显示名，确保与 URL 严格对应
+  // （source 文本可能含精选原有的中文来源，与 URL 数量/顺序不一致，按位置套用会错配）
+  const parts=links.map(b=>{
+    const label=escHtml(b.n||"来源");
+    const url=String(b.u||"");
+    const safe=/^https?:\/\//i.test(url)?url:"";
+    return safe?`<a class="src-link" href="${escHtml(safe)}" target="_blank" rel="noopener noreferrer">${label} ↗</a>`:label;
+  });
+  return parts.join('<span class="src-sep"> / </span>');
+}
+
 function escHtml(s){
   return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
 }
@@ -824,8 +955,8 @@ function openSheet(idx){
     <div class="sheet-facts">
       <div class="fact"><span class="fact-k">卒日</span><span class="fact-v">${dt.getMonth()+1}.${dt.getDate()}</span></div>
       <div class="fact"><span class="fact-k">享年</span><span class="fact-v">${x.age ? x.age + " 岁" : "未详"}</span></div>
-      <div class="fact"><span class="fact-k">国籍</span><span class="fact-v">${x.c}</span></div>
-      ${x.cause ? `<div class="fact"><span class="fact-k">死因</span><span class="fact-v">${x.cause}</span></div>` : ""}
+      <div class="fact"><span class="fact-k">国家地区</span><span class="fact-v">${x.c}</span></div>
+      <div class="fact"><span class="fact-k">死因</span><span class="fact-v">${x.cause ? `${x.cause}${x.causeCat ? `<span class="fact-cat">${x.causeCat}</span>` : ""}` : `<span class="fact-none">未详</span>`}</span></div>
     </div>
     <p class="sheet-bio">${x.bio}</p>
     <div class="sheet-sec-title">生平要点</div>
@@ -838,7 +969,7 @@ function openSheet(idx){
       <span class="obit-btn-r"><span class="obit-btn-lv"></span><span class="obit-btn-arrow">▾</span></span>
     </button>
     <div class="obit-wrap" id="obitWrap"><div class="obit-inner" id="obitInner"></div></div>` : ""}
-    <div class="sheet-src">资料来源：${x.src}<br>逝世日期：${fmtCn(x.d)}（${WEEK[dt.getDay()]}）${x.wiki ? `<br>维基百科：<a class="wiki-link" href="${x.wiki}" target="_blank" rel="noopener noreferrer">查看条目 ↗</a>` : ""}</div>
+    <div class="sheet-src">资料来源：<span id="srcText">${escHtml(x.src||"未标注")}</span><br>逝世日期：${fmtCn(x.d)}（${WEEK[dt.getDay()]}）${x.wiki ? `<br>维基百科：<a class="wiki-link" href="${x.wiki}" target="_blank" rel="noopener noreferrer">查看条目 ↗</a>` : ""}</div>
     <div class="sheet-nav">
       <button class="nav-btn" id="prevBtn" ${curIdx<=0?"disabled":""}>← 前一位</button>
       <button class="nav-btn" id="nextBtn" ${curIdx>=DATA.length-1?"disabled":""}>后一位 →</button>
@@ -854,6 +985,14 @@ function openSheet(idx){
   if (prev) prev.addEventListener("click", () => { if (curIdx>0) openSheet(curIdx-1); });
   if (next) next.addEventListener("click", () => { if (curIdx<DATA.length-1) openSheet(curIdx+1); });
   bindObit(x);
+  // 来源链接：已加载则直接渲染，否则异步加载后渲染（校验当前人物，避免切换竞态）
+  const applySrc = () => {
+    if (curIdx < 0 || DATA[curIdx].id !== x.id) return;
+    const el = $("#srcText");
+    if (el) el.innerHTML = srcHTML(x);
+  };
+  if (window.SOURCE_LINKS) applySrc();
+  else loadSourceLinks(applySrc);
 }
 
 function closeSheet(){

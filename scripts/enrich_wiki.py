@@ -1,89 +1,104 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""维基链接补全（正式）：为无 wikipedia 的记录生成候选文件。
+
+规则（基于基准集98.1%准确率验证）：
+- A级：唯一 Person 候选 + label 精确匹配 → 自动写入
+- B级：唯一 Person 候选 + label 包含/高相似 → 自动写入
+- C级：多 Person 候选 / 非 Person / 低相似 → 待审，不自动写入
+- 输出 archive-data/wiki-candidates.json，不直接改主数据
 """
-用 DBpedia Lookup 给线上精选表补充维基百科链接
-- 查询名优先级：nameOrig（英文名）> name（中文名）
-- 只接受 typeName 含 Person 的结果
-- 置信度：exact（标签==查询名）> qualified（标签主体==查询名，带括号消歧）
-- 输出：更新 data/deaths.js 的 wikipedia 字段
-"""
-import json, subprocess, requests, urllib.parse, re, html, time, os
+import json, re, sys, time, os, requests, difflib
+from wikilink_match import clean_name, first, norm_label, lookup, match_quality
 
-ROOT = '/workspace/memento-web'
-DEATHS = os.path.join(ROOT, 'data/deaths.js')
-UA = {'User-Agent': 'WorkBuddy/1.0 (wiki enrichment)'}
+BASE=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+H={'User-Agent':'MementoWeb/1.0 (data enrichment)'}
 
-def clean(s):
-    return re.sub(r'</?B>', '', html.unescape(str(s))).strip()
-
-def lookup(name):
-    url = 'https://lookup.dbpedia.org/api/search?query=' + urllib.parse.quote(name) + '&maxResults=5&format=json'
+def sparql_deathdate(uri):
+    """查 DBpedia 实体的 deathDate（年份），用于多候选消歧。"""
+    q=f'SELECT ?d WHERE {{ <{uri}> <http://dbpedia.org/ontology/deathDate> ?d }} LIMIT 1'
     try:
-        r = requests.get(url, headers=UA, timeout=25)
-        if r.status_code != 200: return []
-        out = []
-        for doc in r.json().get('docs', []):
-            types = doc.get('typeName', [])
-            uri = doc.get('resource', [''])[0]
-            lab = clean(doc.get('label', [''])[0])
-            if 'Person' in types and uri and 'dbpedia.org/resource/' in uri:
-                out.append((lab, uri))
-        return out
-    except Exception:
-        return []
-
-def match(label, query):
-    q = clean(query).lower()
-    l = clean(label).lower()
-    if l == q: return 'exact'
-    # 带括号消歧：Dan Hicks (singer) -> Dan Hicks
-    base = re.sub(r'\s*\([^)]+\)$', '', l).strip()
-    if base == q: return 'qualified'
+        r=requests.get('https://dbpedia.org/sparql',params={'query':q,'format':'json'},headers=H,timeout=20)
+        if r.status_code==200:
+            b=r.json()['results']['bindings']
+            if b: return b[0]['d']['value'][:4]
+    except Exception: pass
     return None
 
+def is_person_candidate(doc):
+    """判断是否可能是人物实体。DBpedia 很多人物的 type 为空，
+    因此用排除法：显式非人物类型/资源直接排除，其余视为可能人物。"""
+    types=' '.join(doc.get('type') or []) if isinstance(doc,dict) else ''
+    uri=first(doc.get('resource'))
+    # 显式非人物类型
+    bad_type=any(t in types for t in ['/Album','/Film','/Book','/Event','/Place',
+                                       '/Organisation','/Company','/Species','/Animal'])
+    # 资源名特征：列表、分类、消歧页、纯年份/数字
+    tail=uri.split('/')[-1]
+    bad_uri=(tail.startswith('List_of_') or tail.startswith('Category:') or
+             'disambiguation' in tail.lower() or re.match(r'^\d{4}',tail))
+    return not bad_type and not bad_uri
+
+def classify(name, docs):
+    """返回 (level, doc, reason, need_date_check)。"""
+    persons=[d for d in docs if is_person_candidate(d)]
+    if not persons: return 'C',None,'无非人物候选',False
+    q=norm_label(name)
+    exact=[d for d in persons if norm_label(first(d.get('label')))==q]
+    if len(exact)==1:
+        # 唯一精确匹配：若存在多个候选，需日期消歧
+        return 'A',exact[0],'唯一精确匹配',len(persons)>1
+    if len(exact)>1:
+        return 'C',None,f'多个精确匹配({len(exact)})',False
+    # 包含/相似匹配
+    cand=[]
+    for d in persons:
+        lab=norm_label(first(d.get('label')))
+        if (q and lab and (q in lab or lab in q)) or difflib.SequenceMatcher(None,q,lab).ratio()>=0.88:
+            cand.append(d)
+    if len(cand)==1: return 'B',cand[0],'唯一包含/相似匹配',len(persons)>1
+    if len(cand)>1: return 'C',None,f'多个相似匹配({len(cand)})',False
+    return 'C',None,'无合格匹配',False
+
 def main():
-    js = "global.window={};require('%s');console.log(JSON.stringify(window.DEATHS_DATA))" % DEATHS
-    A = json.loads(subprocess.check_output(['node','-e',js], text=True))
+    s=open(os.path.join(BASE,'data','deaths.js'),encoding='utf-8').read()
+    a=json.loads(s[s.index('['):s.rindex(']')+1])
+    targets=[x for x in a if not x.get('wikipedia') and x.get('nameOrig')]
+    print('待补维基链接:', len(targets), '条')
+    auto={}; review={}; stats={'A':0,'B':0,'C':0,'date_reject':0}
+    for i,x in enumerate(targets):
+        name=clean_name(x['nameOrig'])
+        docs=lookup(name)
+        if not docs:
+            stats['C']+=1; time.sleep(0.25); continue
+        level,doc,reason,need_date=classify(name,docs)
+        if level=='C':
+            stats['C']+=1
+            if len(review)<200:
+                review[x['id']]={'name':x['name'],'orig':x['nameOrig'],'reason':reason,
+                                 'candidates':[norm_label(first(d.get('label'))) for d in docs[:5]]}
+            time.sleep(0.25); continue
+        uri=first(doc.get('resource'))
+        # 多候选时做日期校验
+        if need_date:
+            dd=sparql_deathdate(uri)
+            rec_year=x['date'][:4]
+            if dd and abs(int(dd)-int(rec_year))>1:
+                stats['date_reject']+=1
+                if len(review)<200:
+                    review[x['id']]={'name':x['name'],'orig':x['nameOrig'],
+                                     'reason':f'日期不符(候选{dd} vs 记录{rec_year})',
+                                     'candidates':[norm_label(first(d.get('label'))) for d in docs[:5]]}
+                time.sleep(0.25); continue
+        wiki='https://en.wikipedia.org/wiki/'+uri.split('/')[-1]
+        auto[x['id']]={'name':x['name'],'orig':x['nameOrig'],'wikipedia':wiki,
+                       'level':level,'reason':reason,'label':norm_label(first(doc.get('label')))}
+        stats[level]+=1
+        if (i+1)%200==0: print(f'  已处理 {i+1}/{len(targets)} | A{stats["A"]} B{stats["B"]} C{stats["C"]}')
+        time.sleep(0.25)
+    out=os.path.join(BASE,'archive-data','wiki-candidates.json')
+    json.dump({'auto':auto,'review':review,'stats':stats},open(out,'w',encoding='utf-8'),
+              ensure_ascii=False,indent=2)
+    print('\n完成:',stats,'| 自动候选',len(auto),'| 待审',len(review))
 
-    stats = {'exact':0, 'qualified':0, 'existing':0, 'none':0}
-    for i, x in enumerate(A):
-        if x.get('wikipedia'):
-            stats['existing'] += 1
-            continue
-        queries = []
-        if x.get('nameOrig'): queries.append(x['nameOrig'])
-        if not queries and x.get('name'): queries.append(x['name'])
-        # 中文名若含斜杠（如「黄正利 / 황정리 / Hwang Jang Lee」）取最后英文段
-        if queries and '/' in queries[0]:
-            parts = [p.strip() for p in queries[0].split('/')]
-            en = [p for p in parts if re.search(r'[A-Za-z]{3}', p)]
-            if en: queries.insert(0, en[-1])
-        found = None
-        for q in queries[:2]:
-            res = lookup(q)
-            for lab, uri in res:
-                conf = match(lab, q)
-                if conf:
-                    title = uri.split('/resource/')[-1]
-                    found = ('https://en.wikipedia.org/wiki/' + urllib.parse.quote(title), conf)
-                    break
-            if found: break
-            time.sleep(0.15)
-        if found:
-            x['wikipedia'] = found[0]
-            x['wikipediaConf'] = found[1]
-            stats[found[1]] += 1
-        else:
-            stats['none'] += 1
-        if (i+1) % 25 == 0:
-            print('进度', i+1, '/', len(A), stats, flush=True)
-
-    with open(DEATHS, 'w', encoding='utf-8') as fp:
-        fp.write('// 人物数据：每天离世的世界名人讣告档案\n')
-        fp.write('window.DEATHS_DATA = ')
-        json.dump(A, fp, ensure_ascii=False, separators=(',', ':'))
-        fp.write(';\n')
-    print('最终:', stats)
-    print('有维基总数:', sum(1 for x in A if x.get('wikipedia')))
-
-if __name__ == '__main__':
-    main()
+if __name__=='__main__': main()

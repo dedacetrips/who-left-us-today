@@ -1,0 +1,11 @@
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 本地回滚快照（数据量约 21MB，不入库；线上备份见 /workspace/backup-online-*）
+data/*.before-*.js
+data/*.backup-*.js
+
+# 本地临时/中间产物
+*.tmp
+.DS_Store

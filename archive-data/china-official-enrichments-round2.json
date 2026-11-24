@@ -1,0 +1,341 @@
+{
+  "generatedAt": "2026-11-25T06:05:48",
+  "records": [
+    {
+      "id": "20260208-chen-bangzhu",
+      "name": "陈邦柱",
+      "source": "新华社 / 人民网",
+      "urls": [
+        "http://mp.weixin.qq.com/s?__biz=MzA4NTE1NzAwMw==&mid=2649858297&idx=1&sn=322fa4b55c3afa2f7391a3ba7c30b533"
+      ],
+      "before": {
+        "date": "2026-02-08",
+        "age": 91,
+        "source": "",
+        "name": "陈邦柱"
+      },
+      "after": {
+        "date": "2026-02-08",
+        "age": 91,
+        "source": "新华社 / 人民网",
+        "causeOfDeath": "疾病（未详）",
+        "verified": "confirmed"
+      },
+      "changedFields": [
+        "identity",
+        "summary",
+        "bio",
+        "facts",
+        "source",
+        "causeOfDeath",
+        "causeCategory",
+        "verified"
+      ],
+      "evidence": "新华社：『原国家经济贸易委员会副主任、党组副书记陈邦柱同志（正部长级），因病于2026年2月8日在北京逝世，享年91岁』。"
+    },
+    {
+      "id": "20260917-shao-qihui",
+      "name": "邵奇惠",
+      "source": "新华社 / 新华社客户端",
+      "urls": [
+        "https://h.xinhuaxmt.com/vh512/share/13327723?homeshow=1&newstype=1001"
+      ],
+      "before": {
+        "date": "2026-09-17",
+        "age": 92,
+        "source": "thepaper.cn",
+        "name": "邵奇惠"
+      },
+      "after": {
+        "date": "2026-09-17",
+        "age": 92,
+        "source": "新华社 / 新华社客户端",
+        "causeOfDeath": "疾病（未详）",
+        "verified": "confirmed"
+      },
+      "changedFields": [
+        "identity",
+        "summary",
+        "bio",
+        "facts",
+        "source",
+        "causeOfDeath",
+        "causeCategory",
+        "verified"
+      ],
+      "evidence": "新华社：『原国家机械工业局局长、党组书记邵奇惠同志（正部长级），因病于2026年9月17日在北京逝世，享年92岁』。"
+    },
+    {
+      "id": "20260810-zhu-senlin",
+      "name": "朱森林",
+      "source": "广东省人民政府门户网站 / 南方日报",
+      "urls": [
+        "https://www.gd.gov.cn/gdywdt/gdyw/content/post_4943569.html",
+        "https://news.southcn.com/node_8c4f4f61e4/2efc042ec0.shtml"
+      ],
+      "before": {
+        "date": "2026-08-10",
+        "age": 95,
+        "source": "thepaper.cn",
+        "name": "朱森林"
+      },
+      "after": {
+        "date": "2026-08-10",
+        "age": 96,
+        "source": "广东省人民政府门户网站 / 南方日报",
+        "causeOfDeath": "疾病（未详）",
+        "verified": "confirmed"
+      },
+      "changedFields": [
+        "identity",
+        "summary",
+        "bio",
+        "facts",
+        "source",
+        "age",
+        "causeOfDeath",
+        "causeCategory",
+        "verified"
+      ],
+      "evidence": "广东省人民政府门户网站：『因病医治无效，于2026年8月10日11时36分在广州逝世，享年96岁』。原表享年95岁，已更正。"
+    },
+    {
+      "id": "20260429-bai-jingfu",
+      "name": "白景富",
+      "source": "新华社 / 人民日报",
+      "urls": [
+        "https://www.peopleapp.com/newspaper?date=2026.05.27"
+      ],
+      "before": {
+        "date": "2026-04-29",
+        "age": 80,
+        "source": "finance.sina.com.cn",
+        "name": "白景富"
+      },
+      "after": {
+        "date": "2026-04-29",
+        "age": 81,
+        "source": "新华社 / 人民日报",
+        "causeOfDeath": "疾病（未详）",
+        "verified": "confirmed"
+      },
+      "changedFields": [
+        "identity",
+        "summary",
+        "bio",
+        "facts",
+        "source",
+        "age",
+        "causeOfDeath",
+        "causeCategory",
+        "verified"
+      ],
+      "evidence": "新华社/人民日报：『公安部原主持常务工作的副部长、党委副书记白景富同志（正部长级），因病于2026年4月29日在北京逝世，享年81岁』。原表享年80岁，已更正。"
+    },
+    {
+      "id": "20260310-wang-jinshan",
+      "name": "王金山",
+      "source": "新华社 / 人民日报 / 安徽日报",
+      "urls": [
+        "https://www.peopleapp.com/newspaper?date=2026.04.03",
+        "https://szb.ahnews.com.cn/ahrb/layout/202603/10/index.html"
+      ],
+      "before": {
+        "date": "2026-03-10",
+        "age": 81,
+        "source": "",
+        "name": "王金山"
+      },
+      "after": {
+        "date": "2026-03-09",
+        "age": 81,
+        "source": "新华社 / 人民日报 / 安徽日报",
+        "causeOfDeath": "疾病（未详）",
+        "verified": "confirmed"
+      },
+      "changedFields": [
+        "identity",
+        "summary",
+        "bio",
+        "facts",
+        "source",
+        "date",
+        "causeOfDeath",
+        "causeCategory",
+        "verified"
+      ],
+      "evidence": "新华社/安徽日报：『因病医治无效，于2026年3月9日17时9分在合肥逝世，享年81岁』。原表日期2026-03-10为报道日，已更正为卒日3月9日。"
+    },
+    {
+      "id": "20260119-gao-dezhan",
+      "name": "高德占",
+      "source": "新华社 / 人民日报 / 北京日报",
+      "urls": [
+        "https://h.xinhuaxmt.com/vh512/share/12982518?newstype=1001",
+        "https://cpc.people.com.cn/BIG5/n1/2026/0302/c87393-40672798.html"
+      ],
+      "before": {
+        "date": "2026-01-19",
+        "age": 93,
+        "source": "",
+        "name": "高德占"
+      },
+      "after": {
+        "date": "2026-01-18",
+        "age": 94,
+        "source": "新华社 / 人民日报 / 北京日报",
+        "causeOfDeath": "疾病（未详）",
+        "verified": "confirmed"
+      },
+      "changedFields": [
+        "identity",
+        "summary",
+        "bio",
+        "facts",
+        "source",
+        "date",
+        "age",
+        "causeOfDeath",
+        "causeCategory",
+        "verified"
+      ],
+      "evidence": "新华社/人民日报：『因病于2026年1月18日在天津逝世，享年94岁』；北京日报生平载明10时59分逝世。原表日期1月19日、享年93岁，均已更正。"
+    },
+    {
+      "id": "20260112-lu-kejian",
+      "name": "卢克俭",
+      "source": "甘肃日报 / 新甘肃客户端",
+      "urls": [
+        "http://mp.weixin.qq.com/s?__biz=MzU5NTc0ODYxOQ==&mid=2247857378&idx=1&sn=3b3850cc7aa860f4178283748cad0a44"
+      ],
+      "before": {
+        "date": "2026-01-12",
+        "age": 93,
+        "source": "",
+        "name": "卢克俭"
+      },
+      "after": {
+        "date": "2026-01-12",
+        "age": 94,
+        "source": "甘肃日报 / 新甘肃客户端",
+        "causeOfDeath": "疾病（未详）",
+        "verified": "confirmed"
+      },
+      "changedFields": [
+        "identity",
+        "summary",
+        "bio",
+        "facts",
+        "source",
+        "age",
+        "causeOfDeath",
+        "causeCategory",
+        "verified"
+      ],
+      "evidence": "甘肃日报/新甘肃客户端：『因病于2026年1月12日在兰州逝世，享年94岁』。原表享年93岁，已更正。"
+    },
+    {
+      "id": "20260117-wei-fulin",
+      "name": "隗福临",
+      "source": "新华社 / 中国军网 / 人民网",
+      "urls": [
+        "https://www.81.cn/ss_208539/16440277.html",
+        "https://politics.people.com.cn/BIG5/n1/2026/0131/c461001-40656737.html"
+      ],
+      "before": {
+        "date": "2026-01-17",
+        "age": 87,
+        "source": "",
+        "name": "隗福临"
+      },
+      "after": {
+        "date": "2026-01-15",
+        "age": 88,
+        "source": "新华社 / 中国军网 / 人民网",
+        "causeOfDeath": "疾病（未详）",
+        "verified": "confirmed"
+      },
+      "changedFields": [
+        "identity",
+        "summary",
+        "bio",
+        "facts",
+        "source",
+        "date",
+        "age",
+        "causeOfDeath",
+        "causeCategory",
+        "verified"
+      ],
+      "evidence": "新华社/中国军网：『因病医治无效，于1月15日在北京逝世，享年88岁』。原表日期1月17日、享年87岁，均已更正。"
+    },
+    {
+      "id": "20260725-shi-bao-yuan",
+      "name": "石宝源",
+      "source": "新华社 / 中国军网 / 人民网",
+      "urls": [
+        "https://www.81.cn/ss_208539/16477886.html",
+        "https://cpc.people.com.cn/BIG5/n1/2026/0807/c87393-40775437.html"
+      ],
+      "before": {
+        "date": "2026-07-25",
+        "age": 89,
+        "source": "xinhuanet",
+        "name": "石宝源"
+      },
+      "after": {
+        "date": "2026-07-25",
+        "age": 90,
+        "source": "新华社 / 中国军网 / 人民网",
+        "causeOfDeath": "疾病（未详）",
+        "verified": "confirmed"
+      },
+      "changedFields": [
+        "identity",
+        "summary",
+        "bio",
+        "facts",
+        "source",
+        "age",
+        "causeOfDeath",
+        "causeCategory",
+        "verified"
+      ],
+      "evidence": "新华社/中国军网：『因病医治无效，于7月25日在北京逝世，享年90岁』。原表享年89岁，已更正。"
+    },
+    {
+      "id": "20260722-huang-zhiquan-politician-born-1942",
+      "name": "黄智权",
+      "source": "新华社 / 新华网 / 江西日报",
+      "urls": [
+        "https://xinhuanet.com/20260826/e1d745ef271147d0b4d58488e1a31b1e/c.html"
+      ],
+      "before": {
+        "date": "2026-07-22",
+        "age": 84,
+        "source": "xinwen.bjd.com.cn",
+        "name": "Huang Zhiquan"
+      },
+      "after": {
+        "date": "2026-07-22",
+        "age": 85,
+        "source": "新华社 / 新华网 / 江西日报",
+        "causeOfDeath": "疾病（未详）",
+        "verified": "confirmed"
+      },
+      "changedFields": [
+        "name/nameOrig",
+        "identity",
+        "summary",
+        "bio",
+        "facts",
+        "source",
+        "age",
+        "causeOfDeath",
+        "causeCategory",
+        "verified"
+      ],
+      "evidence": "新华社/新华网：『因病于2026年7月22日在南昌逝世，享年85岁』。原表中文名为英文名 Huang Zhiquan，已补中文名；享年84岁已更正为85岁。"
+    }
+  ]
+}

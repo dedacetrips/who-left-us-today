@@ -377,5 +377,30 @@
     "影视": 216,
     "商业": 182,
     "宗教": 107
+  },
+  "schema": {
+    "variable": "window.ARCHIVE_YYYY",
+    "fields": [
+      "id",
+      "date",
+      "name",
+      "nameOrig",
+      "country",
+      "age",
+      "fields",
+      "identity",
+      "summary",
+      "bio",
+      "facts",
+      "obit",
+      "portrait",
+      "source",
+      "region",
+      "verified",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "note": "字段结构与 data/deaths.js 的 window.DEATHS_DATA 完全一致；全表不含深度内容，summary/bio 为空字符串，facts 为空数组，obit/portrait 为 null，verified=auto。",
+    "extra": "archive-data/extra.json 按 id 保存中文名来源与死因原始信息"
   }
 }

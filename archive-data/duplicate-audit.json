@@ -1,0 +1,4186 @@
+{
+  "totalGroups": 215,
+  "groups": [
+    {
+      "name": "丁度·巴拉斯",
+      "date": "2026-11-04",
+      "keep": {
+        "id": "2026-11-04-206",
+        "score": 7,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20261104-tinto-brass",
+          "score": 2,
+          "source": "tg24.sky.it",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "丹·西蒙斯",
+      "date": "2026-02-21",
+      "keep": {
+        "id": "2026-02-21-061",
+        "score": 7,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260221-dan-simmons",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "利昂内尔·若斯潘",
+      "date": "2026-03-22",
+      "keep": {
+        "id": "2026-03-22-090",
+        "score": 7,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260322-lionel-jospin",
+          "score": 2,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "吴康民",
+      "date": "2026-10-18",
+      "keep": {
+        "id": "2026-10-18-195",
+        "score": 7,
+        "source": "维基百科逝世人物列表",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20261018-ng-hong-mun",
+          "score": 2,
+          "source": "scmp",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "威廉·诺德豪斯",
+      "date": "2026-10-30",
+      "keep": {
+        "id": "2026-10-30-威廉·诺德豪斯",
+        "score": 7,
+        "source": "耶鲁大学讣告 · 美国经济学会（AEA）",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20261030-william-nordhaus",
+          "score": 3,
+          "source": "news.yale.edu",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "施南生",
+      "date": "2026-07-13",
+      "keep": {
+        "id": "2026-07-13-131",
+        "score": 7,
+        "source": "南方娱乐网",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260713-nansun-shi",
+          "score": 3,
+          "source": "hk01",
+          "hasBio": false,
+          "uniqueFields": [
+            "nameOrig"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "福田康夫",
+      "date": "2026-10-22",
+      "keep": {
+        "id": "2026-10-22-198",
+        "score": 7,
+        "source": "财新讣闻",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20261022-yasuo-fukuda",
+          "score": 2,
+          "source": "english.news.cn",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "草间弥生",
+      "date": "2026-08-14",
+      "keep": {
+        "id": "2026-08-14-148",
+        "score": 7,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260814-yayoi-kusama",
+          "score": 2,
+          "source": "AP News / The New York Times",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "铃木敏文",
+      "date": "2026-05-18",
+      "keep": {
+        "id": "2026-05-18-铃木敏文",
+        "score": 7,
+        "source": "柒和伊控股讣告、朝日新闻、日视新闻",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260518-toshifumi-suzuki",
+          "score": 2,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "陈观泰",
+      "date": "2026-09-02",
+      "keep": {
+        "id": "2026-09-02-164",
+        "score": 7,
+        "source": "今日头条盘点汇编",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260902-chen-kuan-tai",
+          "score": 3,
+          "source": "ctinews",
+          "hasBio": false,
+          "uniqueFields": [
+            "nameOrig"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "鲍勃·威尔",
+      "date": "2026-01-10",
+      "keep": {
+        "id": "2026-01-10-017",
+        "score": 7,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260110-bob-weir",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "黛薇·雀丝",
+      "date": "2026-06-16",
+      "keep": {
+        "id": "2026-06-16-黛薇·雀丝",
+        "score": 7,
+        "source": "洛杉矶郡法医报告、BBC、《洛杉矶时报》、中央社",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260616-daveigh-chase",
+          "score": 3,
+          "source": "AP News",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "克劳德特·科尔文",
+      "date": "2026-01-13",
+      "keep": {
+        "id": "2026-01-13-019",
+        "score": 6,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260113-claudette-colvin",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "冯煜芳",
+      "date": "2026-04-13",
+      "keep": {
+        "id": "2026-04-13-108",
+        "score": 6,
+        "source": "网易新闻汇编",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260413-feng-yufang",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": [
+            "nameOrig"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "刘兆铭",
+      "date": "2026-09-02",
+      "keep": {
+        "id": "2026-09-02-163",
+        "score": 6,
+        "source": "新浪新闻",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260902-lau-siu-ming",
+          "score": 2,
+          "source": "dimsumdaily.hk",
+          "hasBio": false,
+          "uniqueFields": [
+            "nameOrig"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "刘延东",
+      "date": "2026-10-28",
+      "keep": {
+        "id": "2026-10-28-199",
+        "score": 6,
+        "source": "人民网·中国共产党新闻网讣告",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20261028-liu-yandong",
+          "score": 6,
+          "source": "新华社 / 央视网（生平）",
+          "hasBio": true,
+          "uniqueFields": [
+            "nameOrig",
+            "causeOfDeath"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "刘欢",
+      "date": "2026-09-25",
+      "keep": {
+        "id": "2026-09-25-183",
+        "score": 6,
+        "source": "对外经济贸易大学讣告",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260925-liu-huan",
+          "score": 2,
+          "source": "dimsumdaily.hk",
+          "hasBio": false,
+          "uniqueFields": [
+            "nameOrig"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "刘洵",
+      "date": "2026-05-29",
+      "keep": {
+        "id": "2026-05-29-刘洵",
+        "score": 6,
+        "source": "罗家英社交媒体讣告、香港演艺学院背景资料",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260529-lau-shun",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "卜励德",
+      "date": "2026-07-23",
+      "keep": {
+        "id": "2026-07-23-卜励德",
+        "score": 6,
+        "source": "观察者网、澎湃新闻、美国驻华大使馆",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260723-nicholas-platt",
+          "score": 2,
+          "source": "asiasociety",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "卡洛·金茨堡",
+      "date": "2026-06-17",
+      "keep": {
+        "id": "2026-06-17-卡洛·金茨堡",
+        "score": 6,
+        "source": "安莎社、意大利《晚邮报》、《共和国报》讣告",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260617-carlo-ginzburg",
+          "score": 2,
+          "source": "AP News",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "卡米洛·鲁伊尼",
+      "date": "2026-06-16",
+      "keep": {
+        "id": "2026-06-16-卡米洛·鲁伊尼",
+        "score": 6,
+        "source": "安莎社、梵蒂冈新闻网、罗马教区公报",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260616-camillo-ruini",
+          "score": 2,
+          "source": "repubblica.it",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "吴德馨",
+      "date": "2026-03-23",
+      "keep": {
+        "id": "2026-03-23-091",
+        "score": 6,
+        "source": "中科院微电子所讣告",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260323-wu-dexin",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": [
+            "nameOrig"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "吴文忻",
+      "date": "2026-06-09",
+      "keep": {
+        "id": "2026-06-09-吴文忻",
+        "score": 6,
+        "source": "家属及好友发布的讣告／中国新闻网、香港文汇网",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260609-natalie-ng",
+          "score": 2,
+          "source": "cnalifestyle.channelnewsasia",
+          "hasBio": false,
+          "uniqueFields": []
+        },
+        {
+          "id": "20260609-wu-wenxin",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "哈拉尔五世",
+      "date": "2026-08-28",
+      "keep": {
+        "id": "2026-08-28-155",
+        "score": 6,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260828-harald-v",
+          "score": 2,
+          "source": "AP News / The New York Times",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "唐·尼尔森",
+      "date": "2026-08-09",
+      "keep": {
+        "id": "2026-08-09-145",
+        "score": 6,
+        "source": "财新讣闻",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260809-don-nelson-p1657184",
+          "score": 2,
+          "source": "nbcsportsbayarea / The New York Times",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "埃德加·莫兰",
+      "date": "2026-05-29",
+      "keep": {
+        "id": "2026-05-29-埃德加·莫兰",
+        "score": 6,
+        "source": "Le Monde 讣闻、法国国家科学研究中心",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260529-edgar-morin",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "埃德蒙·费尔普斯",
+      "date": "2026-05-15",
+      "keep": {
+        "id": "2026-05-15-埃德蒙·费尔普斯",
+        "score": 6,
+        "source": "金融时报讣闻、诺贝尔奖官网悼念、哥伦比亚大学",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260515-edmund-phelps",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "塞斯·诺特博姆",
+      "date": "2026-02-11",
+      "keep": {
+        "id": "2026-02-11-049",
+        "score": 6,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260211-cees-nooteboom",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "多莉·帕顿",
+      "date": "2026-08-25",
+      "keep": {
+        "id": "2026-08-25-152",
+        "score": 6,
+        "source": "路易斯安那州政府行政令",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260825-dolly-parton",
+          "score": 2,
+          "source": "hollywoodreporter",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "大野雄二",
+      "date": "2026-05-04",
+      "keep": {
+        "id": "2026-05-04-大野雄二",
+        "score": 6,
+        "source": "所属事务所 Office Augusta 公告、朝日新闻、共同社",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260504-yuji-ohno",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "奥田硕",
+      "date": "2026-08-08",
+      "keep": {
+        "id": "2026-08-08-146",
+        "score": 6,
+        "source": "财新讣闻",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260808-hiroshi-okuda",
+          "score": 2,
+          "source": "nikkei",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "安东尼奥·洛博·安图内斯",
+      "date": "2026-03-05",
+      "keep": {
+        "id": "2026-03-05-074",
+        "score": 6,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260305-antonio-lobo-antunes",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "安云武",
+      "date": "2026-05-28",
+      "keep": {
+        "id": "2026-05-28-118",
+        "score": 6,
+        "source": "北京京剧院 / 极目新闻",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260528-an-yunwu",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": [
+            "nameOrig"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "尤尔根·哈贝马斯",
+      "date": "2026-03-14",
+      "keep": {
+        "id": "2026-03-14-083",
+        "score": 6,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260314-jurgen-habermas",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "尼尔·萨达卡",
+      "date": "2026-02-27",
+      "keep": {
+        "id": "2026-02-27-069",
+        "score": 6,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260227-neil-sedaka",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "山崎和佳奈",
+      "date": "2026-04-18",
+      "keep": {
+        "id": "2026-04-18-山崎和佳奈",
+        "score": 6,
+        "source": "青二 Production 讣告、朝日新闻、中央社、澎湃新闻",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260418-wakana-yamazaki",
+          "score": 2,
+          "source": "oricon.co.jp",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "岸惠子",
+      "date": "2026-08-07",
+      "keep": {
+        "id": "2026-08-07-137",
+        "score": 6,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260807-keiko-kishi",
+          "score": 2,
+          "source": "japannews.yomiuri.co.jp",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "巴尼·弗兰克",
+      "date": "2026-05-19",
+      "keep": {
+        "id": "2026-05-19-巴尼·弗兰克",
+        "score": 6,
+        "source": "纽约时报讣闻、美联社、家属确认",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260519-barney-frank",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "广中平祐",
+      "date": "2026-03-18",
+      "keep": {
+        "id": "2026-03-18-085",
+        "score": 6,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260318-heisuke-hironaka",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "弗朗索瓦·恩格勒",
+      "date": "2026-06-18",
+      "keep": {
+        "id": "2026-06-18-124",
+        "score": 6,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260618-francois-englert",
+          "score": 2,
+          "source": "rtbf.be",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "弗雷德里克·怀斯曼",
+      "date": "2026-02-16",
+      "keep": {
+        "id": "2026-02-16-054",
+        "score": 6,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260216-frederick-wiseman",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "敬一丹",
+      "date": "2026-09-13",
+      "keep": {
+        "id": "2026-09-13-176",
+        "score": 6,
+        "source": "腾讯新闻",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260913-jing-yidan",
+          "score": 2,
+          "source": "chinadaily.com.cn",
+          "hasBio": false,
+          "uniqueFields": [
+            "nameOrig"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "文森特·帕斯托雷",
+      "date": "2026-08-01",
+      "keep": {
+        "id": "2026-08-01-135",
+        "score": 6,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260801-vincent-pastore",
+          "score": 2,
+          "source": "The New York Times",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "斯泰西·基奇",
+      "date": "2026-11-10",
+      "keep": {
+        "id": "20261110-stacey-keach",
+        "score": 6,
+        "source": "中国新闻周刊 / 美联社 / ABC7 New York",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20261110-stacy-keach",
+          "score": 2,
+          "source": "hollywoodreporter",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "斯科特·亚当斯",
+      "date": "2026-01-13",
+      "keep": {
+        "id": "2026-01-13-021",
+        "score": 6,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260113-scott-adams-2",
+          "score": 2,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": [
+            "causeOfDeath"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "曼弗雷德·雷茨",
+      "date": "2026-04-23",
+      "keep": {
+        "id": "2026-04-23-曼弗雷德·雷茨",
+        "score": 6,
+        "source": "中国科学院天津工业生物技术研究所讣告、澎湃新闻",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260423-manfred-t-reetz",
+          "score": 2,
+          "source": "kofo.mpg.de",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "朱镕基",
+      "date": "2026-08-12",
+      "keep": {
+        "id": "2026-08-12-143",
+        "score": 6,
+        "source": "人民网·中国共产党新闻网讣告",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260812-zhu-rongji",
+          "score": 6,
+          "source": "中国政府网 / 新华社",
+          "hasBio": true,
+          "uniqueFields": [
+            "nameOrig",
+            "causeOfDeath"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "李洪九",
+      "date": "2026-05-05",
+      "keep": {
+        "id": "2026-05-05-李洪九",
+        "score": 6,
+        "source": "朝鲜日报、中央日报（韩国）报道，韩联社",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260505-lee-hong-koo",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "李海瓒",
+      "date": "2026-01-25",
+      "keep": {
+        "id": "2026-01-25-040",
+        "score": 6,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260125-lee-hae-chan",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "李维康",
+      "date": "2026-08-28",
+      "keep": {
+        "id": "2026-08-28-156",
+        "score": 6,
+        "source": "媒体盘点",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260828-li-weikang",
+          "score": 6,
+          "source": "国家京剧院 / 新华社",
+          "hasBio": true,
+          "uniqueFields": [
+            "nameOrig",
+            "causeOfDeath"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "杰西·杰克逊",
+      "date": "2026-02-17",
+      "keep": {
+        "id": "2026-02-17-056",
+        "score": 6,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260217-jesse-jackson",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "查克·诺里斯",
+      "date": "2026-03-19",
+      "keep": {
+        "id": "2026-03-19-086",
+        "score": 6,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260319-chuck-norris",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "格奥尔格·巴泽利茨",
+      "date": "2026-04-30",
+      "keep": {
+        "id": "2026-04-30-格奥尔格·巴泽利茨",
+        "score": 6,
+        "source": "Thaddaeus Ropac 画廊讣告、卫报、法新社、The Art Newspaper",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260430-georg-baselitz",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "桑尼·罗林斯",
+      "date": "2026-05-25",
+      "keep": {
+        "id": "2026-05-25-桑尼·罗林斯",
+        "score": 6,
+        "source": "罗林斯官网家属声明、美联社、Paste Magazine",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260525-sonny-rollins",
+          "score": 2,
+          "source": "AP News",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "楼宇烈",
+      "date": "2026-10-09",
+      "keep": {
+        "id": "2026-10-09-189",
+        "score": 6,
+        "source": "维基百科逝世人物列表",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20261009-lou-yulie",
+          "score": 6,
+          "source": "北京大学哲学系官方讣告 / 光明日报",
+          "hasBio": true,
+          "uniqueFields": [
+            "nameOrig",
+            "causeOfDeath"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "游本昌",
+      "date": "2026-09-24",
+      "keep": {
+        "id": "2026-09-24-182",
+        "score": 6,
+        "source": "中国国家话剧院讣告",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260924-you-benchang",
+          "score": 6,
+          "source": "中国国家话剧院 / 央视新闻 / 中国新闻网",
+          "hasBio": true,
+          "uniqueFields": [
+            "nameOrig",
+            "causeOfDeath"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "特德·特纳",
+      "date": "2026-05-06",
+      "keep": {
+        "id": "2026-05-06-特德·特纳",
+        "score": 6,
+        "source": "CNN 公告、Turner Enterprises 家属声明、新华网",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260506-ted-turner",
+          "score": 2,
+          "source": "Deadline",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "王希季",
+      "date": "2026-08-12",
+      "keep": {
+        "id": "2026-08-12-144",
+        "score": 6,
+        "source": "新京报",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260812-wang-xiji",
+          "score": 6,
+          "source": "新华社 / 人民网（科技日报）",
+          "hasBio": true,
+          "uniqueFields": [
+            "nameOrig",
+            "causeOfDeath"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "王洛林",
+      "date": "2026-06-26",
+      "keep": {
+        "id": "2026-06-26-126",
+        "score": 6,
+        "source": "界面新闻",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260626-wang-luolin",
+          "score": 2,
+          "source": "cj.sina.cn",
+          "hasBio": false,
+          "uniqueFields": [
+            "nameOrig"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "玛格丽特·汉密尔顿",
+      "date": "2026-09-30",
+      "keep": {
+        "id": "2026-09-30-186",
+        "score": 6,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260930-margaret-hamilton-software-engineer",
+          "score": 2,
+          "source": "The New York Times",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "简·拉波泰尔",
+      "date": "2026-03-05",
+      "keep": {
+        "id": "2026-03-05-002",
+        "score": 6,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260305-jane-lapotaire",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "约翰·欧文",
+      "date": "2026-08-11",
+      "keep": {
+        "id": "2026-08-11-141",
+        "score": 6,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260811-john-irvin",
+          "score": 2,
+          "source": "Deadline / deadline",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "罗伊·梅德韦杰夫",
+      "date": "2026-02-13",
+      "keep": {
+        "id": "2026-02-13-052",
+        "score": 6,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260213-roy-medvedev",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "罗伯特·穆勒",
+      "date": "2026-03-20",
+      "keep": {
+        "id": "2026-03-20-089",
+        "score": 6,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260320-robert-mueller",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "胡里奥·勒帕克",
+      "date": "2026-05-30",
+      "keep": {
+        "id": "2026-05-30-胡里奥·勒帕克",
+        "score": 6,
+        "source": "家属确认（其子 Yamil Le Parc）、泰特现代美术馆",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260530-julio-le-parc",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "董建华",
+      "date": "2026-09-08",
+      "keep": {
+        "id": "2026-09-08-171",
+        "score": 6,
+        "source": "人民网讣告 / 财新讣闻",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260908-tung-chee-hwa",
+          "score": 2,
+          "source": "topick.hket",
+          "hasBio": false,
+          "uniqueFields": [
+            "nameOrig"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "袁惟仁",
+      "date": "2026-02-02",
+      "keep": {
+        "id": "2026-02-02-044",
+        "score": 6,
+        "source": "今日头条盘点汇编",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260202-yuan-wei-jen",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": [
+            "nameOrig"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "费斯图斯·莫哈埃",
+      "date": "2026-05-08",
+      "keep": {
+        "id": "2026-05-08-费斯图斯·莫哈埃",
+        "score": 6,
+        "source": "博茨瓦纳总统府公告、新华网、南部非洲发展共同体唁电",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260508-festus-mogae",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "迪米塔尔·佩内夫",
+      "date": "2026-01-03",
+      "keep": {
+        "id": "2026-01-03-006",
+        "score": 6,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260103-dimitar-penev",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "邦妮·泰勒",
+      "date": "2026-07-08",
+      "keep": {
+        "id": "2026-07-08-129",
+        "score": 6,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260708-bonnie-tyler",
+          "score": 2,
+          "source": "AP News / bbc / The Guardian",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "郭兰英",
+      "date": "2026-08-11",
+      "keep": {
+        "id": "2026-08-11-142",
+        "score": 6,
+        "source": "腾讯新闻",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260811-guo-lanying",
+          "score": 6,
+          "source": "中国歌剧舞剧院 / 新华社",
+          "hasBio": true,
+          "uniqueFields": [
+            "nameOrig",
+            "causeOfDeath"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "钟景辉",
+      "date": "2026-06-03",
+      "keep": {
+        "id": "2026-06-03-121",
+        "score": 6,
+        "source": "港媒 / 界面新闻",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260603-chung-king-fai",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": [
+            "nameOrig"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "铃木光司",
+      "date": "2026-05-08",
+      "keep": {
+        "id": "2026-05-08-铃木光司",
+        "score": 6,
+        "source": "读卖新闻、NHK、朝日新闻、KADOKAWA 公告",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260508-koji-suzuki",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "阿达·约纳特",
+      "date": "2026-08-31",
+      "keep": {
+        "id": "2026-08-31-159",
+        "score": 6,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260831-ada-yonath",
+          "score": 2,
+          "source": "wis-wander.weizmann.ac.il",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "顾诵芬",
+      "date": "2026-05-31",
+      "keep": {
+        "id": "2026-05-31-120",
+        "score": 6,
+        "source": "新华社",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260531-gu-songfen",
+          "score": 6,
+          "source": "新华社 / 央视新闻",
+          "hasBio": true,
+          "uniqueFields": [
+            "nameOrig",
+            "causeOfDeath"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "鲁道夫·马库斯",
+      "date": "2026-07-16",
+      "keep": {
+        "id": "2026-07-16-鲁道夫·马库斯",
+        "score": 6,
+        "source": "加州理工学院讣告、纽约时报、波士顿环球报",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260716-rudolph-a-marcus",
+          "score": 2,
+          "source": "nytimes",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "黄正利",
+      "date": "2026-11-12",
+      "keep": {
+        "id": "20261112-hwang-jung-lee",
+        "score": 6,
+        "source": "澎湃新闻 / 光明网 / 韩联社 / 星岛头条",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20261112-hwang-jang-lee",
+          "score": 2,
+          "source": "mediainnews",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "万绍芬",
+      "date": "2026-06-25",
+      "keep": {
+        "id": "2026-06-25-万绍芬",
+        "score": 5,
+        "source": "新华社讣告／人民日报",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260625-wan-shaofen",
+          "score": 2,
+          "source": "bjnews.com.cn",
+          "hasBio": false,
+          "uniqueFields": [
+            "nameOrig"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "二宫和弘",
+      "date": "2026-05-04",
+      "keep": {
+        "id": "2026-05-04-二宫和弘",
+        "score": 5,
+        "source": "朝日新闻、共同社、时事通信、西日本新闻",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260504-kazuhiro-ninomiya",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "亚历山大·萨莫库佳耶夫",
+      "date": "2026-06-17",
+      "keep": {
+        "id": "2026-06-17-亚历山大·萨莫库佳耶夫",
+        "score": 5,
+        "source": "塔斯社、俄罗斯国家航天集团（Roscosmos）",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260617-aleksandr-samokutyaev",
+          "score": 2,
+          "source": "pnzreg.ru",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "安东尼奥·特赫罗",
+      "date": "2026-02-25",
+      "keep": {
+        "id": "2026-02-25-065",
+        "score": 5,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260225-antonio-tejero",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "希腊与丹麦的伊莲妮公主",
+      "date": "2026-01-15",
+      "keep": {
+        "id": "2026-01-15-025",
+        "score": 5,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260115-princess-irene-of-greece-and-denmark",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "张玉台",
+      "date": "2026-07-24",
+      "keep": {
+        "id": "2026-07-24-张玉台",
+        "score": 5,
+        "source": "新华社、北京日报",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260724-zhang-yutai",
+          "score": 2,
+          "source": "thepaper.cn",
+          "hasBio": false,
+          "uniqueFields": [
+            "nameOrig"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "彭玉",
+      "date": "2026-10-07",
+      "keep": {
+        "id": "2026-10-07-彭玉",
+        "score": 5,
+        "source": "中国视协演员工作委员会 · 新京报、极目新闻",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20261007-peng-yu",
+          "score": 5,
+          "source": "中国电视艺术家协会演员工作委员会 / 中国新闻网",
+          "hasBio": true,
+          "uniqueFields": [
+            "nameOrig"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "扬·蒂曼",
+      "date": "2026-02-18",
+      "keep": {
+        "id": "2026-02-18-057",
+        "score": 5,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260218-jan-timman",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "拉特科·姆拉迪奇",
+      "date": "2026-08-27",
+      "keep": {
+        "id": "2026-08-27-154",
+        "score": 5,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260827-ratko-mladic",
+          "score": 2,
+          "source": "AP News / The New York Times",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "杰弗里·戈德斯通",
+      "date": "2026-10-12",
+      "keep": {
+        "id": "2026-10-12-杰弗里·戈德斯通",
+        "score": 5,
+        "source": "麻省理工学院物理系讣告 · 剑桥三一学院",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20261012-jeffrey-goldstone",
+          "score": 2,
+          "source": "physics.mit.edu",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "梁材远",
+      "date": "2026-07-25",
+      "keep": {
+        "id": "2026-07-25-梁材远",
+        "score": 5,
+        "source": "香港01、星岛头条、TVB 新闻",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260725-leung-choi-yuen",
+          "score": 2,
+          "source": "ol.mingpao",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "梁珊",
+      "date": "2026-07-01",
+      "keep": {
+        "id": "2026-07-01-梁珊",
+        "score": 5,
+        "source": "中国新闻网、澎湃新闻、香港商报",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260701-liang-shan",
+          "score": 2,
+          "source": "ol.mingpao",
+          "hasBio": false,
+          "uniqueFields": [
+            "nameOrig"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "汉斯·赫尔曼",
+      "date": "2026-01-09",
+      "keep": {
+        "id": "2026-01-09-014",
+        "score": 5,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260109-hans-herrmann",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "法特希·卡米尔",
+      "date": "2026-01-31",
+      "keep": {
+        "id": "2026-01-31-042",
+        "score": 5,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260131-fathi-kameel",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "罗伯特·瑟曼",
+      "date": "2026-06-16",
+      "keep": {
+        "id": "2026-06-16-罗伯特·瑟曼",
+        "score": 5,
+        "source": "美联社讣告、哥伦比亚大学宗教学系",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260616-robert-thurman",
+          "score": 2,
+          "source": "ddnews.gov.in",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "菲利普·斯特恩",
+      "date": "2026-06-14",
+      "keep": {
+        "id": "2026-06-14-菲利普·斯特恩",
+        "score": 5,
+        "source": "百达翡丽品牌公告／界面新闻",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260614-philippe-stern-businessman",
+          "score": 2,
+          "source": "fr.fashionnetwork",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "让-克洛德·帕赛龙",
+      "date": "2026-10-30",
+      "keep": {
+        "id": "2026-10-30-让-克洛德·帕赛龙",
+        "score": 5,
+        "source": "法国社会科学高等研究院（EHESS）· 法国媒体报道",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20261030-jean-claude-passeron",
+          "score": 2,
+          "source": "ehess.fr",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "让-皮埃尔·费伊",
+      "date": "2026-03-26",
+      "keep": {
+        "id": "2026-03-26-096",
+        "score": 5,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260326-jean-pierre-faye",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "赛义夫·伊斯兰·卡扎菲",
+      "date": "2026-02-03",
+      "keep": {
+        "id": "2026-02-03-045",
+        "score": 5,
+        "source": "Pantheon",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260203-saif-al-islam-gaddafi",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "车洪才",
+      "date": "2026-10-11",
+      "keep": {
+        "id": "2026-10-11-车洪才",
+        "score": 5,
+        "source": "中国传媒大学讣告 · 澎湃新闻",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20261011-che-hongcai",
+          "score": 2,
+          "source": "cuc.edu.cn",
+          "hasBio": false,
+          "uniqueFields": [
+            "nameOrig"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "陈丽华",
+      "date": "2026-04-05",
+      "keep": {
+        "id": "2026-04-05-陈丽华",
+        "score": 5,
+        "source": "富华国际集团、北京侨商会讣告，新华社、澎湃新闻、光明网",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260405-chen-lihua",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": [
+            "nameOrig"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "魏宗万",
+      "date": "2026-06-01",
+      "keep": {
+        "id": "2026-06-01-魏宗万",
+        "score": 5,
+        "source": "上海话剧艺术中心讣告／人民日报、澎湃新闻",
+        "hasBio": true
+      },
+      "drop": [
+        {
+          "id": "20260601-wei-zongwan",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": [
+            "nameOrig"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Abdul Ballout",
+      "date": "2026-07-26",
+      "keep": {
+        "id": "20260726-2026-berlin-pride-attack",
+        "score": 3,
+        "source": "bbc",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260726-abdul-ballout",
+          "score": 3,
+          "source": "bbc",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Anbar Saeed",
+      "date": "2026-08-02",
+      "keep": {
+        "id": "20260802-anbar-saeed",
+        "score": 3,
+        "source": "alqabas",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260802-nbr-syd",
+          "score": 3,
+          "source": "alqabas",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Andy Lewis",
+      "date": "2026-06-14",
+      "keep": {
+        "id": "20260614-andy-lewis-performer",
+        "score": 3,
+        "source": "apnews",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260614-andy-lewis-slackliner",
+          "score": 2,
+          "source": "apnews",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Bar Belfer",
+      "date": "2026-11-08",
+      "keep": {
+        "id": "20261108-bar-belfer",
+        "score": 3,
+        "source": "mako.co.il",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20261108-br-blpr",
+          "score": 2,
+          "source": "ynetnews",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Divine Adili",
+      "date": "2026-06-08",
+      "keep": {
+        "id": "20260608-deaths-of-divine-adili-and-rene-baterbonia",
+        "score": 3,
+        "source": "gmanetwork",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260608-divine-adili",
+          "score": 3,
+          "source": "gmanetwork",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Isao Takeuchi",
+      "date": "2026-09-24",
+      "keep": {
+        "id": "20260924-isao-takeuchi",
+        "score": 3,
+        "source": "news.web.nhk",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260924-zhu-nei-gong",
+          "score": 3,
+          "source": "news.web.nhk",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "James Pavatt",
+      "date": "2026-11-12",
+      "keep": {
+        "id": "20261112-james-pavatt",
+        "score": 3,
+        "source": "koco",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20261112-murder-of-rob-andrew",
+          "score": 3,
+          "source": "koco",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Jeffrey Allen Weisheit",
+      "date": "2026-11-05",
+      "keep": {
+        "id": "20261105-jeffrey-allen-weisheit",
+        "score": 3,
+        "source": "indianacapitalchronicle",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20261105-murders-of-alyssa-and-caleb-lynch",
+          "score": 3,
+          "source": "indianacapitalchronicle",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Konstantin Khudyakov",
+      "date": "2026-06-27",
+      "keep": {
+        "id": "20260627-konstantin-khudyakov",
+        "score": 3,
+        "source": "tass.ru",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260627-khudiakov-konstantin-vasilevich",
+          "score": 2,
+          "source": "tass.ru",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Manuel Otto",
+      "date": "2026-10-20",
+      "keep": {
+        "id": "20261020-manuel-otto",
+        "score": 3,
+        "source": "hindustantimes",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20261020-stick-run",
+          "score": 3,
+          "source": "hindustantimes",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Marcos Camino",
+      "date": "2026-11-10",
+      "keep": {
+        "id": "20261110-los-palmeras",
+        "score": 3,
+        "source": "infobae",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20261110-marcos-camino",
+          "score": 3,
+          "source": "infobae",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Mondonguito",
+      "date": "2026-11-13",
+      "keep": {
+        "id": "20261113-mondonguito",
+        "score": 3,
+        "source": "expreso.com.pe",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20261113-mondonguito-comediante",
+          "score": 3,
+          "source": "expreso.com.pe",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Phira Thetwisan",
+      "date": "2026-11-17",
+      "keep": {
+        "id": "20261117-peacemaker-thai-band",
+        "score": 3,
+        "source": "sanook",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20261117-phira-thetwisan",
+          "score": 3,
+          "source": "sanook",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Rodolphe",
+      "date": "2026-09-22",
+      "keep": {
+        "id": "20260922-rodolphe-comics-writer",
+        "score": 3,
+        "source": "leparisien.fr",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260922-rodolphe-comic-book-writer",
+          "score": 2,
+          "source": "leparisien.fr",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Semyon Skrepetsky",
+      "date": "2026-06-15",
+      "keep": {
+        "id": "20260615-semyon-skrepetsky",
+        "score": 3,
+        "source": "bbc",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260615-semion-skrepetskii",
+          "score": 2,
+          "source": "bbc",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Shin&#8217;ichi Abe",
+      "date": "2026-09-04",
+      "keep": {
+        "id": "20260904-an-bu-shen-yi",
+        "score": 3,
+        "source": "oricon.co.jp",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260904-shinichi-abe",
+          "score": 2,
+          "source": "oricon.co.jp",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Abderrahmane Tlili",
+      "date": "2026-08-23",
+      "keep": {
+        "id": "20260823-abderrahmane-tlili",
+        "score": 2,
+        "source": "mosaiquefm",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260823-bd-lrhmn-ltlyly",
+          "score": 2,
+          "source": "mosaiquefm",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Afsaneh Malek",
+      "date": "2026-06-16",
+      "keep": {
+        "id": "20260616-afsaneh-malek",
+        "score": 2,
+        "source": "asriran",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260616-fsnh-mlkh",
+          "score": 2,
+          "source": "asriran",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Alexander Sizov",
+      "date": "2026-10-21",
+      "keep": {
+        "id": "20261021-alexander-sizov",
+        "score": 2,
+        "source": "yarreg.ru",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20261021-alexander-sizov-politician",
+          "score": 2,
+          "source": "yarreg.ru",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Alexandr Pashchenko",
+      "date": "2026-09-08",
+      "keep": {
+        "id": "20260908-alexandr-pashchenko",
+        "score": 2,
+        "source": "oren.aif.ru",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260908-pashchenko-aleksandr-kirillovich",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Ali Ideflawen",
+      "date": "2026-06-28",
+      "keep": {
+        "id": "20260628-ali-ait-ferhat",
+        "score": 2,
+        "source": "aps.dz",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260628-ali-ideflawen",
+          "score": 2,
+          "source": "aps.dz",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Alla Akhundova",
+      "date": "2026-09-17",
+      "keep": {
+        "id": "20260917-akhundova-alla-nurievna",
+        "score": 2,
+        "source": "oxu.az",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260917-alla-akhundova",
+          "score": 2,
+          "source": "oxu.az",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Alla Chernova",
+      "date": "2026-06-28",
+      "keep": {
+        "id": "20260628-alla-chernova",
+        "score": 2,
+        "source": "fontanka.ru",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260628-chernova-alla-iosifovna",
+          "score": 2,
+          "source": "fontanka.ru",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Almas Ordabajev",
+      "date": "2026-06-13",
+      "keep": {
+        "id": "20260613-almas-ordabajev-p1656293",
+        "score": 2,
+        "source": "kaztag.kz",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260613-almas-ordabajev",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Anton Grunis",
+      "date": "2026-09-13",
+      "keep": {
+        "id": "20260913-anton-grunis",
+        "score": 2,
+        "source": "bbc",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260913-grunis-anton-feliksovich",
+          "score": 2,
+          "source": "bbc",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Anton Stankov",
+      "date": "2026-08-13",
+      "keep": {
+        "id": "20260813-anton-stankov",
+        "score": 2,
+        "source": "news.lex.bg",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260813-anton-stankov-p1657480",
+          "score": 2,
+          "source": "news.lex.bg",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Azar Azima",
+      "date": "2026-06-23",
+      "keep": {
+        "id": "20260623-adhr-zym",
+        "score": 2,
+        "source": "sahebkhabar.ir",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260623-azar-azima",
+          "score": 2,
+          "source": "sahebkhabar.ir",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "B. J. Sams",
+      "date": "2026-06-25",
+      "keep": {
+        "id": "20260625-b-j-sams-journalist",
+        "score": 2,
+        "source": "arkansasradio",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260625-b-j-sams-television",
+          "score": 2,
+          "source": "arkansasradio",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Bakir Bayakhunov",
+      "date": "2026-10-09",
+      "keep": {
+        "id": "20261009-bakir-bayakhunov",
+        "score": 2,
+        "source": "en.iz.ru",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20261009-bkir-iakhiianuly-baiakhunov",
+          "score": 2,
+          "source": "qazinform",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Balazs Martos",
+      "date": "2026-06-13",
+      "keep": {
+        "id": "20260613-balazs-martos-p1656307",
+        "score": 2,
+        "source": "dehir.hu",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260613-balazs-martos",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Béla Kádár",
+      "date": "2026-07-08",
+      "keep": {
+        "id": "20260708-bela-kadar-politician",
+        "score": 2,
+        "source": "24.hu",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260708-kadar-bela-kozgazdasz",
+          "score": 2,
+          "source": "24.hu",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Carlos Oliva",
+      "date": "2026-05-27",
+      "keep": {
+        "id": "20260527-carlos-oliva-economist",
+        "score": 2,
+        "source": "rpp.pe",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260527-carlos-oliva",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Choi Hyung-woo",
+      "date": "2026-10-24",
+      "keep": {
+        "id": "20261024-choi-hyoung-woo",
+        "score": 2,
+        "source": "biz.chosun",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20261024-coehyeongu",
+          "score": 2,
+          "source": "biz.chosun",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Chun Yong-taek",
+      "date": "2026-07-24",
+      "keep": {
+        "id": "20260724-ceonyongtaeg",
+        "score": 2,
+        "source": "rokps.or.kr",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260724-chun-yong-taek",
+          "score": 2,
+          "source": "yna.co.kr",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Constantine Tsoucalas",
+      "date": "2026-08-18",
+      "keep": {
+        "id": "20260818-constantine-tsoucalas",
+        "score": 2,
+        "source": "ekathimerini",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260818-konstantinos-tsoukalas-akademaikos",
+          "score": 2,
+          "source": "kathimerini.gr",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "David Surkamp",
+      "date": "2026-10-13",
+      "keep": {
+        "id": "20261013-david-surkamp",
+        "score": 2,
+        "source": "loudersound",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20261013-pavlovs-dog-band",
+          "score": 2,
+          "source": "loudersound",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "David Worth",
+      "date": "2026-09-07",
+      "keep": {
+        "id": "20260907-david-worth-cinematographer",
+        "score": 2,
+        "source": "filmcombatsyndicate",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260907-david-worth-filmmaker",
+          "score": 2,
+          "source": "filmcombatsyndicate",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Diab Al-Louh",
+      "date": "2026-08-09",
+      "keep": {
+        "id": "20260809-diab-al-louh",
+        "score": 2,
+        "source": "egypttoday",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260809-dyb-llwh",
+          "score": 2,
+          "source": "egypttoday",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Domenico Berni",
+      "date": "2026-11-08",
+      "keep": {
+        "id": "20261108-domenico-berni",
+        "score": 2,
+        "source": "ewtnnews",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20261108-domenico-berni-leonardi",
+          "score": 2,
+          "source": "ewtnnews",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Eduardo Rodríguez Rodway",
+      "date": "2026-09-26",
+      "keep": {
+        "id": "20260926-eduardo-rodriguez-rodway",
+        "score": 2,
+        "source": "elpais",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260926-triana-band",
+          "score": 2,
+          "source": "elpais",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Faleh al-Dhaheri",
+      "date": "2026-09-12",
+      "keep": {
+        "id": "20260912-faleh-al-dhaheri",
+        "score": 2,
+        "source": "al-madina",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260912-flh-lzhry",
+          "score": 2,
+          "source": "al-madina",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Fedir Stryhun",
+      "date": "2026-10-23",
+      "keep": {
+        "id": "20261023-strigun-fedir-mikolaiovich",
+        "score": 2,
+        "source": "prm.ua",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20261023-strigun-fiodor-nikolaevich",
+          "score": 2,
+          "source": "prm.ua",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Felix Kreichman",
+      "date": "2026-06-13",
+      "keep": {
+        "id": "20260613-felix-kreichman-p1656280",
+        "score": 2,
+        "source": "tiraspol-news.ru",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260613-felix-kreichman",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Filip Sternberg",
+      "date": "2026-09-05",
+      "keep": {
+        "id": "20260905-filip-sternberg",
+        "score": 2,
+        "source": "ct24.ceskatelevize.cz",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260905-filip-sternberg-1956-2026",
+          "score": 2,
+          "source": "ct24.ceskatelevize.cz",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Frank Beard",
+      "date": "2026-08-17",
+      "keep": {
+        "id": "20260817-frank-beard-drummer",
+        "score": 2,
+        "source": "The New York Times",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260817-frank-beard-musician",
+          "score": 2,
+          "source": "The New York Times",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Frank Doran",
+      "date": "2026-11-03",
+      "keep": {
+        "id": "20261103-frank-doran-aikido",
+        "score": 2,
+        "source": "aikido-west",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20261103-frank-doran-aikidoka",
+          "score": 2,
+          "source": "aikido-west",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Georgy Kleiner",
+      "date": "2026-06-04",
+      "keep": {
+        "id": "20260604-georgy-kleiner",
+        "score": 2,
+        "source": "new.ras.ru",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260604-kleiner-georgii-borisovich",
+          "score": 2,
+          "source": "new.ras.ru",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Gonzalo Suárez",
+      "date": "2026-09-29",
+      "keep": {
+        "id": "20260929-gonzalo-suarez",
+        "score": 2,
+        "source": "democrata.es",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260929-gonzalo-suarez-director",
+          "score": 2,
+          "source": "democrata.es",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Hamid Lounaouci",
+      "date": "2026-10-08",
+      "keep": {
+        "id": "20261008-hamid-lounaouci",
+        "score": 2,
+        "source": "horizons.dz",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20261008-hmyd-lwnwsy",
+          "score": 2,
+          "source": "horizons.dz",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Harry Haines",
+      "date": "2026-09-22",
+      "keep": {
+        "id": "20260922-harry-haines",
+        "score": 2,
+        "source": "legacy",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260922-harry-haines-judge",
+          "score": 2,
+          "source": "legacy",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Herbert Möller",
+      "date": "2026-06-03",
+      "keep": {
+        "id": "20260603-herbert-moller-p1647742",
+        "score": 2,
+        "source": "shz.de",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260603-herbert-moller",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Hikaru Kurosaki",
+      "date": "2026-07-02",
+      "keep": {
+        "id": "20260702-hei-qi-hui",
+        "score": 2,
+        "source": "tokusatsu.com.br",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260702-hikaru-kurosaki",
+          "score": 2,
+          "source": "tokusatsu.com.br",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Ibrahim Al-Madani",
+      "date": "2026-09-21",
+      "keep": {
+        "id": "20260921-brhym-bn-dl-lmdny",
+        "score": 2,
+        "source": "saudigazette.com.sa",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260921-ibrahim-al-madani",
+          "score": 2,
+          "source": "saudigazette.com.sa",
+          "hasBio": false,
+          "uniqueFields": []
+        },
+        {
+          "id": "20260921-list-of-muezzins-of-the-two-holy-mosques",
+          "score": 2,
+          "source": "saudigazette.com.sa",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Ivan Khitskov",
+      "date": "2026-06-20",
+      "keep": {
+        "id": "20260620-ivan-khitskov",
+        "score": 2,
+        "source": "communa.ru",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260620-khitskov-ivan-fiodorovich",
+          "score": 2,
+          "source": "communa.ru",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Jan Málek",
+      "date": "2026-06-10",
+      "keep": {
+        "id": "20260610-jan-malek-p1656155",
+        "score": 2,
+        "source": "operaplus.cz",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260610-jan-malek",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Jean-François Leroy",
+      "date": "2026-08-31",
+      "keep": {
+        "id": "20260831-jean-francois-leroy",
+        "score": 2,
+        "source": "lemonde.fr",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260831-jean-francois-leroy-photographe",
+          "score": 2,
+          "source": "lemonde.fr",
+          "hasBio": false,
+          "uniqueFields": []
+        },
+        {
+          "id": "20260831-jean-francois-leroy-photographer",
+          "score": 2,
+          "source": "lemonde.fr",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Jeff Olson",
+      "date": "2026-06-21",
+      "keep": {
+        "id": "20260621-jeff-olson-visual-effects",
+        "score": 2,
+        "source": "Deadline / variety",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260621-jeff-olson-visual-effects-artist",
+          "score": 2,
+          "source": "Deadline / variety",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Julia Nyakó",
+      "date": "2026-06-20",
+      "keep": {
+        "id": "20260620-julia-nyako",
+        "score": 2,
+        "source": "444.hu",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260620-nyako-julia",
+          "score": 2,
+          "source": "444.hu",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Jun Isezaki",
+      "date": "2026-07-11",
+      "keep": {
+        "id": "20260711-jun-isezaki",
+        "score": 2,
+        "source": "asahi",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260711-yi-shi-qi-chun",
+          "score": 2,
+          "source": "asahi",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "János Németh",
+      "date": "2026-06-22",
+      "keep": {
+        "id": "20260622-janos-nemeth-sculptor",
+        "score": 2,
+        "source": "kultura.hu",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260622-nemeth-janos-szobrasz",
+          "score": 2,
+          "source": "kultura.hu",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Kiattichai Chaichaowarat",
+      "date": "2026-08-22",
+      "keep": {
+        "id": "20260822-ekiiyrtichay-chayechaawratn",
+        "score": 2,
+        "source": "opt-news",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260822-kiattichai-chaichaowarat",
+          "score": 2,
+          "source": "opt-news",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Kim Ha-soo",
+      "date": "2026-07-13",
+      "keep": {
+        "id": "20260713-gimhasu",
+        "score": 2,
+        "source": "joongang.co.kr",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260713-gimhasu-p1656364",
+          "score": 2,
+          "source": "joongang.co.kr",
+          "hasBio": false,
+          "uniqueFields": []
+        },
+        {
+          "id": "20260713-kim-ji-soo-1st-mini-album",
+          "score": 2,
+          "source": "joongang.co.kr",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Kim Joong-wi",
+      "date": "2026-07-18",
+      "keep": {
+        "id": "20260718-gimjungwi",
+        "score": 2,
+        "source": "yna.co.kr",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260718-kim-joong-wi",
+          "score": 2,
+          "source": "yna.co.kr",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Laura Lee Brown",
+      "date": "2026-11-10",
+      "keep": {
+        "id": "20261110-21c-museum-hotels",
+        "score": 2,
+        "source": "wlky",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20261110-laura-lee-brown",
+          "score": 2,
+          "source": "wlky",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Leonid Shchukin",
+      "date": "2026-06-11",
+      "keep": {
+        "id": "20260611-leonid-shchukin-p1656239",
+        "score": 2,
+        "source": "om1.ru",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260611-leonid-shchukin",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Manuel van Der Dijs dead, singer",
+      "date": "2026-06-24",
+      "keep": {
+        "id": "20260624-manuel-van-der-dijs",
+        "score": 2,
+        "source": "extra.ec",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260624-van-der-dijs",
+          "score": 2,
+          "source": "extra.ec",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Marcellino Taiji Tani",
+      "date": "2026-10-10",
+      "keep": {
+        "id": "20261010-gu-da-er",
+        "score": 2,
+        "source": "cbcj.catholic.jp",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20261010-marcellino-taiji-tani",
+          "score": 2,
+          "source": "cbcj.catholic.jp",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Maricarmen Abascal",
+      "date": "2026-10-07",
+      "keep": {
+        "id": "20261007-2026-spanish-housing-protests",
+        "score": 2,
+        "source": "elpais",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20261007-maricarmen-abascal",
+          "score": 2,
+          "source": "elpais",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Mihály Pénzes",
+      "date": "2026-06-26",
+      "keep": {
+        "id": "20260626-mihaly-penzes",
+        "score": 2,
+        "source": "csakfoci.hu",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260626-penzes-mihaly",
+          "score": 2,
+          "source": "csakfoci.hu",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Miloslav Kopečný",
+      "date": "2026-10-07",
+      "keep": {
+        "id": "20261007-miloslav-kopecny",
+        "score": 2,
+        "source": "divadlo.cz",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20261007-miloslav-kopecny-herec",
+          "score": 2,
+          "source": "divadlo.cz",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Misha Mavashi",
+      "date": "2026-10-25",
+      "keep": {
+        "id": "20261025-mavashi-misha",
+        "score": 2,
+        "source": "voronezhnews.ru",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20261025-misha-mavashi",
+          "score": 2,
+          "source": "voronezhnews.ru",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Mykola Avramenko",
+      "date": "2026-07-01",
+      "keep": {
+        "id": "20260701-avramenko-mikola-grigorovich",
+        "score": 2,
+        "source": "esu.com.ua",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260701-mykola-avramenko",
+          "score": 2,
+          "source": "esu.com.ua",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Mykola Frolov",
+      "date": "2026-06-27",
+      "keep": {
+        "id": "20260627-frolov-mikola-oleksandrovich",
+        "score": 2,
+        "source": "suspilne.media",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260627-mykola-frolov",
+          "score": 2,
+          "source": "suspilne.media",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Nail Kutlugildin",
+      "date": "2026-06-26",
+      "keep": {
+        "id": "20260626-kutlugildin-nail-zakirovich",
+        "score": 2,
+        "source": "salavatsovet.ru",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260626-nail-kutlugildin",
+          "score": 2,
+          "source": "salavatsovet.ru",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Naran Očir-Gorjaev",
+      "date": "2026-06-05",
+      "keep": {
+        "id": "20260605-naran-ocir-gorjaev-p1655772",
+        "score": 2,
+        "source": "kp.ru",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260605-naran-ocir-gorjaev",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Nariman Hasanzade",
+      "date": "2026-08-01",
+      "keep": {
+        "id": "20260801-nariman-hasanzade",
+        "score": 2,
+        "source": "operativmm.az",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260801-nriman-hsnzad",
+          "score": 2,
+          "source": "operativmm.az",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Natalia Trubnikova",
+      "date": "2026-08-10",
+      "keep": {
+        "id": "20260810-natalia-trubnikova",
+        "score": 2,
+        "source": "starhit.ru",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260810-trubnikova-natalia-evgenevna",
+          "score": 2,
+          "source": "starhit.ru",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Netanel Lasri",
+      "date": "2026-06-13",
+      "keep": {
+        "id": "20260613-netanel-lasri",
+        "score": 2,
+        "source": "israelhayom.co.il",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260613-netanel-lasri-p1656188",
+          "score": 2,
+          "source": "israelhayom.co.il",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Niels Ersbøll",
+      "date": "2026-06-11",
+      "keep": {
+        "id": "20260611-niels-ersboll-p1647521",
+        "score": 2,
+        "source": "dr.dk",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260611-niels-ersboll",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Nina Popova",
+      "date": "2026-09-07",
+      "keep": {
+        "id": "20260907-nina-popova-actress",
+        "score": 2,
+        "source": "vz.ru",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260907-popova-nina-georgievna",
+          "score": 2,
+          "source": "vz.ru",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Platon Udovenko",
+      "date": "2026-11-06",
+      "keep": {
+        "id": "20261106-platon-udovenko",
+        "score": 2,
+        "source": "vedomosti.ru",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20261106-platon-udovenko-p1659925",
+          "score": 2,
+          "source": "vedomosti.ru",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Pyotr Gorovoy",
+      "date": "2026-06-24",
+      "keep": {
+        "id": "20260624-gorovoi-piotr-grigorevich",
+        "score": 2,
+        "source": "to-ros.info",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260624-pyotr-gorovoy",
+          "score": 2,
+          "source": "to-ros.info",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Ramamurthy Gamango",
+      "date": "2026-06-12",
+      "keep": {
+        "id": "20260612-ramamurthy-gamango",
+        "score": 2,
+        "source": "",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260612-ramamurthy-gamango-p1647147",
+          "score": 2,
+          "source": "prameyanews",
+          "hasBio": false,
+          "uniqueFields": [
+            "source"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Richard Hill",
+      "date": "2026-06-13",
+      "keep": {
+        "id": "20260613-richard-hill-composer",
+        "score": 2,
+        "source": "slippedisc",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260613-richard-hill-musician",
+          "score": 2,
+          "source": "slippedisc",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Richard Tesařík",
+      "date": "2026-09-06",
+      "keep": {
+        "id": "20260906-richard-tesarik-zpevak",
+        "score": 2,
+        "source": "zpravy.tiscali.cz",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260906-yo-yo-band",
+          "score": 2,
+          "source": "zpravy.tiscali.cz",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Robson Barros",
+      "date": "2026-06-20",
+      "keep": {
+        "id": "20260620-robson-barros",
+        "score": 2,
+        "source": "g1.globo",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260620-show-do-mallandro",
+          "score": 2,
+          "source": "g1.globo",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Rudolf Samusev",
+      "date": "2026-06-23",
+      "keep": {
+        "id": "20260623-samusev-rudolf-pavlovich",
+        "score": 2,
+        "source": "v1.ru",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260623-v-volgograde-skonchalsia-znamenityi-uchionyi-i-avtor-atlasov-anatomii-cheloveka",
+          "score": 2,
+          "source": "v1.ru",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Salomó Marquès",
+      "date": "2026-06-25",
+      "keep": {
+        "id": "20260625-salomo-marques",
+        "score": 2,
+        "source": "diaridegirona.cat",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260625-salomo-marques-i-sureda",
+          "score": 2,
+          "source": "diaridegirona.cat",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Serhiy Osyka",
+      "date": "2026-06-15",
+      "keep": {
+        "id": "20260615-osika-sergii-grigorovich",
+        "score": 2,
+        "source": "glavcom.ua",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260615-serhiy-osyka",
+          "score": 2,
+          "source": "glavcom.ua",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Sir William Heseltine",
+      "date": "2026-10-02",
+      "keep": {
+        "id": "20261002-sir-william-heseltine",
+        "score": 2,
+        "source": "thewest.com.au",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20261002-william-heseltine",
+          "score": 2,
+          "source": "The Guardian",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Steve Ellis",
+      "date": "2026-10-30",
+      "keep": {
+        "id": "20261030-steve-ellis-musician",
+        "score": 2,
+        "source": "thestrangebrew",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20261030-steve-ellis-singer",
+          "score": 2,
+          "source": "theguardian",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Sándor Tímár",
+      "date": "2026-06-19",
+      "keep": {
+        "id": "20260619-sandor-timar",
+        "score": 2,
+        "source": "telex.hu",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260619-timar-sandor",
+          "score": 2,
+          "source": "telex.hu",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Tadeusz Wojciechowski",
+      "date": "2026-11-18",
+      "keep": {
+        "id": "20261118-tadeusz-wojciechowski-economist",
+        "score": 2,
+        "source": "marki.pl",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20261118-tadeusz-wojciechowski-ekonomista",
+          "score": 2,
+          "source": "marki.pl",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Tatyana Pletnyova",
+      "date": "2026-06-15",
+      "keep": {
+        "id": "20260615-tatiana-pletneva",
+        "score": 2,
+        "source": "rbc.ru",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260615-tatyana-pletnyova",
+          "score": 2,
+          "source": "rbc.ru",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Tibor Szilágyi",
+      "date": "2026-07-02",
+      "keep": {
+        "id": "20260702-szilagyi-tibor-szinmuvesz",
+        "score": 2,
+        "source": "origo.hu",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260702-tibor-szilagyi",
+          "score": 2,
+          "source": "origo.hu",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Tony Mundine",
+      "date": "2026-08-30",
+      "keep": {
+        "id": "20260830-tony-mundine",
+        "score": 2,
+        "source": "nine.com.au",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260830-tony-mundine-boxer",
+          "score": 2,
+          "source": "ntnews.com.au",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Toyoji Sudo",
+      "date": "2026-06-15",
+      "keep": {
+        "id": "20260615-toyoji-sudo",
+        "score": 2,
+        "source": "nippon",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260615-xu-teng-li-ci",
+          "score": 2,
+          "source": "nippon",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Tsurumaru Tsuyoshi",
+      "date": "2026-08-02",
+      "keep": {
+        "id": "20260802-tsurumaru-tsuyoshi",
+        "score": 2,
+        "source": "gosugamers",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260802-turumarutuyosi",
+          "score": 2,
+          "source": "gosugamers",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Uladzimir Shymau",
+      "date": "2026-08-03",
+      "keep": {
+        "id": "20260803-uladzimir-mikalaevich-shymau",
+        "score": 2,
+        "source": "nashaniva",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260803-uladzimir-shymau",
+          "score": 2,
+          "source": "nashaniva",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Valentina Ignatyeva",
+      "date": "2026-06-04",
+      "keep": {
+        "id": "20260604-valentina-ignatyeva-p1655776",
+        "score": 2,
+        "source": "kp.ru",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260604-valentina-ignatyeva",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Vissarion Stretovych",
+      "date": "2026-09-18",
+      "keep": {
+        "id": "20260918-vissarion-stretovich",
+        "score": 2,
+        "source": "ua.news",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260918-vissarion-stretovych",
+          "score": 2,
+          "source": "ua.news",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Vitaliy Dakhivnyk",
+      "date": "2026-07-25",
+      "keep": {
+        "id": "20260725-dakhivnik-vitalii-borisovich",
+        "score": 2,
+        "source": "vikka.ua",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260725-draftvitaliy-dakhivnyk",
+          "score": 2,
+          "source": "vikka.ua",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Vladimir Germanenko",
+      "date": "2026-08-26",
+      "keep": {
+        "id": "20260826-germanenko-vladimir-sergeevich",
+        "score": 2,
+        "source": "bankfax.ru",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260826-vladimir-germanenko",
+          "score": 2,
+          "source": "bankfax.ru",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Vladimir Sapozhnikov",
+      "date": "2026-06-11",
+      "keep": {
+        "id": "20260611-vladimir-sapozhnikov",
+        "score": 2,
+        "source": "",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260611-vladimir-sapozhnikov-p1656203",
+          "score": 2,
+          "source": "spbnews78.ru",
+          "hasBio": false,
+          "uniqueFields": [
+            "source"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yehuda Aharon Vidovsky",
+      "date": "2026-09-13",
+      "keep": {
+        "id": "20260913-yehuda-aharon-vidovsky",
+        "score": 2,
+        "source": "ynetnews",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260913-yhvdh-hrn-vydbsqy",
+          "score": 2,
+          "source": "ynetnews",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Yevgeny Chen",
+      "date": "2026-06-12",
+      "keep": {
+        "id": "20260612-chen-evgenii-bernardovich",
+        "score": 2,
+        "source": "olympedia",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260612-yevgeny-chen",
+          "score": 2,
+          "source": "olympedia",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Yoshihisa Uchida",
+      "date": "2026-06-05",
+      "keep": {
+        "id": "20260605-yoshihisa-uchida-p1655774",
+        "score": 2,
+        "source": "chunichi.co.jp",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260605-yoshihisa-uchida",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Youssef Afifi",
+      "date": "2026-06-19",
+      "keep": {
+        "id": "20260619-youssef-afifi",
+        "score": 2,
+        "source": "gate.ahram.org.eg",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260619-ywsf-fyfy",
+          "score": 2,
+          "source": "gate.ahram.org.eg",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Yuri Smirnov",
+      "date": "2026-07-11",
+      "keep": {
+        "id": "20260711-smirnov-iurii-nikolaevich-aktior",
+        "score": 2,
+        "source": "tagankateatr.ru",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260711-yuriy-smirnov",
+          "score": 2,
+          "source": "tagankateatr.ru",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Zdena Mašínová Jr.",
+      "date": "2026-06-10",
+      "keep": {
+        "id": "20260610-zdena-masinova-jr-p1656123",
+        "score": 2,
+        "source": "idnes.cz",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260610-zdena-masinova-jr",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Zosima Ostapenko",
+      "date": "2026-09-25",
+      "keep": {
+        "id": "20260925-zosima-ostapenko",
+        "score": 2,
+        "source": "foma.ru",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260925-zosima-ostapenko-p1658821",
+          "score": 2,
+          "source": "foma.ru",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Chiara Valentini",
+      "date": "2026-01-08",
+      "keep": {
+        "id": "20260108-chiara-valentini",
+        "score": 1,
+        "source": "",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260108-chiara-valentini-giornalista",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Fahad Al-Mejmed Kuwaiti footballer",
+      "date": "2026-03-08",
+      "keep": {
+        "id": "20260308-fahad-al-mejmed",
+        "score": 1,
+        "source": "",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260308-fahad-al-mejmed-2",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Giovanni Bolzoni",
+      "date": "2026-03-16",
+      "keep": {
+        "id": "20260316-giovanni-bolzoni",
+        "score": 1,
+        "source": "",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260316-giovanni-bolzoni-calciatore-1937",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Giuseppe Sacchi",
+      "date": "2026-06-05",
+      "keep": {
+        "id": "20260605-giuseppe-sacchi",
+        "score": 1,
+        "source": "",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260605-giuseppe-sacchi-imprenditore",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    },
+    {
+      "name": "Peter Meyer German footballer",
+      "date": "2026-02-11",
+      "keep": {
+        "id": "20260211-peter-meyer",
+        "score": 1,
+        "source": "",
+        "hasBio": false
+      },
+      "drop": [
+        {
+          "id": "20260211-peter-meyer-footballer-born-1940",
+          "score": 1,
+          "source": "",
+          "hasBio": false,
+          "uniqueFields": []
+        }
+      ]
+    }
+  ]
+}

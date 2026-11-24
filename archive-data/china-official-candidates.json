@@ -1,0 +1,5402 @@
+[
+  {
+    "id": "20261111-li-shuangyuan",
+    "date": "2026-11-11",
+    "name": "李双元",
+    "country": "中国",
+    "age": 99,
+    "source": "维基百科 2026 年 11 月逝世人物列表",
+    "verified": "demo",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20261111-ni-runfeng",
+    "date": "2026-11-11",
+    "name": "倪润峰",
+    "country": "中国",
+    "age": 82,
+    "source": "长虹控股集团官网 / 四川日报 / 新华社 / 上海证券报",
+    "verified": "demo",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20261107-yan-zhen",
+    "date": "2026-11-07",
+    "name": "严阵",
+    "country": "美国;中国;日本",
+    "age": 96,
+    "source": "news.china",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "已补全（官方讣告核验）",
+    "officialObituary": true
+  },
+  {
+    "id": "2026-11-05-207",
+    "date": "2026-11-05",
+    "name": "马昌钰",
+    "country": "中国",
+    "age": 82,
+    "source": "搜狐娱乐",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-11-03-203",
+    "date": "2026-11-03",
+    "name": "谢莹莹",
+    "country": "中国",
+    "age": 88,
+    "source": "维基百科逝世人物列表",
+    "verified": "corrected",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-11-01-204",
+    "date": "2026-11-01",
+    "name": "吕齐",
+    "country": "中国",
+    "age": 101,
+    "source": "北京人民艺术剧院讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-11-01-205",
+    "date": "2026-11-01",
+    "name": "江小鱼",
+    "country": "中国",
+    "age": 56,
+    "source": "维基百科逝世人物列表",
+    "verified": "corrected",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-10-31-202",
+    "date": "2026-10-31",
+    "name": "迟金声",
+    "country": "中国",
+    "age": 104,
+    "source": "搜狐娱乐",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-10-31-张中载",
+    "date": "2026-10-31",
+    "name": "张中载",
+    "country": "中国",
+    "age": 93,
+    "source": "北京外国语大学英语学院讣告 · 澎湃新闻",
+    "verified": "added",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-10-30-200",
+    "date": "2026-10-30",
+    "name": "刘盛纲",
+    "country": "中国",
+    "age": 92,
+    "source": "科学网",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-10-30-201",
+    "date": "2026-10-30",
+    "name": "邵万林",
+    "country": "中国",
+    "age": 87,
+    "source": "搜狐娱乐",
+    "verified": "confirmed",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-10-28-199",
+    "date": "2026-10-28",
+    "name": "刘延东",
+    "country": "中国",
+    "age": 81,
+    "source": "人民网·中国共产党新闻网讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20261028-liu-yandong",
+    "date": "2026-10-28",
+    "name": "刘延东",
+    "country": "中国",
+    "age": 80,
+    "source": "reuters",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "已补全（官方讣告核验）",
+    "officialObituary": true
+  },
+  {
+    "id": "2026-10-26-196",
+    "date": "2026-10-26",
+    "name": "戈治均",
+    "country": "中国",
+    "age": 90,
+    "source": "中国山东网",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-10-26-197",
+    "date": "2026-10-26",
+    "name": "班弨",
+    "country": "中国",
+    "age": 64,
+    "source": "维基百科逝世人物列表",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20261026-lily-wong-fillmore",
+    "date": "2026-10-26",
+    "name": "Lily Wong Fillmore",
+    "country": "美国;中国;英国",
+    "age": 92,
+    "source": "dignitymemorial",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20261020-gordon-cheng",
+    "date": "2026-10-20",
+    "name": "Gordon Cheng",
+    "country": "澳大利亚;中国;瑞典",
+    "age": 64,
+    "source": "theothercheek.com.au",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-10-18-195",
+    "date": "2026-10-18",
+    "name": "吴康民",
+    "country": "中国",
+    "age": 100,
+    "source": "维基百科逝世人物列表",
+    "verified": "confirmed",
+    "missingFields": [
+      "causeOfDeath"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20261018-ng-hong-mun",
+    "date": "2026-10-18",
+    "name": "吴康民",
+    "country": "中国",
+    "age": 100,
+    "source": "scmp",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-10-17-194",
+    "date": "2026-10-17",
+    "name": "吕彦庆",
+    "country": "中国",
+    "age": 48,
+    "source": "维基百科逝世人物列表",
+    "verified": "confirmed",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20261017-michael-cheng-politician",
+    "date": "2026-10-17",
+    "name": "Michael Cheng",
+    "country": "中国",
+    "age": 88,
+    "source": "plkno1.edu.hk",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-10-16-193",
+    "date": "2026-10-16",
+    "name": "隋桂凤",
+    "country": "中国",
+    "age": 85,
+    "source": "维基百科逝世人物列表",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20261016-li-kou-tin",
+    "date": "2026-10-16",
+    "name": "李国定",
+    "country": "中国;中国台湾",
+    "age": 87,
+    "source": "news.qq",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-10-15-191",
+    "date": "2026-10-15",
+    "name": "张瓦城",
+    "country": "中国",
+    "age": 97,
+    "source": "首都医科大学宣武医院讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-10-15-192",
+    "date": "2026-10-15",
+    "name": "陈羲明",
+    "country": "中国",
+    "age": 71,
+    "source": "湖南省书法家协会",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-10-13-王镕",
+    "date": "2026-10-13",
+    "name": "王镕",
+    "country": "中国",
+    "age": 103,
+    "source": "安徽大学法学院讣告 · 澎湃新闻",
+    "verified": "added",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20261012-liu-changcheng-volleyball",
+    "date": "2026-10-12",
+    "name": "Liu Changcheng",
+    "country": "中国;德国",
+    "age": 62,
+    "source": "volleytimes",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-10-11-董祖诒",
+    "date": "2026-10-11",
+    "name": "董祖诒",
+    "country": "中国",
+    "age": 92,
+    "source": "中央美术学院讣告 · 扬子晚报、极目新闻",
+    "verified": "added",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-10-11-车洪才",
+    "date": "2026-10-11",
+    "name": "车洪才",
+    "country": "中国",
+    "age": 90,
+    "source": "中国传媒大学讣告 · 澎湃新闻",
+    "verified": "added",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20261011-che-hongcai",
+    "date": "2026-10-11",
+    "name": "车洪才",
+    "country": "中国;英国",
+    "age": 90,
+    "source": "cuc.edu.cn",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-10-10-190",
+    "date": "2026-10-10",
+    "name": "李仁科",
+    "country": "中国",
+    "age": 65,
+    "source": "香港中文大学（深圳）讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-10-09-187",
+    "date": "2026-10-09",
+    "name": "方艳华",
+    "country": "中国",
+    "age": 87,
+    "source": "维基百科逝世人物列表",
+    "verified": "corrected",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-10-09-189",
+    "date": "2026-10-09",
+    "name": "楼宇烈",
+    "country": "中国",
+    "age": 92,
+    "source": "维基百科逝世人物列表",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20261009-lou-yulie",
+    "date": "2026-10-09",
+    "name": "楼宇烈",
+    "country": "中国",
+    "age": 91,
+    "source": "news.bjd.com.cn",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "已补全（官方讣告核验）",
+    "officialObituary": true
+  },
+  {
+    "id": "2026-10-08-188",
+    "date": "2026-10-08",
+    "name": "李兆熊",
+    "country": "中国",
+    "age": 89,
+    "source": "维基百科逝世人物列表",
+    "verified": "corrected",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20261008-colin-mackerras",
+    "date": "2026-10-08",
+    "name": "马克林",
+    "country": "澳大利亚;中国",
+    "age": 87,
+    "source": "m.chinanews",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-10-07-彭玉",
+    "date": "2026-10-07",
+    "name": "彭玉",
+    "country": "中国",
+    "age": 93,
+    "source": "中国视协演员工作委员会 · 新京报、极目新闻",
+    "verified": "added",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20261007-peng-yu",
+    "date": "2026-10-07",
+    "name": "彭玉",
+    "country": "中国",
+    "age": 92,
+    "source": "news.cn",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "已补全（官方讣告核验）",
+    "officialObituary": true
+  },
+  {
+    "id": "2026-10-05-郑学勤",
+    "date": "2026-10-05",
+    "name": "郑学勤",
+    "country": "中国",
+    "age": 97,
+    "source": "海南大学讣告 · 海南日报、北京日报",
+    "verified": "added",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-10-03-胡宁娜",
+    "date": "2026-10-03",
+    "name": "胡宁娜",
+    "country": "中国",
+    "age": 68,
+    "source": "江苏省国画院讣告 · 扬子晚报、腾讯新闻",
+    "verified": "added",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260929-amos-rapoport",
+    "date": "2026-09-29",
+    "name": "Amos Rapoport",
+    "country": "美国;中国;法国;德国;日本;波兰;西班牙",
+    "age": 97,
+    "source": "goodmanbensman",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260929-shi-wenbo",
+    "date": "2026-09-29",
+    "name": "Shi Wenbo",
+    "country": "中国",
+    "age": 75,
+    "source": "yeeyi",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260928-jimmy-lim",
+    "date": "2026-09-28",
+    "name": "Jimmy Lim",
+    "country": "中国;马来西亚",
+    "age": 82,
+    "source": "thestar.com.my",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-09-27-185",
+    "date": "2026-09-27",
+    "name": "鲜学福",
+    "country": "中国",
+    "age": 97,
+    "source": "重庆大学讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-09-25-183",
+    "date": "2026-09-25",
+    "name": "刘欢",
+    "country": "中国",
+    "age": 63,
+    "source": "对外经济贸易大学讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260925-liu-huan",
+    "date": "2026-09-25",
+    "name": "刘欢",
+    "country": "中国",
+    "age": 63,
+    "source": "dimsumdaily.hk",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-09-24-182",
+    "date": "2026-09-24",
+    "name": "游本昌",
+    "country": "中国",
+    "age": 93,
+    "source": "中国国家话剧院讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260924-moses-tay",
+    "date": "2026-09-24",
+    "name": "Moses Tay",
+    "country": "中国",
+    "age": 88,
+    "source": "saltandlight.sg",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260924-you-benchang",
+    "date": "2026-09-24",
+    "name": "游本昌",
+    "country": "中国",
+    "age": 93,
+    "source": "global.chinadaily.com.cn",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "已补全（官方讣告核验）",
+    "officialObituary": true
+  },
+  {
+    "id": "2026-09-19-180",
+    "date": "2026-09-19",
+    "name": "刘宝珺",
+    "country": "中国",
+    "age": 96,
+    "source": "成都理工大学讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-09-19-181",
+    "date": "2026-09-19",
+    "name": "李爱琴",
+    "country": "中国",
+    "age": 87,
+    "source": "今日头条盘点汇编",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-09-17-179",
+    "date": "2026-09-17",
+    "name": "邱中建",
+    "country": "中国",
+    "age": 93,
+    "source": "今日头条盘点汇编",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260917-shao-qihui",
+    "date": "2026-09-17",
+    "name": "邵奇惠",
+    "country": "中国",
+    "age": 92,
+    "source": "thepaper.cn",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-09-16-177",
+    "date": "2026-09-16",
+    "name": "吴文伦",
+    "country": "中国",
+    "age": 88,
+    "source": "今日头条盘点汇编",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-09-16-178",
+    "date": "2026-09-16",
+    "name": "胡之璧",
+    "country": "中国",
+    "age": 91,
+    "source": "今日头条盘点汇编",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-09-13-176",
+    "date": "2026-09-13",
+    "name": "敬一丹",
+    "country": "中国",
+    "age": 71,
+    "source": "腾讯新闻",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260913-jing-yidan",
+    "date": "2026-09-13",
+    "name": "敬一丹",
+    "country": "中国",
+    "age": 71,
+    "source": "chinadaily.com.cn",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260913-liang-shaoji",
+    "date": "2026-09-13",
+    "name": "Liang Shaoji",
+    "country": "中国",
+    "age": 81,
+    "source": "artnews",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-09-12-175",
+    "date": "2026-09-12",
+    "name": "章金云",
+    "country": "中国",
+    "age": 84,
+    "source": "新浪新闻",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-09-08-171",
+    "date": "2026-09-08",
+    "name": "董建华",
+    "country": "中国",
+    "age": 89,
+    "source": "人民网讣告 / 财新讣闻",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-09-08-184",
+    "date": "2026-09-08",
+    "name": "刘树坤",
+    "country": "中国",
+    "age": 86,
+    "source": "财新讣闻",
+    "verified": "corrected",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260908-tung-chee-hwa",
+    "date": "2026-09-08",
+    "name": "董建华",
+    "country": "中国",
+    "age": 89,
+    "source": "topick.hket",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-09-07-173",
+    "date": "2026-09-07",
+    "name": "李途纯",
+    "country": "中国",
+    "age": 66,
+    "source": "财新讣闻",
+    "verified": "corrected",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260907-simon-lui",
+    "date": "2026-09-07",
+    "name": "雷宇扬",
+    "country": "中国",
+    "age": 62,
+    "source": "dimsumdaily.hk",
+    "verified": "auto",
+    "missingFields": [
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-09-06-172",
+    "date": "2026-09-06",
+    "name": "林行止",
+    "country": "中国",
+    "age": 88,
+    "source": "财新讣闻",
+    "verified": "corrected",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260905-jean-pierre-clar",
+    "date": "2026-09-05",
+    "name": "Jean-Pierre Clar",
+    "country": "中国;法国",
+    "age": 84,
+    "source": "ladepeche.fr",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-09-04-166",
+    "date": "2026-09-04",
+    "name": "管华诗",
+    "country": "中国",
+    "age": 87,
+    "source": "中国海洋大学讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-09-04-167",
+    "date": "2026-09-04",
+    "name": "苏万华",
+    "country": "中国",
+    "age": 85,
+    "source": "天津大学讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-09-04-169",
+    "date": "2026-09-04",
+    "name": "龚爽",
+    "country": "中国",
+    "age": 37,
+    "source": "今日头条盘点汇编",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-09-04-170",
+    "date": "2026-09-04",
+    "name": "徐广源",
+    "country": "中国",
+    "age": 81,
+    "source": "财新讣闻",
+    "verified": "corrected",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-09-03-165",
+    "date": "2026-09-03",
+    "name": "张绪武",
+    "country": "中国",
+    "age": 98,
+    "source": "人民网讣告 / 财新讣闻",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-09-02-163",
+    "date": "2026-09-02",
+    "name": "刘兆铭",
+    "country": "中国",
+    "age": 94,
+    "source": "新浪新闻",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-09-02-164",
+    "date": "2026-09-02",
+    "name": "陈观泰",
+    "country": "中国",
+    "age": 80,
+    "source": "今日头条盘点汇编",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260902-chen-kuan-tai",
+    "date": "2026-09-02",
+    "name": "陈观泰",
+    "country": "中国",
+    "age": 80,
+    "source": "ctinews",
+    "verified": "auto",
+    "missingFields": [
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260902-lau-siu-ming",
+    "date": "2026-09-02",
+    "name": "刘兆铭",
+    "country": "中国",
+    "age": 94,
+    "source": "dimsumdaily.hk",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260902-lau-siu-ming-p1657955",
+    "date": "2026-09-02",
+    "name": "Lau Siu-ming",
+    "country": "中国;中国香港",
+    "age": 94,
+    "source": "dimsumdaily.hk",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-09-01-160",
+    "date": "2026-09-01",
+    "name": "何勇",
+    "country": "中国",
+    "age": 57,
+    "source": "多家媒体",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-09-01-161",
+    "date": "2026-09-01",
+    "name": "李廷栋",
+    "country": "中国",
+    "age": 96,
+    "source": "中国地质科学院讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-09-01-162",
+    "date": "2026-09-01",
+    "name": "玛拉沁夫",
+    "country": "中国",
+    "age": 97,
+    "source": "多家媒体",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-09-01-168",
+    "date": "2026-09-01",
+    "name": "颜世贵",
+    "country": "中国",
+    "age": 86,
+    "source": "财新讣闻",
+    "verified": "corrected",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260901-he-yong-rock-musician",
+    "date": "2026-09-01",
+    "name": "He Yong",
+    "country": "中国",
+    "age": 57,
+    "source": "ent.sina.cn",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260831-chan-sarun",
+    "date": "2026-08-31",
+    "name": "曾仕伦",
+    "country": "美国;中国",
+    "age": 78,
+    "source": "khmertimeskh",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-08-30-158",
+    "date": "2026-08-30",
+    "name": "王永炎",
+    "country": "中国",
+    "age": 87,
+    "source": "中国中医科学院讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-08-28-156",
+    "date": "2026-08-28",
+    "name": "李维康",
+    "country": "中国",
+    "age": 79,
+    "source": "媒体盘点",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260828-li-weikang",
+    "date": "2026-08-28",
+    "name": "李维康",
+    "country": "中国",
+    "age": 79,
+    "source": "news.bjd.com.cn",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "已补全（官方讣告核验）",
+    "officialObituary": true
+  },
+  {
+    "id": "2026-08-25-157",
+    "date": "2026-08-25",
+    "name": "陆元鼎",
+    "country": "中国",
+    "age": 97,
+    "source": "财新讣闻",
+    "verified": "corrected",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260825-zheng-fengrong",
+    "date": "2026-08-25",
+    "name": "郑凤荣",
+    "country": "中国",
+    "age": 89,
+    "source": "thepaper.cn",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "已补全（官方讣告核验）",
+    "officialObituary": true
+  },
+  {
+    "id": "2026-08-24-151",
+    "date": "2026-08-24",
+    "name": "陈一坚",
+    "country": "中国",
+    "age": 96,
+    "source": "光明日报",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260824-chen-wu-politician",
+    "date": "2026-08-24",
+    "name": "Chen Wu",
+    "country": "中国",
+    "age": 71,
+    "source": "news.cn",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-08-23-153",
+    "date": "2026-08-23",
+    "name": "唐师曾",
+    "country": "中国",
+    "age": 65,
+    "source": "财新讣闻",
+    "verified": "corrected",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260823-liu-i-chou",
+    "date": "2026-08-23",
+    "name": "刘义周",
+    "country": "中国;中国台湾",
+    "age": 78,
+    "source": "upmedia.mg",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260822-alejandro-larrea",
+    "date": "2026-08-22",
+    "name": "Alejandro Larrea",
+    "country": "美国;中国;乌拉圭",
+    "age": 59,
+    "source": "nacion",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260821-yao-eng-chi",
+    "date": "2026-08-21",
+    "name": "Yao Eng-chi",
+    "country": "中国;中国台湾",
+    "age": 91,
+    "source": "news.ltn",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260817-liu-jiyuan-engineer",
+    "date": "2026-08-17",
+    "name": "Liu Jiyuan",
+    "country": "中国",
+    "age": 93,
+    "source": "thepaper.cn",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-08-15-149",
+    "date": "2026-08-15",
+    "name": "周育德",
+    "country": "中国",
+    "age": 88,
+    "source": "中国戏曲学院",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-08-15-150",
+    "date": "2026-08-15",
+    "name": "马宗晋",
+    "country": "中国",
+    "age": 93,
+    "source": "中国地震局地质研究所讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-08-13-147",
+    "date": "2026-08-13",
+    "name": "马忠智",
+    "country": "中国",
+    "age": 82,
+    "source": "财新讣闻",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-08-12-143",
+    "date": "2026-08-12",
+    "name": "朱镕基",
+    "country": "中国",
+    "age": 98,
+    "source": "人民网·中国共产党新闻网讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-08-12-144",
+    "date": "2026-08-12",
+    "name": "王希季",
+    "country": "中国",
+    "age": 105,
+    "source": "新京报",
+    "verified": "corrected",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260812-chen-ying-git",
+    "date": "2026-08-12",
+    "name": "陈盈洁",
+    "country": "中国;中国台湾",
+    "age": 72,
+    "source": "setn",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260812-wang-xiji",
+    "date": "2026-08-12",
+    "name": "王希季",
+    "country": "中国",
+    "age": 105,
+    "source": "m.thepaper.cn",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "已补全（官方讣告核验）",
+    "officialObituary": true
+  },
+  {
+    "id": "20260812-zhu-rongji",
+    "date": "2026-08-12",
+    "name": "朱镕基",
+    "country": "中国",
+    "age": 97,
+    "source": "AP News / Reuters / reuters",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "已补全（官方讣告核验）",
+    "officialObituary": true
+  },
+  {
+    "id": "2026-08-11-142",
+    "date": "2026-08-11",
+    "name": "郭兰英",
+    "country": "中国",
+    "age": 97,
+    "source": "腾讯新闻",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260811-guo-lanying",
+    "date": "2026-08-11",
+    "name": "郭兰英",
+    "country": "中国",
+    "age": 96,
+    "source": "zaobao.com.sg",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "已补全（官方讣告核验）",
+    "officialObituary": true
+  },
+  {
+    "id": "2026-08-10-138",
+    "date": "2026-08-10",
+    "name": "王湛",
+    "country": "中国",
+    "age": 80,
+    "source": "澎湃新闻",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-08-10-139",
+    "date": "2026-08-10",
+    "name": "秦焰",
+    "country": "中国",
+    "age": 72,
+    "source": "媒体讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-08-10-140",
+    "date": "2026-08-10",
+    "name": "罗锦鳞",
+    "country": "中国",
+    "age": 89,
+    "source": "搜狐文化",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260810-russell-jack",
+    "date": "2026-08-10",
+    "name": "Russell Jack",
+    "country": "澳大利亚;中国",
+    "age": 91,
+    "source": "abc.net.au",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260810-zhu-senlin",
+    "date": "2026-08-10",
+    "name": "朱森林",
+    "country": "中国",
+    "age": 95,
+    "source": "thepaper.cn",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260807-wimal-dissanayake",
+    "date": "2026-08-07",
+    "name": "Wimal Dissanayake",
+    "country": "中国;斯里兰卡",
+    "age": 86,
+    "source": "newswire.lk",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-08-05-136",
+    "date": "2026-08-05",
+    "name": "黎彼得",
+    "country": "中国",
+    "age": 76,
+    "source": "百度百科",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260805-peter-lai-lyricist",
+    "date": "2026-08-05",
+    "name": "Peter Lai",
+    "country": "英国;中国;中国香港",
+    "age": 76,
+    "source": "dimsumdaily.hk",
+    "verified": "auto",
+    "missingFields": [
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260803-grace-chang",
+    "date": "2026-08-03",
+    "name": "葛兰",
+    "country": "中国",
+    "age": 93,
+    "source": "hk.on.cc",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260726-teddy-wang-actor",
+    "date": "2026-07-26",
+    "name": "Teddy Wang",
+    "country": "中国;中国台湾",
+    "age": 43,
+    "source": "focustaiwan.tw",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260726-wang-kai-actor",
+    "date": "2026-07-26",
+    "name": "Wang Kai",
+    "country": "中国",
+    "age": 43,
+    "source": "focustaiwan.tw",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-07-25-梁材远",
+    "date": "2026-07-25",
+    "name": "梁材远",
+    "country": "中国",
+    "age": 75,
+    "source": "香港01、星岛头条、TVB 新闻",
+    "verified": "added",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260725-leung-choi-yuen",
+    "date": "2026-07-25",
+    "name": "梁材远",
+    "country": "英国;中国;中国香港",
+    "age": 75,
+    "source": "ol.mingpao",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260725-shi-bao-yuan",
+    "date": "2026-07-25",
+    "name": "石宝源",
+    "country": "中国",
+    "age": 89,
+    "source": "xinhuanet",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-07-24-吐依贡·阿合买德",
+    "date": "2026-07-24",
+    "name": "吐依贡·阿合买德",
+    "country": "中国",
+    "age": 80,
+    "source": "北京日报、中国网、极目新闻",
+    "verified": "added",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-07-24-张玉台",
+    "date": "2026-07-24",
+    "name": "张玉台",
+    "country": "中国",
+    "age": 80,
+    "source": "新华社、北京日报",
+    "verified": "added",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260724-zhang-yutai",
+    "date": "2026-07-24",
+    "name": "张玉台",
+    "country": "中国",
+    "age": 80,
+    "source": "thepaper.cn",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-07-23-134",
+    "date": "2026-07-23",
+    "name": "陆建勋",
+    "country": "中国",
+    "age": 97,
+    "source": "澎湃新闻",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260722-huang-zhiquan-politician-born-1942",
+    "date": "2026-07-22",
+    "name": "Huang Zhiquan",
+    "country": "中国",
+    "age": 84,
+    "source": "xinwen.bjd.com.cn",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260722-wang-quanying",
+    "date": "2026-07-22",
+    "name": "Wang Quanying",
+    "country": "中国",
+    "age": 105,
+    "source": "news.cn",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-07-19-张岂之",
+    "date": "2026-07-19",
+    "name": "张岂之",
+    "country": "中国",
+    "age": 100,
+    "source": "西北大学讣告、光明日报、中国教育报",
+    "verified": "added",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260718-chen-gang-composer",
+    "date": "2026-07-18",
+    "name": "Chen Gang",
+    "country": "中国",
+    "age": 91,
+    "source": "m.163",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-07-16-133",
+    "date": "2026-07-16",
+    "name": "谢贤",
+    "country": "中国",
+    "age": 89,
+    "source": "腾讯新闻",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260716-chiang-c-mei",
+    "date": "2026-07-16",
+    "name": "梅强中",
+    "country": "美国;中国;中国台湾",
+    "age": 91,
+    "source": "joycefuneralhome",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-07-15-132",
+    "date": "2026-07-15",
+    "name": "沙玉华",
+    "country": "中国",
+    "age": 95,
+    "source": "南方娱乐网",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260715-ackbar-abbas",
+    "date": "2026-07-15",
+    "name": "Ackbar Abbas",
+    "country": "中国",
+    "age": 84,
+    "source": "p-articles",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-07-13-131",
+    "date": "2026-07-13",
+    "name": "施南生",
+    "country": "中国",
+    "age": 75,
+    "source": "南方娱乐网",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260713-nansun-shi",
+    "date": "2026-07-13",
+    "name": "施南生",
+    "country": "英国;中国",
+    "age": 74,
+    "source": "hk01",
+    "verified": "auto",
+    "missingFields": [
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-07-12-130",
+    "date": "2026-07-12",
+    "name": "王连洲",
+    "country": "中国",
+    "age": 87,
+    "source": "南方娱乐网",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260710-chua-mia-tee",
+    "date": "2026-07-10",
+    "name": "Chua Mia Tee",
+    "country": "中国",
+    "age": 94,
+    "source": "straitstimes",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-07-05-李崇善",
+    "date": "2026-07-05",
+    "name": "李崇善",
+    "country": "中国",
+    "age": 86,
+    "source": "北京京剧院讣告、中新社、川观新闻",
+    "verified": "added",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-07-03-128",
+    "date": "2026-07-03",
+    "name": "刘海珊",
+    "country": "中国",
+    "age": 93,
+    "source": "南方娱乐网",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-07-02-127",
+    "date": "2026-07-02",
+    "name": "沈之荃",
+    "country": "中国",
+    "age": 95,
+    "source": "浙江大学",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-07-01-梁珊",
+    "date": "2026-07-01",
+    "name": "梁珊",
+    "country": "中国",
+    "age": 81,
+    "source": "中国新闻网、澎湃新闻、香港商报",
+    "verified": "added",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260701-william-poon",
+    "date": "2026-07-01",
+    "name": "William Poon",
+    "country": "英国;中国;瑞士",
+    "age": 81,
+    "source": "restaurantonline",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-06-30-应宝麟",
+    "date": "2026-06-30",
+    "name": "应宝麟",
+    "country": "中国",
+    "age": 82,
+    "source": "《陈翔六点半》官方发布／南方都市报、光明网",
+    "verified": "added",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-06-27-于小华",
+    "date": "2026-06-27",
+    "name": "于小华",
+    "country": "中国香港",
+    "age": 78,
+    "source": "TVB 国语配音组业内确认／都市快报、新民晚报",
+    "verified": "added",
+    "missingFields": [
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-06-26-125",
+    "date": "2026-06-26",
+    "name": "崔崑",
+    "country": "中国",
+    "age": 101,
+    "source": "华中科技大学讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-06-26-126",
+    "date": "2026-06-26",
+    "name": "王洛林",
+    "country": "中国",
+    "age": 88,
+    "source": "界面新闻",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260626-alain-roux-historian",
+    "date": "2026-06-26",
+    "name": "Alain Roux",
+    "country": "中国;法国",
+    "age": 91,
+    "source": "afec.hypotheses",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260626-cui-kun",
+    "date": "2026-06-26",
+    "name": "崔昆",
+    "country": "中国",
+    "age": 100,
+    "source": "thepaper.cn",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260626-wang-luolin",
+    "date": "2026-06-26",
+    "name": "王洛林",
+    "country": "中国",
+    "age": 88,
+    "source": "cj.sina.cn",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-06-25-万绍芬",
+    "date": "2026-06-25",
+    "name": "万绍芬",
+    "country": "中国",
+    "age": 96,
+    "source": "新华社讣告／人民日报",
+    "verified": "added",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-06-25-李凤英",
+    "date": "2026-06-25",
+    "name": "李凤英",
+    "country": "中国",
+    "age": 77,
+    "source": "家属及同剧组演员祭文／环球网、南方都市报",
+    "verified": "added",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-06-25-苗金凤",
+    "date": "2026-06-25",
+    "name": "苗金凤",
+    "country": "中国香港",
+    "age": 80,
+    "source": "家属委托田启文公布／中国新闻网、香港商报",
+    "verified": "added",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260625-wan-shaofen",
+    "date": "2026-06-25",
+    "name": "万绍芬",
+    "country": "中国",
+    "age": 95,
+    "source": "bjnews.com.cn",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260616-bill-poon",
+    "date": "2026-06-16",
+    "name": "Bill Poon",
+    "country": "英国;中国",
+    "age": 81,
+    "source": "thestaffcanteen",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-06-13-123",
+    "date": "2026-06-13",
+    "name": "张克芃",
+    "country": "中国",
+    "age": 54,
+    "source": "黑豹乐队官方讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-06-12-122",
+    "date": "2026-06-12",
+    "name": "陈敏儿",
+    "country": "中国",
+    "age": 65,
+    "source": "港媒",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260611-chope-paljor-tsering",
+    "date": "2026-06-11",
+    "name": "Chope Paljor Tsering",
+    "country": "中国",
+    "age": 77,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260611-william-c-w-mow",
+    "date": "2026-06-11",
+    "name": "William C. W. Mow",
+    "country": "美国;中国",
+    "age": 90,
+    "source": "legacy",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260610-ren-yanshen",
+    "date": "2026-06-10",
+    "name": "Ren Yanshen",
+    "country": "中国",
+    "age": 80,
+    "source": "thepaper.cn",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-06-09-吴文忻",
+    "date": "2026-06-09",
+    "name": "吴文忻",
+    "country": "中国香港",
+    "age": 51,
+    "source": "家属及好友发布的讣告／中国新闻网、香港文汇网",
+    "verified": "added",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260609-natalie-ng",
+    "date": "2026-06-09",
+    "name": "吴文忻",
+    "country": "中国香港",
+    "age": 51,
+    "source": "cnalifestyle.channelnewsasia",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260609-wu-wenxin",
+    "date": "2026-06-09",
+    "name": "吴文忻",
+    "country": "中国",
+    "age": 51,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-06-08-周爱卿",
+    "date": "2026-06-08",
+    "name": "周爱卿",
+    "country": "中国",
+    "age": 89,
+    "source": "上海交通大学医学院附属新华医院讣告",
+    "verified": "added",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-06-06-张治中",
+    "date": "2026-06-06",
+    "name": "张治中",
+    "country": "中国",
+    "age": 70,
+    "source": "山西省话剧院讣告／澎湃新闻、光明网",
+    "verified": "added",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260604-jin-ze",
+    "date": "2026-06-04",
+    "name": "金泽",
+    "country": "中国",
+    "age": 33,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260604-jin-ze-p1655777",
+    "date": "2026-06-04",
+    "name": "Jin Ze",
+    "country": "中国",
+    "age": 33,
+    "source": "finance.sina.cn",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260604-zhang-jiawei",
+    "date": "2026-06-04",
+    "name": "Zhang Jiawei",
+    "country": "中国",
+    "age": 33,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-06-03-121",
+    "date": "2026-06-03",
+    "name": "钟景辉",
+    "country": "中国",
+    "age": 89,
+    "source": "港媒 / 界面新闻",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260603-chung-king-fai",
+    "date": "2026-06-03",
+    "name": "钟景辉",
+    "country": "中国",
+    "age": 89,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-06-01-魏宗万",
+    "date": "2026-06-01",
+    "name": "魏宗万",
+    "country": "中国",
+    "age": 89,
+    "source": "上海话剧艺术中心讣告／人民日报、澎湃新闻",
+    "verified": "added",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260601-wei-zongwan",
+    "date": "2026-06-01",
+    "name": "魏宗万",
+    "country": "中国",
+    "age": 87,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-05-31-120",
+    "date": "2026-05-31",
+    "name": "顾诵芬",
+    "country": "中国",
+    "age": 96,
+    "source": "新华社",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-05-31-陈宝存",
+    "date": "2026-05-31",
+    "name": "陈宝存",
+    "country": "中国澳门",
+    "age": 89,
+    "source": "天主教澳门教区讣告、教区《号角报》",
+    "verified": "added",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260531-gu-songfen",
+    "date": "2026-05-31",
+    "name": "顾诵芬",
+    "country": "中国",
+    "age": 96,
+    "source": "sastind.gov.cn",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "已补全（官方讣告核验）",
+    "officialObituary": true
+  },
+  {
+    "id": "20260531-ru-chih-chow-huang",
+    "date": "2026-05-31",
+    "name": "黄周汝吉",
+    "country": "美国;中国台湾",
+    "age": 94,
+    "source": "hub.jhu.edu",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-05-30-郑琇月",
+    "date": "2026-05-30",
+    "name": "郑琇月",
+    "country": "中国台湾",
+    "age": 69,
+    "source": "杨贵媚、龙千玉社交媒体证实，三立、中时、TVBS 报道",
+    "verified": "added",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-05-29-刘洵",
+    "date": "2026-05-29",
+    "name": "刘洵",
+    "country": "中国香港",
+    "age": 87,
+    "source": "罗家英社交媒体讣告、香港演艺学院背景资料",
+    "verified": "added",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-05-29-刘红梅",
+    "date": "2026-05-29",
+    "name": "刘红梅",
+    "country": "中国",
+    "age": 61,
+    "source": "中央戏剧学院官网资料、北青娱见、澎湃新闻",
+    "verified": "added",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-05-28-118",
+    "date": "2026-05-28",
+    "name": "安云武",
+    "country": "中国",
+    "age": 78,
+    "source": "北京京剧院 / 极目新闻",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260528-an-yunwu",
+    "date": "2026-05-28",
+    "name": "安云武",
+    "country": "中国",
+    "age": 78,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-05-26-尹衍樑",
+    "date": "2026-05-26",
+    "name": "尹衍樑",
+    "country": "中国台湾",
+    "age": 76,
+    "source": "润泰集团声明、北京大学光华管理学院讣告",
+    "verified": "added",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260525-timothy-yang",
+    "date": "2026-05-25",
+    "name": "杨进添",
+    "country": "爱尔兰;中国台湾",
+    "age": 83,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260524-liu-zaifu",
+    "date": "2026-05-24",
+    "name": "刘再复",
+    "country": "中国",
+    "age": 84,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260524-samuel-tak-lee",
+    "date": "2026-05-24",
+    "name": "李德义",
+    "country": "中国",
+    "age": 87,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260521-mary-ellen-edmunds",
+    "date": "2026-05-21",
+    "name": "Mary Ellen Edmunds",
+    "country": "美国;中国台湾",
+    "age": 86,
+    "source": "deseret",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260519-jacqui-chan",
+    "date": "2026-05-19",
+    "name": "Jacqui Chan",
+    "country": "中国",
+    "age": 91,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260515-nelson-wang",
+    "date": "2026-05-15",
+    "name": "黄玉堂",
+    "country": "中国;印度",
+    "age": 75,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-05-10-李继熊",
+    "date": "2026-05-10",
+    "name": "李继熊",
+    "country": "中国",
+    "age": 95,
+    "source": "中央财经大学保险学院、中国精算研究院讣告",
+    "verified": "added",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-05-09-116",
+    "date": "2026-05-09",
+    "name": "苏哲子",
+    "country": "中国",
+    "age": 90,
+    "source": "中国兵器工业集团讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-05-07-115",
+    "date": "2026-05-07",
+    "name": "因葵",
+    "country": "中国",
+    "age": 60,
+    "source": "香港01",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260507-bede-liu",
+    "date": "2026-05-07",
+    "name": "刘必治",
+    "country": "美国;中国;中国台湾",
+    "age": 91,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260507-wang-yongguo",
+    "date": "2026-05-07",
+    "name": "Wang Yongguo",
+    "country": "中国;中国台湾",
+    "age": 87,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260507-zhang-anjian",
+    "date": "2026-05-07",
+    "name": "Zhang Anjian",
+    "country": "中国",
+    "age": 55,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-05-06-114",
+    "date": "2026-05-06",
+    "name": "陈毓川",
+    "country": "中国",
+    "age": 92,
+    "source": "中国地质科学院讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-05-02-117",
+    "date": "2026-05-02",
+    "name": "谷薇丽",
+    "country": "中国",
+    "age": 73,
+    "source": "香港01",
+    "verified": "corrected",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260502-peter-r-moody-jr",
+    "date": "2026-05-02",
+    "name": "Peter R. Moody Jr.",
+    "country": "美国;中国",
+    "age": 82,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260429-bai-jingfu",
+    "date": "2026-04-29",
+    "name": "白景富",
+    "country": "中国",
+    "age": 80,
+    "source": "finance.sina.com.cn",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260425-george-c-tiao",
+    "date": "2026-04-25",
+    "name": "George C. Tiao",
+    "country": "美国;中国台湾",
+    "age": 92,
+    "source": "www3.stat.sinica.edu.tw",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-04-24-113",
+    "date": "2026-04-24",
+    "name": "吴咸中",
+    "country": "中国",
+    "age": 101,
+    "source": "中国医学科学院",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-04-22-黄毅诚",
+    "date": "2026-04-22",
+    "name": "黄毅诚",
+    "country": "中国",
+    "age": 99,
+    "source": "新华社（4 月 30 日发布）、人民日报、澎湃新闻",
+    "verified": "added",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260420-li-daoyu",
+    "date": "2026-04-20",
+    "name": "李道豫",
+    "country": "中国",
+    "age": 93,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-04-19-112",
+    "date": "2026-04-19",
+    "name": "戴汝为",
+    "country": "中国",
+    "age": 94,
+    "source": "中科院自动化所讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-04-18-111",
+    "date": "2026-04-18",
+    "name": "叶君",
+    "country": "中国",
+    "age": 43,
+    "source": "清华大学影视传播研究中心讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260418-lai-cheng-ying",
+    "date": "2026-04-18",
+    "name": "赖成英",
+    "country": "中国台湾",
+    "age": 94,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-04-17-110",
+    "date": "2026-04-17",
+    "name": "刘庭尧",
+    "country": "中国",
+    "age": 90,
+    "source": "媒体讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-04-15-109",
+    "date": "2026-04-15",
+    "name": "江图",
+    "country": "中国",
+    "age": 89,
+    "source": "香港01",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260415-mark-mobius",
+    "date": "2026-04-15",
+    "name": "Mark Mobius American-born German businessman",
+    "country": "美国;德国;中国台湾",
+    "age": 89,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260414-franklin-f-kuo",
+    "date": "2026-04-14",
+    "name": "Franklin F. Kuo Chinese-born American computer scientist and academic",
+    "country": "美国;中国",
+    "age": 91,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-04-13-108",
+    "date": "2026-04-13",
+    "name": "冯煜芳",
+    "country": "中国",
+    "age": 63,
+    "source": "网易新闻汇编",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260413-feng-yufang",
+    "date": "2026-04-13",
+    "name": "冯煜芳",
+    "country": "中国",
+    "age": 63,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-04-11-郭道晖",
+    "date": "2026-04-11",
+    "name": "郭道晖",
+    "country": "中国",
+    "age": 98,
+    "source": "中国法学会讣告、新华社、澎湃新闻、南方周末",
+    "verified": "added",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-04-10-103",
+    "date": "2026-04-10",
+    "name": "温成林",
+    "country": "中国",
+    "age": 62,
+    "source": "中广联电视剧导演委员会讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-04-10-104",
+    "date": "2026-04-10",
+    "name": "郑振邦",
+    "country": "中国",
+    "age": null,
+    "source": "香港01",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260408-koo-sze-yiu",
+    "date": "2026-04-08",
+    "name": "古思尧",
+    "country": "中国",
+    "age": 80,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-04-06-099",
+    "date": "2026-04-06",
+    "name": "刘玉清",
+    "country": "中国",
+    "age": 103,
+    "source": "中国医学科学院阜外医院讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260406-yangling-dorje",
+    "date": "2026-04-06",
+    "name": "杨岭多吉",
+    "country": "中国",
+    "age": 95,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-04-05-陈丽华",
+    "date": "2026-04-05",
+    "name": "陈丽华",
+    "country": "中国",
+    "age": 85,
+    "source": "富华国际集团、北京侨商会讣告，新华社、澎湃新闻、光明网",
+    "verified": "added",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260405-chen-lihua",
+    "date": "2026-04-05",
+    "name": "陈丽华",
+    "country": "中国",
+    "age": 85,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-04-04-郑小娟",
+    "date": "2026-04-04",
+    "name": "郑小娟",
+    "country": "中国",
+    "age": 86,
+    "source": "湖南省美术家协会讣告、湖南日报、环球网",
+    "verified": "added",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260404-gian-carlo-michelini",
+    "date": "2026-04-04",
+    "name": "Gian Carlo Michelini Italian-Taiwanese Roman Catholic priest and artistic director, co-founder of YICFFF",
+    "country": "意大利;中国台湾",
+    "age": 90,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260404-ling-liong-sik",
+    "date": "2026-04-04",
+    "name": "林良实",
+    "country": "中国;马来西亚",
+    "age": 82,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-04-03-李道瑜",
+    "date": "2026-04-03",
+    "name": "李道瑜",
+    "country": "中国",
+    "age": 71,
+    "source": "光明网、澎湃新闻、星洲网、明报（经田启文核实）",
+    "verified": "added",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260327-henry-lee-forensic-scientist",
+    "date": "2026-03-27",
+    "name": "Henry Lee Taiwanese-American forensic scientist and biochemist",
+    "country": "美国;中国;中国台湾",
+    "age": 87,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260327-lin-yuan-lang",
+    "date": "2026-03-27",
+    "name": "林源朗",
+    "country": "中国;中国台湾",
+    "age": 85,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-03-25-095",
+    "date": "2026-03-25",
+    "name": "李幼平",
+    "country": "中国",
+    "age": 91,
+    "source": "中国工程物理研究院讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-03-24-093",
+    "date": "2026-03-24",
+    "name": "魏正耀",
+    "country": "中国",
+    "age": 90,
+    "source": "中国工程院讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-03-23-091",
+    "date": "2026-03-23",
+    "name": "吴德馨",
+    "country": "中国",
+    "age": 90,
+    "source": "中科院微电子所讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260323-wu-dexin",
+    "date": "2026-03-23",
+    "name": "吴德馨",
+    "country": "中国",
+    "age": 89,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-03-20-088",
+    "date": "2026-03-20",
+    "name": "孙玉",
+    "country": "中国",
+    "age": 89,
+    "source": "中国电科五十四所讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260320-agosto-machado",
+    "date": "2026-03-20",
+    "name": "Agosto Machado American performance artist dies",
+    "country": "美国;中国;葡萄牙",
+    "age": null,
+    "source": "ARTnews",
+    "verified": "auto",
+    "missingFields": [
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260315-yuk-l-yung",
+    "date": "2026-03-15",
+    "name": "翁玉林",
+    "country": "美国;中国",
+    "age": 79,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260312-donald-liao",
+    "date": "2026-03-12",
+    "name": "廖本怀",
+    "country": "中国;中国台湾",
+    "age": 96,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260311-keith-ingham",
+    "date": "2026-03-11",
+    "name": "Keith Ingham English jazz pianist",
+    "country": "中国;英国",
+    "age": 88,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260310-wang-jinshan",
+    "date": "2026-03-10",
+    "name": "王金山",
+    "country": "中国",
+    "age": 81,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-03-05-076",
+    "date": "2026-03-05",
+    "name": "熊大闰",
+    "country": "中国",
+    "age": 88,
+    "source": "中科院紫金山天文台讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260304-song-ping",
+    "date": "2026-03-04",
+    "name": "宋平",
+    "country": "中国",
+    "age": 108,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "已补全（官方讣告核验）",
+    "officialObituary": true
+  },
+  {
+    "id": "20260302-alice-chien-chang",
+    "date": "2026-03-02",
+    "name": "Alice Chien Chang Taiwanese molecular biologist and neuroscientist",
+    "country": "中国台湾",
+    "age": 75,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260301-gao-mingxuan",
+    "date": "2026-03-01",
+    "name": "Gao Mingxuan",
+    "country": "中国",
+    "age": 97,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-02-27-067",
+    "date": "2026-02-27",
+    "name": "周尔均",
+    "country": "中国",
+    "age": 93,
+    "source": "新京报",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-02-27-068",
+    "date": "2026-02-27",
+    "name": "姜中宏",
+    "country": "中国",
+    "age": 95,
+    "source": "中科院上海光机所讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-02-27-070",
+    "date": "2026-02-27",
+    "name": "方岱宁",
+    "country": "中国",
+    "age": 68,
+    "source": "中国科学院学部",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-02-27-071",
+    "date": "2026-02-27",
+    "name": "沈渔邨",
+    "country": "中国",
+    "age": 102,
+    "source": "北京大学第六医院讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-02-26-066",
+    "date": "2026-02-26",
+    "name": "高铭暄",
+    "country": "中国",
+    "age": 98,
+    "source": "今日头条盘点汇编",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-02-24-064",
+    "date": "2026-02-24",
+    "name": "游飚",
+    "country": "中国",
+    "age": 57,
+    "source": "今日头条盘点汇编",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260222-fan-tsung-pei",
+    "date": "2026-02-22",
+    "name": "Fan Tsung-pei Taiwanese cellist and composer",
+    "country": "中国;中国台湾",
+    "age": 65,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260220-lee-yi-ting",
+    "date": "2026-02-20",
+    "name": "李乙廷",
+    "country": "中国;中国台湾",
+    "age": 71,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-02-19-058",
+    "date": "2026-02-19",
+    "name": "周炳琨",
+    "country": "中国",
+    "age": 90,
+    "source": "清华大学讣告",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260216-king-liu",
+    "date": "2026-02-16",
+    "name": "刘金标",
+    "country": "中国;中国台湾",
+    "age": 91,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260212-alfred-chen",
+    "date": "2026-02-12",
+    "name": "陈飞龙",
+    "country": "中国;中国台湾",
+    "age": 88,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260211-wai-kee-shun",
+    "date": "2026-02-11",
+    "name": "Wai Kee-shun Hong Kong newspaper proprietor",
+    "country": "中国",
+    "age": 92,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-02-08-048",
+    "date": "2026-02-08",
+    "name": "张中一",
+    "country": "中国",
+    "age": 74,
+    "source": "多家媒体",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260208-chen-bangzhu",
+    "date": "2026-02-08",
+    "name": "陈邦柱",
+    "country": "中国",
+    "age": 91,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260207-shao-yu-ming",
+    "date": "2026-02-07",
+    "name": "Shao Yu-ming Historian",
+    "country": "中国;中国台湾",
+    "age": 87,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260204-marie-woo",
+    "date": "2026-02-04",
+    "name": "Marie Woo Ceramicist",
+    "country": "美国;中国",
+    "age": 97,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260203-peng-qingyi",
+    "date": "2026-02-03",
+    "name": "Peng Qingyi",
+    "country": "中国",
+    "age": 94,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260203-wei-wenbin",
+    "date": "2026-02-03",
+    "name": "Wei Wenbin",
+    "country": "中国",
+    "age": 76,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-02-02-044",
+    "date": "2026-02-02",
+    "name": "袁惟仁",
+    "country": "中国",
+    "age": 57,
+    "source": "今日头条盘点汇编",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260202-yuan-wei-jen",
+    "date": "2026-02-02",
+    "name": "袁惟仁",
+    "country": "中国;中国台湾",
+    "age": 57,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-01-28-041",
+    "date": "2026-01-28",
+    "name": "董韫美",
+    "country": "中国",
+    "age": 90,
+    "source": "澎湃新闻",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-01-25-039",
+    "date": "2026-01-25",
+    "name": "李未",
+    "country": "中国",
+    "age": 82,
+    "source": "中国科协已故院士名录",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260125-li-wei-computer-scientist",
+    "date": "2026-01-25",
+    "name": "Li Wei Chinese computer scientist",
+    "country": "中国",
+    "age": 82,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260125-liao-xilong",
+    "date": "2026-01-25",
+    "name": "廖锡龙",
+    "country": "中国",
+    "age": 85,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "已补全（官方讣告核验）",
+    "officialObituary": true
+  },
+  {
+    "id": "2026-01-24-037",
+    "date": "2026-01-24",
+    "name": "孙燕",
+    "country": "中国",
+    "age": 96,
+    "source": "中国科协已故院士名录",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-01-19-033",
+    "date": "2026-01-19",
+    "name": "丁国瑜",
+    "country": "中国",
+    "age": 95,
+    "source": "中国科协已故院士名录",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-01-19-034",
+    "date": "2026-01-19",
+    "name": "杨振华",
+    "country": "中国",
+    "age": 90,
+    "source": "维基百科逝世人物列表",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260119-gao-dezhan",
+    "date": "2026-01-19",
+    "name": "高德占",
+    "country": "中国",
+    "age": 93,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260119-liang-dongcai",
+    "date": "2026-01-19",
+    "name": "梁栋材",
+    "country": "中国",
+    "age": 93,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-01-18-032",
+    "date": "2026-01-18",
+    "name": "梁栋材",
+    "country": "中国",
+    "age": 94,
+    "source": "中国科协已故院士名录",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "已补全（官方讣告核验）",
+    "officialObituary": true
+  },
+  {
+    "id": "2026-01-17-030",
+    "date": "2026-01-17",
+    "name": "魏宝文",
+    "country": "中国",
+    "age": 91,
+    "source": "中国科协已故院士名录",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-01-17-031",
+    "date": "2026-01-17",
+    "name": "龚知本",
+    "country": "中国",
+    "age": 91,
+    "source": "中国科协已故院士名录",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260117-wei-fulin",
+    "date": "2026-01-17",
+    "name": "隗福临",
+    "country": "中国",
+    "age": 87,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-01-15-026",
+    "date": "2026-01-15",
+    "name": "陶玉玲",
+    "country": "中国",
+    "age": 91,
+    "source": "维基百科逝世人物列表",
+    "verified": "corrected",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260115-nie-weiping",
+    "date": "2026-01-15",
+    "name": "聂卫平",
+    "country": "中国",
+    "age": 73,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-01-14-022",
+    "date": "2026-01-14",
+    "name": "左铁镛",
+    "country": "中国",
+    "age": 90,
+    "source": "中国科协已故院士名录",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-01-14-023",
+    "date": "2026-01-14",
+    "name": "梁小龙",
+    "country": "中国",
+    "age": 75,
+    "source": "多家媒体",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "wikipedia",
+      "portrait"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-01-14-024",
+    "date": "2026-01-14",
+    "name": "聂卫平",
+    "country": "中国",
+    "age": 74,
+    "source": "多家媒体",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "已补全（官方讣告核验）",
+    "officialObituary": true
+  },
+  {
+    "id": "20260112-lu-kejian",
+    "date": "2026-01-12",
+    "name": "卢克俭",
+    "country": "中国",
+    "age": 93,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-01-10-016",
+    "date": "2026-01-10",
+    "name": "赵学煌",
+    "country": "中国",
+    "age": 69,
+    "source": "维基百科逝世人物列表",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260110-ang-ziming",
+    "date": "2026-01-10",
+    "name": "Ang Ziming",
+    "country": "中国",
+    "age": 65,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260110-dong-xiaoping",
+    "date": "2026-01-10",
+    "name": "Dong Xiaoping",
+    "country": "中国",
+    "age": 75,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260110-huang-dongbi",
+    "date": "2026-01-10",
+    "name": "Huang Dongbi",
+    "country": "中国",
+    "age": 86,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260110-jian-shuisheng",
+    "date": "2026-01-10",
+    "name": "Jian Shuisheng",
+    "country": "中国",
+    "age": 96,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260110-lin-chaoqiang",
+    "date": "2026-01-10",
+    "name": "Lin Chaoqiang",
+    "country": "中国",
+    "age": 92,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260110-wu-lintao",
+    "date": "2026-01-10",
+    "name": "Wu Lintao",
+    "country": "中国",
+    "age": 105,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260110-zhang-kerang",
+    "date": "2026-01-10",
+    "name": "Zhang Kerang",
+    "country": "中国",
+    "age": 78,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260110-zhang-shaokang",
+    "date": "2026-01-10",
+    "name": "Zhang Shaokang",
+    "country": "中国",
+    "age": 90,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260110-zhou-liwei",
+    "date": "2026-01-10",
+    "name": "Zhou Liwei",
+    "country": "中国",
+    "age": 94,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-01-08-012",
+    "date": "2026-01-08",
+    "name": "简水生",
+    "country": "中国",
+    "age": 97,
+    "source": "中国科协已故院士名录",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-01-06-009",
+    "date": "2026-01-06",
+    "name": "周立伟",
+    "country": "中国",
+    "age": 94,
+    "source": "中国科协已故院士名录",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260105-wang-zheng",
+    "date": "2026-01-05",
+    "name": "Wang Zheng",
+    "country": "中国",
+    "age": 64,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260105-xiao-zhuang",
+    "date": "2026-01-05",
+    "name": "Xiao Zhuang",
+    "country": "中国",
+    "age": 93,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "20260103-wang-zheng-vice-admiral",
+    "date": "2026-01-03",
+    "name": "Wang Zheng Chinese vice admiral",
+    "country": "中国",
+    "age": 64,
+    "source": "",
+    "verified": "auto",
+    "missingFields": [
+      "source",
+      "causeOfDeath",
+      "wikipedia",
+      "portrait",
+      "summary",
+      "bio",
+      "facts"
+    ],
+    "priority": "高",
+    "status": "待检索",
+    "officialObituary": false
+  },
+  {
+    "id": "2026-01-01-003",
+    "date": "2026-01-01",
+    "name": "袁祥仁",
+    "country": "中国",
+    "age": 69,
+    "source": "维基百科逝世人物列表",
+    "verified": "confirmed",
+    "missingFields": [
+      "nameOrig",
+      "causeOfDeath",
+      "wikipedia"
+    ],
+    "priority": "中",
+    "status": "待检索",
+    "officialObituary": false
+  }
+]

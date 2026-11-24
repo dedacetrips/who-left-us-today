@@ -1,0 +1,541 @@
+{
+  "generatedAt": "2026-11-25T05:52:58",
+  "rule": "仅写入经国内官方讣告核验的字段；原文有值但不冲突的内容不覆盖；冲突时以官方讣告为准。",
+  "records": [
+    {
+      "id": "20261107-yan-zhen",
+      "name": "严阵",
+      "source": "中国作家网（中国作家协会）",
+      "urls": [
+        "https://image.chinawriter.com.cn/n1/2026/1109/c403981-40830497.html"
+      ],
+      "before": {
+        "date": "2026-11-07",
+        "age": 96,
+        "source": "news.china",
+        "identity": "Yan Zhen, Chinese poet.",
+        "causeOfDeath": null
+      },
+      "after": {
+        "date": "2026-11-07",
+        "age": 96,
+        "source": "中国作家网（中国作家协会）",
+        "identity": "诗人、作家、画家 · 安徽省作家协会原主席",
+        "causeOfDeath": "疾病（未详）",
+        "causeCategory": "疾病",
+        "verified": "confirmed"
+      },
+      "changedFields": [
+        "identity",
+        "summary",
+        "bio",
+        "facts",
+        "source",
+        "causeOfDeath",
+        "causeCategory",
+        "verified"
+      ],
+      "evidence": "中国作家网：『因病医治无效，于2026年11月7日在京逝世，享年96岁』。"
+    },
+    {
+      "id": "20261028-liu-yandong",
+      "name": "刘延东",
+      "source": "新华社 / 央视网（生平）",
+      "urls": [
+        "https://news.cctv.com/2026/11/03/ARTI5fA8w8ps4xQJ5xF9tlpZ261103.shtml",
+        "https://tv.cctv.com/2026/10/28/VIDEVKLoU7kNFZuwtANWsApc261028.shtml"
+      ],
+      "before": {
+        "date": "2026-10-28",
+        "age": 80,
+        "source": "reuters",
+        "identity": "Liu Yandong, Chinese politician, vice premier.",
+        "causeOfDeath": null
+      },
+      "after": {
+        "date": "2026-10-28",
+        "age": 81,
+        "source": "新华社 / 央视网（生平）",
+        "identity": "国务院原副总理 · 全国政协原副主席",
+        "causeOfDeath": "疾病（未详）",
+        "causeCategory": "疾病",
+        "verified": "confirmed"
+      },
+      "changedFields": [
+        "identity",
+        "summary",
+        "bio",
+        "facts",
+        "source",
+        "age",
+        "causeOfDeath",
+        "causeCategory",
+        "verified"
+      ],
+      "evidence": "央视网/新华社：『因病于2026年10月28日14时53分在北京逝世，享年81岁』。原表享年80岁，已更正。"
+    },
+    {
+      "id": "20260812-zhu-rongji",
+      "name": "朱镕基",
+      "source": "中国政府网 / 新华社",
+      "urls": [
+        "https://www.gov.cn/yaowen/liebiao/202608/content_7078460.htm",
+        "https://news.cctv.cn/2026/08/12/ARTICIO8BOZ5Pe4DZFicZPoa260812.shtml"
+      ],
+      "before": {
+        "date": "2026-08-12",
+        "age": 97,
+        "source": "AP News / Reuters / reuters",
+        "identity": "Zhu Rongji, Electrical engineer.",
+        "causeOfDeath": null
+      },
+      "after": {
+        "date": "2026-08-12",
+        "age": 98,
+        "source": "中国政府网 / 新华社",
+        "identity": "国务院原总理",
+        "causeOfDeath": "疾病（未详）",
+        "causeCategory": "疾病",
+        "verified": "confirmed"
+      },
+      "changedFields": [
+        "identity",
+        "summary",
+        "bio",
+        "facts",
+        "source",
+        "age",
+        "causeOfDeath",
+        "causeCategory",
+        "verified"
+      ],
+      "evidence": "中国政府网/新华社：『因病于2026年8月12日11时06分在北京逝世，享年98岁』。原表享年97岁，已更正。"
+    },
+    {
+      "id": "20260304-song-ping",
+      "name": "宋平",
+      "source": "新华社 / 人民网",
+      "urls": [
+        "https://politics.people.com.cn/n1/2026/0305/c1001-40674889.html"
+      ],
+      "before": {
+        "date": "2026-03-04",
+        "age": 108,
+        "source": "",
+        "identity": "Song Ping, a Chinese politician and Communist revolutionary, died on March 4, 2026. He was a member of the Politburo Standing Committee and was considered the last living member of the second generation of CCP leadership. Born on April 24, 1917, in Ju County, Shandong, he entered school at age nine and later studied at Peking University and Tsinghua University. During his time at Tsinghua, he took part in the December 9th Movement and joined a CCP-led patriotic student organization in 1936.",
+        "causeOfDeath": null
+      },
+      "after": {
+        "date": "2026-03-04",
+        "age": 109,
+        "source": "新华社 / 人民网",
+        "identity": "中共中央政治局原常委 · 原国务委员",
+        "causeOfDeath": "疾病（未详）",
+        "causeCategory": "疾病",
+        "verified": "confirmed"
+      },
+      "changedFields": [
+        "identity",
+        "summary",
+        "bio",
+        "facts",
+        "source",
+        "age",
+        "causeOfDeath",
+        "causeCategory",
+        "verified"
+      ],
+      "evidence": "新华社/人民日报：『因病医治无效，于2026年3月4日15时36分在北京逝世，享年109岁』。原表享年108岁，已更正。"
+    },
+    {
+      "id": "20260531-gu-songfen",
+      "name": "顾诵芬",
+      "source": "新华社 / 央视新闻",
+      "urls": [
+        "https://www.news.cn/politics/20260601/286384cc49794a60892151bd1ecd3857/c.html"
+      ],
+      "before": {
+        "date": "2026-05-31",
+        "age": 96,
+        "source": "sastind.gov.cn",
+        "identity": "Gu Songfen, Chinese aircraft designer, the Chinese Academy of Sciences and Chinese Academy of Engineering.",
+        "causeOfDeath": null
+      },
+      "after": {
+        "date": "2026-05-31",
+        "age": 96,
+        "source": "新华社 / 央视新闻",
+        "identity": "飞机空气动力学家 · 两院院士 ·「歼-8之父」",
+        "causeOfDeath": "疾病（未详）",
+        "causeCategory": "疾病",
+        "verified": "confirmed"
+      },
+      "changedFields": [
+        "identity",
+        "summary",
+        "bio",
+        "facts",
+        "source",
+        "causeOfDeath",
+        "causeCategory",
+        "verified"
+      ],
+      "evidence": "新华社：『于2026年5月31日21时11分因病医治无效，在北京逝世，享年96岁』。"
+    },
+    {
+      "id": "20260812-wang-xiji",
+      "name": "王希季",
+      "source": "新华社 / 人民网（科技日报）",
+      "urls": [
+        "https://edu.people.com.cn/n1/2026/0814/c1006-40779531.html",
+        "https://people.cctv.com/2026/08/13/ARTIdyMhSkhekCJw1Ch8hrZe260813.shtml"
+      ],
+      "before": {
+        "date": "2026-08-12",
+        "age": 105,
+        "source": "m.thepaper.cn",
+        "identity": "Wang Xiji, Aerospace engineer.",
+        "causeOfDeath": null
+      },
+      "after": {
+        "date": "2026-08-12",
+        "age": 105,
+        "source": "新华社 / 人民网（科技日报）",
+        "identity": "空间技术专家 · 中国科学院院士 ·「两弹一星」功勋奖章获得者",
+        "causeOfDeath": "疾病（未详）",
+        "causeCategory": "疾病",
+        "verified": "confirmed"
+      },
+      "changedFields": [
+        "identity",
+        "summary",
+        "bio",
+        "facts",
+        "source",
+        "causeOfDeath",
+        "causeCategory",
+        "verified"
+      ],
+      "evidence": "新华社/人民网：『因病医治无效，于2026年8月12日在北京逝世，享年105岁』。"
+    },
+    {
+      "id": "20261009-lou-yulie",
+      "name": "楼宇烈",
+      "source": "北京大学哲学系官方讣告 / 光明日报",
+      "urls": [
+        "http://mp.weixin.qq.com/s?__biz=MjM5NTE1OTQyMQ==&mid=2651603976&idx=1&sn=b6b3a505acdced4b7250321ef6681d70"
+      ],
+      "before": {
+        "date": "2026-10-09",
+        "age": 91,
+        "source": "news.bjd.com.cn",
+        "identity": "Lou Yulie, Chinese philosopher.",
+        "causeOfDeath": null
+      },
+      "after": {
+        "date": "2026-10-09",
+        "age": 92,
+        "source": "北京大学哲学系官方讣告 / 光明日报",
+        "identity": "哲学家 · 中国哲学史家 · 北京大学哲学系教授",
+        "causeOfDeath": "疾病（未详）",
+        "causeCategory": "疾病",
+        "verified": "confirmed"
+      },
+      "changedFields": [
+        "identity",
+        "summary",
+        "bio",
+        "facts",
+        "source",
+        "age",
+        "causeOfDeath",
+        "causeCategory",
+        "verified"
+      ],
+      "evidence": "北京大学哲学系讣告：『于2026年10月9日2时18分在北京因病逝世，享年92岁』。原表享年91岁，已更正。"
+    },
+    {
+      "id": "2026-01-14-024",
+      "name": "聂卫平",
+      "source": "新华社 / 人民网",
+      "urls": [
+        "https://politics.people.com.cn/n1/2026/0119/c461001-40647664.html",
+        "https://tv.cctv.com/2026/01/15/VIDEjl1TgiQYDiY8IKAh3ojG260115.shtml"
+      ],
+      "before": {
+        "date": "2026-01-14",
+        "age": 74,
+        "source": "多家媒体",
+        "identity": "围棋九段 · 「棋圣」称号获得者，中国围棋协会名誉主席",
+        "causeOfDeath": null
+      },
+      "after": {
+        "date": "2026-01-14",
+        "age": 74,
+        "source": "新华社 / 人民网",
+        "identity": "围棋九段 ·「棋圣」· 中国围棋协会名誉主席",
+        "causeOfDeath": "疾病（未详）",
+        "causeCategory": "疾病",
+        "verified": "confirmed"
+      },
+      "changedFields": [
+        "identity",
+        "summary",
+        "bio",
+        "facts",
+        "source",
+        "causeOfDeath",
+        "causeCategory"
+      ],
+      "evidence": "新华社/人民日报：『因病于2026年1月14日在北京逝世，享年74岁』。中国围棋协会补充时间为22时55分。"
+    },
+    {
+      "id": "20260125-liao-xilong",
+      "name": "廖锡龙",
+      "source": "新华社 / 人民网",
+      "urls": [
+        "https://cpc.people.com.cn/n1/2026/0130/c64094-40656070.html"
+      ],
+      "before": {
+        "date": "2026-01-25",
+        "age": 85,
+        "source": "",
+        "identity": "Chinese general",
+        "causeOfDeath": null
+      },
+      "after": {
+        "date": "2026-01-23",
+        "age": 85,
+        "source": "新华社 / 人民网",
+        "identity": "中央军委原委员 · 解放军原总后勤部部长 · 上将",
+        "causeOfDeath": "疾病（未详）",
+        "causeCategory": "疾病",
+        "verified": "confirmed"
+      },
+      "changedFields": [
+        "identity",
+        "summary",
+        "bio",
+        "facts",
+        "source",
+        "date",
+        "causeOfDeath",
+        "causeCategory",
+        "verified"
+      ],
+      "evidence": "新华社/人民日报：『因病于2026年1月23日1时50分在北京逝世，享年85岁』。原表日期为2026-01-25，已更正。"
+    },
+    {
+      "id": "2026-01-18-032",
+      "name": "梁栋材",
+      "source": "光明日报 / 中国科学院生物物理研究所",
+      "urls": [
+        "https://news.gmw.cn/2026-01/27/content_38559744.htm"
+      ],
+      "before": {
+        "date": "2026-01-18",
+        "age": 94,
+        "source": "中国科协已故院士名录",
+        "identity": "中国科学院院士 · 分子生物物理学家、蛋白质晶体学开拓者",
+        "causeOfDeath": null
+      },
+      "after": {
+        "date": "2026-01-18",
+        "age": 94,
+        "source": "光明日报 / 中国科学院生物物理研究所",
+        "identity": "分子生物物理学家 · 中国科学院院士",
+        "causeOfDeath": "疾病（未详）",
+        "causeCategory": "疾病",
+        "verified": "confirmed"
+      },
+      "changedFields": [
+        "identity",
+        "summary",
+        "bio",
+        "facts",
+        "source",
+        "causeOfDeath",
+        "causeCategory"
+      ],
+      "evidence": "光明日报：『因病医治无效，于2026年1月18日在北京逝世，享年94岁』。"
+    },
+    {
+      "id": "20260924-you-benchang",
+      "name": "游本昌",
+      "source": "中国国家话剧院 / 央视新闻 / 中国新闻网",
+      "urls": [
+        "https://www.chinanews.com.cn/cul/2026/09-24/10702842.shtml",
+        "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=3584785558137680&source=50006&sub_source=50006_001"
+      ],
+      "before": {
+        "date": "2026-09-24",
+        "age": 93,
+        "source": "global.chinadaily.com.cn",
+        "identity": "You Benchang, Actor.",
+        "causeOfDeath": null
+      },
+      "after": {
+        "date": "2026-09-24",
+        "age": 93,
+        "source": "中国国家话剧院 / 央视新闻 / 中国新闻网",
+        "identity": "表演艺术家 · 一级演员 ·《济公》饰演者",
+        "causeOfDeath": "疾病（未详）",
+        "causeCategory": "疾病",
+        "verified": "confirmed"
+      },
+      "changedFields": [
+        "identity",
+        "summary",
+        "bio",
+        "facts",
+        "source",
+        "causeOfDeath",
+        "causeCategory",
+        "verified"
+      ],
+      "evidence": "央视新闻/中国新闻网：『中国国家话剧院表演艺术家、一级演员游本昌，因病今晨在北京去世』；国家话剧院讣告载明1时40分逝世、享年93岁。"
+    },
+    {
+      "id": "20261007-peng-yu",
+      "name": "彭玉",
+      "source": "中国电视艺术家协会演员工作委员会 / 中国新闻网",
+      "urls": [
+        "https://www.cns.com.cn/cul/2026/10-08/10708994.shtml",
+        "https://www.cnr.cn/newscenter/native/gd/kx/20261008/t20261008_527836108.shtml"
+      ],
+      "before": {
+        "date": "2026-10-07",
+        "age": 92,
+        "source": "news.cn",
+        "identity": "Peng Yu, actress.",
+        "causeOfDeath": null
+      },
+      "after": {
+        "date": "2026-10-07",
+        "age": 93,
+        "source": "中国电视艺术家协会演员工作委员会 / 中国新闻网",
+        "identity": "影视表演艺术家 · 一级演员 ·《东北一家人》“牛大妈”扮演者",
+        "causeOfDeath": null,
+        "causeCategory": null,
+        "verified": "confirmed"
+      },
+      "changedFields": [
+        "identity",
+        "summary",
+        "bio",
+        "facts",
+        "source",
+        "age",
+        "verified"
+      ],
+      "evidence": "中国新闻网/央广网：『于2026年10月7日10时27分在珠海逝世，享年93岁』。原文为“安详离世”，未写明具体病因，故不补死因。原表享年92岁，已更正。"
+    },
+    {
+      "id": "20260811-guo-lanying",
+      "name": "郭兰英",
+      "source": "中国歌剧舞剧院 / 新华社",
+      "urls": [
+        "https://www.news.cn/20260812/996b3687edce4bc89de0d0c9a4985cf9/c.html",
+        "https://xinhuanet.com/20260812/45cf38635b0646338533de6c6aba161d/c.html"
+      ],
+      "before": {
+        "date": "2026-08-11",
+        "age": 96,
+        "source": "zaobao.com.sg",
+        "identity": "Guo Lanying, Singer.",
+        "causeOfDeath": null
+      },
+      "after": {
+        "date": "2026-08-11",
+        "age": 97,
+        "source": "中国歌剧舞剧院 / 新华社",
+        "identity": "歌剧表演艺术家 ·「人民艺术家」国家荣誉称号获得者",
+        "causeOfDeath": "疾病（未详）",
+        "causeCategory": "疾病",
+        "verified": "confirmed"
+      },
+      "changedFields": [
+        "identity",
+        "summary",
+        "bio",
+        "facts",
+        "source",
+        "age",
+        "causeOfDeath",
+        "causeCategory",
+        "verified"
+      ],
+      "evidence": "中国歌剧舞剧院讣告/新华社：『因病于2026年8月11日17时14分在广州逝世，享年97岁』。原表享年96岁，已更正。"
+    },
+    {
+      "id": "20260828-li-weikang",
+      "name": "李维康",
+      "source": "国家京剧院 / 新华社",
+      "urls": [
+        "https://www.xinhuanet.com/politics/20260901/31097f9f457d480a85fdd06dc9b93292/c.html"
+      ],
+      "before": {
+        "date": "2026-08-28",
+        "age": 79,
+        "source": "news.bjd.com.cn",
+        "identity": "Li Weikang, Chinese Peking opera singer.",
+        "causeOfDeath": null
+      },
+      "after": {
+        "date": "2026-08-28",
+        "age": 79,
+        "source": "国家京剧院 / 新华社",
+        "identity": "京剧表演艺术家 · 国家级非遗代表性传承人",
+        "causeOfDeath": "疾病（未详）",
+        "causeCategory": "疾病",
+        "verified": "confirmed"
+      },
+      "changedFields": [
+        "identity",
+        "summary",
+        "bio",
+        "facts",
+        "source",
+        "causeOfDeath",
+        "causeCategory",
+        "verified"
+      ],
+      "evidence": "国家京剧院/央视新闻：『2026年8月28日因病在北京去世，享年79岁』；新华社送别报道确认日期与年龄。"
+    },
+    {
+      "id": "20260825-zheng-fengrong",
+      "name": "郑凤荣",
+      "source": "中国妇女报 / 光明网（官方公众号）",
+      "urls": [
+        "http://mp.weixin.qq.com/s?__biz=MjM5OTYyNzAyMA==&mid=2650457027&idx=1&sn=ed876f1fd0f02fd7d01f924b4f466dba"
+      ],
+      "before": {
+        "date": "2026-08-25",
+        "age": 89,
+        "source": "thepaper.cn",
+        "identity": "Zheng Fengrong, Chinese athlete.",
+        "causeOfDeath": null
+      },
+      "after": {
+        "date": "2026-08-25",
+        "age": 89,
+        "source": "中国妇女报 / 光明网（官方公众号）",
+        "identity": "女子跳高运动员 · 中国田径协会原副主席",
+        "causeOfDeath": "疾病（未详）",
+        "causeCategory": "疾病",
+        "verified": "confirmed"
+      },
+      "changedFields": [
+        "identity",
+        "summary",
+        "bio",
+        "facts",
+        "source",
+        "causeOfDeath",
+        "causeCategory",
+        "verified"
+      ],
+      "evidence": "中国妇女报/光明网官方公众号：『女子跳高名宿、中国田径协会原副主席郑凤荣，于2026年8月25日因病逝世，享年89岁』。"
+    }
+  ]
+}
