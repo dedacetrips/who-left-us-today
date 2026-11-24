@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<title>今天谁离开了我们 · Memento Mori</title>
+<link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBhcmlhLWhpZGRlbj0idHJ1ZSI+PHBhdGggZD0iTTUwLjAwLDU5LjUwIEw0OS4xOSw2MC4yNCBMNDguNzUsNjAuOTcgTDQ4LjM5LDYxLjcxIEw0OC4wOCw2Mi40NSBMNDcuODEsNjMuMTggTDQ3LjU2LDYzLjkyIEw0Ny4zMyw2NC42NSBMNDcuMTMsNjUuMzkgTDQ2Ljk0LDY2LjEyIEw0Ni43Nyw2Ni44NSBMNDYuNjEsNjcuNTggTDQ2LjQ2LDY4LjMxIEw0Ni4zMiw2OS4wNCBMNDYuMTksNjkuNzcgTDQ2LjA3LDcwLjQ5IEw0NS45NSw3MS4yMiBMNDUuODQsNzEuOTQgTDQ1LjczLDcyLjY2IEw0NS42Myw3My4zOCBMNDUuNTIsNzQuMTAgTDQ1LjQyLDc0LjgxIEw0NS4zMiw3NS41MyBMNDUuMjEsNzYuMjUgTDQ1LjEwLDc2Ljk2IEw0NC45OSw3Ny42NyBMNDQuODYsNzguMzggTDQ0Ljc0LDc5LjA5IEw0NC42MCw3OS44MCBMNDQuNDYsODAuNTEgTDQ0LjMwLDgxLjIxIEw0NC4xMyw4MS45MiBMNDMuOTYsODIuNjIgTDQzLjc2LDgzLjMyIEw0My41Niw4NC4wMiBMNDMuMzQsODQuNzEgTDQzLjExLDg1LjQxIEw0Mi44Niw4Ni4xMCBMNDIuNjIsODYuODAgTDQyLjM4LDg3LjUwIEw0Mi4yNSw4OC4yMiBMNDIuMjUsODguMjIgTDQzLjMxLDg3LjY4IEw0NC4xOCw4Ny4wOCBMNDQuOTksODYuNDYgTDQ1Ljc0LDg1LjgyIEw0Ni40NSw4NS4xNyBMNDcuMTEsODQuNTAgTDQ3LjczLDgzLjgyIEw0OC4zMSw4My4xMyBMNDguODYsODIuNDMgTDQ5LjM3LDgxLjcyIEw0OS44NCw4MS4wMSBMNTAuMjgsODAuMjggTDUwLjY5LDc5LjU2IEw1MS4wNiw3OC44MiBMNTEuNDAsNzguMDkgTDUxLjcxLDc3LjM1IEw1MS45OSw3Ni42MSBMNTIuMjMsNzUuODYgTDUyLjQ1LDc1LjExIEw1Mi42NCw3NC4zNyBMNTIuODAsNzMuNjIgTDUyLjkzLDcyLjg3IEw1My4wMyw3Mi4xMiBMNTMuMTAsNzEuMzcgTDUzLjE1LDcwLjYzIEw1My4xNyw2OS44OCBMNTMuMTcsNjkuMTMgTDUzLjEzLDY4LjM5IEw1My4wNyw2Ny42NCBMNTIuOTksNjYuOTAgTDUyLjg4LDY2LjE1IEw1Mi43NCw2NS40MSBMNTIuNTgsNjQuNjcgTDUyLjM4LDYzLjkzIEw1Mi4xNiw2My4xOSBMNTEuOTAsNjIuNDUgTDUxLjYwLDYxLjcxIEw1MS4yNSw2MC45OCBMNTAuODEsNjAuMjQgTDUwLjAwLDU5LjUwIFoiIGZpbGw9IiNmZmYiLz48cGF0aCBkPSJNNDEuNjMsNTQuNTAgTDQwLjYwLDU0LjE0IEwzOS43NCw1NC4xMCBMMzguOTIsNTQuMTMgTDM4LjEzLDU0LjIwIEwzNy4zNSw1NC4zMSBMMzYuNTgsNTQuNDQgTDM1LjgzLDU0LjU4IEwzNS4wOCw1NC43NCBMMzQuMzUsNTQuOTIgTDMzLjYyLDU1LjEwIEwzMi44OSw1NS4zMCBMMzIuMTgsNTUuNTAgTDMxLjQ3LDU1LjcxIEwzMC43Niw1NS45MiBMMzAuMDYsNTYuMTMgTDI5LjM2LDU2LjM1IEwyOC42Niw1Ni41NyBMMjcuOTYsNTYuNzggTDI3LjI3LDU3LjAwIEwyNi41Nyw1Ny4yMSBMMjUuODgsNTcuNDIgTDI1LjE5LDU3LjYyIEwyNC40OSw1Ny44MSBMMjMuNzksNTguMDAgTDIzLjA5LDU4LjE3IEwyMi4zOSw1OC4zNCBMMjEuNjgsNTguNDkgTDIwLjk3LDU4LjYzIEwyMC4yNSw1OC43NSBMMTkuNTMsNTguODYgTDE4LjgxLDU4Ljk1IEwxOC4wOCw1OS4wMiBMMTcuMzQsNTkuMDcgTDE2LjU5LDU5LjA5IEwxNS44NCw1OS4xMCBMMTUuMDksNTkuMDkgTDE0LjMzLDU5LjA2IEwxMy41Niw1OS4wMSBMMTIuODAsNTguOTcgTDEyLjA2LDU5LjAzIEwxMi4wNiw1OS4wMyBMMTMuMDMsNTkuODkgTDEzLjk4LDYwLjU1IEwxNC45Miw2MS4xMyBMMTUuODYsNjEuNjQgTDE2Ljc5LDYyLjEwIEwxNy43MSw2Mi41MCBMMTguNjMsNjIuODUgTDE5LjU0LDYzLjE1IEwyMC40NSw2My40MCBMMjEuMzQsNjMuNjIgTDIyLjIzLDYzLjc5IEwyMy4xMCw2My45MSBMMjMuOTYsNjQuMDAgTDI0LjgxLDY0LjA2IEwyNS42NSw2NC4wNyBMMjYuNDgsNjQuMDUgTDI3LjI5LDY0LjAwIEwyOC4wOCw2My45MSBMMjguODcsNjMuNzkgTDI5LjY0LDYzLjY0IEwzMC4zOSw2My40NiBMMzEuMTMsNjMuMjUgTDMxLjg1LDYzLjAxIEwzMi41Niw2Mi43NCBMMzMuMjYsNjIuNDUgTDMzLjk0LDYyLjEzIEwzNC42MCw2MS43OSBMMzUuMjYsNjEuNDIgTDM1Ljg5LDYxLjAzIEwzNi41MSw2MC42MSBMMzcuMTIsNjAuMTcgTDM3LjcxLDU5LjcwIEwzOC4yOSw1OS4yMSBMMzguODYsNTguNjkgTDM5LjQwLDU4LjE1IEwzOS45Myw1Ny41NyBMNDAuNDQsNTYuOTYgTDQwLjkzLDU2LjMwIEw0MS4zNyw1NS41NiBMNDEuNjMsNTQuNTAgWiIgZmlsbD0iI2ZmZiIvPjxwYXRoIGQ9Ik00MS42OCw0NS40MiBMNDEuNDIsNDQuMzUgTDQwLjk5LDQzLjYxIEw0MC41Miw0Mi45NCBMNDAuMDIsNDIuMzEgTDM5LjUxLDQxLjcyIEwzOC45OCw0MS4xNSBMMzguNDUsNDAuNjAgTDM3LjkwLDQwLjA3IEwzNy4zNSwzOS41NiBMMzYuNzgsMzkuMDYgTDM2LjIyLDM4LjU3IEwzNS42NCwzOC4wOSBMMzUuMDcsMzcuNjMgTDM0LjQ5LDM3LjE3IEwzMy45MCwzNi43MyBMMzMuMzEsMzYuMjkgTDMyLjcyLDM1Ljg2IEwzMi4xMywzNS40MyBMMzEuNTMsMzUuMDEgTDMwLjk0LDM0LjU5IEwzMC4zNCwzNC4xOCBMMjkuNzQsMzMuNzcgTDI5LjE1LDMzLjM2IEwyOC41NSwzMi45NSBMMjcuOTYsMzIuNTQgTDI3LjM2LDMyLjEzIEwyNi43NywzMS43MSBMMjYuMTgsMzEuMjkgTDI1LjYwLDMwLjg3IEwyNS4wMiwzMC40NCBMMjQuNDQsMzAuMDEgTDIzLjg2LDI5LjU3IEwyMy4yOSwyOS4xMyBMMjIuNzMsMjguNjcgTDIyLjE3LDI4LjIxIEwyMS42MSwyNy43NSBMMjEuMDUsMjcuMjcgTDIwLjQ5LDI2LjgwIEwxOS45MiwyNi4zNCBMMTkuMjgsMjUuOTggTDE5LjI4LDI1Ljk4IEwxOS4zNSwyNy4wOSBMMTkuNTQsMjguMDcgTDE5Ljc3LDI5LjAxIEwyMC4wNCwyOS45MCBMMjAuMzQsMzAuNzcgTDIwLjY3LDMxLjYxIEwyMS4wMiwzMi40MiBMMjEuNDAsMzMuMjAgTDIxLjc5LDMzLjk2IEwyMi4yMSwzNC42OSBMMjIuNjUsMzUuNDAgTDIzLjEwLDM2LjA5IEwyMy41NywzNi43NSBMMjQuMDYsMzcuMzkgTDI0LjU3LDM4LjAwIEwyNS4wOSwzOC41OSBMMjUuNjIsMzkuMTYgTDI2LjE3LDM5LjcwIEwyNi43NCw0MC4yMiBMMjcuMzEsNDAuNzIgTDI3LjkwLDQxLjIwIEwyOC41MSw0MS42NSBMMjkuMTIsNDIuMDggTDI5Ljc1LDQyLjQ5IEwzMC4zOSw0Mi44OCBMMzEuMDQsNDMuMjUgTDMxLjcwLDQzLjU5IEwzMi4zNyw0My45MSBMMzMuMDUsNDQuMjEgTDMzLjc1LDQ0LjQ5IEwzNC40Niw0NC43NCBMMzUuMTcsNDQuOTggTDM1LjkwLDQ1LjE5IEwzNi42NSw0NS4zNyBMMzcuNDAsNDUuNTMgTDM4LjE4LDQ1LjY2IEwzOC45Nyw0NS43NSBMMzkuNzksNDUuODAgTDQwLjY0LDQ1Ljc3IEw0MS42OCw0NS40MiBaIiBmaWxsPSIjZmZmIi8+PHBhdGggZD0iTTUwLjE5LDQwLjUwIEw1MS4wMSwzOS43OCBMNTEuNDcsMzkuMDUgTDUxLjg0LDM4LjMyIEw1Mi4xNywzNy41OSBMNTIuNDYsMzYuODYgTDUyLjcyLDM2LjEzIEw1Mi45NiwzNS40MCBMNTMuMTksMzQuNjcgTDUzLjM5LDMzLjk1IEw1My41OSwzMy4yMiBMNTMuNzcsMzIuNDkgTDUzLjk0LDMxLjc3IEw1NC4xMCwzMS4wNSBMNTQuMjUsMzAuMzIgTDU0LjQwLDI5LjYwIEw1NC41NCwyOC44OCBMNTQuNjgsMjguMTcgTDU0LjgyLDI3LjQ1IEw1NC45NiwyNi43NCBMNTUuMDksMjYuMDMgTDU1LjIzLDI1LjMxIEw1NS4zNywyNC42MSBMNTUuNTIsMjMuOTAgTDU1LjY3LDIzLjE5IEw1NS44MywyMi40OSBMNTYuMDAsMjEuNzkgTDU2LjE4LDIxLjA5IEw1Ni4zNywyMC4zOSBMNTYuNTcsMTkuNzAgTDU2Ljc5LDE5LjAxIEw1Ny4wMiwxOC4zMiBMNTcuMjcsMTcuNjMgTDU3LjUzLDE2Ljk1IEw1Ny44MSwxNi4yNyBMNTguMTEsMTUuNTkgTDU4LjQyLDE0LjkyIEw1OC43NSwxNC4yNSBMNTkuMDksMTMuNTggTDU5LjQyLDEyLjkxIEw1OS42NSwxMi4yMSBMNTkuNjUsMTIuMjEgTDU4LjUwLDEyLjY5IEw1Ny41NCwxMy4yMyBMNTYuNjQsMTMuODAgTDU1LjgxLDE0LjQwIEw1NS4wMiwxNS4wMSBMNTQuMjgsMTUuNjQgTDUzLjU4LDE2LjI5IEw1Mi45MywxNi45NiBMNTIuMzIsMTcuNjMgTDUxLjc0LDE4LjMyIEw1MS4yMSwxOS4wMiBMNTAuNzEsMTkuNzIgTDUwLjI1LDIwLjQ0IEw0OS44MiwyMS4xNiBMNDkuNDMsMjEuODggTDQ5LjA4LDIyLjYxIEw0OC43NiwyMy4zNSBMNDguNDcsMjQuMDkgTDQ4LjIxLDI0LjgzIEw0Ny45OSwyNS41NyBMNDcuNzksMjYuMzIgTDQ3LjYzLDI3LjA2IEw0Ny41MCwyNy44MSBMNDcuNDAsMjguNTYgTDQ3LjMyLDI5LjMxIEw0Ny4yNywzMC4wNiBMNDcuMjYsMzAuODAgTDQ3LjI3LDMxLjU1IEw0Ny4zMCwzMi4zMCBMNDcuMzcsMzMuMDQgTDQ3LjQ2LDMzLjc5IEw0Ny41OCwzNC41NCBMNDcuNzIsMzUuMjggTDQ3LjkwLDM2LjAyIEw0OC4xMSwzNi43NyBMNDguMzUsMzcuNTEgTDQ4LjY0LDM4LjI2IEw0OC45NywzOS4wMCBMNDkuNDAsMzkuNzUgTDUwLjE5LDQwLjUwIFoiIGZpbGw9IiNmZmYiLz48cGF0aCBkPSJNNTguMDgsNDUuMDEgTDU5LjEzLDQ1LjMwIEw1OS45OSw0NS4yOSBMNjAuODEsNDUuMjEgTDYxLjYwLDQ1LjA5IEw2Mi4zNyw0NC45NCBMNjMuMTMsNDQuNzcgTDYzLjg3LDQ0LjU4IEw2NC42MSw0NC4zOCBMNjUuMzMsNDQuMTYgTDY2LjA1LDQzLjk0IEw2Ni43Niw0My43MCBMNjcuNDcsNDMuNDYgTDY4LjE3LDQzLjIyIEw2OC44Niw0Mi45NyBMNjkuNTUsNDIuNzIgTDcwLjI0LDQyLjQ3IEw3MC45Myw0Mi4yMiBMNzEuNjEsNDEuOTcgTDcyLjMwLDQxLjczIEw3Mi45OCw0MS40OSBMNzMuNjcsNDEuMjUgTDc0LjM2LDQxLjAyIEw3NS4wNCw0MC44MCBMNzUuNzQsNDAuNjAgTDc2LjQzLDQwLjQwIEw3Ny4xMyw0MC4yMSBMNzcuODQsNDAuMDQgTDc4LjU1LDM5Ljg5IEw3OS4yNiwzOS43NSBMNzkuOTksMzkuNjMgTDgwLjcxLDM5LjUzIEw4MS40NSwzOS40NSBMODIuMjAsMzkuNDAgTDgyLjk1LDM5LjM2IEw4My43MSwzOS4zNSBMODQuNDcsMzkuMzcgTDg1LjI0LDM5LjQwIEw4Ni4wMiwzOS40NSBMODYuODAsMzkuNTEgTDg3LjU1LDM5LjQ2IEw4Ny41NSwzOS40NiBMODYuNTMsMzguNjAgTDg1LjU0LDM3Ljk0IEw4NC41NiwzNy4zNiBMODMuNTksMzYuODUgTDgyLjYzLDM2LjQwIEw4MS42NywzNi4wMiBMODAuNzIsMzUuNjggTDc5Ljc4LDM1LjQwIEw3OC44NiwzNS4xNiBMNzcuOTQsMzQuOTcgTDc3LjA0LDM0LjgyIEw3Ni4xNSwzNC43MiBMNzUuMjcsMzQuNjYgTDc0LjQxLDM0LjYzIEw3My41NiwzNC42NSBMNzIuNzMsMzQuNzAgTDcxLjkxLDM0Ljc4IEw3MS4xMiwzNC45MCBMNzAuMzMsMzUuMDYgTDY5LjU3LDM1LjI0IEw2OC44MiwzNS40NSBMNjguMDksMzUuNzAgTDY3LjM3LDM1Ljk3IEw2Ni42NywzNi4yNyBMNjUuOTksMzYuNjAgTDY1LjMzLDM2Ljk1IEw2NC42OCwzNy4zMyBMNjQuMDUsMzcuNzMgTDYzLjQzLDM4LjE2IEw2Mi44MywzOC42MSBMNjIuMjUsMzkuMDkgTDYxLjY5LDM5LjU5IEw2MS4xNCw0MC4xMSBMNjAuNjAsNDAuNjYgTDYwLjA5LDQxLjIzIEw1OS42MCw0MS44NCBMNTkuMTIsNDIuNDggTDU4LjY4LDQzLjE3IEw1OC4yOCw0My45MyBMNTguMDgsNDUuMDEgWiIgZmlsbD0iI2ZmZiIvPjxwYXRoIGQ9Ik01OC4xOCw1NC44MyBMNTguNDAsNTUuOTAgTDU4LjgxLDU2LjY2IEw1OS4yNyw1Ny4zNCBMNTkuNzQsNTcuOTggTDYwLjI0LDU4LjU5IEw2MC43NSw1OS4xOCBMNjEuMjcsNTkuNzQgTDYxLjgwLDYwLjI4IEw2Mi4zNCw2MC44MSBMNjIuODksNjEuMzMgTDYzLjQ0LDYxLjgzIEw2NC4wMSw2Mi4zMiBMNjQuNTcsNjIuNzkgTDY1LjE0LDYzLjI2IEw2NS43Miw2My43MiBMNjYuMzAsNjQuMTcgTDY2Ljg5LDY0LjYxIEw2Ny40Nyw2NS4wNSBMNjguMDYsNjUuNDggTDY4LjY1LDY1LjkwIEw2OS4yNSw2Ni4zMiBMNjkuODQsNjYuNzQgTDcwLjQ0LDY3LjE1IEw3MS4wMyw2Ny41NiBMNzEuNjMsNjcuOTggTDcyLjIyLDY4LjM5IEw3Mi44Miw2OC44MCBMNzMuNDEsNjkuMjEgTDc0LjAwLDY5LjYzIEw3NC41OSw3MC4wNSBMNzUuMTcsNzAuNDcgTDc1Ljc2LDcwLjkwIEw3Ni4zNCw3MS4zNCBMNzYuOTIsNzEuNzcgTDc3LjQ5LDcyLjIyIEw3OC4wNyw3Mi42NiBMNzguNjQsNzMuMTEgTDc5LjIyLDczLjU2IEw3OS44MSw3My45OSBMODAuNDgsNzQuMzMgTDgwLjQ4LDc0LjMzIEw4MC4zOSw3My4yNSBMODAuMTksNzIuMzAgTDc5Ljk0LDcxLjQwIEw3OS42Niw3MC41MyBMNzkuMzYsNjkuNjkgTDc5LjAyLDY4Ljg4IEw3OC42Nyw2OC4wOSBMNzguMjksNjcuMzIgTDc3Ljg5LDY2LjU4IEw3Ny40OCw2NS44NiBMNzcuMDQsNjUuMTYgTDc2LjU5LDY0LjQ5IEw3Ni4xMyw2My44NCBMNzUuNjQsNjMuMjAgTDc1LjE0LDYyLjU5IEw3NC42Myw2Mi4wMSBMNzQuMTAsNjEuNDQgTDczLjU2LDYwLjg5IEw3My4wMCw2MC4zNyBMNzIuNDQsNTkuODcgTDcxLjg1LDU5LjM5IEw3MS4yNiw1OC45MyBMNzAuNjUsNTguNDkgTDcwLjA0LDU4LjA3IEw2OS40MSw1Ny42NyBMNjguNzYsNTcuMjkgTDY4LjExLDU2LjkzIEw2Ny40NSw1Ni42MCBMNjYuNzcsNTYuMjggTDY2LjA4LDU1Ljk5IEw2NS4zOCw1NS43MSBMNjQuNjcsNTUuNDYgTDYzLjk1LDU1LjIzIEw2My4yMSw1NS4wMyBMNjIuNDYsNTQuODUgTDYxLjY5LDU0LjcwIEw2MC45MCw1NC41OCBMNjAuMDgsNTQuNTEgTDU5LjIyLDU0LjUxIEw1OC4xOCw1NC44MyBaIiBmaWxsPSIjZmZmIi8+PHBhdGggZD0iTTQ3LjU0LDU5LjE4IEw0Ny4wNCw2MS4wMCBMNDYuNTEsNjIuODEgTDQ1Ljk2LDY0LjYyIEw0NS4zOCw2Ni40MiBMNDQuNzYsNjguMjEgTDQ0LjExLDY5Ljk5IEw0My40MSw3MS43NSBMNDIuNjcsNzMuNTAgTDQxLjg5LDc1LjIzIEw0MS4wNSw3Ni45NCBMNDAuMTUsNzguNjQgTDM5LjIwLDgwLjMwIEwzOC4xOSw4MS45NSBMMzcuMTIsODMuNTYgTDM1Ljk4LDg1LjE1IEwzNC43OCw4Ni43MCBMMzMuNTEsODguMjEgTDMyLjE3LDg5LjY5IEwzMC43Niw5MS4xMiBMMjkuMjgsOTIuNTAgTDI3LjcyLDkzLjg0IEwyNi4wOCw5NS4xMiBMMjQuMzcsOTYuMzQgTDIyLjU5LDk3LjUwIEwyMC43Miw5OC41OSBMMTguNzgsOTkuNjIgTDE2Ljc3LDEwMC41NyBMMTQuNjcsMTAxLjQ0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMi4xIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48Y2lyY2xlIGN4PSIxNC42NyIgY3k9IjEwMS40NCIgcj0iMS42IiBmaWxsPSIjZmZmIi8+PHBhdGggZD0iTTQxLjc3LDU0Ljc1IEw0MC4wMSw1NS43NSBMMzguMjQsNTYuNzMgTDM2LjQ1LDU3LjY5IEwzNC42NSw1OC42MSBMMzIuODIsNTkuNTAgTDMwLjk4LDYwLjM2IEwyOS4xMiw2MS4xOCBMMjcuMjMsNjEuOTQgTDI1LjMyLDYyLjY3IEwyMy4zOSw2My4zMyBMMjEuNDMsNjMuOTUgTDE5LjQ1LDY0LjUwIEwxNy40NCw2NC45OCBMMTUuNDEsNjUuNDAgTDEzLjM1LDY1Ljc1IEwxMS4yNyw2Ni4wMyBMOS4xNiw2Ni4yMiBMNy4wMyw2Ni4zMyBMNC44OCw2Ni4zNiBMMi43MCw2Ni4yOSBMMC41MSw2Ni4xMyBMLTEuNjksNjUuODcgTC0zLjkxLDY1LjUyIEwtNi4xNSw2NS4wNSBMLTguMzgsNjQuNDggTC0xMC42Myw2My44MCBMLTEyLjg4LDYzLjAxIEwtMTUuMTIsNjIuMDkiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIyLjEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxjaXJjbGUgY3g9Ii0xNS4xMiIgY3k9IjYyLjA5IiByPSIxLjYiIGZpbGw9IiNmZmYiLz48cGF0aCBkPSJNNDAuODIsNDcuNTQgTDM4LjkyLDQ3LjAyIEwzNy4wMyw0Ni40NyBMMzUuMTQsNDUuOTAgTDMzLjI2LDQ1LjI5IEwzMS40MCw0NC42NSBMMjkuNTQsNDMuOTcgTDI3LjcwLDQzLjI1IEwyNS44Nyw0Mi40OCBMMjQuMDcsNDEuNjYgTDIyLjI4LDQwLjc5IEwyMC41MSwzOS44NiBMMTguNzcsMzguODcgTDE3LjA1LDM3LjgyIEwxNS4zNiwzNi43MSBMMTMuNzEsMzUuNTMgTDEyLjA5LDM0LjI4IEwxMC41MSwzMi45NiBMOC45NiwzMS41NyBMNy40NywzMC4xMCBMNi4wMiwyOC41NiBMNC42MywyNi45NCBMMy4yOSwyNS4yNCBMMi4wMSwyMy40NiBMMC43OSwyMS42MCBMLTAuMzUsMTkuNjYgTC0xLjQzLDE3LjY1IEwtMi40MiwxNS41NSBMLTMuMzMsMTMuMzciIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIyLjEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxjaXJjbGUgY3g9Ii0zLjMzIiBjeT0iMTMuMzciIHI9IjEuNiIgZmlsbD0iI2ZmZiIvPjxwYXRoIGQ9Ik00NS4yNSw0MS43NyBMNDQuMzAsNDAuMTEgTDQzLjM4LDM4LjQzIEw0Mi40OCwzNi43NCBMNDEuNjAsMzUuMDMgTDQwLjc2LDMzLjMwIEwzOS45NSwzMS41NiBMMzkuMTksMjkuNzkgTDM4LjQ2LDI4LjAxIEwzNy43OCwyNi4yMCBMMzcuMTYsMjQuMzcgTDM2LjU4LDIyLjUyIEwzNi4wNywyMC42NCBMMzUuNjEsMTguNzQgTDM1LjIyLDE2LjgxIEwzNC45MCwxNC44NiBMMzQuNjQsMTIuODggTDM0LjQ3LDEwLjg5IEwzNC4zNyw4Ljg3IEwzNC4zNSw2LjgzIEwzNC40Miw0Ljc3IEwzNC41OCwyLjcwIEwzNC44MywwLjYxIEwzNS4xOCwtMS40OSBMMzUuNjMsLTMuNjEgTDM2LjE3LC01LjczIEwzNi44MywtNy44NSBMMzcuNTksLTkuOTggTDM4LjQ3LC0xMi4xMSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIuMSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PGNpcmNsZSBjeD0iMzguNDciIGN5PSItMTIuMTEiIHI9IjEuNiIgZmlsbD0iI2ZmZiIvPjxwYXRoIGQ9Ik01Mi40Niw0MC44MiBMNTMuMDAsMzguODQgTDUzLjU3LDM2Ljg3IEw1NC4xNywzNC45MCBMNTQuODAsMzIuOTUgTDU1LjQ2LDMxLjAwIEw1Ni4xNywyOS4wNyBMNTYuOTIsMjcuMTUgTDU3LjcyLDI1LjI1IEw1OC41NywyMy4zNiBMNTkuNDcsMjEuNTAgTDYwLjQ0LDE5LjY2IEw2MS40NiwxNy44NCBMNjIuNTUsMTYuMDUgTDYzLjcwLDE0LjI5IEw2NC45MywxMi41NiBMNjYuMjMsMTAuODcgTDY3LjYwLDkuMjIgTDY5LjA0LDcuNjIgTDcwLjU2LDYuMDYgTDcyLjE2LDQuNTQgTDczLjg1LDMuMDkgTDc1LjYxLDEuNjkgTDc3LjQ2LDAuMzUgTDc5LjM4LC0wLjkyIEw4MS40MCwtMi4xMSBMODMuNDksLTMuMjMgTDg1LjY3LC00LjI3IEw4Ny45MywtNS4yMyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIuMSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PGNpcmNsZSBjeD0iODcuOTMiIGN5PSItNS4yMyIgcj0iMS42IiBmaWxsPSIjZmZmIi8+PHBhdGggZD0iTTU4LjIzLDQ1LjI1IEw1OS45Nyw0NC4yNiBMNjEuNzIsNDMuMzAgTDYzLjQ4LDQyLjM1IEw2NS4yNiw0MS40NCBMNjcuMDYsNDAuNTYgTDY4Ljg3LDM5LjcyIEw3MC43MSwzOC45MiBMNzIuNTcsMzguMTYgTDc0LjQ2LDM3LjQ1IEw3Ni4zNiwzNi43OSBMNzguMzAsMzYuMTkgTDgwLjI1LDM1LjY0IEw4Mi4yMywzNS4xNiBMODQuMjQsMzQuNzUgTDg2LjI3LDM0LjQxIEw4OC4zMywzNC4xNCBMOTAuNDEsMzMuOTUgTDkyLjUxLDMzLjg0IEw5NC42NCwzMy44MiBMOTYuNzgsMzMuODkgTDk4Ljk0LDM0LjA1IEwxMDEuMTIsMzQuMzAgTDEwMy4zMSwzNC42NiBMMTA1LjUxLDM1LjEyIEwxMDcuNzIsMzUuNjggTDEwOS45NCwzNi4zNiBMMTEyLjE1LDM3LjE0IEwxMTQuMzcsMzguMDUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIyLjEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxjaXJjbGUgY3g9IjExNC4zNyIgY3k9IjM4LjA1IiByPSIxLjYiIGZpbGw9IiNmZmYiLz48cGF0aCBkPSJNNTkuMTgsNTIuNDYgTDYxLjA1LDUyLjk3IEw2Mi45Miw1My41MSBMNjQuNzgsNTQuMDggTDY2LjYzLDU0LjY4IEw2OC40Nyw1NS4zMSBMNzAuMzAsNTUuOTggTDcyLjEyLDU2LjcwIEw3My45Miw1Ny40NiBMNzUuNzAsNTguMjcgTDc3LjQ2LDU5LjEzIEw3OS4yMSw2MC4wNCBMODAuOTIsNjEuMDIgTDgyLjYyLDYyLjA2IEw4NC4yOCw2My4xNiBMODUuOTEsNjQuMzIgTDg3LjUxLDY1LjU1IEw4OS4wNyw2Ni44NiBMOTAuNTksNjguMjMgTDkyLjA2LDY5LjY4IEw5My40OSw3MS4yMCBMOTQuODYsNzIuODAgTDk2LjE4LDc0LjQ4IEw5Ny40NCw3Ni4yNCBMOTguNjQsNzguMDcgTDk5Ljc3LDc5Ljk4IEwxMDAuODIsODEuOTcgTDEwMS44MCw4NC4wNCBMMTAyLjcwLDg2LjE5IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMi4xIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48Y2lyY2xlIGN4PSIxMDIuNzAiIGN5PSI4Ni4xOSIgcj0iMS42IiBmaWxsPSIjZmZmIi8+PHBhdGggZD0iTTU0Ljc1LDU4LjIzIEw1NS42OCw1OS44NyBMNTYuNjAsNjEuNTIgTDU3LjQ4LDYzLjE5IEw1OC4zNCw2NC44OCBMNTkuMTcsNjYuNTggTDU5Ljk3LDY4LjMwIEw2MC43Miw3MC4wNCBMNjEuNDQsNzEuODAgTDYyLjEwLDczLjU4IEw2Mi43Miw3NS4zOCBMNjMuMjgsNzcuMjEgTDYzLjc5LDc5LjA2IEw2NC4yNCw4MC45NCBMNjQuNjIsODIuODQgTDY0Ljk0LDg0Ljc2IEw2NS4xOSw4Ni43MSBMNjUuMzYsODguNjggTDY1LjQ2LDkwLjY3IEw2NS40Nyw5Mi42OCBMNjUuNDAsOTQuNzEgTDY1LjI0LDk2Ljc1IEw2NC45OSw5OC44MSBMNjQuNjUsMTAwLjg5IEw2NC4yMCwxMDIuOTcgTDYzLjY2LDEwNS4wNiBMNjMuMDEsMTA3LjE2IEw2Mi4yNiwxMDkuMjYgTDYxLjM5LDExMS4zNSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIuMSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PGNpcmNsZSBjeD0iNjEuMzkiIGN5PSIxMTEuMzUiIHI9IjEuNiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==">
+<style>
+:root{
+  --paper:#000000;
+  --paper-2:#0d0d0d;
+  --paper-3:#1a1a1a;
+  --ink:#ffffff;
+  --ink-2:#d6d6d6;
+  --ink-3:#8f8f8f;
+  --ink-4:#5c5c5c;
+  --line:#262626;
+  --line-2:#333333;
+  --shadow:0 1px 0 rgba(255,255,255,.03), 0 18px 40px -24px rgba(0,0,0,.9);
+  --serif:"Songti SC","Noto Serif SC","Source Han Serif SC",Georgia,"Times New Roman",serif;
+  --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC","Helvetica Neue",Arial,sans-serif;
+  --mono:"SF Mono","JetBrains Mono",Menlo,Consolas,monospace;
+  --r:2px;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--sans);
+  -webkit-font-smoothing:antialiased;
+  line-height:1.65;
+  overflow-x:hidden;
+  transition:background .4s ease,color .4s ease;
+}
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.14;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
+}
+::selection{background:#ffffff;color:#000000}
+
+/* ── 顶部哀悼带 ── */
+.mourn-band{height:2px;background:#1f1f1f;position:relative;z-index:5}
+
+/* ── 顶栏 ── */
+.topbar{
+  position:sticky;top:0;z-index:40;
+  display:flex;align-items:center;gap:12px;
+  padding:12px 18px;
+  background:var(--paper);
+  background:color-mix(in srgb,var(--paper) 86%,transparent);
+  backdrop-filter:blur(14px) saturate(1.1);
+  -webkit-backdrop-filter:blur(14px) saturate(1.1);
+  border-bottom:1px solid var(--line);
+}
+.brand{display:flex;align-items:center;gap:9px;min-width:0}
+.brand-mark{
+  width:44px;height:44px;flex:0 0 44px;border:1px solid var(--ink);
+  display:grid;place-items:center;padding:5px;box-sizing:border-box;
+}
+.brand-mark svg{width:100%;height:100%;display:block}
+.brand-name{
+  font-family:var(--serif);font-size:15px;letter-spacing:.06em;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.topbar-spacer{flex:1}
+.icon-btn{
+  width:34px;height:34px;border:1px solid var(--line-2);background:transparent;
+  color:var(--ink);cursor:pointer;display:grid;place-items:center;
+  border-radius:var(--r);transition:.2s;font-size:13px;
+}
+.icon-btn:hover{border-color:var(--ink);background:var(--paper-3)}
+.icon-btn svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.4}
+
+/* ── 容器 ── */
+.wrap{position:relative;z-index:1;max-width:760px;margin:0 auto;padding:0 18px}
+
+/* ── Hero ── */
+.hero{padding:38px 0 26px;border-bottom:1px solid var(--line)}
+.hero-kicker{
+  font-family:var(--mono);font-size:10px;letter-spacing:.28em;
+  text-transform:uppercase;color:var(--ink-3);margin:0 0 18px;
+  display:flex;align-items:center;gap:10px;
+}
+.hero-kicker::after{content:"";flex:1;height:1px;background:var(--line)}
+.hero h1{
+  font-family:var(--serif);font-weight:400;
+  font-size:clamp(30px,8.4vw,50px);line-height:1.16;letter-spacing:.01em;
+  margin:0 0 6px;
+}
+.hero h1 em{font-style:normal;position:relative;white-space:nowrap}
+.hero h1 em::after{
+  content:"";position:absolute;left:0;right:0;bottom:.08em;height:1px;
+  background:var(--ink);opacity:.45;
+}
+.hero-sub{
+  font-family:var(--serif);font-size:13px;color:var(--ink-3);
+  letter-spacing:.05em;margin:12px 0 0;
+}
+.hero-lede{
+  font-size:14.5px;color:var(--ink-2);margin:20px 0 0;max-width:52ch;
+  line-height:1.85;
+}
+.hero-lede b{font-weight:600;color:var(--ink)}
+
+/* ── 统计条 ── */
+.stats{
+  display:grid;grid-template-columns:repeat(4,1fr);
+  border-bottom:1px solid var(--line);
+}
+.stat{padding:20px 4px 22px;border-right:1px solid var(--line);text-align:left}
+.stat:last-child{border-right:0}
+.stat-n{
+  font-family:var(--serif);font-size:clamp(24px,7vw,32px);line-height:1;
+  display:block;letter-spacing:-.01em;
+}
+.stat-n small{font-size:.5em;margin-left:2px;color:var(--ink-3)}
+.stat-l{
+  display:block;margin-top:8px;font-size:10.5px;letter-spacing:.16em;
+  color:var(--ink-3);text-transform:uppercase;
+}
+
+/* ── 筛选区 ── */
+.toolbar{
+  position:sticky;top:69px;z-index:30;background:var(--paper);
+  border-bottom:1px solid var(--line);padding:12px 0 0;
+}
+.chips{
+  display:flex;gap:7px;overflow-x:auto;padding:0 0 12px;
+  scrollbar-width:none;-ms-overflow-style:none;
+}
+.chips::-webkit-scrollbar{display:none}
+.chip{
+  flex:0 0 auto;padding:6px 13px;border:1px solid var(--line-2);
+  background:transparent;color:var(--ink-2);font-size:12.5px;
+  border-radius:999px;cursor:pointer;transition:.18s;font-family:var(--sans);
+  white-space:nowrap;
+}
+.chip:hover{border-color:var(--ink);color:var(--ink)}
+.chip.on{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.chip .num{opacity:.55;margin-left:5px;font-family:var(--mono);font-size:10.5px}
+
+.search-row{display:flex;align-items:center;gap:9px;padding:0 0 11px}
+.search-box{
+  flex:1;display:flex;align-items:center;gap:8px;
+  border-bottom:1px solid var(--line-2);padding:5px 2px;transition:.2s;
+}
+.search-box:focus-within{border-color:var(--ink)}
+.search-box svg{width:14px;height:14px;stroke:var(--ink-3);fill:none;stroke-width:1.5;flex:0 0 14px}
+.search-box input{
+  flex:1;border:0;outline:0;background:transparent;color:var(--ink);
+  font-size:13.5px;font-family:var(--sans);padding:2px 0;min-width:0;
+  -webkit-appearance:none;appearance:none;
+}
+.search-box input::placeholder{color:var(--ink-4)}
+.result-count{font-family:var(--mono);font-size:11px;color:var(--ink-3);white-space:nowrap}
+
+/* ── 时间轴 ── */
+.timeline{padding:8px 0 40px}
+.month-head{
+  display:flex;align-items:baseline;justify-content:space-between;
+  margin-top:44px;padding-bottom:10px;border-bottom:1px solid var(--ink);
+}
+.month-head:first-child{margin-top:20px}
+.month-num{
+  font-family:var(--serif);font-size:26px;letter-spacing:.08em;color:var(--ink);
+}
+.month-cnt{
+  font-size:11px;letter-spacing:.16em;color:var(--ink-4);
+}
+.day{padding-top:30px}
+.day-head{
+  display:flex;align-items:baseline;gap:12px;padding-bottom:14px;
+  border-bottom:1px solid var(--ink);
+}
+.day-num{
+  font-family:var(--serif);font-size:26px;line-height:1;letter-spacing:.02em;
+  font-variant-numeric:tabular-nums;
+}
+.day-week{font-size:11px;letter-spacing:.18em;color:var(--ink-3);text-transform:uppercase}
+.day-count{
+  margin-left:auto;font-family:var(--mono);font-size:10.5px;
+  color:var(--ink-3);letter-spacing:.08em;
+}
+.day-today .day-num{position:relative}
+.day-today .day-num::after{
+  content:"今天";position:absolute;top:-11px;left:0;font-family:var(--sans);
+  font-size:9px;letter-spacing:.2em;color:var(--ink-3);
+}
+.day-range{
+  font-family:var(--serif);font-size:16px;line-height:1.2;letter-spacing:.04em;
+  font-variant-numeric:tabular-nums;white-space:nowrap;
+}
+.day-range::after{
+  content:"今天";display:block;font-family:var(--sans);
+  font-size:9px;letter-spacing:.2em;color:var(--ink-3);margin-top:3px;
+}
+.cards{display:flex;flex-direction:column}
+
+/* ── 讣告卡 ── */
+.card{
+  display:grid;grid-template-columns:88px 1fr 16px;gap:16px;align-items:start;
+  padding:20px 2px;border-bottom:1px solid var(--line);
+  cursor:pointer;transition:.22s;position:relative;
+  animation:rise .5s both;
+}
+.card:hover{background:var(--paper-2);box-shadow:inset 2px 0 0 var(--ink)}
+.card:hover .card-arrow{opacity:1;transform:translateX(0)}
+.card:focus-visible{outline:1px solid var(--ink);outline-offset:2px}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.mono{
+  width:88px;height:88px;border:1px solid var(--line-2);
+  display:grid;place-items:center;font-family:var(--serif);font-size:30px;
+  line-height:1;color:var(--ink);position:relative;overflow:hidden;
+  background:linear-gradient(145deg,var(--paper-2),var(--paper-3));
+  transition:.22s;
+}
+.card:hover .mono{border-color:var(--ink)}
+.mono.has-face{background:#000;padding:0;overflow:hidden}
+.mono.has-face img{width:100%;height:100%;object-fit:contain;display:block}
+.sheet-mono.has-face{background:#000;padding:0;overflow:hidden}
+.sheet-mono.has-face img{width:100%;height:100%;object-fit:contain;display:block}
+.mono::after{
+  content:"";position:absolute;inset:0;
+  background:radial-gradient(circle at 30% 20%,rgba(255,255,255,.10),transparent 60%);
+  mix-blend-mode:overlay;pointer-events:none;
+}
+.card-main{min-width:0}
+.card-name-row{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.card-name{
+  font-family:var(--serif);font-size:19px;font-weight:400;margin:0;line-height:1.3;
+  letter-spacing:.01em;
+}
+.card-age{
+  font-family:var(--mono);font-size:11px;color:var(--ink-3);
+  border:1px solid var(--line-2);padding:1px 5px;border-radius:2px;line-height:1.5;
+}
+.card-orig{
+  font-size:11px;color:var(--ink-3);letter-spacing:.04em;margin-top:2px;
+  font-family:var(--sans);
+}
+.card-role{
+  font-size:12.5px;color:var(--ink-2);margin-top:6px;letter-spacing:.01em;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+}
+.card-sum{
+  font-size:13px;color:var(--ink-3);margin:8px 0 0;line-height:1.75;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+}
+.card-tags{display:flex;gap:6px;margin-top:11px;flex-wrap:wrap}
+.tag{
+  font-size:10.5px;letter-spacing:.1em;color:var(--ink-3);
+  border:1px solid var(--line);padding:2px 7px;border-radius:2px;
+}
+.tag.primary{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.card-arrow{
+  align-self:center;color:var(--ink-3);font-size:13px;opacity:0;
+  transform:translateX(-4px);transition:.22s;
+}
+@media(hover:none){
+  .card-arrow{opacity:.4;transform:none}
+}
+
+/* 空白日 */
+.day-empty{padding:15px 2px 16px;border-bottom:1px dashed var(--line-2)}
+.day-empty p{
+  margin:0;font-size:12px;color:var(--ink-4);letter-spacing:.05em;
+  font-family:var(--serif);opacity:.85;
+}
+.day.is-empty .day-head{border-bottom:1px solid var(--line-2)}
+.day.is-empty .day-num{font-size:22px;color:var(--ink-3)}
+.day.is-empty .day-week,.day.is-empty .day-count{color:var(--ink-4)}
+
+/* 无结果 */
+.no-result{padding:70px 0;text-align:center;color:var(--ink-3)}
+.no-result .big{font-family:var(--serif);font-size:34px;margin-bottom:10px;color:var(--ink-4)}
+.no-result p{font-size:13px;margin:0}
+
+/* ── 页脚 ── */
+.foot{
+  border-top:1px solid var(--ink);padding:26px 0 50px;
+  font-size:11.5px;color:var(--ink-3);line-height:1.9;
+}
+.foot-title{
+  font-family:var(--serif);font-size:13px;color:var(--ink);
+  letter-spacing:.06em;margin-bottom:8px;
+}
+.foot p{margin:0 0 6px}
+.foot-org{
+  margin-top:16px;padding-top:14px;border-top:1px solid var(--line);
+  color:var(--ink-2);
+}
+.foot .sign{
+  margin-top:20px;font-family:var(--serif);font-size:12px;
+  letter-spacing:.14em;color:var(--ink-4);
+}
+
+/* ── 详情抽屉 ── */
+.overlay{
+  position:fixed;inset:0;background:rgba(0,0,0,.74);z-index:60;
+  opacity:0;pointer-events:none;transition:opacity .3s;
+  backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);
+}
+.overlay.show{opacity:1;pointer-events:auto}
+.sheet{
+  position:fixed;left:0;right:0;bottom:0;z-index:70;
+  background:var(--paper-2);border-top:1px solid var(--ink);
+  max-height:88vh;overflow-y:auto;overscroll-behavior:contain;
+  transform:translateY(101%);transition:transform .42s cubic-bezier(.22,.9,.24,1);
+  border-radius:6px 6px 0 0;
+  box-shadow:0 -20px 60px -30px rgba(0,0,0,.5);
+}
+.sheet.show{transform:translateY(0)}
+@media(min-width:820px){
+  .sheet{
+    max-width:700px;margin:0 auto;bottom:0;border-radius:6px 6px 0 0;
+  }
+}
+.sheet-grip{
+  position:sticky;top:0;background:var(--paper-2);padding:10px 14px 6px;
+  display:grid;place-items:center;z-index:3;
+}
+.sheet-grip i{width:38px;height:3px;background:var(--line-2);border-radius:9px;display:block}
+.sheet-close{
+  position:absolute;top:2px;right:14px;width:30px;height:30px;border:1px solid var(--line-2);
+  background:var(--paper-2);color:var(--ink);cursor:pointer;border-radius:50%;
+  display:grid;place-items:center;font-size:14px;line-height:1;
+}
+.sheet-close:hover{border-color:var(--ink)}
+.sheet-inner{padding:4px 22px 40px}
+.sheet-head{display:flex;gap:16px;align-items:flex-start;padding-top:6px}
+.sheet-mono{
+  width:96px;height:96px;flex:0 0 96px;border:1px solid var(--ink);
+  display:grid;place-items:center;font-family:var(--serif);font-size:34px;
+  background:linear-gradient(145deg,var(--paper-2),var(--paper-3));
+}
+.sheet-h1{font-family:var(--serif);font-weight:400;font-size:25px;margin:0;line-height:1.28}
+.sheet-orig{font-size:11.5px;color:var(--ink-3);letter-spacing:.06em;margin-top:5px}
+.sheet-role{font-size:12.5px;color:var(--ink-2);margin-top:7px;line-height:1.6}
+.sheet-facts{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:0;
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  margin:20px 0 22px;
+}
+.fact{padding:13px 10px 14px;border-right:1px solid var(--line)}
+.fact:last-child{border-right:0}
+.fact-k{display:block;font-size:9.5px;letter-spacing:.18em;color:var(--ink-4);text-transform:uppercase}
+.fact-v{display:block;font-family:var(--serif);font-size:15px;margin-top:6px;line-height:1.3}
+.sheet-bio{font-size:14px;line-height:1.95;color:var(--ink-2);margin:0 0 20px}
+.sheet-bio::first-letter{
+  font-family:var(--serif);float:left;font-size:40px;line-height:.92;
+  padding:3px 8px 0 0;color:var(--ink);
+}
+.sheet-sec-title{
+  font-size:10px;letter-spacing:.24em;color:var(--ink-3);text-transform:uppercase;
+  margin:26px 0 12px;display:flex;align-items:center;gap:10px;
+}
+.sheet-sec-title::after{content:"";flex:1;height:1px;background:var(--line)}
+.fact-list{list-style:none;padding:0;margin:0}
+.fact-list li{
+  position:relative;padding:0 0 12px 18px;font-size:13.5px;
+  line-height:1.8;color:var(--ink-2);
+}
+.fact-list li::before{
+  content:"";position:absolute;left:0;top:.72em;width:7px;height:1px;background:var(--ink-3);
+}
+.obit-btn{
+  width:100%;margin-top:26px;padding:14px 16px;
+  display:flex;align-items:center;justify-content:space-between;gap:10px;
+  border:1px solid var(--line-2);background:transparent;color:var(--ink);
+  font-family:var(--sans);font-size:13px;letter-spacing:.06em;cursor:pointer;
+  transition:border-color .2s,background .2s;
+}
+.obit-btn:hover{border-color:var(--ink-3);background:rgba(255,255,255,.025)}
+.obit-btn[data-state="open"]{border-color:var(--ink-4)}
+.obit-btn:disabled{opacity:.4;cursor:default}
+.obit-btn-t{transition:color .2s}
+.obit-btn-lv{font-size:10.5px;letter-spacing:.12em;color:var(--ink-3);white-space:nowrap}
+.obit-btn-r{display:flex;align-items:center;gap:9px}
+.obit-btn-arrow{
+  font-size:11px;color:var(--ink-3);transition:transform .3s;display:inline-block;
+}
+.obit-btn[data-state="open"] .obit-btn-arrow{transform:rotate(180deg)}
+.obit-wrap{max-height:0;overflow:hidden;transition:max-height .38s cubic-bezier(.4,0,.2,1)}
+.obit-wrap.open{max-height:68vh;overflow-y:auto}
+.obit-inner{padding:22px 2px 6px}
+.obit-body{font-size:13.5px;line-height:2.05;color:var(--ink-2);margin:0}
+.obit-body p{text-indent:2em;margin:0 0 13px}
+.obit-body p:last-child{margin-bottom:0}
+.obit-src{
+  font-size:11px;color:var(--ink-4);letter-spacing:.03em;line-height:1.8;
+  margin-top:18px;padding-top:12px;border-top:1px solid var(--line);
+}
+.obit-none{font-size:13px;color:var(--ink-3);line-height:1.9;margin:0}
+.sheet-src{
+  margin-top:26px;padding-top:14px;border-top:1px solid var(--line);
+  font-size:11px;color:var(--ink-4);line-height:1.8;letter-spacing:.03em;
+}
+.sheet-nav{display:flex;gap:10px;margin-top:22px}
+.nav-btn{
+  flex:1;border:1px solid var(--line-2);background:transparent;color:var(--ink);
+  padding:11px 8px;font-size:12px;cursor:pointer;font-family:var(--sans);
+  transition:.2s;border-radius:2px;letter-spacing:.04em;
+}
+.nav-btn:hover{border-color:var(--ink);background:var(--paper-3)}
+.nav-btn:disabled{opacity:.28;cursor:default}
+.nav-btn:disabled:hover{border-color:var(--line-2);background:transparent}
+
+/* 回到顶部 */
+.to-top{
+  position:fixed;right:16px;bottom:22px;z-index:50;
+  width:42px;height:42px;border-radius:50%;border:1px solid var(--ink);
+  background:var(--paper-2);color:var(--ink);cursor:pointer;
+  display:grid;place-items:center;font-size:14px;
+  opacity:0;pointer-events:none;transition:.3s;
+  box-shadow:0 6px 20px -8px rgba(0,0,0,.5);
+}
+.to-top.show{opacity:1;pointer-events:auto}
+
+@media(max-width:400px){
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .stat:nth-child(2){border-right:0}
+  .stat:nth-child(1),.stat:nth-child(2){border-bottom:1px solid var(--line)}
+  .sheet-facts{grid-template-columns:repeat(2,1fr)}
+  .fact:nth-child(2){border-right:0}
+}
+</style>
+</head>
+<body>
+<div class="mourn-band"></div>
+
+<header class="topbar">
+  <div class="brand">
+    <div class="brand-mark"><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M50.00,59.50 L49.19,60.24 L48.75,60.97 L48.39,61.71 L48.08,62.45 L47.81,63.18 L47.56,63.92 L47.33,64.65 L47.13,65.39 L46.94,66.12 L46.77,66.85 L46.61,67.58 L46.46,68.31 L46.32,69.04 L46.19,69.77 L46.07,70.49 L45.95,71.22 L45.84,71.94 L45.73,72.66 L45.63,73.38 L45.52,74.10 L45.42,74.81 L45.32,75.53 L45.21,76.25 L45.10,76.96 L44.99,77.67 L44.86,78.38 L44.74,79.09 L44.60,79.80 L44.46,80.51 L44.30,81.21 L44.13,81.92 L43.96,82.62 L43.76,83.32 L43.56,84.02 L43.34,84.71 L43.11,85.41 L42.86,86.10 L42.62,86.80 L42.38,87.50 L42.25,88.22 L42.25,88.22 L43.31,87.68 L44.18,87.08 L44.99,86.46 L45.74,85.82 L46.45,85.17 L47.11,84.50 L47.73,83.82 L48.31,83.13 L48.86,82.43 L49.37,81.72 L49.84,81.01 L50.28,80.28 L50.69,79.56 L51.06,78.82 L51.40,78.09 L51.71,77.35 L51.99,76.61 L52.23,75.86 L52.45,75.11 L52.64,74.37 L52.80,73.62 L52.93,72.87 L53.03,72.12 L53.10,71.37 L53.15,70.63 L53.17,69.88 L53.17,69.13 L53.13,68.39 L53.07,67.64 L52.99,66.90 L52.88,66.15 L52.74,65.41 L52.58,64.67 L52.38,63.93 L52.16,63.19 L51.90,62.45 L51.60,61.71 L51.25,60.98 L50.81,60.24 L50.00,59.50 Z" fill="#fff"/><path d="M41.63,54.50 L40.60,54.14 L39.74,54.10 L38.92,54.13 L38.13,54.20 L37.35,54.31 L36.58,54.44 L35.83,54.58 L35.08,54.74 L34.35,54.92 L33.62,55.10 L32.89,55.30 L32.18,55.50 L31.47,55.71 L30.76,55.92 L30.06,56.13 L29.36,56.35 L28.66,56.57 L27.96,56.78 L27.27,57.00 L26.57,57.21 L25.88,57.42 L25.19,57.62 L24.49,57.81 L23.79,58.00 L23.09,58.17 L22.39,58.34 L21.68,58.49 L20.97,58.63 L20.25,58.75 L19.53,58.86 L18.81,58.95 L18.08,59.02 L17.34,59.07 L16.59,59.09 L15.84,59.10 L15.09,59.09 L14.33,59.06 L13.56,59.01 L12.80,58.97 L12.06,59.03 L12.06,59.03 L13.03,59.89 L13.98,60.55 L14.92,61.13 L15.86,61.64 L16.79,62.10 L17.71,62.50 L18.63,62.85 L19.54,63.15 L20.45,63.40 L21.34,63.62 L22.23,63.79 L23.10,63.91 L23.96,64.00 L24.81,64.06 L25.65,64.07 L26.48,64.05 L27.29,64.00 L28.08,63.91 L28.87,63.79 L29.64,63.64 L30.39,63.46 L31.13,63.25 L31.85,63.01 L32.56,62.74 L33.26,62.45 L33.94,62.13 L34.60,61.79 L35.26,61.42 L35.89,61.03 L36.51,60.61 L37.12,60.17 L37.71,59.70 L38.29,59.21 L38.86,58.69 L39.40,58.15 L39.93,57.57 L40.44,56.96 L40.93,56.30 L41.37,55.56 L41.63,54.50 Z" fill="#fff"/><path d="M41.68,45.42 L41.42,44.35 L40.99,43.61 L40.52,42.94 L40.02,42.31 L39.51,41.72 L38.98,41.15 L38.45,40.60 L37.90,40.07 L37.35,39.56 L36.78,39.06 L36.22,38.57 L35.64,38.09 L35.07,37.63 L34.49,37.17 L33.90,36.73 L33.31,36.29 L32.72,35.86 L32.13,35.43 L31.53,35.01 L30.94,34.59 L30.34,34.18 L29.74,33.77 L29.15,33.36 L28.55,32.95 L27.96,32.54 L27.36,32.13 L26.77,31.71 L26.18,31.29 L25.60,30.87 L25.02,30.44 L24.44,30.01 L23.86,29.57 L23.29,29.13 L22.73,28.67 L22.17,28.21 L21.61,27.75 L21.05,27.27 L20.49,26.80 L19.92,26.34 L19.28,25.98 L19.28,25.98 L19.35,27.09 L19.54,28.07 L19.77,29.01 L20.04,29.90 L20.34,30.77 L20.67,31.61 L21.02,32.42 L21.40,33.20 L21.79,33.96 L22.21,34.69 L22.65,35.40 L23.10,36.09 L23.57,36.75 L24.06,37.39 L24.57,38.00 L25.09,38.59 L25.62,39.16 L26.17,39.70 L26.74,40.22 L27.31,40.72 L27.90,41.20 L28.51,41.65 L29.12,42.08 L29.75,42.49 L30.39,42.88 L31.04,43.25 L31.70,43.59 L32.37,43.91 L33.05,44.21 L33.75,44.49 L34.46,44.74 L35.17,44.98 L35.90,45.19 L36.65,45.37 L37.40,45.53 L38.18,45.66 L38.97,45.75 L39.79,45.80 L40.64,45.77 L41.68,45.42 Z" fill="#fff"/><path d="M50.19,40.50 L51.01,39.78 L51.47,39.05 L51.84,38.32 L52.17,37.59 L52.46,36.86 L52.72,36.13 L52.96,35.40 L53.19,34.67 L53.39,33.95 L53.59,33.22 L53.77,32.49 L53.94,31.77 L54.10,31.05 L54.25,30.32 L54.40,29.60 L54.54,28.88 L54.68,28.17 L54.82,27.45 L54.96,26.74 L55.09,26.03 L55.23,25.31 L55.37,24.61 L55.52,23.90 L55.67,23.19 L55.83,22.49 L56.00,21.79 L56.18,21.09 L56.37,20.39 L56.57,19.70 L56.79,19.01 L57.02,18.32 L57.27,17.63 L57.53,16.95 L57.81,16.27 L58.11,15.59 L58.42,14.92 L58.75,14.25 L59.09,13.58 L59.42,12.91 L59.65,12.21 L59.65,12.21 L58.50,12.69 L57.54,13.23 L56.64,13.80 L55.81,14.40 L55.02,15.01 L54.28,15.64 L53.58,16.29 L52.93,16.96 L52.32,17.63 L51.74,18.32 L51.21,19.02 L50.71,19.72 L50.25,20.44 L49.82,21.16 L49.43,21.88 L49.08,22.61 L48.76,23.35 L48.47,24.09 L48.21,24.83 L47.99,25.57 L47.79,26.32 L47.63,27.06 L47.50,27.81 L47.40,28.56 L47.32,29.31 L47.27,30.06 L47.26,30.80 L47.27,31.55 L47.30,32.30 L47.37,33.04 L47.46,33.79 L47.58,34.54 L47.72,35.28 L47.90,36.02 L48.11,36.77 L48.35,37.51 L48.64,38.26 L48.97,39.00 L49.40,39.75 L50.19,40.50 Z" fill="#fff"/><path d="M58.08,45.01 L59.13,45.30 L59.99,45.29 L60.81,45.21 L61.60,45.09 L62.37,44.94 L63.13,44.77 L63.87,44.58 L64.61,44.38 L65.33,44.16 L66.05,43.94 L66.76,43.70 L67.47,43.46 L68.17,43.22 L68.86,42.97 L69.55,42.72 L70.24,42.47 L70.93,42.22 L71.61,41.97 L72.30,41.73 L72.98,41.49 L73.67,41.25 L74.36,41.02 L75.04,40.80 L75.74,40.60 L76.43,40.40 L77.13,40.21 L77.84,40.04 L78.55,39.89 L79.26,39.75 L79.99,39.63 L80.71,39.53 L81.45,39.45 L82.20,39.40 L82.95,39.36 L83.71,39.35 L84.47,39.37 L85.24,39.40 L86.02,39.45 L86.80,39.51 L87.55,39.46 L87.55,39.46 L86.53,38.60 L85.54,37.94 L84.56,37.36 L83.59,36.85 L82.63,36.40 L81.67,36.02 L80.72,35.68 L79.78,35.40 L78.86,35.16 L77.94,34.97 L77.04,34.82 L76.15,34.72 L75.27,34.66 L74.41,34.63 L73.56,34.65 L72.73,34.70 L71.91,34.78 L71.12,34.90 L70.33,35.06 L69.57,35.24 L68.82,35.45 L68.09,35.70 L67.37,35.97 L66.67,36.27 L65.99,36.60 L65.33,36.95 L64.68,37.33 L64.05,37.73 L63.43,38.16 L62.83,38.61 L62.25,39.09 L61.69,39.59 L61.14,40.11 L60.60,40.66 L60.09,41.23 L59.60,41.84 L59.12,42.48 L58.68,43.17 L58.28,43.93 L58.08,45.01 Z" fill="#fff"/><path d="M58.18,54.83 L58.40,55.90 L58.81,56.66 L59.27,57.34 L59.74,57.98 L60.24,58.59 L60.75,59.18 L61.27,59.74 L61.80,60.28 L62.34,60.81 L62.89,61.33 L63.44,61.83 L64.01,62.32 L64.57,62.79 L65.14,63.26 L65.72,63.72 L66.30,64.17 L66.89,64.61 L67.47,65.05 L68.06,65.48 L68.65,65.90 L69.25,66.32 L69.84,66.74 L70.44,67.15 L71.03,67.56 L71.63,67.98 L72.22,68.39 L72.82,68.80 L73.41,69.21 L74.00,69.63 L74.59,70.05 L75.17,70.47 L75.76,70.90 L76.34,71.34 L76.92,71.77 L77.49,72.22 L78.07,72.66 L78.64,73.11 L79.22,73.56 L79.81,73.99 L80.48,74.33 L80.48,74.33 L80.39,73.25 L80.19,72.30 L79.94,71.40 L79.66,70.53 L79.36,69.69 L79.02,68.88 L78.67,68.09 L78.29,67.32 L77.89,66.58 L77.48,65.86 L77.04,65.16 L76.59,64.49 L76.13,63.84 L75.64,63.20 L75.14,62.59 L74.63,62.01 L74.10,61.44 L73.56,60.89 L73.00,60.37 L72.44,59.87 L71.85,59.39 L71.26,58.93 L70.65,58.49 L70.04,58.07 L69.41,57.67 L68.76,57.29 L68.11,56.93 L67.45,56.60 L66.77,56.28 L66.08,55.99 L65.38,55.71 L64.67,55.46 L63.95,55.23 L63.21,55.03 L62.46,54.85 L61.69,54.70 L60.90,54.58 L60.08,54.51 L59.22,54.51 L58.18,54.83 Z" fill="#fff"/><path d="M47.54,59.18 L47.04,61.00 L46.51,62.81 L45.96,64.62 L45.38,66.42 L44.76,68.21 L44.11,69.99 L43.41,71.75 L42.67,73.50 L41.89,75.23 L41.05,76.94 L40.15,78.64 L39.20,80.30 L38.19,81.95 L37.12,83.56 L35.98,85.15 L34.78,86.70 L33.51,88.21 L32.17,89.69 L30.76,91.12 L29.28,92.50 L27.72,93.84 L26.08,95.12 L24.37,96.34 L22.59,97.50 L20.72,98.59 L18.78,99.62 L16.77,100.57 L14.67,101.44" fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round"/><circle cx="14.67" cy="101.44" r="1.6" fill="#fff"/><path d="M41.77,54.75 L40.01,55.75 L38.24,56.73 L36.45,57.69 L34.65,58.61 L32.82,59.50 L30.98,60.36 L29.12,61.18 L27.23,61.94 L25.32,62.67 L23.39,63.33 L21.43,63.95 L19.45,64.50 L17.44,64.98 L15.41,65.40 L13.35,65.75 L11.27,66.03 L9.16,66.22 L7.03,66.33 L4.88,66.36 L2.70,66.29 L0.51,66.13 L-1.69,65.87 L-3.91,65.52 L-6.15,65.05 L-8.38,64.48 L-10.63,63.80 L-12.88,63.01 L-15.12,62.09" fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round"/><circle cx="-15.12" cy="62.09" r="1.6" fill="#fff"/><path d="M40.82,47.54 L38.92,47.02 L37.03,46.47 L35.14,45.90 L33.26,45.29 L31.40,44.65 L29.54,43.97 L27.70,43.25 L25.87,42.48 L24.07,41.66 L22.28,40.79 L20.51,39.86 L18.77,38.87 L17.05,37.82 L15.36,36.71 L13.71,35.53 L12.09,34.28 L10.51,32.96 L8.96,31.57 L7.47,30.10 L6.02,28.56 L4.63,26.94 L3.29,25.24 L2.01,23.46 L0.79,21.60 L-0.35,19.66 L-1.43,17.65 L-2.42,15.55 L-3.33,13.37" fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round"/><circle cx="-3.33" cy="13.37" r="1.6" fill="#fff"/><path d="M45.25,41.77 L44.30,40.11 L43.38,38.43 L42.48,36.74 L41.60,35.03 L40.76,33.30 L39.95,31.56 L39.19,29.79 L38.46,28.01 L37.78,26.20 L37.16,24.37 L36.58,22.52 L36.07,20.64 L35.61,18.74 L35.22,16.81 L34.90,14.86 L34.64,12.88 L34.47,10.89 L34.37,8.87 L34.35,6.83 L34.42,4.77 L34.58,2.70 L34.83,0.61 L35.18,-1.49 L35.63,-3.61 L36.17,-5.73 L36.83,-7.85 L37.59,-9.98 L38.47,-12.11" fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round"/><circle cx="38.47" cy="-12.11" r="1.6" fill="#fff"/><path d="M52.46,40.82 L53.00,38.84 L53.57,36.87 L54.17,34.90 L54.80,32.95 L55.46,31.00 L56.17,29.07 L56.92,27.15 L57.72,25.25 L58.57,23.36 L59.47,21.50 L60.44,19.66 L61.46,17.84 L62.55,16.05 L63.70,14.29 L64.93,12.56 L66.23,10.87 L67.60,9.22 L69.04,7.62 L70.56,6.06 L72.16,4.54 L73.85,3.09 L75.61,1.69 L77.46,0.35 L79.38,-0.92 L81.40,-2.11 L83.49,-3.23 L85.67,-4.27 L87.93,-5.23" fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round"/><circle cx="87.93" cy="-5.23" r="1.6" fill="#fff"/><path d="M58.23,45.25 L59.97,44.26 L61.72,43.30 L63.48,42.35 L65.26,41.44 L67.06,40.56 L68.87,39.72 L70.71,38.92 L72.57,38.16 L74.46,37.45 L76.36,36.79 L78.30,36.19 L80.25,35.64 L82.23,35.16 L84.24,34.75 L86.27,34.41 L88.33,34.14 L90.41,33.95 L92.51,33.84 L94.64,33.82 L96.78,33.89 L98.94,34.05 L101.12,34.30 L103.31,34.66 L105.51,35.12 L107.72,35.68 L109.94,36.36 L112.15,37.14 L114.37,38.05" fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round"/><circle cx="114.37" cy="38.05" r="1.6" fill="#fff"/><path d="M59.18,52.46 L61.05,52.97 L62.92,53.51 L64.78,54.08 L66.63,54.68 L68.47,55.31 L70.30,55.98 L72.12,56.70 L73.92,57.46 L75.70,58.27 L77.46,59.13 L79.21,60.04 L80.92,61.02 L82.62,62.06 L84.28,63.16 L85.91,64.32 L87.51,65.55 L89.07,66.86 L90.59,68.23 L92.06,69.68 L93.49,71.20 L94.86,72.80 L96.18,74.48 L97.44,76.24 L98.64,78.07 L99.77,79.98 L100.82,81.97 L101.80,84.04 L102.70,86.19" fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round"/><circle cx="102.70" cy="86.19" r="1.6" fill="#fff"/><path d="M54.75,58.23 L55.68,59.87 L56.60,61.52 L57.48,63.19 L58.34,64.88 L59.17,66.58 L59.97,68.30 L60.72,70.04 L61.44,71.80 L62.10,73.58 L62.72,75.38 L63.28,77.21 L63.79,79.06 L64.24,80.94 L64.62,82.84 L64.94,84.76 L65.19,86.71 L65.36,88.68 L65.46,90.67 L65.47,92.68 L65.40,94.71 L65.24,96.75 L64.99,98.81 L64.65,100.89 L64.20,102.97 L63.66,105.06 L63.01,107.16 L62.26,109.26 L61.39,111.35" fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round"/><circle cx="61.39" cy="111.35" r="1.6" fill="#fff"/></svg></div>
+    <div class="brand-name">今天谁离开了我们</div>
+  </div>
+  <div class="topbar-spacer"></div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <p class="hero-kicker">Memento Mori · 讣告档案</p>
+    <h1>今天谁<em>离开了</em>我们</h1>
+    <p class="hero-sub" id="heroSub"></p>
+    <p class="hero-lede">
+      每天记录那些曾改变过我们世界的名字。他们的作品、判断、声音或脚步，
+      曾进入过无数陌生人的生活。这个名字不会永远被记得，
+      但至少在这一页上，有人替他们留下了日期。
+    </p>
+  </section>
+
+  <section class="stats">
+    <div class="stat"><span class="stat-n" id="sTotal">0</span><span class="stat-l">位逝者</span></div>
+    <div class="stat"><span class="stat-n" id="sAvg">0<small>岁</small></span><span class="stat-l">平均享年</span></div>
+    <div class="stat"><span class="stat-n" id="sCountry">0</span><span class="stat-l">个国家</span></div>
+    <div class="stat"><span class="stat-n" id="sField">0</span><span class="stat-l">个领域</span></div>
+  </section>
+
+  <div class="toolbar">
+    <div class="chips" id="chips"></div>
+    <div class="search-row">
+      <label class="search-box">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5" stroke-linecap="round"/></svg>
+        <input type="search" id="searchInput" placeholder="搜索姓名、国籍、作品或身份…" autocomplete="off">
+      </label>
+      <span class="result-count" id="resultCount"></span>
+    </div>
+  </div>
+
+  <div class="timeline" id="timeline"></div>
+
+  <footer class="foot">
+    <div class="foot-title">关于这份记录</div>
+    <p>本页为演示版本，数据取自 2026 年 11 月 9 日至 11 月 16 日期间公开报道的逝世人物，来源包括维基百科逝世人物列表、华盛顿邮报、洛杉矶时报、芝加哥大学法学院、澎湃新闻、光明网、长虹控股集团官网、中央社等。</p>
+    <p>逝世日期以逝者本国媒体或家属、供职机构公布的信息为准；若某日无符合收录条件的人物，该日留空，不作补写。死因仅在公开披露时记录。</p>
+    <p>所有文字为编辑整理，不作商业用途。</p>
+    <p class="foot-org">本网站由对生命及死亡教育感兴趣的伙伴组成的去中心化团队冥冥之中（MingMingStudio）负责运营与管理。</p>
+    <div class="sign">Memento mori — 记住你终将离去</div>
+  </footer>
+</main>
+
+<div class="overlay" id="overlay"></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetName" tabindex="-1">
+  <div class="sheet-grip"><i></i><button class="sheet-close" id="sheetClose" aria-label="关闭">✕</button></div>
+  <div class="sheet-inner" id="sheetInner"></div>
+</div>
+
+<button class="to-top" id="toTop" aria-label="回到顶部">↑</button>
+
+<script src="data/deaths.js"></script>
+<script>
+/* ═══════════ 数据 ═══════════
+   人物数据在 data/deaths.js，头像在 assets/portraits/。
+   增删改人物只需编辑 data/deaths.js，本文件不用动。
+*/
+const RAW = window.DEATHS_DATA || [];
+const DATA = RAW.map(x => ({
+  d: x.date, n: x.name, o: x.nameOrig || "", age: x.age || 0, c: x.country || "",
+  f: x.fields || [], r: x.identity || "", s: x.summary || "",
+  bio: x.bio || "", facts: x.facts || [], src: x.source || "",
+  portrait: x.portrait || null, obit: x.obit || null, id: x.id
+}));
+const PORTRAITS = {};
+DATA.forEach(x => { if (x.portrait) PORTRAITS[x.n] = x.portrait; });
+
+/* ═══════════ 工具 ═══════════ */
+const WEEK = ["星期日","星期一","星期二","星期三","星期四","星期五","星期六"];
+const WEEK_S = ["周日","周一","周二","周三","周四","周五","周六"];
+const TODAY = new Date(2026, 10, 17);   /* 「今天」，上线后可改为 new Date() */
+const $ = s => document.querySelector(s);
+const pad = n => String(n).padStart(2,"0");
+const parse = s => { const [y,m,d] = s.split("-").map(Number); return new Date(y, m-1, d); };
+const sameDay = (a,b) => a.getFullYear()===b.getFullYear() && a.getMonth()===b.getMonth() && a.getDate()===b.getDate();
+const fmtDot = s => { const dt = parse(s); return `${pad(dt.getMonth()+1)}.${pad(dt.getDate())}`; };
+const fmtCn  = s => { const dt = parse(s); return `${dt.getFullYear()} 年 ${dt.getMonth()+1} 月 ${dt.getDate()} 日`; };
+
+/* ═══════════ 统计 ═══════════ */
+const countries = new Set(DATA.map(x=>x.c));
+const fields = new Set(DATA.flatMap(x=>x.f));
+const avgAge = Math.round(DATA.reduce((a,b)=>a+b.age,0) / DATA.length);
+const dates = [...new Set(DATA.map(x=>x.d))].sort().reverse();
+const minD = dates[dates.length-1], maxD = dates[0];
+
+function countUp(el, target, suffix){
+  const t0 = performance.now(), dur = 900;
+  const step = t => {
+    const p = Math.min((t-t0)/dur, 1);
+    const eased = 1 - Math.pow(1-p, 3);
+    el.innerHTML = Math.round(target*eased) + (suffix ? `<small>${suffix}</small>` : "");
+    if (p < 1) requestAnimationFrame(step);
+  };
+  requestAnimationFrame(step);
+}
+countUp($("#sTotal"), DATA.length);
+countUp($("#sAvg"), avgAge, "岁");
+countUp($("#sCountry"), countries.size);
+countUp($("#sField"), fields.size);
+$("#heroSub").textContent = `${fmtCn(minD)} — ${fmtCn(maxD)}　·　共 ${DATA.length} 位`;
+
+/* ═══════════ 筛选器 ═══════════ */
+const fieldOrder = ["科技","文艺","影视","军政","社科","体育","医药","商业","传媒","宗教","其他"];
+const allFields = fieldOrder.filter(f => fields.has(f));
+let activeField = "全部";
+let keyword = "";
+
+const chipsEl = $("#chips");
+function renderChips(){
+  const items = [{k:"全部", n:DATA.length}].concat(
+    allFields.map(f => ({ k:f, n:DATA.filter(x=>x.f.includes(f)).length }))
+  );
+  chipsEl.innerHTML = items.map(({k,n}) => `
+    <button class="chip ${k===activeField?"on":""}" data-k="${k}">${k}<span class="num">${n}</span></button>
+  `).join("");
+}
+chipsEl.addEventListener("click", e => {
+  const btn = e.target.closest(".chip");
+  if (!btn) return;
+  activeField = btn.dataset.k;
+  renderChips();
+  render();
+});
+
+$("#searchInput").addEventListener("input", e => {
+  keyword = e.target.value.trim().toLowerCase();
+  if (keyword && activeField !== "全部"){ activeField = "全部"; renderChips(); }
+  render();
+});
+
+/* ═══════════ 过滤 ═══════════ */
+function match(x){
+  if (activeField !== "全部" && !x.f.includes(activeField)) return false;
+  if (!keyword) return true;
+  const hay = [x.n, x.o, x.c, x.r, x.s, x.bio, x.f.join(" "), (x.facts||[]).join(" ")]
+    .join(" ").toLowerCase();
+  return hay.includes(keyword);
+}
+
+/* ═══════════ 渲染时间轴 ═══════════ */
+const timelineEl = $("#timeline");
+let lastFocused = null;
+
+function render(){
+  const list = DATA.filter(match);
+  const byDate = {};
+  list.forEach(x => { (byDate[x.d] = byDate[x.d] || []).push(x); });
+  const ds = Object.keys(byDate).sort().reverse();
+
+  $("#resultCount").textContent = list.length === DATA.length
+    ? `${DATA.length} 条记录`
+    : `${list.length} / ${DATA.length} 条`;
+
+  if (!list.length){
+    timelineEl.innerHTML = `
+      <div class="no-result">
+        <div class="big">†</div>
+        <p>没有找到符合条件的人。<br>试试换个关键词，或点回「全部」。</p>
+      </div>`;
+    return;
+  }
+
+  /* 按月分组：跨年档案，月内按日倒序 */
+  const byMonth = {};
+  ds.forEach(d => { const m = d.slice(0,7); (byMonth[m] = byMonth[m] || []).push(d); });
+
+  let html = "";
+  Object.keys(byMonth).sort().reverse().forEach(m => {
+    const mm = +m.split("-")[1];
+    const cnt = byMonth[m].reduce((a,d) => a + byDate[d].length, 0);
+    html += `
+      <div class="month-head">
+        <span class="month-num">${mm} 月</span>
+        <span class="month-cnt">${cnt} 位</span>
+      </div>`;
+    byMonth[m].forEach(d => {
+      const dt = parse(d);
+      const items = byDate[d];
+      const isToday = sameDay(dt, TODAY);
+      html += `
+        <section class="day ${isToday?"day-today":""}">
+          <header class="day-head">
+            <div class="day-num">${fmtDot(d)}</div>
+            <div class="day-week">${WEEK[dt.getDay()]}</div>
+            <div class="day-count">${items.length} 位</div>
+          </header>
+          <div class="cards">
+            ${items.map(x => cardHTML(x)).join("")}
+          </div>
+        </section>`;
+    });
+  });
+
+  /* 窗口内最新日期之后的空白日：合并成一段 */
+  if (activeField === "全部" && !keyword){
+    const newest = parse(ds[0]);
+    let c = new Date(newest);
+    c.setDate(c.getDate() + 1);
+    const gaps = [];
+    while (c <= TODAY){ gaps.push(new Date(c)); c.setDate(c.getDate() + 1); }
+    if (gaps.length === 1){
+      html = gapDay(gaps[0], sameDay(gaps[0], TODAY)) + html;
+    } else if (gaps.length > 1){
+      html = gapRange(gaps[0], gaps[gaps.length-1]) + html;
+    }
+  }
+
+  timelineEl.innerHTML = html;
+  timelineEl.querySelectorAll(".card").forEach((el, i) => {
+    el.style.animationDelay = Math.min(i*35, 420) + "ms";
+    el.addEventListener("click", () => openSheet(+el.dataset.idx));
+    el.addEventListener("keydown", e => {
+      if (e.key === "Enter" || e.key === " "){ e.preventDefault(); openSheet(+el.dataset.idx); }
+    });
+  });
+}
+
+function gapDay(dt, isToday){
+  return `
+    <section class="day is-empty ${isToday?"day-today":""}">
+      <header class="day-head">
+        <div class="day-num">${pad(dt.getMonth()+1)}.${pad(dt.getDate())}</div>
+        <div class="day-week">${WEEK[dt.getDay()]}</div>
+        <div class="day-count">0 位</div>
+      </header>
+      <div class="day-empty"><p>${isToday
+        ? "今天，还没有符合收录条件的人物离开。这一页留给尚未发生的事。"
+        : "这一天，暂无符合收录条件的人物离开。"}</p></div>
+    </section>`;
+}
+
+function gapRange(from, to){
+  const f = `${pad(from.getMonth()+1)}.${pad(from.getDate())}`;
+  const t = `${pad(to.getMonth()+1)}.${pad(to.getDate())}`;
+  return `
+    <section class="day is-empty day-today">
+      <header class="day-head">
+        <div class="day-range">${f} — ${t}</div>
+        <div class="day-week">${WEEK_S[from.getDay()]} — ${WEEK_S[to.getDay()]}</div>
+        <div class="day-count">0 位</div>
+      </header>
+      <div class="day-empty"><p>这几天，还没有符合收录条件的人物离开。今天这一页，留给尚未发生的事。</p></div>
+    </section>`;
+}
+
+function cardHTML(x){
+  const monogram = x.n.replace(/·/g,"").slice(0,1);
+  const idx = DATA.indexOf(x);
+  return `
+    <article class="card" data-idx="${idx}" tabindex="0" role="button"
+             aria-label="查看 ${x.n} 的讣告">
+      ${PORTRAITS[x.n]
+        ? `<div class="mono has-face"><img src="${PORTRAITS[x.n]}" alt="${x.n}" loading="lazy" decoding="async"></div>`
+        : `<div class="mono">${monogram}</div>`}
+      <div class="card-main">
+        <div class="card-name-row">
+          <h3 class="card-name">${x.n}</h3>
+          <span class="card-age">${x.age ? x.age + " 岁" : ""}</span>
+        </div>
+        <div class="card-orig">${x.o}</div>
+        <div class="card-role">${x.r}</div>
+        <p class="card-sum">${x.s}</p>
+        <div class="card-tags">
+          ${x.f.map(f => `<span class="tag primary">${f}</span>`).join("")}
+          <span class="tag">${x.c}</span>
+        </div>
+      </div>
+      <div class="card-arrow">→</div>
+    </article>`;
+}
+
+/* ═══════════ 详情抽屉 ═══════════ */
+const overlay = $("#overlay"), sheet = $("#sheet"), sheetInner = $("#sheetInner");
+let curIdx = -1;
+
+/* ═══════════ 讣告原文（打开详情时按需加载） ═══════════ */
+let obitsLoading = false, obitsQueue = [];
+
+function loadObits(cb){
+  if (window.OBITS){ cb(); return; }
+  obitsQueue.push(cb);
+  if (obitsLoading) return;
+  obitsLoading = true;
+  const s = document.createElement("script");
+  s.src = "data/obits.js";
+  s.onload = () => { obitsLoading = false; const q = obitsQueue; obitsQueue = []; q.forEach(f => f()); };
+  s.onerror = () => { obitsLoading = false; obitsQueue = []; };
+  document.head.appendChild(s);
+}
+
+function obitHTML(o){
+  if (o.level === "无公开讣告"){
+    const m = o.text.match(/\*\*说明\*\*：([^\n]+)/);
+    return `<p class="obit-none">未检索到公开讣告。${m ? m[1].trim() : ""}</p>`;
+  }
+  const ps = o.text.split(/\n+/).map(s => s.trim()).filter(Boolean)
+              .map(s => `<p>${s}</p>`).join("");
+  return `<div class="obit-body">${ps}</div>${o.source ? `<div class="obit-src">来源：${o.source}</div>` : ""}`;
+}
+
+function bindObit(x){
+  const btn = $("#obitBtn"), wrap = $("#obitWrap"), inner = $("#obitInner");
+  if (!btn || !wrap || !inner) return;
+  const label = btn.querySelector(".obit-btn-t"), lv = btn.querySelector(".obit-btn-lv");
+  btn.addEventListener("click", () => {
+    if (wrap.classList.contains("open")){
+      wrap.classList.remove("open");
+      btn.dataset.state = "closed";
+      label.textContent = inner.dataset.lv === "C" ? "讣告情况" : "阅读讣告原文";
+      return;
+    }
+    if (inner.dataset.ready === "1"){
+      wrap.classList.add("open"); btn.dataset.state = "open";
+      label.textContent = inner.dataset.lv === "C" ? "收起" : "收起讣告";
+      return;
+    }
+    label.textContent = "加载中…";
+    loadObits(() => {
+      const o = window.OBITS && window.OBITS[x.id];
+      if (!o){ label.textContent = "讣告暂不可用"; return; }
+      inner.innerHTML = obitHTML(o);
+      inner.dataset.ready = "1";
+      inner.dataset.lv = o.level === "无公开讣告" ? "C" : "AB";
+      lv.textContent = o.level;
+      wrap.classList.add("open");
+      btn.dataset.state = "open";
+      label.textContent = inner.dataset.lv === "C" ? "收起" : "收起讣告";
+    });
+  });
+}
+
+function openSheet(idx){
+  const x = DATA[idx];
+  if (!x) return;
+  if (curIdx === -1) lastFocused = document.activeElement;
+  curIdx = idx;
+  const dt = parse(x.d);
+  sheetInner.innerHTML = `
+    <div class="sheet-head">
+      ${PORTRAITS[x.n]
+        ? `<div class="sheet-mono has-face"><img src="${PORTRAITS[x.n]}" alt="${x.n}"></div>`
+        : `<div class="sheet-mono">${x.n.replace(/·/g,"").slice(0,1)}</div>`}
+      <div style="min-width:0">
+        <h2 class="sheet-h1" id="sheetName">${x.n}</h2>
+        <div class="sheet-orig">${x.o}</div>
+        <div class="sheet-role">${x.r}</div>
+      </div>
+    </div>
+    <div class="sheet-facts">
+      <div class="fact"><span class="fact-k">卒日</span><span class="fact-v">${dt.getMonth()+1}.${dt.getDate()}</span></div>
+      <div class="fact"><span class="fact-k">享年</span><span class="fact-v">${x.age ? x.age + " 岁" : "未详"}</span></div>
+      <div class="fact"><span class="fact-k">国籍</span><span class="fact-v">${x.c}</span></div>
+    </div>
+    <p class="sheet-bio">${x.bio}</p>
+    <div class="sheet-sec-title">生平要点</div>
+    <ul class="fact-list">
+      ${x.facts.map(f => `<li>${f}</li>`).join("")}
+    </ul>
+    ${x.obit ? `
+    <button class="obit-btn" id="obitBtn" data-state="closed">
+      <span class="obit-btn-t">阅读讣告原文</span>
+      <span class="obit-btn-r"><span class="obit-btn-lv"></span><span class="obit-btn-arrow">▾</span></span>
+    </button>
+    <div class="obit-wrap" id="obitWrap"><div class="obit-inner" id="obitInner"></div></div>` : ""}
+    <div class="sheet-src">资料来源：${x.src}<br>逝世日期：${fmtCn(x.d)}（${WEEK[dt.getDay()]}）</div>
+    <div class="sheet-nav">
+      <button class="nav-btn" id="prevBtn" ${curIdx<=0?"disabled":""}>← 前一位</button>
+      <button class="nav-btn" id="nextBtn" ${curIdx>=DATA.length-1?"disabled":""}>后一位 →</button>
+    </div>
+  `;
+  sheet.classList.add("show");
+  overlay.classList.add("show");
+  document.body.style.overflow = "hidden";
+  sheet.scrollTop = 0;
+  sheet.focus({ preventScroll: true });
+
+  const prev = $("#prevBtn"), next = $("#nextBtn");
+  if (prev) prev.addEventListener("click", () => { if (curIdx>0) openSheet(curIdx-1); });
+  if (next) next.addEventListener("click", () => { if (curIdx<DATA.length-1) openSheet(curIdx+1); });
+  bindObit(x);
+}
+
+function closeSheet(){
+  if (!sheet.classList.contains("show")) return;
+  sheet.classList.remove("show");
+  overlay.classList.remove("show");
+  document.body.style.overflow = "";
+  curIdx = -1;
+  if (lastFocused && lastFocused.focus) lastFocused.focus({ preventScroll: true });
+  lastFocused = null;
+}
+overlay.addEventListener("click", closeSheet);
+$("#sheetClose").addEventListener("click", closeSheet);
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape") closeSheet();
+  if (!sheet.classList.contains("show")) return;
+  if (e.key === "ArrowLeft" && curIdx > 0) openSheet(curIdx-1);
+  if (e.key === "ArrowRight" && curIdx < DATA.length-1) openSheet(curIdx+1);
+});
+
+/* 下滑关闭 */
+let touchStartY = 0;
+sheet.addEventListener("touchstart", e => {
+  touchStartY = e.touches[0].clientY;
+}, {passive:true});
+sheet.addEventListener("touchmove", e => {
+  const dy = e.touches[0].clientY - touchStartY;
+  if (sheet.scrollTop <= 0 && dy > 70) closeSheet();
+}, {passive:true});
+
+
+/* ═══════════ 回到顶部 ═══════════ */
+const toTop = $("#toTop");
+window.addEventListener("scroll", () => {
+  toTop.classList.toggle("show", window.scrollY > 600);
+}, {passive:true});
+toTop.addEventListener("click", () => window.scrollTo({top:0, behavior:"smooth"}));
+
+/* ═══════════ 启动 ═══════════ */
+renderChips();
+render();
+</script>
+</body>
+</html>
