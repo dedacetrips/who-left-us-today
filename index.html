@@ -388,6 +388,11 @@ body::before{
 .obit-body{font-size:13.5px;line-height:2.05;color:var(--ink-2);margin:0}
 .obit-body p{text-indent:2em;margin:0 0 13px}
 .obit-body p:last-child{margin-bottom:0}
+.obit-body strong{font-weight:700;color:var(--ink)}
+.obit-list{margin:0 0 14px;padding:0;list-style:none}
+.obit-list li{position:relative;margin:0 0 5px;padding-left:15px;text-indent:0}
+.obit-list li::before{content:"";position:absolute;left:3px;top:.85em;width:4px;height:4px;border-radius:50%;background:var(--accent)}
+.obit-list li strong{color:var(--ink-2)}
 .obit-src{
   font-size:11px;color:var(--ink-4);letter-spacing:.03em;line-height:1.8;
   margin-top:18px;padding-top:12px;border-top:1px solid var(--line);
@@ -727,14 +732,32 @@ function loadObits(cb){
   document.head.appendChild(s);
 }
 
+function escHtml(s){
+  return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+}
+function mdInline(s){
+  return escHtml(s).replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+}
 function obitHTML(o){
   if (o.level === "无公开讣告"){
     const m = o.text.match(/\*\*说明\*\*：([^\n]+)/);
-    return `<p class="obit-none">未检索到公开讣告。${m ? m[1].trim() : ""}</p>`;
+    return `<p class="obit-none">未检索到公开讣告。${m ? mdInline(m[1].trim()) : ""}</p>`;
   }
-  const ps = o.text.split(/\n+/).map(s => s.trim()).filter(Boolean)
-              .map(s => `<p>${s}</p>`).join("");
-  return `<div class="obit-body">${ps}</div>${o.source ? `<div class="obit-src">来源：${o.source}</div>` : ""}`;
+  const lines = o.text.split(/\n+/).map(s => s.trim()).filter(Boolean);
+  let out = "", list = [];
+  const flush = () => {
+    if (list.length){
+      out += `<ul class="obit-list">${list.map(x => `<li>${mdInline(x)}</li>`).join("")}</ul>`;
+      list = [];
+    }
+  };
+  lines.forEach(s => {
+    const li = s.match(/^[-•]\s+(.+)$/);
+    if (li){ list.push(li[1]); }
+    else { flush(); out += `<p>${mdInline(s)}</p>`; }
+  });
+  flush();
+  return `<div class="obit-body">${out}</div>${o.source ? `<div class="obit-src">来源：${escHtml(o.source)}</div>` : ""}`;
 }
 
 function bindObit(x){
