@@ -402,6 +402,8 @@ body::before{
   margin-top:26px;padding-top:14px;border-top:1px solid var(--line);
   font-size:11px;color:var(--ink-4);line-height:1.8;letter-spacing:.03em;
 }
+.wiki-link{color:var(--ink-2);text-decoration:none;border-bottom:1px solid var(--line-2);padding-bottom:1px}
+.wiki-link:hover{color:var(--accent);border-bottom-color:var(--accent)}
 .sheet-nav{display:flex;gap:10px;margin-top:22px}
 .nav-btn{
   flex:1;border:1px solid var(--line-2);background:transparent;color:var(--ink);
@@ -504,7 +506,8 @@ const DATA = RAW.map(x => ({
   d: x.date, n: x.name, o: x.nameOrig || "", age: x.age || 0, c: x.country || "",
   f: x.fields || [], r: x.identity || "", s: x.summary || "",
   bio: x.bio || "", facts: x.facts || [], src: x.source || "",
-  portrait: x.portrait || null, obit: x.obit || null, id: x.id
+  portrait: x.portrait || null, obit: x.obit || null, id: x.id,
+  cause: x.causeOfDeath || null, wiki: x.wikipedia || null
 }));
 const PORTRAITS = {};
 DATA.forEach(x => { if (x.portrait) PORTRAITS[x.n] = x.portrait; });
@@ -822,6 +825,7 @@ function openSheet(idx){
       <div class="fact"><span class="fact-k">卒日</span><span class="fact-v">${dt.getMonth()+1}.${dt.getDate()}</span></div>
       <div class="fact"><span class="fact-k">享年</span><span class="fact-v">${x.age ? x.age + " 岁" : "未详"}</span></div>
       <div class="fact"><span class="fact-k">国籍</span><span class="fact-v">${x.c}</span></div>
+      ${x.cause ? `<div class="fact"><span class="fact-k">死因</span><span class="fact-v">${x.cause}</span></div>` : ""}
     </div>
     <p class="sheet-bio">${x.bio}</p>
     <div class="sheet-sec-title">生平要点</div>
@@ -834,7 +838,7 @@ function openSheet(idx){
       <span class="obit-btn-r"><span class="obit-btn-lv"></span><span class="obit-btn-arrow">▾</span></span>
     </button>
     <div class="obit-wrap" id="obitWrap"><div class="obit-inner" id="obitInner"></div></div>` : ""}
-    <div class="sheet-src">资料来源：${x.src}<br>逝世日期：${fmtCn(x.d)}（${WEEK[dt.getDay()]}）</div>
+    <div class="sheet-src">资料来源：${x.src}<br>逝世日期：${fmtCn(x.d)}（${WEEK[dt.getDay()]}）${x.wiki ? `<br>维基百科：<a class="wiki-link" href="${x.wiki}" target="_blank" rel="noopener noreferrer">查看条目 ↗</a>` : ""}</div>
     <div class="sheet-nav">
       <button class="nav-btn" id="prevBtn" ${curIdx<=0?"disabled":""}>← 前一位</button>
       <button class="nav-btn" id="nextBtn" ${curIdx>=DATA.length-1?"disabled":""}>后一位 →</button>
