@@ -726,9 +726,19 @@ function loadObits(cb){
   if (obitsLoading) return;
   obitsLoading = true;
   const s = document.createElement("script");
+  const timer = setTimeout(() => { if (!window.OBITS) s.onerror && s.onerror(); }, 12000);
   s.src = "data/obits.js";
-  s.onload = () => { obitsLoading = false; const q = obitsQueue; obitsQueue = []; q.forEach(f => f()); };
-  s.onerror = () => { obitsLoading = false; obitsQueue = []; };
+  s.onload = () => {
+    clearTimeout(timer);
+    if (!window.OBITS){ s.remove(); s.onerror && s.onerror(); return; }
+    obitsLoading = false; const q = obitsQueue; obitsQueue = []; q.forEach(f => f());
+  };
+  s.onerror = () => {
+    clearTimeout(timer); s.remove();
+    obitsLoading = false; const q = obitsQueue; obitsQueue = [];
+    const btn = $("#obitBtn .obit-btn-t");
+    if (btn) btn.textContent = "讣告加载失败，点击重试";
+  };
   document.head.appendChild(s);
 }
 
