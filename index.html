@@ -530,7 +530,14 @@ body::before{
    人物数据在 data/deaths.js，头像在 assets/portraits/。
    增删改人物只需编辑 data/deaths.js，本文件不用动。
 */
-const RAW = window.DEATHS_DATA || [];
+/* deaths.js 采用列式压缩（cols 键名 + rows 行数组），在此还原成对象数组。
+   兼容旧格式（对象数组）：已是数组时直接使用。 */
+const _dd = window.DEATHS_DATA;
+const RAW = Array.isArray(_dd)
+  ? _dd
+  : (_dd && Array.isArray(_dd.rows)
+      ? _dd.rows.map(r => { const o = {}; for (let i = 0; i < _dd.cols.length; i++) o[_dd.cols[i]] = r[i]; return o; })
+      : []);
 const DATA = RAW.map(x => ({
   d: x.date, n: x.name, o: x.nameOrig || "", age: x.age || 0, c: x.country || "",
   f: x.fields || [], r: x.identity || "", s: x.summary || "",
