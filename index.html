@@ -524,28 +524,34 @@ body::before{
 
 <button class="to-top" id="toTop" aria-label="回到顶部">↑</button>
 
-<script src="data/deaths.js"></script>
+<script src="data/deaths-preview.js"></script>
 <script>
 /* ═══════════ 数据 ═══════════
-   人物数据在 data/deaths.js，头像在 assets/portraits/。
-   增删改人物只需编辑 data/deaths.js，本文件不用动。
+   数据源拆成两片，同源且严格按物理顺序：
+   - deaths-preview.js：原表前 50 条 + DEATHS_META（全量统计），同步加载，首屏秒出
+   - deaths-rest.js    ：原表第 51 条起，页面 load 后后台加载，到位后无缝续接
+   两片都由 scripts/split_deaths.py 从 deaths.js 自动生成，不要手工编辑。
+   增删人物只改 deaths.js，再跑一次切分脚本。
 */
-/* deaths.js 采用列式压缩（cols 键名 + rows 行数组），在此还原成对象数组。
-   兼容旧格式（对象数组）：已是数组时直接使用。 */
+/* 列式压缩（cols 键名 + rows 行数组）还原成对象数组，兼容旧的对象数组格式。 */
 const _dd = window.DEATHS_DATA;
-const RAW = Array.isArray(_dd)
-  ? _dd
-  : (_dd && Array.isArray(_dd.rows)
-      ? _dd.rows.map(r => { const o = {}; for (let i = 0; i < _dd.cols.length; i++) o[_dd.cols[i]] = r[i]; return o; })
-      : []);
-const DATA = RAW.map(x => ({
-  d: x.date, n: x.name, o: x.nameOrig || "", age: x.age || 0, c: x.country || "",
-  f: x.fields || [], r: x.identity || "", s: x.summary || "",
-  bio: x.bio || "", facts: x.facts || [], src: x.source || "",
-  portrait: x.portrait || null, obit: x.obit || null, id: x.id,
-  cause: x.causeOfDeath || null, causeCat: x.causeCategory || null, wiki: x.wikipedia || null
-}));
-const PORTRAITS = {};
+const COLS = (_dd && _dd.cols) || [];
+const META = window.DEATHS_META || null;
+let TOTAL = META ? META.total : 0;
+function toRaw(r){ const o = {}; for (let i = 0; i < COLS.length; i++) o[COLS[i]] = r[i]; return o; }
+function toData(x){
+  return {
+    d: x.date, n: x.name, o: x.nameOrig || "", age: x.age || 0, c: x.country || "",
+    f: x.fields || [], r: x.identity || "", s: x.summary || "",
+    bio: x.bio || "", facts: x.facts || [], src: x.source || "",
+    portrait: x.portrait || null, obit: x.obit || null, id: x.id,
+    cause: x.causeOfDeath || null, causeCat: x.causeCategory || null, wiki: x.wikipedia || null
+  };
+}
+let RAW = Array.isArray(_dd) ? _dd : (_dd && Array.isArray(_dd.rows) ? _dd.rows.map(toRaw) : []);
+let DATA = RAW.map(toData);
+if (!TOTAL) TOTAL = DATA.length;   /* 兼容无 META 的旧数据 */
+let PORTRAITS = {};
 DATA.forEach(x => { if (x.portrait) PORTRAITS[x.n] = x.portrait; });
 
 /* 头像加载失败兜底：路径存在但文件缺失时，回退成姓名首字方块。
@@ -572,11 +578,14 @@ const sameDay = (a,b) => a.getFullYear()===b.getFullYear() && a.getMonth()===b.g
 const fmtDot = s => { const dt = parse(s); return `${pad(dt.getMonth()+1)}.${pad(dt.getDate())}`; };
 const fmtCn  = s => { const dt = parse(s); return `${dt.getFullYear()} 年 ${dt.getMonth()+1} 月 ${dt.getDate()} 日`; };
 
-/* ═══════════ 统计 ═══════════ */
-const fields = new Set(DATA.flatMap(x=>x.f));
-const avgAge = Math.round(DATA.reduce((a,b)=>a+b.age,0) / DATA.length);
-const dates = [...new Set(DATA.map(x=>x.d))].sort().reverse();
-const minD = dates[dates.length-1], maxD = dates[0];
+/* ═══════════ 统计 ═══════════
+   首屏只有 50 条，统计值一律以 META（全量预生成）为准，
+   后台数据到位后 recalcStats() 用真实全量覆盖，数值不会跳变。 */
+let fields = new Set(DATA.flatMap(x=>x.f));
+let avgAge = META ? META.avgAge : Math.round(DATA.reduce((a,b)=>a+b.age,0) / DATA.length);
+let dates = [...new Set(DATA.map(x=>x.d))].sort().reverse();
+let minD = META ? META.dateMin : dates[dates.length-1];
+let maxD = META ? META.dateMax : dates[0];
 
 function countUp(el, target, suffix){
   const t0 = performance.now(), dur = 900;
@@ -588,21 +597,25 @@ function countUp(el, target, suffix){
   };
   requestAnimationFrame(step);
 }
-countUp($("#sTotal"), DATA.length);
-countUp($("#sAvg"), avgAge, "岁");
-$("#heroSub").textContent = `${fmtCn(minD)} — ${fmtCn(maxD)}　·　共 ${DATA.length} 位`;
-$("#footTotal").textContent = DATA.length.toLocaleString("zh-CN");
+function paintStats(){
+  const total = DATA.length;
+  countUp($("#sTotal"), total);
+  countUp($("#sAvg"), avgAge, "岁");
+  $("#heroSub").textContent = `${fmtCn(minD)} — ${fmtCn(maxD)}　·　共 ${total} 位`;
+  $("#footTotal").textContent = total.toLocaleString("zh-CN");
+}
+paintStats();
 
 /* ═══════════ 筛选器 ═══════════ */
 const fieldOrder = ["科技","文艺","影视","军政","社科","体育","医药","商业","传媒","宗教","其他"];
-const allFields = fieldOrder.filter(f => fields.has(f));
+const allFields = fieldOrder.filter(f => META ? (META.fieldCounts[f]||0) : fields.has(f));
 let activeField = "全部";
 let keyword = "";
 
 const chipsEl = $("#chips");
 function renderChips(){
   const items = [{k:"全部", n:DATA.length}].concat(
-    allFields.map(f => ({ k:f, n:DATA.filter(x=>x.f.includes(f)).length }))
+    allFields.map(f => ({ k:f, n: META ? (META.fieldCounts[f]||0) : DATA.filter(x=>x.f.includes(f)).length }))
   );
   chipsEl.innerHTML = items.map(({k,n}) => `
     <button class="chip ${k===activeField?"on":""}" data-k="${k}">${k}<span class="num">${n}</span></button>
@@ -635,6 +648,15 @@ function match(x){
 const timelineEl = $("#timeline");
 let lastFocused = null;
 const PAGE_SIZE = 50;
+let fullLoaded = false;   /* 后台完整数据是否已并入 DATA */
+function resultText(){
+  /* 首屏尚未拿到全量时，明确说明是"加载中"而不是"只匹配到 50 条" */
+  if (!fullLoaded && activeField === "全部" && !keyword)
+    return `已显示 ${renderedCount} 位 · 正在加载完整数据（共 ${TOTAL} 位）`;
+  return currentList.length === TOTAL
+    ? `${TOTAL} 条记录 · 已显示 ${renderedCount}`
+    : `${currentList.length} / ${TOTAL} 条 · 已显示 ${renderedCount}`;
+}
 
 let currentList = [];        // 当前筛选结果
 let renderedCount = 0;       // 已渲染条数
@@ -657,16 +679,16 @@ function render(){
   suppressLoad = true;
   setTimeout(() => { suppressLoad = false; }, 250);
 
-  $("#resultCount").textContent = currentList.length === DATA.length
-    ? `${DATA.length} 条记录 · 已显示 0`
-    : `${currentList.length} / ${DATA.length} 条 · 已显示 0`;
+  $("#resultCount").textContent = resultText();
 
   if (!currentList.length){
-    timelineEl.innerHTML = `
-      <div class="no-result">
-        <div class="big">†</div>
-        <p>没有找到符合条件的人。<br>试试换个关键词，或点回「全部」。</p>
-      </div>`;
+    /* 首屏只有 50 条时搜不到，不代表全量没有：给"加载中"而不是"没找到" */
+    timelineEl.innerHTML = !fullLoaded
+      ? `<div class="no-result"><div class="big">†</div><p>正在加载完整数据，请稍候…</p></div>`
+      : `<div class="no-result">
+          <div class="big">†</div>
+          <p>没有找到符合条件的人。<br>试试换个关键词，或点回「全部」。</p>
+        </div>`;
     updateLoadMore();
     return;
   }
@@ -730,9 +752,7 @@ function appendBatch(){
   });
 
   renderedCount += batch.length;
-  $("#resultCount").textContent = currentList.length === DATA.length
-    ? `${DATA.length} 条记录 · 已显示 ${renderedCount}`
-    : `${currentList.length} / ${DATA.length} 条 · 已显示 ${renderedCount}`;
+  $("#resultCount").textContent = resultText();
   updateLoadMore();
 }
 
@@ -753,11 +773,15 @@ function bindCards(container, fromIdx){
 function updateLoadMore(){
   const el = $("#loadMore");
   if (!el) return;
-  if (renderedCount >= currentList.length){
+  if (renderedCount >= currentList.length && !fullLoaded){
+    el.innerHTML = `<span class="load-spin"></span>正在后台加载完整数据… <span class="load-num">（已显示 ${renderedCount} / ${TOTAL}）</span>`;
+    el.classList.remove("done");
+  } else if (renderedCount >= currentList.length){
     el.innerHTML = `<span class="load-done">已显示全部 ${renderedCount} 位</span>`;
     el.classList.add("done");
   } else {
-    el.innerHTML = `<span class="load-spin"></span>加载更多 <span class="load-num">（已显示 ${renderedCount} / ${currentList.length}）</span>`;
+    /* 完整数据已到位但还有更多：纯文字按钮，不再常驻转圈 */
+    el.innerHTML = `加载更多 <span class="load-num">（已显示 ${renderedCount} / ${currentList.length}）</span>`;
     el.classList.remove("done");
   }
 }
@@ -769,7 +793,10 @@ if (loadMoreEl){
     if (entries[0].isIntersecting && !suppressLoad && renderedCount < currentList.length) appendBatch();
   }, { rootMargin: "300px" });
   io.observe(loadMoreEl);
-  loadMoreEl.addEventListener("click", () => { if (renderedCount < currentList.length) appendBatch(); });
+  loadMoreEl.addEventListener("click", () => {
+    if (!fullLoaded){ loadFullData(); return; }
+    if (renderedCount < currentList.length) appendBatch();
+  });
 }
 
 function gapDay(dt, isToday){
@@ -1047,9 +1074,87 @@ window.addEventListener("scroll", () => {
 }, {passive:true});
 toTop.addEventListener("click", () => window.scrollTo({top:0, behavior:"smooth"}));
 
+/* ═══════════ 后台完整数据 ═══════════
+   首屏 50 条来自 deaths-preview.js（12KB，同步加载，首屏秒出）。
+   绘制完成后在空闲时段拉取 deaths-rest.js（~2.7MB），到位后无缝并入：
+   - 初始浏览：直接续接渲染，已有 DOM / 卡片索引完全不动，零闪烁
+   - 已搜索/已筛选：按当前条件重筛，恢复滚动位置
+   - 详情抽屉打开：保留抽屉内容，只刷新上一位/下一位边界
+*/
+let fullLoading = false;
+function loadFullData(){
+  if (fullLoaded || fullLoading) return;
+  if (window.DEATHS_REST){ mergeFull(); return; }
+  fullLoading = true;
+  const s = document.createElement("script");
+  const timer = setTimeout(() => { if (!window.DEATHS_REST && s.onerror) s.onerror(); }, 15000);
+  s.src = "data/deaths-rest.js";
+  s.onload = () => {
+    clearTimeout(timer);
+    if (!window.DEATHS_REST){ s.remove(); s.onerror && s.onerror(); return; }
+    fullLoading = false;
+    mergeFull();
+  };
+  s.onerror = () => {
+    clearTimeout(timer); s.remove(); fullLoading = false;
+    const el = $("#loadMore");
+    if (el){
+      el.innerHTML = `<span id="retryFull" style="cursor:pointer;text-decoration:underline">完整数据加载失败，点击重试</span>`;
+      el.classList.remove("done");
+      const btn = $("#retryFull");
+      if (btn) btn.addEventListener("click", loadFullData);
+    }
+  };
+  document.head.appendChild(s);
+}
+
+function recalcStats(){
+  fields = new Set(DATA.flatMap(x=>x.f));
+  avgAge = Math.round(DATA.reduce((a,b)=>a+b.age,0) / DATA.length);
+  dates = [...new Set(DATA.map(x=>x.d))].sort().reverse();
+  minD = dates[dates.length-1]; maxD = dates[0];
+  TOTAL = DATA.length;
+  paintStats();
+  renderChips();
+}
+
+function mergeFull(){
+  if (fullLoaded || !window.DEATHS_REST) return;
+  const restRaw = window.DEATHS_REST.rows.map(toRaw);
+  /* 前 50 条对象保持同一引用：卡片 DOM、data-idx、讣告映射全部继续有效 */
+  RAW = RAW.concat(restRaw);
+  DATA = DATA.concat(restRaw.map(toData));
+  fullLoaded = true;
+
+  DATA.forEach(x => { if (x.portrait && !PORTRAITS[x.n]) PORTRAITS[x.n] = x.portrait; });
+  recalcStats();
+
+  /* 抽屉开着时只刷新导航边界，不重建、不关闭 */
+  if (curIdx >= 0){
+    const prev = $("#prevBtn"), next = $("#nextBtn");
+    if (prev) prev.disabled = curIdx <= 0;
+    if (next) next.disabled = curIdx >= DATA.length - 1;
+  }
+
+  if (activeField === "全部" && !keyword){
+    /* 初始浏览：扩为全量后从第 51 条续接，已渲染 DOM 原样保留 */
+    currentList = DATA.filter(match);
+    appendBatch();
+  } else {
+    /* 已交互：按当前条件重筛，恢复滚动位置 */
+    const y = window.scrollY;
+    render();
+    window.scrollTo(0, y);
+  }
+}
+
 /* ═══════════ 启动 ═══════════ */
 renderChips();
 render();
+/* 首屏绘制完成后再启动后台加载，不占用首次绘制 */
+if (window.DEATHS_REST) mergeFull();
+else if (window.requestIdleCallback) requestIdleCallback(() => loadFullData(), { timeout: 1200 });
+else setTimeout(loadFullData, 100);
 </script>
 </body>
 </html>
