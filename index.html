@@ -882,24 +882,39 @@ function loadObits(cb){
   document.head.appendChild(s);
 }
 
-/* ═══════════ 来源链接（打开详情时按需加载） ═══════════ */
-let srcLinksLoading=false, srcLinksQueue=[];
-function loadSourceLinks(cb){
-  if (window.SOURCE_LINKS){ cb(); return; }
-  srcLinksQueue.push(cb);
-  if (srcLinksLoading) return;
-  srcLinksLoading=true;
+/* ═══════════ 来源链接（打开详情时按 id 分片加载） ═══════════
+   全量 758KB，按 id 哈希切成 16 片，单片约 47KB，只加载当前人物所在片。
+   哈希函数 FNV-1a 32 位，与 scripts/shard_source_links.py 保持一致。 */
+const SRC_SHARDS=16;
+const srcShardState={};   /* 片号 -> {loading, loaded, queue} */
+function srcShardOf(id){
+  let h=0x811c9dc5;
+  const bytes=new TextEncoder().encode(String(id));
+  for(let i=0;i<bytes.length;i++){ h^=bytes[i]; h=Math.imul(h,0x01000193)>>>0; }
+  return h%SRC_SHARDS;
+}
+function loadSourceLinks(id, cb){
+  if (window.SOURCE_LINKS && window.SOURCE_LINKS[id]){ cb(); return; }
+  const shard=srcShardOf(id);
+  let st=srcShardState[shard];
+  if(!st){ st=srcShardState[shard]={loading:false,loaded:false,queue:[]}; }
+  if(st.loaded){ cb(); return; }
+  st.queue.push(cb);
+  if(st.loading) return;
+  st.loading=true;
   const s=document.createElement("script");
-  const timer=setTimeout(()=>{ if(!window.SOURCE_LINKS) s.onerror&&s.onerror(); },12000);
-  s.src="data/source-links.js";
+  const timer=setTimeout(()=>{ if(!st.loaded) s.onerror&&s.onerror(); },15000);
+  s.src="data/source-links/s"+shard+".js";
   s.onload=()=>{
     clearTimeout(timer);
     if(!window.SOURCE_LINKS){ s.remove(); s.onerror&&s.onerror(); return; }
-    srcLinksLoading=false; const q=srcLinksQueue; srcLinksQueue=[]; q.forEach(f=>f());
+    st.loading=false; st.loaded=true;
+    const q=st.queue; st.queue=[]; q.forEach(f=>f());
   };
   s.onerror=()=>{
     clearTimeout(timer); s.remove();
-    srcLinksLoading=false; const q=srcLinksQueue; srcLinksQueue=[]; q.forEach(f=>f());
+    st.loading=false;
+    const q=st.queue; st.queue=[]; q.forEach(f=>f());  /* 失败也回调：退回纯文本来源 */
   };
   document.head.appendChild(s);
 }
@@ -1034,8 +1049,8 @@ function openSheet(idx){
     const el = $("#srcText");
     if (el) el.innerHTML = srcHTML(x);
   };
-  if (window.SOURCE_LINKS) applySrc();
-  else loadSourceLinks(applySrc);
+  if (window.SOURCE_LINKS && window.SOURCE_LINKS[x.id]) applySrc();
+  else loadSourceLinks(x.id, applySrc);
 }
 
 function closeSheet(){
