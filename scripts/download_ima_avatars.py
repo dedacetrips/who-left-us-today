@@ -62,15 +62,23 @@ def fetch_avatar_list():
     return items
 
 
-def get_url_info(mid):
-    d = ima_api("openapi/wiki/v1/get_media_info", {"media_id": mid})
-    if d.get("code") == 220021:
-        return "QUOTA"
-    if d.get("code") == 0:
-        info = (d.get("data") or {}).get("url_info") or {}
-        if info.get("url"):
-            return info
-    return None
+def get_url_info(mid, retries=6):
+    """带退避的取链：220021 是每日配额、200001 是短时限流，二者分开处理。"""
+    for attempt in range(retries):
+        d = ima_api("openapi/wiki/v1/get_media_info", {"media_id": mid})
+        code = d.get("code")
+        if code == 220021:                       # 每日配额耗尽，直接停
+            return "QUOTA"
+        if code == 200001:                       # 请求频率超限，指数退避后重试
+            time.sleep(min(2 ** attempt, 20))
+            continue
+        if code == 0:
+            info = (d.get("data") or {}).get("url_info") or {}
+            if info.get("url"):
+                return info
+            return None
+        time.sleep(1)                            # 其他瞬时错误，稍后重试
+    return "RATE_LIMIT"
 
 
 def download(item):
@@ -78,6 +86,8 @@ def download(item):
     info = get_url_info(item["media_id"])
     if info == "QUOTA":
         return (name, "QUOTA", "")
+    if info == "RATE_LIMIT":
+        return (name, "RATE_LIMIT", "")
     if not info:
         return (name, "INFO_FAIL", "")
     try:
@@ -102,23 +112,28 @@ def main():
     total_webp = sum(1 for x in items if x["title"].lower().endswith(".webp"))
     print(f"IMA 头像总数 {total_webp}，本地已有 {len(local)}，待下载 {len(missing)}")
 
-    ok = quota = 0
+    ok = quota = rate_limited = 0
     fails = []
-    with ThreadPoolExecutor(max_workers=6) as ex:
-        futs = [ex.submit(download, x) for x in missing]
-        for i, f in enumerate(as_completed(futs), 1):
-            name, status, detail = f.result()
-            if status == "OK":
-                ok += 1
-            elif status == "QUOTA":
-                quota += 1
-            else:
-                fails.append((name, status, detail))
-            if i % 25 == 0 or i == len(missing):
-                print(f"  进度 {i}/{len(missing)}  成功 {ok}  配额受限 {quota}", flush=True)
+    # 串行 + 基础间隔：6 并发会触发 IMA 的 200001 短时限流
+    for i, x in enumerate(missing, 1):
+        name, status, detail = download(x)
+        if status == "OK":
+            ok += 1
+        elif status == "QUOTA":
+            quota += 1
+        elif status == "RATE_LIMIT":
+            rate_limited += 1
+        else:
+            fails.append((name, status, detail))
+        if i % 10 == 0 or i == len(missing):
+            print(f"  进度 {i}/{len(missing)}  成功 {ok}  配额受限 {quota}  限流 {rate_limited}", flush=True)
+        time.sleep(0.6)
+        if quota:                                # 每日配额耗尽，无需再试
+            print("每日配额耗尽，提前退出；明天重跑即可续传。", flush=True)
+            break
 
     local_now = len([f for f in os.listdir(OUT) if f.lower().endswith(".webp")])
-    print(f"\n本轮成功 {ok}；配额受限 {quota}；其他失败 {len(fails)}")
+    print(f"\n本轮成功 {ok}；每日配额受限 {quota}；短时限流 {rate_limited}；其他失败 {len(fails)}")
     print(f"本地头像现有 {local_now}/{total_webp} 张")
     if quota:
         print("IMA 每日配额已耗尽，明天重新运行本脚本即可续传剩余文件。")
