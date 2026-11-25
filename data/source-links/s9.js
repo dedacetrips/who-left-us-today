@@ -322,3 +322,4 @@ window.SOURCE_LINKS["20261121-peter-fluck"] = [{"n":"thetimes.com","u":"https://
 window.SOURCE_LINKS["20261122-georges-khodr"] = [{"n":"dead-people.com","u":"https://www.dead-people.com/georges-khodr"}];
 window.SOURCE_LINKS["20261123-brian-mcgrattan-rugby-union"] = [{"n":"dead-people.com","u":"https://www.dead-people.com/brian-mcgrattan-rugby-union"}];
 window.SOURCE_LINKS["20261123-ton-boot"] = [{"n":"dead-people.com","u":"https://www.dead-people.com/ton-boot"}];
+window.SOURCE_LINKS["20261125-libertina-amathila"] = [{"n":"dead-people.com","u":"https://www.dead-people.com/libertina-amathila"}];

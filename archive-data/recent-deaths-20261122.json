@@ -1,7 +1,35 @@
 {
  "since": "2026-11-22",
- "fetched": 47,
+ "fetched": 48,
  "fresh": [
+  {
+   "id": "20261125-libertina-amathila",
+   "date": "2026-11-25",
+   "name": "Libertina Amathila",
+   "nameOrig": "Libertina Amathila",
+   "country": "",
+   "age": 85,
+   "fields": [
+    "军政",
+    "医药"
+   ],
+   "identity": "Libertina Amathila, Politician.",
+   "summary": null,
+   "bio": null,
+   "facts": [],
+   "obit": null,
+   "portrait": null,
+   "source": "dead-people.com / libertina-amathila",
+   "region": null,
+   "verified": "auto",
+   "causeOfDeath": null,
+   "causeCategory": null,
+   "wikipedia": null,
+   "_url": "https://www.dead-people.com/libertina-amathila",
+   "_raw": "Libertina Amathila, a Namibian physician and politician who became the country’s first female doctor, died on November 25, 2026 , aged 85. Born Libertina Inaviposa Appolus on December 10, 1940, in Fransfontein, she grew up with her mother and grandmother encouraging her education, and remained close"
+  }
+ ],
+ "duplicate": [
   {
    "id": "20261125-pete-edochie",
    "date": "2026-11-25",
@@ -507,6 +535,32 @@
    "wikipedia": null,
    "_url": "https://www.dead-people.com/gilbert-bauvin",
    "_raw": "Gilbert Bauvin, a French road bicycle racer, died November 23, 2026 , aged 99. Born in Lunéville, France , on August 4, 1927, he raced professionally from 1950 to 1960. His career included a victory at Paris-Camembert in 1954 and a win at the Tour de Romandie in 1958. Bauvin also made his mark in th"
+  },
+  {
+   "id": "20261123-john-flynn-english-footballer",
+   "date": "2026-11-23",
+   "name": "John Flynn",
+   "nameOrig": "John Flynn",
+   "country": "英国",
+   "age": 78,
+   "fields": [
+    "体育",
+    "军政"
+   ],
+   "identity": "John Flynn, English footballer.",
+   "summary": null,
+   "bio": null,
+   "facts": [],
+   "obit": null,
+   "portrait": null,
+   "source": "dead-people.com / john-flynn-english-footballer",
+   "region": null,
+   "verified": "auto",
+   "causeOfDeath": null,
+   "causeCategory": null,
+   "wikipedia": null,
+   "_url": "https://www.dead-people.com/john-flynn-english-footballer",
+   "_raw": "John Edward Flynn, the English footballer who played as a defender, died November 23, 2026 , aged 78, from complications from dementia . Born in Workington, Cumbria, he began his senior career with his hometown club, making his Football League debut as a 17-year-old amateur in December 1966. He made"
   },
   {
    "id": "20261123-ton-boot",
@@ -1167,33 +1221,5 @@
    "_raw": "Krzysztof Głomb, a Polish journalist, politician and digitalisation expert, died November 22, 2026 , aged 66. Born in Tarnów, he earned a master’s degree in journalism from the University of Warsaw in 1989. His early reporting included work for the Tarnów weekly TeMI and as a theatre critic for Gaze"
   }
  ],
- "duplicate": [],
- "suspect": [
-  {
-   "id": "20261123-john-flynn-english-footballer",
-   "date": "2026-11-23",
-   "name": "John Flynn",
-   "nameOrig": "John Flynn",
-   "country": "英国",
-   "age": 78,
-   "fields": [
-    "体育",
-    "军政"
-   ],
-   "identity": "John Flynn, English footballer.",
-   "summary": null,
-   "bio": null,
-   "facts": [],
-   "obit": null,
-   "portrait": null,
-   "source": "dead-people.com / john-flynn-english-footballer",
-   "region": null,
-   "verified": "auto",
-   "causeOfDeath": null,
-   "causeCategory": null,
-   "wikipedia": null,
-   "_url": "https://www.dead-people.com/john-flynn-english-footballer",
-   "_raw": "John Edward Flynn, the English footballer who played as a defender, died November 23, 2026 , aged 78, from complications from dementia . Born in Workington, Cumbria, he began his senior career with his hometown club, making his Football League debut as a 17-year-old amateur in December 1966. He made"
-  }
- ]
+ "suspect": []
 }
