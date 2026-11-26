@@ -1,0 +1,878 @@
+{
+  "generated_at": "2026-11-26T10:35:41",
+  "description": "修复 name 字段「姓名+身份描述整句」污染，只改 name/nameOrig",
+  "total_rows": 106857,
+  "fix_count": 93,
+  "review_count": 4,
+  "fixes": [
+    {
+      "id": "20140308-david-smith",
+      "year": "2014",
+      "old_name": "David Smith Australian politician, Western Australia MLA",
+      "new_name": "David Smith",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "David Smith, an Australian politician and Western Australia MLA from 1983 to 1996, died on April 16, 2026, aged 82. He w"
+    },
+    {
+      "id": "20150127-charlie-williams",
+      "year": "2015",
+      "old_name": "Charlie Williams Maltese footballer",
+      "new_name": "Charlie Williams",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Charlie Williams, a Maltese footballer, died on May 1, 2026, at the age of 82. Born on February 15, 1944, he learned to "
+    },
+    {
+      "id": "20171222-peter-terry",
+      "year": "2017",
+      "old_name": "Peter Terry South African actor, dramatist and poet",
+      "new_name": "Peter Terry",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Peter Terry died on April 10, 2026. He was a South African actor known for Project Shadowchaser II and The Challenger Di"
+    },
+    {
+      "id": "20170224-steve-clark",
+      "year": "2017",
+      "old_name": "Steve Clark American swimmer, three-time Olympic champion",
+      "new_name": "Steve Clark",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Steve Clark, an American swimmer and three-time Olympic champion, died on April 14, 2026, at age 82. Born in Oakland, Ca"
+    },
+    {
+      "id": "20191121-jackie-moore",
+      "year": "2019",
+      "old_name": "Jackie Moore American basketball player",
+      "new_name": "Jackie Moore",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Jackie Moore, an American basketball player, died on April 9, 2026, at age 93. Born in Philadelphia on September 24, 193"
+    },
+    {
+      "id": "20210404-morris-bb-dickerson-71-american-funk-bassist-and-singer-war",
+      "year": "2021",
+      "old_name": "Morris “B.B.” Dickerson, 71, American funk bassist and singer",
+      "new_name": "Morris “B.B.” Dickerson",
+      "source": "name截断",
+      "prefix_ok": true,
+      "identity": "American funk bassist and singer (War)"
+    },
+    {
+      "id": "20221025-david-scott",
+      "year": "2022",
+      "old_name": "David Scott American politician, member of the House of Representatives",
+      "new_name": "David Scott",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "David Scott, an American politician and member of the House of Representatives since 2003, died on April 22, 2026, at ag"
+    },
+    {
+      "id": "20230416-ian-watson",
+      "year": "2023",
+      "old_name": "Ian Watson British science fiction author",
+      "new_name": "Ian Watson",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Ian Watson, the British science fiction author of The Jonah Kit, Chekhov's Journey, Queenmagic and Kingmagic, died on Ap"
+    },
+    {
+      "id": "20240526-tony-parkes",
+      "year": "2024",
+      "old_name": "Tony Parkes English football player and manager, complications from Alzheimer’s disease",
+      "new_name": "Tony Parkes",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Tony Parkes, an English football player and manager with Blackburn Rovers, died on April 22, 2026, at the age of 76 from"
+    },
+    {
+      "id": "20240330-gerry-conway",
+      "year": "2024",
+      "old_name": "Gerry Conway American comic book writer, screenwriter and television producer",
+      "new_name": "Gerry Conway",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Gerry Conway, an American comic book writer, screenwriter and television producer, died on April 27, 2026, at age 73. He"
+    },
+    {
+      "id": "20251231-bobby-gosh",
+      "year": "2025",
+      "old_name": "Bobby Gosh American musician and singer-songwriter",
+      "new_name": "Bobby Gosh",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Bobby Gosh, an American musician and singer-songwriter known for writing “A Little Bit More,” died on December 31, 2025,"
+    },
+    {
+      "id": "20251231-dean-c-jessee",
+      "year": "2025",
+      "old_name": "Dean C. Jessee American historian",
+      "new_name": "Dean C. Jessee",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Dean C. Jessee, an American historian of the early Latter Day Saint movement and a leading expert on the writings of Jos"
+    },
+    {
+      "id": "20251231-gillian-wagner",
+      "year": "2025",
+      "old_name": "Gillian Wagner Writer and philanthropist",
+      "new_name": "Gillian Wagner",
+      "source": "name截断(保留常用名)",
+      "prefix_ok": true,
+      "identity": "Dame Gillian Wagner, British writer and philanthropist and chair of Barnardo's, died on December 31, 2025, aged 98. Born"
+    },
+    {
+      "id": "20251231-godiya-akwashiki",
+      "year": "2025",
+      "old_name": "Godiya Akwashiki Only Eggon Representative In House of Rep",
+      "new_name": "Godiya Akwashiki",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Godiya Akwashiki, Nigerian politician and senator representing Nasarawa North since 2019, died on December 31, 2025. He "
+    },
+    {
+      "id": "20251231-hayden-thompson",
+      "year": "2025",
+      "old_name": "Hayden Thompson American rockabilly musician",
+      "new_name": "Hayden Thompson",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Hayden Thompson, an American singer, songwriter and rockabilly musician, died on December 31, 2025, at age 87. Born in B"
+    },
+    {
+      "id": "20251231-jerry-bledsoe",
+      "year": "2025",
+      "old_name": "Jerry Bledsoe Author, journalist",
+      "new_name": "Jerry Bledsoe",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Jerry Bledsoe, an American author and journalist, died on December 31, 2025, at age 84. Born in Danville, Virginia, on J"
+    },
+    {
+      "id": "20251231-jiri-zubricky",
+      "year": "2025",
+      "old_name": "Jiří Zubrický Czech Olympic weightlifter",
+      "new_name": "Jiří Zubrický",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Jiří Zubrický, a Czech Olympic weightlifter who competed in the 1988 and 1992 Games for Czechoslovakia, died on December"
+    },
+    {
+      "id": "20251231-pasha-kasanov",
+      "year": "2025",
+      "old_name": "Pasha Kasanov Ukrainian football player and manager",
+      "new_name": "Pasha Kasanov",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Pasha Kasanov, a Ukrainian football player and manager, died on December 31, 2025, at the age of 72. Known as Pasha Nama"
+    },
+    {
+      "id": "20251231-paul-idlout",
+      "year": "2025",
+      "old_name": "Paul Idlout Canadian Inuk Anglican bishop",
+      "new_name": "Paul Idlout",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Paul Idlout, a Canadian Inuk Anglican bishop and former police constable, died on December 31, 2025. Born on April 21, 1"
+    },
+    {
+      "id": "20251230-david-heap-actor",
+      "year": "2025",
+      "old_name": "David Heap English-born Ireland-based actor",
+      "new_name": "David Heap",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "David Heap, an English-born Ireland-based actor known for his roles in Fair City and Botched, died on December 30, 2025."
+    },
+    {
+      "id": "20251230-emilija-soklic",
+      "year": "2025",
+      "old_name": "Emilija Soklič Audio engineer for early Slovene film production, innovator",
+      "new_name": "Emilija Soklič",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Emilija Soklič, a Slovene electrical engineer and audio engineer, died on December 30, 2025. She was known as one of the"
+    },
+    {
+      "id": "20251230-jerry-welsh-basketball",
+      "year": "2025",
+      "old_name": "Jerry Welsh American college basketball coach",
+      "new_name": "Jerry Welsh",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Jerry Welsh, an American college basketball coach and former head coach of the SUNY Potsdam Bears and Iona Gaels, died o"
+    },
+    {
+      "id": "20251230-joe-byrne-northern-ireland-politician",
+      "year": "2025",
+      "old_name": "Joe Byrne Northern Irish politician, MLA",
+      "new_name": "Joe Byrne",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Joe Byrne, the Northern Irish SDLP politician who served as an MLA for West Tyrone from 1998 to 2003 and again from 2011"
+    },
+    {
+      "id": "20251230-mate-mestrovic",
+      "year": "2025",
+      "old_name": "Mate Meštrović Journalist, academic, lobbyist, politician, ambassador",
+      "new_name": "Mate Meštrović",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Mate Meštrović, a Croatian-American journalist, died on December 30, 2025, in Zagreb at the age of 95. Also known as Mat"
+    },
+    {
+      "id": "20251230-thomas-w-bradshaw",
+      "year": "2025",
+      "old_name": "Thomas W. Bradshaw American politician, mayor of Raleigh, North Carolina",
+      "new_name": "Thomas W. Bradshaw",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Thomas W. Bradshaw, an American politician and businessman who served as mayor of Raleigh, North Carolina, died on Decem"
+    },
+    {
+      "id": "20251229-john-palin-sport-shooter",
+      "year": "2025",
+      "old_name": "John Palin British Olympic sport shooter",
+      "new_name": "John Palin",
+      "source": "name截断(保留常用名)",
+      "prefix_ok": true,
+      "identity": "John Charlton Palin, a British sports shooter who competed at the 1968 and 1972 Summer Olympics, died on December 29, 20"
+    },
+    {
+      "id": "20251229-michael-j-schumacher",
+      "year": "2025",
+      "old_name": "Michael J. Schumacher Writer, journalist, biographer",
+      "new_name": "Michael J. Schumacher",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Michael J. Schumacher, an American journalist and author, died on December 29, 2025, at age 75. Born in Topeka, Kansas, "
+    },
+    {
+      "id": "20251229-pedro-camus",
+      "year": "2025",
+      "old_name": "Pedro Camus Spanish Olympic footballer",
+      "new_name": "Pedro Camus",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Pedro Camus, a Spanish footballer and central defender who competed in the men's tournament at the 1976 Summer Olympics,"
+    },
+    {
+      "id": "20251229-tony-bracegirdle",
+      "year": "2025",
+      "old_name": "Tony Bracegirdle British rose breeder and horticulturist",
+      "new_name": "Tony Bracegirdle",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Tony Bracegirdle, a British rose breeder and horticulturist, died on December 29, 2025, aged 83. Born Anthony James Brac"
+    },
+    {
+      "id": "20251228-monic-cecconi-botella",
+      "year": "2025",
+      "old_name": "Monic Cecconi-Botella French pianist, composer and academic",
+      "new_name": "Monic Cecconi-Botella",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Monic Cecconi-Botella, a French pianist, music educator and composer, died on December 28, 2025. Born in Courbevoie on S"
+    },
+    {
+      "id": "20251228-silvan-kindle",
+      "year": "2025",
+      "old_name": "Silvan Kindle Liechtenstein Olympic alpine skier",
+      "new_name": "Silvan Kindle",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Silvan Kindle died on December 28, 2025. He was a Liechtenstein Olympic alpine skier who competed in 1960."
+    },
+    {
+      "id": "20251227-jonathan-powell-musician",
+      "year": "2025",
+      "old_name": "Jonathan Powell British pianist and musicologist",
+      "new_name": "Jonathan Powell",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Jonathan Powell, the British pianist, musicologist and music editor, died on December 27, 2025, aged 56. Born in Lancash"
+    },
+    {
+      "id": "20251227-richard-pollak",
+      "year": "2025",
+      "old_name": "Richard Pollak American journalist",
+      "new_name": "Richard Pollak",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Richard Pollak, an American journalist, died on December 27, 2025."
+    },
+    {
+      "id": "20251226-bill-clarke-politician",
+      "year": "2025",
+      "old_name": "Bill Clarke Canadian politician",
+      "new_name": "Bill Clarke",
+      "source": "name截断(保留常用名)",
+      "prefix_ok": true,
+      "identity": "William Hillary Clarke, a Canadian chartered accountant, businessman and politician, died on December 26, 2025, at age 9"
+    },
+    {
+      "id": "20251226-don-bryant-songwriter",
+      "year": "2025",
+      "old_name": "Don Bryant American rhythm and blues singer and songwriter",
+      "new_name": "Don Bryant",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Don Bryant, the American rhythm and blues singer and songwriter known for \"I Can't Stand the Rain,\" died on December 26,"
+    },
+    {
+      "id": "20251226-stephen-boyden",
+      "year": "2025",
+      "old_name": "Stephen Boyden British-Australian scientist and writer",
+      "new_name": "Stephen Boyden",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Stephen Boyden, a British-Australian scientist and writer, died on December 26, 2025. He was a professor emeritus at the"
+    },
+    {
+      "id": "20251225-andrew-arbuckle-politician",
+      "year": "2025",
+      "old_name": "Andrew Arbuckle Scottish journalist and politician, MSP",
+      "new_name": "Andrew Arbuckle",
+      "source": "name截断",
+      "prefix_ok": true,
+      "identity": "Andrew Arbuckle, Scottish journalist and politician who served as an MSP for the Mid Scotland and Fife region, died on D"
+    },
+    {
+      "id": "20251225-david-rosen-businessman",
+      "year": "2025",
+      "old_name": "David Rosen American businessman, co-founder of Sega",
+      "new_name": "David Rosen",
+      "source": "name截断(保留常用名)",
+      "prefix_ok": true,
+      "identity": "David M. Rosen, an American businessman and co-founder of Sega, died on December 25, 2025, at age 95. Born on January 22"
+    },
+    {
+      "id": "20251225-geeske-krol-benedictus",
+      "year": "2025",
+      "old_name": "Geeske Krol-Benedictus Dutch politician and Frisian cultural advocate, member of the Provincial Council of Friesland",
+      "new_name": "Geeske Krol-Benedictus",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Geeske Krol-Benedictus, a Dutch politician and Frisian cultural advocate who served on the Provincial Council of Friesla"
+    },
+    {
+      "id": "20251225-john-robertson-footballer-born-1953",
+      "year": "2025",
+      "old_name": "John Robertson Scottish footballer",
+      "new_name": "John Robertson",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "John Robertson, the Scottish footballer who played as a left winger for Nottingham Forest, Derby County and the Scotland"
+    },
+    {
+      "id": "20251225-ray-lamb",
+      "year": "2025",
+      "old_name": "Ray Lamb American baseball player",
+      "new_name": "Ray Lamb",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Ray Lamb, an American baseball player who pitched for the Cleveland Indians and the Los Angeles Dodgers, died on Decembe"
+    },
+    {
+      "id": "20251225-robert-mosci",
+      "year": "2025",
+      "old_name": "Robert Mosci American jazz musician and pianist",
+      "new_name": "Robert Mosci",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Robert Mosci, an American jazz musician and pianist, died on December 25, 2025. Also a singer and songwriter, he was kno"
+    },
+    {
+      "id": "20251225-steve-baer-political-activist",
+      "year": "2025",
+      "old_name": "Steve Baer American political activist",
+      "new_name": "Steve Baer",
+      "source": "name截断(保留常用名)",
+      "prefix_ok": true,
+      "identity": "Steven Paul Baer, an American conservative political activist and investor, died on December 25, 2025. He was known for "
+    },
+    {
+      "id": "20251224-carmen-a-kasperbauer",
+      "year": "2025",
+      "old_name": "Carmen A. Kasperbauer Nurse, politician",
+      "new_name": "Carmen A. Kasperbauer",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Carmen A. Kasperbauer, a Guamanian nurse and politician who served as a Republican senator in the Guam Legislature from "
+    },
+    {
+      "id": "20251224-david-young-watergate",
+      "year": "2025",
+      "old_name": "David Young American-British lawyer and academic, heart failure",
+      "new_name": "David Young",
+      "source": "name截断(保留常用名)",
+      "prefix_ok": true,
+      "identity": "David Reginald Young, an American-British lawyer and academic, died on December 24, 2025, in Oxford, England, at the age"
+    },
+    {
+      "id": "20251224-isaiah-jackson-conductor",
+      "year": "2025",
+      "old_name": "Isaiah Jackson American conductor",
+      "new_name": "Isaiah Jackson",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Isaiah Jackson, an American conductor and academic teacher, died on December 24, 2025, at age 80. He was music director "
+    },
+    {
+      "id": "20251224-m-ravi-2",
+      "year": "2025",
+      "old_name": "M. Ravi Singaporean human rights activist",
+      "new_name": "M. Ravi",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "M. Ravi, a Singaporean human rights lawyer and activist, died on December 24, 2025, aged 56. Born Ravi Madasamy on April"
+    },
+    {
+      "id": "20251223-dorothee-aimee-malenzapa",
+      "year": "2025",
+      "old_name": "Dorothée Aimée Malenzapa Central African politician, activist, and professor",
+      "new_name": "Dorothée Aimée Malenzapa",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Dorothée Aimée Malenzapa, a Central African politician, women's activist, and professor, died on December 23, 2025. Born"
+    },
+    {
+      "id": "20251222-alan-scanlan",
+      "year": "2025",
+      "old_name": "Alan Scanlan Australian politician",
+      "new_name": "Alan Scanlan",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Alan Scanlan, an Australian politician, died on December 22, 2025. Alan Henry Scanlan was born in Caulfield on 23 June 1"
+    },
+    {
+      "id": "20251222-david-pinner",
+      "year": "2025",
+      "old_name": "David Pinner British actor and novelist",
+      "new_name": "David Pinner",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "David Pinner, the British actor and novelist best known for Ritual, died on December 22, 2025, aged 85. Born in Peterbor"
+    },
+    {
+      "id": "20251222-ray-lynch",
+      "year": "2025",
+      "old_name": "Ray Lynch American musician and songwriter, complications from a fall",
+      "new_name": "Ray Lynch",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Ray Lynch, an American musician and songwriter known for \"Celestial Soda Pop,\" died on December 22, 2025, in California "
+    },
+    {
+      "id": "20251222-robin-turner-footballer",
+      "year": "2025",
+      "old_name": "Robin Turner English footballer",
+      "new_name": "Robin Turner",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Robin Turner, the English footballer who played for Ipswich Town and Swansea City, died on December 22, 2025. A forward "
+    },
+    {
+      "id": "20251222-syed-shahid-mahdi",
+      "year": "2025",
+      "old_name": "Syed Shahid Mahdi Indian civil servant and academic",
+      "new_name": "Syed Shahid Mahdi",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Syed Shahid Mahdi, an Indian civil servant and academic, died on December 22, 2025. He served as the 11th vice-chancello"
+    },
+    {
+      "id": "20251221-joel-gougeon",
+      "year": "2025",
+      "old_name": "Joel Gougeon American politician, member of the Michigan Senate",
+      "new_name": "Joel Gougeon",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Joel Gougeon, an American politician and Republican member of the Michigan Senate from 1993 to 2002, died on December 21"
+    },
+    {
+      "id": "20251221-rob-burgess",
+      "year": "2025",
+      "old_name": "Rob Burgess Former CEO of Macromedia and Alias Research",
+      "new_name": "Rob Burgess",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Rob Burgess, a Canadian software executive who led Alias Research and Macromedia, died on December 21, 2025, at age 68. "
+    },
+    {
+      "id": "20251221-rowell-huesmann",
+      "year": "2025",
+      "old_name": "Rowell Huesmann American academic",
+      "new_name": "Rowell Huesmann",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Rowell Huesmann, an American academic and the Amos N. Tversky Collegiate Professor Emeritus of Communication Studies and"
+    },
+    {
+      "id": "20251220-bayard-d-clarkson",
+      "year": "2025",
+      "old_name": "Bayard D. Clarkson American physician, hematologist and oncologist",
+      "new_name": "Bayard D. Clarkson",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Bayard D. Clarkson, an American physician, hematologist and oncologist, died on December 20, 2025. Born in New York City"
+    },
+    {
+      "id": "20251220-charles-f-g-kuyk",
+      "year": "2025",
+      "old_name": "Charles F. G. Kuyk American Air Force general",
+      "new_name": "Charles F. G. Kuyk",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Charles F. G. Kuyk, an American Air Force general, died on December 20, 2025, at the age of 99. Charles Frederick Goodwy"
+    },
+    {
+      "id": "20251220-ronald-chase",
+      "year": "2025",
+      "old_name": "Ronald Chase American artist, photographer and film director",
+      "new_name": "Ronald Chase",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Ronald Chase, an American artist, photographer and film director, died on December 20, 2025, at the age of 91. Born in S"
+    },
+    {
+      "id": "20251220-seiichi-motohashi",
+      "year": "2025",
+      "old_name": "Seiichi Motohashi Japanese photographer and film director",
+      "new_name": "Seiichi Motohashi",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Seiichi Motohashi died on December 20, 2025. He was a Japanese photographer and film director."
+    },
+    {
+      "id": "20251219-cynthia-mailman",
+      "year": "2025",
+      "old_name": "Cynthia Mailman American painter, pancreatic cancer",
+      "new_name": "Cynthia Mailman",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Cynthia Mailman, an American painter and educator, died on December 19, 2025, in New York City at age 82. She was known "
+    },
+    {
+      "id": "20251219-henrik-tallberg",
+      "year": "2025",
+      "old_name": "Henrik Tallberg Finnish Olympic sailor",
+      "new_name": "Henrik Tallberg",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Henrik Tallberg, a Finnish Olympic sailor, died on December 19, 2025."
+    },
+    {
+      "id": "20251219-richard-barnes-musician",
+      "year": "2025",
+      "old_name": "Richard Barnes British singer and actor",
+      "new_name": "Richard Barnes",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Richard Barnes, the British singer and actor known for his work in pop music and television roles, died on December 19, "
+    },
+    {
+      "id": "20251217-robert-heide",
+      "year": "2025",
+      "old_name": "Robert Heide American playwright and author",
+      "new_name": "Robert Heide",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Robert Heide, an American playwright and author, died on December 17, 2025. He was best known for his play \"The Bed\" and"
+    },
+    {
+      "id": "20251216-henry-moore-bishop",
+      "year": "2025",
+      "old_name": "Henry Moore English Anglican cleric, bishop of Cyprus and the Gulf",
+      "new_name": "Henry Moore",
+      "source": "name截断",
+      "prefix_ok": true,
+      "identity": "Henry Moore, English Anglican cleric and bishop of Cyprus and the Gulf, died on December 16, 2025, aged 102. Known commo"
+    },
+    {
+      "id": "20251215-kim-mi-sub",
+      "year": "2025",
+      "old_name": "Kim Mi-sub South Korean Olympic modern pentathlete",
+      "new_name": "Kim Mi-sub",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Kim Mi-sub, a South Korean Olympic modern pentathlete, died on December 15, 2025, in Carrollton, Texas, at the age of 52"
+    },
+    {
+      "id": "20251215-peter-ryan-police-officer",
+      "year": "2025",
+      "old_name": "Peter Ryan British-born Australian police officer, commissioner of New South Wales police",
+      "new_name": "Peter Ryan",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Peter Ryan, the British-born Australian police officer who served as commissioner of New South Wales police from 1996 to"
+    },
+    {
+      "id": "20251214-brenda-lucas-ogdon",
+      "year": "2025",
+      "old_name": "Brenda Lucas Ogdon English concert pianist",
+      "new_name": "Brenda Lucas Ogdon",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Brenda Lucas Ogdon, an English concert pianist, died on December 14, 2025, at the age of 90. She was known for her solo "
+    },
+    {
+      "id": "20251214-gerald-donaldson",
+      "year": "2025",
+      "old_name": "Gerald Donaldson Canadian racing journalist",
+      "new_name": "Gerald Donaldson",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Gerald Donaldson, a Canadian racing journalist and biographer who specialized in covering Formula One, died on December "
+    },
+    {
+      "id": "20251214-max-cunningham-rower",
+      "year": "2025",
+      "old_name": "Max Cunningham Australian Olympic rower",
+      "new_name": "Max Cunningham",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Max Cunningham, the Australian Olympic rower who competed in the men’s eight at the 1960 Summer Olympics, died on Decemb"
+    },
+    {
+      "id": "20251213-gerald-watt",
+      "year": "2025",
+      "old_name": "Gerald Watt Antiguan politician, MP and speaker of the House of Representatives",
+      "new_name": "Gerald Watt",
+      "source": "name截断(保留常用名)",
+      "prefix_ok": true,
+      "identity": "Sir Gerald Watt, Antiguan politician and former Speaker of the House of Representatives, died on December 13, 2025, at t"
+    },
+    {
+      "id": "20251213-jose-bantolo-2",
+      "year": "2025",
+      "old_name": "Jose Bantolo Filipino Roman Catholic prelate, bishop of Masbate",
+      "new_name": "Jose Bantolo",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Jose Bantolo, a Filipino Roman Catholic prelate and bishop of Masbate since 2011, died on December 13, 2025, at the age "
+    },
+    {
+      "id": "20251213-mohammad-shafiq-2",
+      "year": "2025",
+      "old_name": "Mohammad Shafiq Pakistani army general, governor of Khyber Pakhtunkhwa",
+      "new_name": "Mohammad Shafiq",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Mohammad Shafiq, a Pakistani army general and former governor of Khyber Pakhtunkhwa, died on December 13, 2025, at the a"
+    },
+    {
+      "id": "20251213-richard-bell-american-football-coach",
+      "year": "2025",
+      "old_name": "Richard Bell American football coach",
+      "new_name": "Richard Bell",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Richard Bell, an American football coach who served as head coach of the South Carolina Gamecocks for one season in 1982"
+    },
+    {
+      "id": "20251212-jayne-trcka",
+      "year": "2025",
+      "old_name": "Jayne Trcka American bodybuilder, fitness model and actress",
+      "new_name": "Jayne Trcka",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Jayne Trcka, an American bodybuilder, fitness model and actress known for her role in Scary Movie, died on December 12, "
+    },
+    {
+      "id": "20251212-philip-d-shutler",
+      "year": "2025",
+      "old_name": "Philip D. Shutler American marine lieutenant general",
+      "new_name": "Philip D. Shutler",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Philip D. Shutler, an American Marine lieutenant general, died on December 12, 2025, in Springfield, Virginia. He was 99"
+    },
+    {
+      "id": "20251211-junior-king",
+      "year": "2025",
+      "old_name": "Junior King South African dancer, TikTok personality and rapper, traffic collision",
+      "new_name": "Junior King",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Junior King, a South African dancer, TikTok personality and rapper, died on December 11, 2025, in a traffic collision in"
+    },
+    {
+      "id": "20251211-kim-woo-nam-2",
+      "year": "2025",
+      "old_name": "Kim Woo-nam South Korean politician, MP, heart attack",
+      "new_name": "Kim Woo-nam",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Kim Woo-nam, a South Korean politician and former member of the National Assembly, died on December 11, 2025, of a heart"
+    },
+    {
+      "id": "20251209-bob-allen-basketball",
+      "year": "2025",
+      "old_name": "Bob Allen American basketball player",
+      "new_name": "Bob Allen",
+      "source": "name截断(保留常用名)",
+      "prefix_ok": true,
+      "identity": "Robert Joseph Allen, an American basketball player who played for the San Francisco Warriors, died on December 9, 2025, "
+    },
+    {
+      "id": "20251208-bill-hauritz",
+      "year": "2025",
+      "old_name": "Bill Hauritz Australian festival director",
+      "new_name": "Bill Hauritz",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Bill Hauritz, an Australian festival director, died on December 8, 2025. He directed the Woodford Folk Festival in Queen"
+    },
+    {
+      "id": "20251208-stan-shillington",
+      "year": "2025",
+      "old_name": "Stan Shillington Canadian lacrosse historian and sportswriter",
+      "new_name": "Stan Shillington",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Stan Shillington, a Canadian lacrosse historian, sportswriter and statistician, died on December 8, 2025, at age 90. Bor"
+    },
+    {
+      "id": "20251208-tom-copeland",
+      "year": "2025",
+      "old_name": "Tom Copeland American politician, member and speaker of the Washington House of Representatives",
+      "new_name": "Tom Copeland",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Tom Copeland, an American politician and member and speaker of the Washington House of Representatives, died on December"
+    },
+    {
+      "id": "20251206-abdul-rashid-hurdler",
+      "year": "2025",
+      "old_name": "Abdul Rashid Pakistani Olympic hurdler, heart attack",
+      "new_name": "Abdul Rashid",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Abdul Rashid, a Pakistani Olympic hurdler, died on December 6, 2025, of a heart attack. Born in Khanewal, Punjab, Pakist"
+    },
+    {
+      "id": "20251206-byron-knutson",
+      "year": "2025",
+      "old_name": "Byron Knutson American politician, member of the North Dakota House of Representatives",
+      "new_name": "Byron Knutson",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Byron Knutson, an American politician and former member of the North Dakota House of Representatives, died on December 6"
+    },
+    {
+      "id": "20251204-charles-mullins-physician-executive",
+      "year": "2025",
+      "old_name": "Charles Mullins American physician",
+      "new_name": "Charles Mullins",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Charles Mullins, an American physician and physician executive, died on December 4, 2025. He was the Ashbel Smith Emerit"
+    },
+    {
+      "id": "20251204-nihal-fernando",
+      "year": "2025",
+      "old_name": "Nihal Fernando Sri Lankan actor",
+      "new_name": "Nihal Fernando",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Nihal Fernando, a Sri Lankan actor known for Kalpanthe Sihinayak, Maya 3D and Aloko Udapadi, died on December 4, 2025, i"
+    },
+    {
+      "id": "20251121-ian-turnbull-politician",
+      "year": "2025",
+      "old_name": "Ian Turnbull Canadian politician",
+      "new_name": "Ian Turnbull",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Ian Turnbull, a Canadian politician, died on November 21, 2025. Born in Winnipeg on July 1, 1935, he was a New Democrati"
+    },
+    {
+      "id": "20251103-eugene-hughes-gaelic-footballer",
+      "year": "2025",
+      "old_name": "Eugene Hughes Irish Gaelic footballer, cancer",
+      "new_name": "Eugene Hughes",
+      "source": "name截断",
+      "prefix_ok": true,
+      "identity": "Eugene \"Nudie\" Hughes, an Irish Gaelic footballer who played for the Monaghan county team, died on November 3, 2025, age"
+    },
+    {
+      "id": "20251102-allan-ludwig",
+      "year": "2025",
+      "old_name": "Allan Ludwig American historian and photographer",
+      "new_name": "Allan Ludwig",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Allan Ludwig, an American historian and photographer, died on November 2, 2025, at age 92. Allan Ira Ludwig was an Ameri"
+    },
+    {
+      "id": "20251102-herbert-a-donovan-jr",
+      "year": "2025",
+      "old_name": "Herbert A. Donovan Jr. American Episcopal cleric",
+      "new_name": "Herbert A. Donovan Jr.",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Herbert A. Donovan Jr., an American Episcopal cleric and administrator who served as bishop of Arkansas, died on Novembe"
+    },
+    {
+      "id": "20251102-james-diehl",
+      "year": "2025",
+      "old_name": "James Diehl American evangelical Christian minister",
+      "new_name": "James Diehl",
+      "source": "name截断(保留常用名)",
+      "prefix_ok": true,
+      "identity": "James H. Diehl, an American Christian minister and general superintendent emeritus in the Church of the Nazarene, died o"
+    },
+    {
+      "id": "20251102-sara-banerji",
+      "year": "2025",
+      "old_name": "Sara Banerji British author and artist",
+      "new_name": "Sara Banerji",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Sara Banerji, the British author, artist and sculptor, died on November 2, 2025, aged 93. Born Sara Ann Mostyn in Stoke "
+    },
+    {
+      "id": "20250515-charles-strouse",
+      "year": "2025",
+      "old_name": "Charles Strouse American composer",
+      "new_name": "Charles Strouse",
+      "source": "identity",
+      "prefix_ok": true,
+      "identity": "Charles Strouse, an American composer and lyricist, died on May 15, 2025. He was 96. Strouse was best known for writing "
+    }
+  ],
+  "reviews": [
+    {
+      "id": "20190106-derek-foster-baron-foster-of-bishop-auckland",
+      "year": "2019",
+      "name": "Derek Foster, Baron Foster of Bishop Auckland",
+      "identity": "Labour politician",
+      "reason": "事件名/职位名/贵族全名，需人工判断"
+    },
+    {
+      "id": "20220531-mayor-of-frosinone",
+      "year": "2022",
+      "name": "mayor of Frosinone Italian politician",
+      "identity": "The mayor of Frosinone, an Italian politician, died on May 31, 2022. As mayor, the officeholder served as an elected member of the Frosinone City Council and shared responsibility, with the council, for the strategic government of Frosinone in Lazio, Italy. Under the Italian Constitution, the mayor of Frosinone is also a member of the City Council. The current mayor is Riccardo Mastrangeli (FI), who took office on 29 June 2022.",
+      "reason": "事件名/职位名/贵族全名，需人工判断"
+    },
+    {
+      "id": "20251230-killing-of-monique-and-spencer-tepe",
+      "year": "2025",
+      "name": "Killing of Monique and Spencer Tepe American dentist, shot",
+      "identity": "Monique Tepe, an American dentist, was shot dead on December 30, 2025, alongside her husband, Spencer Tepe, in their Columbus, Ohio, home. The couple were found after Spencer failed to arrive for work and a welfare check was requested. Their two young children and family dog were discovered unharmed. The investigation focused on Monique Tepe’s ex-husband, Michael David McKee, who was arrested in Illinois on January 10, 2026, and later indicted in Franklin County on four counts of aggravated murder and one count of aggravated burglary. Criminal proceedings remain ongoing.",
+      "reason": "事件名/职位名/贵族全名，需人工判断"
+    },
+    {
+      "id": "20251230-killing-of-monique-and-spencer-tepe-2",
+      "year": "2025",
+      "name": "Killing of Monique and Spencer Tepe American early childhood educator, shot",
+      "identity": "Monique Tepe, an American early childhood educator, was shot dead on December 30, 2025, in Columbus, Ohio. She and her husband, Spencer Tepe, were found dead inside their home after Spencer failed to report to work and a welfare check was requested. Their two young children and the family dog were found unharmed. The investigation focused on Monique Tepe’s ex-husband, Michael David McKee, who was arrested in Illinois on January 10, 2026, and later indicted in Franklin County on four counts of aggravated murder and one count of aggravated burglary.",
+      "reason": "事件名/职位名/贵族全名，需人工判断"
+    }
+  ],
+  "applied": true,
+  "applied_at": "2026-11-26T10:35:42"
+}

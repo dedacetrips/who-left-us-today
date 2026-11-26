@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-11-26T11:31:40",
+  "description": "标题化污染修复后剩余 4 条待核记录的人工核对结论",
+  "decisions": {
+    "20190106-derek-foster-baron-foster-of-bishop-auckland": {
+      "action": "keep",
+      "reason": "合法贵族全名（Derek Foster, Baron Foster of Bishop Auckland），name 正确，identity 仅简短但有效"
+    },
+    "20220531-mayor-of-frosinone": {
+      "action": "remove",
+      "reason": "职位条目被当人名；identity 全文未给出死者真实姓名（仅提到下一任市长），无法修正为有效人物记录"
+    },
+    "20251230-killing-of-monique-and-spencer-tepe": {
+      "action": "rename",
+      "new_name": "Monique Tepe",
+      "reason": "案件标题被当 name；identity 明确死者 Monique Tepe（美国牙医，37 岁）"
+    },
+    "20251230-killing-of-monique-and-spencer-tepe-2": {
+      "action": "rename",
+      "new_name": "Monique Tepe",
+      "reason": "案件标题被当 name；identity 明确 Monique Tepe（幼教，39 岁）。与上条年龄/职业冲突，疑似同一枪击案另一受害者（丈夫 Spencer Tepe）被混抓，标注待核",
+      "flag": "身份冲突：与上条同为 Monique Tepe 但年龄 39 vs 37、职业幼教 vs 牙医，建议核对是否应改为 Spencer Tepe 或去重"
+    }
+  },
+  "found": {
+    "20190106-derek-foster-baron-foster-of-bishop-auckland": {
+      "year": "2019",
+      "name": "Derek Foster, Baron Foster of Bishop Auckland",
+      "nameOrig": "Derek Foster, Baron Foster of Bishop Auckland",
+      "age": 81,
+      "identity": "Labour politician"
+    },
+    "20220531-mayor-of-frosinone": {
+      "year": "2022",
+      "name": "mayor of Frosinone Italian politician",
+      "nameOrig": "mayor of Frosinone Italian politician",
+      "age": 86,
+      "identity": "The mayor of Frosinone, an Italian politician, died on May 31, 2022. As mayor, the officeholder serv"
+    },
+    "20251230-killing-of-monique-and-spencer-tepe": {
+      "year": "2025",
+      "name": "Killing of Monique and Spencer Tepe American dentist, shot",
+      "nameOrig": "Killing of Monique and Spencer Tepe American dentist, shot",
+      "age": 37,
+      "identity": "Monique Tepe, an American dentist, was shot dead on December 30, 2025, alongside her husband, Spence"
+    },
+    "20251230-killing-of-monique-and-spencer-tepe-2": {
+      "year": "2025",
+      "name": "Killing of Monique and Spencer Tepe American early childhood educator, shot",
+      "nameOrig": "Killing of Monique and Spencer Tepe American early childhood educator, shot",
+      "age": 39,
+      "identity": "Monique Tepe, an American early childhood educator, was shot dead on December 30, 2025, in Columbus,"
+    }
+  },
+  "applied": true,
+  "applied_at": "2026-11-26T11:31:40"
+}

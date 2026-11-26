@@ -1,0 +1,3770 @@
+{
+  "generated_at": "2026-11-26T09:49:31",
+  "source_files": [
+    "2013.js",
+    "2014.js",
+    "2015.js",
+    "2016.js",
+    "2017.js",
+    "2018.js",
+    "2019.js",
+    "2020.js",
+    "2021.js",
+    "2022.js",
+    "2023.js",
+    "2024.js",
+    "2025.js"
+  ],
+  "backup_dir": "archive-data/history-backup-20261126-093835/",
+  "total_rows": 107262,
+  "layers": {
+    "A1_html_entity": {
+      "count": 769,
+      "action": "unescape",
+      "sample": [
+        {
+          "id": "20131229-mike-oconnor",
+          "year": "2013",
+          "changes": {
+            "name": [
+              "Mike O&#8217;Connor",
+              "Mike O’Connor"
+            ],
+            "nameOrig": [
+              "Mike O&#8217;Connor",
+              "Mike O’Connor"
+            ]
+          }
+        },
+        {
+          "id": "20131227-gianna-dangelo",
+          "year": "2013",
+          "changes": {
+            "name": [
+              "Gianna D&#8217;Angelo",
+              "Gianna D’Angelo"
+            ],
+            "nameOrig": [
+              "Gianna D&#8217;Angelo",
+              "Gianna D’Angelo"
+            ]
+          }
+        },
+        {
+          "id": "20131214-peter-otoole",
+          "year": "2013",
+          "changes": {
+            "nameOrig": [
+              "Peter O&#8217;Toole",
+              "Peter O’Toole"
+            ]
+          }
+        },
+        {
+          "id": "20131209-simon-dlima",
+          "year": "2013",
+          "changes": {
+            "name": [
+              "Simon D&#8217;Lima",
+              "Simon D’Lima"
+            ],
+            "nameOrig": [
+              "Simon D&#8217;Lima",
+              "Simon D’Lima"
+            ]
+          }
+        },
+        {
+          "id": "20131204-paddy-obyrne",
+          "year": "2013",
+          "changes": {
+            "name": [
+              "Paddy O&#8217;Byrne",
+              "Paddy O’Byrne"
+            ],
+            "nameOrig": [
+              "Paddy O&#8217;Byrne",
+              "Paddy O’Byrne"
+            ]
+          }
+        },
+        {
+          "id": "20131119-matthias-ngartri-mayadi",
+          "year": "2013",
+          "changes": {
+            "name": [
+              "Matthias N&#8217;Gartéri Mayadi",
+              "Matthias N’Gartéri Mayadi"
+            ],
+            "nameOrig": [
+              "Matthias N&#8217;Gartéri Mayadi",
+              "Matthias N’Gartéri Mayadi"
+            ]
+          }
+        },
+        {
+          "id": "20131115-raimondo-dinzeo",
+          "year": "2013",
+          "changes": {
+            "nameOrig": [
+              "Raimondo D&#8217;Inzeo",
+              "Raimondo D’Inzeo"
+            ]
+          }
+        },
+        {
+          "id": "20131111-jerome-murphy-oconnor",
+          "year": "2013",
+          "changes": {
+            "name": [
+              "Jerome Murphy-O&#8217;Connor",
+              "Jerome Murphy-O’Connor"
+            ],
+            "nameOrig": [
+              "Jerome Murphy-O&#8217;Connor",
+              "Jerome Murphy-O’Connor"
+            ]
+          }
+        },
+        {
+          "id": "20131003-frank-drone",
+          "year": "2013",
+          "changes": {
+            "name": [
+              "Frank D&#8217;Rone",
+              "Frank D’Rone"
+            ],
+            "nameOrig": [
+              "Frank D&#8217;Rone",
+              "Frank D’Rone"
+            ]
+          }
+        },
+        {
+          "id": "20131001-martin-otoole",
+          "year": "2013",
+          "changes": {
+            "name": [
+              "Martin O&#8217;Toole",
+              "Martin O’Toole"
+            ],
+            "nameOrig": [
+              "Martin O&#8217;Toole",
+              "Martin O’Toole"
+            ]
+          }
+        }
+      ]
+    },
+    "A2_identity_noise": {
+      "count": 1018,
+      "action": "clear_identity",
+      "sample": [
+        {
+          "id": "20130924-slava-ivanevi",
+          "year": "2013",
+          "name": "Slava Ivančević",
+          "identity": "119?",
+          "age": 119
+        },
+        {
+          "id": "20130923-abdel-hamid-al-sarraj",
+          "year": "2013",
+          "name": "Abdel Hamid al-Sarraj",
+          "identity": "87-88",
+          "age": 87
+        },
+        {
+          "id": "20130909-saburo-kamei",
+          "year": "2013",
+          "name": "龟井三郎",
+          "identity": "75",
+          "age": 75
+        },
+        {
+          "id": "20130609-luo-meizhen",
+          "year": "2013",
+          "name": "罗美珍",
+          "identity": "127?",
+          "age": null
+        },
+        {
+          "id": "20130129-john-young",
+          "year": "2013",
+          "name": "John Young",
+          "identity": "76-77",
+          "age": 76
+        },
+        {
+          "id": "20141228-hamid-taqavi",
+          "year": "2014",
+          "name": "Hamid Taqavi",
+          "identity": "58-59",
+          "age": 58
+        },
+        {
+          "id": "20141014-ted-gullicksen",
+          "year": "2014",
+          "name": "Ted Gullicksen",
+          "identity": "50-51",
+          "age": 50
+        },
+        {
+          "id": "20140926-zelda",
+          "year": "2014",
+          "name": "Zelda",
+          "identity": "11+",
+          "age": 11
+        },
+        {
+          "id": "20140922-nanda-prasad-adhikari",
+          "year": "2014",
+          "name": "Nanda Prasad Adhikari",
+          "identity": "51-53",
+          "age": 51
+        },
+        {
+          "id": "20140922-samira-saleh-ali-al-naimi",
+          "year": "2014",
+          "name": "Samira Saleh Ali al-Naimi",
+          "identity": "50-51",
+          "age": 50
+        }
+      ]
+    },
+    "B_nonhuman": {
+      "count": 405,
+      "confirmed": 405,
+      "action": "remove_if_confirmed",
+      "candidates": [
+        {
+          "id": "20131221-ina-scot",
+          "year": "2013",
+          "name": "Ina Scot",
+          "identity": "Swedish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20131128-elwood",
+          "year": "2013",
+          "name": "Elwood",
+          "identity": "American Chinese crested/chihuahua dog",
+          "confirmed": true
+        },
+        {
+          "id": "20131028-bonfire",
+          "year": "2013",
+          "name": "Bonfire",
+          "identity": "German Olympic champion dressage horse (2000)",
+          "confirmed": true
+        },
+        {
+          "id": "20131008-helissio",
+          "year": "2013",
+          "name": "Helissio",
+          "identity": "French thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20130726-unbridleds-song",
+          "year": "2013",
+          "name": "Unbridled&#8217;s Song",
+          "identity": "American thoroughbred horse",
+          "confirmed": true
+        },
+        {
+          "id": "20130523-in-excess",
+          "year": "2013",
+          "name": "In Excess",
+          "identity": "Irish-born American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20130424-storm-cat",
+          "year": "2013",
+          "name": "Storm Cat",
+          "identity": "American thoroughbred stallion",
+          "confirmed": true
+        },
+        {
+          "id": "20130423-colonial-affair",
+          "year": "2013",
+          "name": "Colonial Affair",
+          "identity": "American thoroughbred",
+          "confirmed": true
+        },
+        {
+          "id": "20130421-captain-steve",
+          "year": "2013",
+          "name": "Captain Steve",
+          "identity": "American thoroughbred horse",
+          "confirmed": true
+        },
+        {
+          "id": "20130324-ratn",
+          "year": "2013",
+          "name": "Ratón",
+          "identity": "Spanish fighting bull",
+          "confirmed": true
+        },
+        {
+          "id": "20130312-kazzia",
+          "year": "2013",
+          "name": "Kazzia",
+          "identity": "German-foaled Irish thoroughbred horse",
+          "confirmed": true
+        },
+        {
+          "id": "20130302-master-oreilly",
+          "year": "2013",
+          "name": "Master O&#8217;Reilly",
+          "identity": "New Zealand-bred Australian racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20130115-generous",
+          "year": "2013",
+          "name": "Generous",
+          "identity": "Irish Thoroughbred horse",
+          "confirmed": true
+        },
+        {
+          "id": "20130112-ourasi",
+          "year": "2013",
+          "name": "Ourasi",
+          "identity": "French Trotter harness racing horse",
+          "confirmed": true
+        },
+        {
+          "id": "20130109-katchit",
+          "year": "2013",
+          "name": "Katchit",
+          "identity": "Irish Thoroughbred hurdler",
+          "confirmed": true
+        },
+        {
+          "id": "20130108-ten-most-wanted",
+          "year": "2013",
+          "name": "Ten Most Wanted",
+          "identity": "American thoroughbred",
+          "confirmed": true
+        },
+        {
+          "id": "20130103-selkirk",
+          "year": "2013",
+          "name": "Selkirk",
+          "identity": "English champion racehorse (Queen Elizabeth II Stakes",
+          "confirmed": true
+        },
+        {
+          "id": "20141221-high-chaparral",
+          "year": "2014",
+          "name": "High Chaparral",
+          "identity": "Irish Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20141214-angalifu",
+          "year": "2014",
+          "name": "Angalifu",
+          "identity": "Sudanese-born American rhinoceros",
+          "confirmed": true
+        },
+        {
+          "id": "20141204-frank-and-louie",
+          "year": "2014",
+          "name": "法兰克和路易",
+          "identity": "American-born Ragdoll cat",
+          "confirmed": true
+        },
+        {
+          "id": "20141130-trading-leather",
+          "year": "2014",
+          "name": "Trading Leather",
+          "identity": "Irish Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20141129-imperial-call",
+          "year": "2014",
+          "name": "Imperial Call",
+          "identity": "Irish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20141119-teeton-mill",
+          "year": "2014",
+          "name": "Teeton Mill",
+          "identity": "British Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20141110-johar",
+          "year": "2014",
+          "name": "Johar",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20141107-rough-habit",
+          "year": "2014",
+          "name": "Rough Habit",
+          "identity": "New Zealand Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20141107-solwhit",
+          "year": "2014",
+          "name": "Solwhit",
+          "identity": "French-bred Irish-trained Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20141104-admire-rakti",
+          "year": "2014",
+          "name": "Admire Rakti",
+          "identity": "Japanese Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20141104-araldo",
+          "year": "2014",
+          "name": "Araldo",
+          "identity": "British-born Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20141024-tugela",
+          "year": "2014",
+          "name": "Tugela",
+          "identity": "American-born Australian thoroughbred horse",
+          "confirmed": true
+        },
+        {
+          "id": "20141018-veandercross",
+          "year": "2014",
+          "name": "Veandercross",
+          "identity": "New Zealand Thoroughbred horse",
+          "confirmed": true
+        },
+        {
+          "id": "20141014-encke",
+          "year": "2014",
+          "name": "Encke",
+          "identity": "American-bred British-trained thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20141011-jazil",
+          "year": "2014",
+          "name": "Jazil",
+          "identity": "American thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20141007-cigar",
+          "year": "2014",
+          "name": "雪茄",
+          "identity": "American thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20141004-silver-deputy",
+          "year": "2014",
+          "name": "Silver Deputy",
+          "identity": "Canadian Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20140917-street-cry",
+          "year": "2014",
+          "name": "Street Cry",
+          "identity": "Irish thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20140914-behrens",
+          "year": "2014",
+          "name": "Behrens",
+          "identity": "American thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20140911-hamish-mchamish",
+          "year": "2014",
+          "name": "Hamish McHamish",
+          "identity": "Scottish celebrity cat",
+          "confirmed": true
+        },
+        {
+          "id": "20140805-rodrigo-de-triano",
+          "year": "2014",
+          "name": "Rodrigo de Triano",
+          "identity": "English thoroughbred",
+          "confirmed": true
+        },
+        {
+          "id": "20140725-beau-genius",
+          "year": "2014",
+          "name": "Beau Genius",
+          "identity": "Canadian Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20140724-see-more-business",
+          "year": "2014",
+          "name": "See More Business",
+          "identity": "Irish thoroughbred",
+          "confirmed": true
+        },
+        {
+          "id": "20140714-vintage-crop",
+          "year": "2014",
+          "name": "Vintage Crop",
+          "identity": "Irish Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20140707-lammtarra",
+          "year": "2014",
+          "name": "临泰来",
+          "identity": "British racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20140630-matts-scooter",
+          "year": "2014",
+          "name": "Matt&#8217;s Scooter",
+          "identity": "American Standardbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20140527-lochsong",
+          "year": "2014",
+          "name": "Lochsong",
+          "identity": "British thoroughbred sprinter racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20140516-dehere",
+          "year": "2014",
+          "name": "Dehere",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20140502-chelokee",
+          "year": "2014",
+          "name": "Chelokee",
+          "identity": "American thoroughbred horse",
+          "confirmed": true
+        },
+        {
+          "id": "20140502-moni-maker",
+          "year": "2014",
+          "name": "Moni Maker",
+          "identity": "American trotter horse",
+          "confirmed": true
+        },
+        {
+          "id": "20140422-safely-kept",
+          "year": "2014",
+          "name": "Safely Kept",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20140412-my-flag",
+          "year": "2014",
+          "name": "My Flag",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20140410-commendable",
+          "year": "2014",
+          "name": "Commendable",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20140405-azamour",
+          "year": "2014",
+          "name": "Azamour",
+          "identity": "Irish racehorse and sire",
+          "confirmed": true
+        },
+        {
+          "id": "20140327-bertrando",
+          "year": "2014",
+          "name": "Bertrando",
+          "identity": "American Thoroughbred Champion racehorse (Woodward Stakes",
+          "confirmed": true
+        },
+        {
+          "id": "20140311-our-conor",
+          "year": "2014",
+          "name": "Our Conor",
+          "identity": "Irish Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20140305-little-bridge",
+          "year": "2014",
+          "name": "Little Bridge",
+          "identity": "New Zealand racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20140209-marius",
+          "year": "2014",
+          "name": "Marius",
+          "identity": "Danish giraffe",
+          "confirmed": true
+        },
+        {
+          "id": "20140207-chriselliam",
+          "year": "2014",
+          "name": "Chriselliam",
+          "identity": "Irish-bred British-trained Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20140130-mr-tiz",
+          "year": "2014",
+          "name": "Mr Tiz",
+          "identity": "New Zealand racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20140129-biko",
+          "year": "2014",
+          "name": "Biko",
+          "identity": "American Olympic eventing horse (1996)",
+          "confirmed": true
+        },
+        {
+          "id": "20140129-colonel-meow",
+          "year": "2014",
+          "name": "Colonel Meow",
+          "identity": "American Himalayan-Persian cat",
+          "confirmed": true
+        },
+        {
+          "id": "20140122-wando",
+          "year": "2014",
+          "name": "Wando",
+          "identity": "Canadian Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20140114-st-nicholas-abbey",
+          "year": "2014",
+          "name": "St Nicholas Abbey",
+          "identity": "Irish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20140107-sunshine-forever",
+          "year": "2014",
+          "name": "Sunshine Forever",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20140104-caixa-eletronica",
+          "year": "2014",
+          "name": "Caixa Eletronica",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20151214-scat-daddy",
+          "year": "2015",
+          "name": "Scat Daddy",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20151203-shared-belief",
+          "year": "2015",
+          "name": "Shared Belief",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20151122-nola",
+          "year": "2015",
+          "name": "Nola",
+          "identity": "Sudanese-born American white rhinoceros",
+          "confirmed": true
+        },
+        {
+          "id": "20151121-red-cadeaux",
+          "year": "2015",
+          "name": "Red Cadeaux",
+          "identity": "British-bred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20151118-diesel",
+          "year": "2015",
+          "name": "Diesel",
+          "identity": "French police dog",
+          "confirmed": true
+        },
+        {
+          "id": "20151116-soviet-song",
+          "year": "2015",
+          "name": "Soviet Song",
+          "identity": "Irish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20151105-gems-mccormick",
+          "year": "2015",
+          "name": "Gems McCormick",
+          "identity": "British fox hunter",
+          "confirmed": true
+        },
+        {
+          "id": "20151018-gritto",
+          "year": "2015",
+          "name": "Gritto",
+          "identity": "Andean bear (Salisbury Zoo)",
+          "confirmed": true
+        },
+        {
+          "id": "20151001-malee",
+          "year": "2015",
+          "name": "Malee",
+          "identity": "Asian elephant (Oklahoma City Zoo and Botanical Garden)",
+          "confirmed": true
+        },
+        {
+          "id": "20150929-soaring-softly",
+          "year": "2015",
+          "name": "Soaring Softly",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20150927-in-style",
+          "year": "2015",
+          "name": "In Style",
+          "identity": "Canadian show jumping horse",
+          "confirmed": true
+        },
+        {
+          "id": "20150926-zabeel",
+          "year": "2015",
+          "name": "Zabeel",
+          "identity": "New Zealand racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20150903-giltedge",
+          "year": "2015",
+          "name": "Giltedge",
+          "identity": "Irish-born American eventing horse",
+          "confirmed": true
+        },
+        {
+          "id": "20150729-tamarillo",
+          "year": "2015",
+          "name": "Tamarillo",
+          "identity": "British eventing horse",
+          "confirmed": true
+        },
+        {
+          "id": "20150717-buster",
+          "year": "2015",
+          "name": "Buster",
+          "identity": "British RAF dog",
+          "confirmed": true
+        },
+        {
+          "id": "20150701-cecil",
+          "year": "2015",
+          "name": "塞西尔",
+          "identity": "Zimbabwean lion",
+          "confirmed": true
+        },
+        {
+          "id": "20150701-overdose",
+          "year": "2015",
+          "name": "Overdose",
+          "identity": "Hungarian Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20150622-tama",
+          "year": "2015",
+          "name": "小玉 (猫)",
+          "identity": "Japanese calico cat",
+          "confirmed": true
+        },
+        {
+          "id": "20150620-takeover-target",
+          "year": "2015",
+          "name": "兼并目标",
+          "identity": "Australian Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20150610-bonecrusher",
+          "year": "2015",
+          "name": "Bonecrusher",
+          "identity": "New Zealand Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20150603-tiffany-two",
+          "year": "2015",
+          "name": "Tiffany Two",
+          "identity": "American cat",
+          "confirmed": true
+        },
+        {
+          "id": "20150425-success-express",
+          "year": "2015",
+          "name": "Success Express",
+          "identity": "American-born Australian Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20150417-smuggler",
+          "year": "2015",
+          "name": "Smuggler",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20150314-ogygian",
+          "year": "2015",
+          "name": "Ogygian",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20150205-stay-gold",
+          "year": "2015",
+          "name": "Stay Gold",
+          "identity": "Japanese Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20150203-hay-list",
+          "year": "2015",
+          "name": "Hay List",
+          "identity": "Australian Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20150111-doriemus",
+          "year": "2015",
+          "name": "Doriemus",
+          "identity": "New Zealand Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20150106-thunder-rumble",
+          "year": "2015",
+          "name": "Thunder Rumble",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20161230-cara-rafaela",
+          "year": "2016",
+          "name": "Cara Rafaela",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20161217-the-bear",
+          "year": "2016",
+          "name": "The Bear",
+          "identity": "cat who is mentioned in books by Tom Cox",
+          "confirmed": true
+        },
+        {
+          "id": "20161215-saintly",
+          "year": "2016",
+          "name": "Saintly",
+          "identity": "Australian racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20161214-hurricane-run",
+          "year": "2016",
+          "name": "Hurricane Run",
+          "identity": "Irish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20161213-lord-gyllene",
+          "year": "2016",
+          "name": "Lord Gyllene",
+          "identity": "New Zealand-bred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20161205-zeke-the-wonder-dog-iii",
+          "year": "2016",
+          "name": "Zeke the Wonder Dog III",
+          "identity": "Michigan State University disc dog",
+          "confirmed": true
+        },
+        {
+          "id": "20161123-red-marauder",
+          "year": "2016",
+          "name": "Red Marauder",
+          "identity": "Irish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20161115-mahpiya-ska",
+          "year": "2016",
+          "name": "Mahpiya Ska",
+          "identity": "American albino buffalo",
+          "confirmed": true
+        },
+        {
+          "id": "20161106-vautour",
+          "year": "2016",
+          "name": "Vautour",
+          "identity": "French-born Irish-trained racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20161022-monarchos",
+          "year": "2016",
+          "name": "Monarchos",
+          "identity": "American thoroughbred racehorse and stallion",
+          "confirmed": true
+        },
+        {
+          "id": "20161021-moscow-flyer",
+          "year": "2016",
+          "name": "Moscow Flyer",
+          "identity": "Irish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20161020-rough-quest",
+          "year": "2016",
+          "name": "Rough Quest",
+          "identity": "British racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20161019-pedals",
+          "year": "2016",
+          "name": "Pedals",
+          "identity": "bipedal American black bear",
+          "confirmed": true
+        },
+        {
+          "id": "20161016-jia-jia",
+          "year": "2016",
+          "name": "Jia Jia",
+          "identity": "Chinese giant panda",
+          "confirmed": true
+        },
+        {
+          "id": "20161015-octagonal",
+          "year": "2016",
+          "name": "Octagonal",
+          "identity": "New Zealand Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20161011-marju",
+          "year": "2016",
+          "name": "Marju",
+          "identity": "Irish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20160912-lets-elope",
+          "year": "2016",
+          "name": "Let&#8217;s Elope",
+          "identity": "New Zealand racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20160703-arturo",
+          "year": "2016",
+          "name": "Arturo",
+          "identity": "American-born Argentine polar bear",
+          "confirmed": true
+        },
+        {
+          "id": "20160527-leroidesanimaux",
+          "year": "2016",
+          "name": "Leroidesanimaux",
+          "identity": "Brazilian-bred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20160522-intikhab",
+          "year": "2016",
+          "name": "Intikhab",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20160521-homeboykris",
+          "year": "2016",
+          "name": "Homeboykris",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20160509-comply-or-die",
+          "year": "2016",
+          "name": "Comply or Die",
+          "identity": "British thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20160506-pierre",
+          "year": "2016",
+          "name": "Pierre",
+          "identity": "American penguin",
+          "confirmed": true
+        },
+        {
+          "id": "20160422-dayko",
+          "year": "2016",
+          "name": "Dayko",
+          "identity": "Ecuadorian Labrador rescue dog",
+          "confirmed": true
+        },
+        {
+          "id": "20160420-choppers",
+          "year": "2016",
+          "name": "Choppers",
+          "identity": "Liberian-born British chimpanzee",
+          "confirmed": true
+        },
+        {
+          "id": "20160316-better-loosen-up",
+          "year": "2016",
+          "name": "Better Loosen Up",
+          "identity": "Australian thoroughbred",
+          "confirmed": true
+        },
+        {
+          "id": "20160224-timber-country",
+          "year": "2016",
+          "name": "Timber Country",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20160213-flakey-dove",
+          "year": "2016",
+          "name": "Flakey Dove",
+          "identity": "British-trained racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20160122-storm-flag-flying",
+          "year": "2016",
+          "name": "Storm Flag Flying",
+          "identity": "American thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20160120-kingmambo",
+          "year": "2016",
+          "name": "Kingmambo",
+          "identity": "American-bred French thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20160117-gulch",
+          "year": "2016",
+          "name": "Gulch",
+          "identity": "American thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20171228-nichols-canyon",
+          "year": "2017",
+          "name": "Nichols Canyon",
+          "identity": "Irish-trained racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20171218-castletown",
+          "year": "2017",
+          "name": "Castletown",
+          "identity": "New Zealand racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20171211-collier-bay",
+          "year": "2017",
+          "name": "Collier Bay",
+          "identity": "British racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20171116-gary-the-goat",
+          "year": "2017",
+          "name": "Gary the Goat",
+          "identity": "Australian goat and viral star. Acute heart tumour",
+          "confirmed": true
+        },
+        {
+          "id": "20171108-paddles",
+          "year": "2017",
+          "name": "Paddles",
+          "identity": "cat owned by New Zealand Prime Minster Jacinda Ardern",
+          "confirmed": true
+        },
+        {
+          "id": "20171106-digger-crown",
+          "year": "2017",
+          "name": "Digger Crown",
+          "identity": "Swedish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20171023-alinghi",
+          "year": "2017",
+          "name": "Alinghi",
+          "identity": "Australian racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20171016-inside-information",
+          "year": "2017",
+          "name": "Inside Information",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20171014-grape-kun",
+          "year": "2017",
+          "name": "葡萄君",
+          "identity": "Humboldt penguin",
+          "confirmed": true
+        },
+        {
+          "id": "20170914-basi",
+          "year": "2017",
+          "name": "Basi",
+          "identity": "Chinese panda",
+          "confirmed": true
+        },
+        {
+          "id": "20170818-peruan",
+          "year": "2017",
+          "name": "Peruán",
+          "identity": "race horse",
+          "confirmed": true
+        },
+        {
+          "id": "20170723-stubbs",
+          "year": "2017",
+          "name": "Stubbs",
+          "identity": "American cat",
+          "confirmed": true
+        },
+        {
+          "id": "20170723-xanda",
+          "year": "2017",
+          "name": "Xanda",
+          "identity": "Southwest African lion",
+          "confirmed": true
+        },
+        {
+          "id": "20170721-pudsey",
+          "year": "2017",
+          "name": "Pudsey",
+          "identity": "British performing dog (Britain's Got Talent",
+          "confirmed": true
+        },
+        {
+          "id": "20170720-grand-armee",
+          "year": "2017",
+          "name": "Grand Armee",
+          "identity": "Australian racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20170718-bens-cat",
+          "year": "2017",
+          "name": "Ben&#8217;s Cat",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20170707-tinners-way",
+          "year": "2017",
+          "name": "Tinners Way",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20170628-better-talk-now",
+          "year": "2017",
+          "name": "Better Talk Now",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20170628-toytown",
+          "year": "2017",
+          "name": "Toytown",
+          "identity": "British event horse",
+          "confirmed": true
+        },
+        {
+          "id": "20170614-hansel",
+          "year": "2017",
+          "name": "Hansel",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20170522-devil-his-due",
+          "year": "2017",
+          "name": "Devil His Due",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20170518-roger-ailes",
+          "year": "2017",
+          "name": "Roger Ailes",
+          "identity": "former Fox News CEO",
+          "confirmed": true
+        },
+        {
+          "id": "20170517-unusual-heat",
+          "year": "2017",
+          "name": "Unusual Heat",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20170503-papillon",
+          "year": "2017",
+          "name": "Papillon",
+          "identity": "Irish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20170427-amberleigh-house",
+          "year": "2017",
+          "name": "Amberleigh House",
+          "identity": "Irish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20170422-cape-cross",
+          "year": "2017",
+          "name": "Cape Cross",
+          "identity": "Irish-bred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20170406-imperial-commander",
+          "year": "2017",
+          "name": "Imperial Commander",
+          "identity": "Irish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20170227-cabral",
+          "year": "2017",
+          "name": "Cabral",
+          "identity": "Polish-born British dressage horse",
+          "confirmed": true
+        },
+        {
+          "id": "20170224-louis-quatorze",
+          "year": "2017",
+          "name": "Louis Quatorze",
+          "identity": "American thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20170219-charismatic",
+          "year": "2017",
+          "name": "Charismatic",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20170218-sulamani",
+          "year": "2017",
+          "name": "Sulamani",
+          "identity": "Irish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20170214-lucky-pulpit",
+          "year": "2017",
+          "name": "Lucky Pulpit",
+          "identity": "American-trained racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20170213-fame-and-glory",
+          "year": "2017",
+          "name": "Fame and Glory",
+          "identity": "Irish-trained racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20170210-royal-delta",
+          "year": "2017",
+          "name": "Royal Delta",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20170209-packy",
+          "year": "2017",
+          "name": "Packy",
+          "identity": "American-held Asian elephant",
+          "confirmed": true
+        },
+        {
+          "id": "20170128-many-clouds",
+          "year": "2017",
+          "name": "Many Clouds",
+          "identity": "British racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20170117-colo",
+          "year": "2017",
+          "name": "Colo",
+          "identity": "American western gorilla",
+          "confirmed": true
+        },
+        {
+          "id": "20181222-bob-and-john",
+          "year": "2018",
+          "name": "Bob and John",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20181210-roger",
+          "year": "2018",
+          "name": "Roger",
+          "identity": "Australian kangaroo",
+          "confirmed": true
+        },
+        {
+          "id": "20181204-robin-des-champs",
+          "year": "2018",
+          "name": "Robin des Champs",
+          "identity": "Irish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20181127-monets-garden",
+          "year": "2018",
+          "name": "Monet&#8217;s Garden",
+          "identity": "Irish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20181127-sinndar",
+          "year": "2018",
+          "name": "Sinndar",
+          "identity": "Irish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20181125-i-want-revenge",
+          "year": "2018",
+          "name": "I Want Revenge",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20181106-cliffs-of-moher",
+          "year": "2018",
+          "name": "Cliffs of Moher",
+          "identity": "Irish thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20181101-set-them-free",
+          "year": "2018",
+          "name": "Set Them Free",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20181022-paddy-oprado",
+          "year": "2018",
+          "name": "Paddy O&#8217;Prado",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20181006-encosta-de-lago",
+          "year": "2018",
+          "name": "Encosta De Lago",
+          "identity": "Australian racehorse and sire",
+          "confirmed": true
+        },
+        {
+          "id": "20180930-edredon-bleu",
+          "year": "2018",
+          "name": "Edredon Bleu",
+          "identity": "British racing horse",
+          "confirmed": true
+        },
+        {
+          "id": "20180922-k-runs-park-me-in-first",
+          "year": "2018",
+          "name": "K-Run&#8217;s Park Me In First",
+          "identity": "American show dog",
+          "confirmed": true
+        },
+        {
+          "id": "20180831-medicean",
+          "year": "2018",
+          "name": "Medicean",
+          "identity": "British racehorse (Eclipse Stakes)",
+          "confirmed": true
+        },
+        {
+          "id": "20180717-honour-and-glory",
+          "year": "2018",
+          "name": "Honour and Glory",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20180713-naturalism",
+          "year": "2018",
+          "name": "Naturalism",
+          "identity": "New Zealand-bred Australian racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20180621-koko",
+          "year": "2018",
+          "name": "Koko",
+          "identity": "Western lowland gorilla",
+          "confirmed": true
+        },
+        {
+          "id": "20180606-denman",
+          "year": "2018",
+          "name": "Denman",
+          "identity": "British racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20180520-sir-des-champs",
+          "year": "2018",
+          "name": "Sir Des Champs",
+          "identity": "Irish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20180425-inuka",
+          "year": "2018",
+          "name": "Inuka",
+          "identity": "Singaporean polar bear",
+          "confirmed": true
+        },
+        {
+          "id": "20180422-olga",
+          "year": "2018",
+          "name": "Olga",
+          "identity": "British Cairn Terrier dog owned by Paul O'Grady (The Paul O'Grady Show) and namesake for Olga TV",
+          "confirmed": true
+        },
+        {
+          "id": "20180417-giants-causeway",
+          "year": "2018",
+          "name": "Giant&#8217;s Causeway",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20180409-silviniaco-conti",
+          "year": "2018",
+          "name": "Silviniaco Conti",
+          "identity": "French racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20180323-hasili",
+          "year": "2018",
+          "name": "Hasili",
+          "identity": "French racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20180320-sudan",
+          "year": "2018",
+          "name": "Sudan",
+          "identity": "Kenyan northern white rhinoceros",
+          "confirmed": true
+        },
+        {
+          "id": "20180319-bento-the-keyboard-cat",
+          "year": "2018",
+          "name": "Bento, the Keyboard Cat",
+          "identity": "American cat and Internet meme star",
+          "confirmed": true
+        },
+        {
+          "id": "20180319-keyboard-cat",
+          "year": "2018",
+          "name": "keyboard cat",
+          "identity": "the second keyboard cat",
+          "confirmed": true
+        },
+        {
+          "id": "20180319-thunder-gulch",
+          "year": "2018",
+          "name": "Thunder Gulch",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20180314-elusive-quality",
+          "year": "2018",
+          "name": "Elusive Quality",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20180207-aljabr",
+          "year": "2018",
+          "name": "Aljabr",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20180116-dreaming-of-anna",
+          "year": "2018",
+          "name": "Dreaming of Anna",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20180108-nico",
+          "year": "2018",
+          "name": "Nico",
+          "identity": "Swiss Western lowland gorilla",
+          "confirmed": true
+        },
+        {
+          "id": "20191210-notnowcato",
+          "year": "2019",
+          "name": "Notnowcato",
+          "identity": "British thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20191202-lil-bub",
+          "year": "2019",
+          "name": "Lil Bub",
+          "identity": "American celebrity cat (Lil Bub & Friendz)",
+          "confirmed": true
+        },
+        {
+          "id": "20191201-sacred-falls",
+          "year": "2019",
+          "name": "Sacred Falls",
+          "identity": "New Zealand racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20191122-make-a-stand",
+          "year": "2019",
+          "name": "Make A Stand",
+          "identity": "British racehorse (1997 Champion Hurdle}",
+          "confirmed": true
+        },
+        {
+          "id": "20191117-osama-bin-laden",
+          "year": "2019",
+          "name": "Osama bin Laden",
+          "identity": "Indian killer elephant",
+          "confirmed": true
+        },
+        {
+          "id": "20191015-lyutyik",
+          "year": "2019",
+          "name": "Lyutyik",
+          "identity": "American-born polar bear",
+          "confirmed": true
+        },
+        {
+          "id": "20191007-custom-made",
+          "year": "2019",
+          "name": "Custom Made",
+          "identity": "American eventing horse",
+          "confirmed": true
+        },
+        {
+          "id": "20190921-peppers-pride",
+          "year": "2019",
+          "name": "Peppers Pride",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20190824-roaring-lion",
+          "year": "2019",
+          "name": "Roaring Lion",
+          "identity": "British Thoroughbred racehorse (2019 Eclipse Stakes",
+          "confirmed": true
+        },
+        {
+          "id": "20190731-registana",
+          "year": "2019",
+          "name": "Registana",
+          "identity": "racehorse of German origin",
+          "confirmed": true
+        },
+        {
+          "id": "20190730-deep-impact",
+          "year": "2019",
+          "name": "Deep Impact",
+          "identity": "Japanese racehorse (Japan Cup) and breeding sire",
+          "confirmed": true
+        },
+        {
+          "id": "20190726-trudy",
+          "year": "2019",
+          "name": "Trudy",
+          "identity": "American gorilla",
+          "confirmed": true
+        },
+        {
+          "id": "20190722-sea-of-class",
+          "year": "2019",
+          "name": "Sea of Class",
+          "identity": "Irish-bred British-trained racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20190614-menifee",
+          "year": "2019",
+          "name": "Menifee",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20190517-grumpy-cat",
+          "year": "2019",
+          "name": "不爽猫",
+          "identity": "American internet celebrity cat",
+          "confirmed": true
+        },
+        {
+          "id": "20190517-tardar-sauce",
+          "year": "2019",
+          "name": "Tardar Sauce",
+          "identity": "American cat better known as Grumpy Cat",
+          "confirmed": true
+        },
+        {
+          "id": "20190501-dunaden",
+          "year": "2019",
+          "name": "Dunaden",
+          "identity": "French racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20190409-turgeon",
+          "year": "2019",
+          "name": "Turgeon",
+          "identity": "French racehorse and stallion",
+          "confirmed": true
+        },
+        {
+          "id": "20190403-vodka",
+          "year": "2019",
+          "name": "Vodka",
+          "identity": "Japanese racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20190330-redoutes-choice",
+          "year": "2019",
+          "name": "Redoute&#8217;s Choice",
+          "identity": "Australian racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20190319-pioneer-of-the-nile",
+          "year": "2019",
+          "name": "Pioneer of the Nile",
+          "identity": "American racing thoroughbred",
+          "confirmed": true
+        },
+        {
+          "id": "20190318-pioneerof-the-nile",
+          "year": "2019",
+          "name": "Pioneerof the Nile",
+          "identity": "American racing thoroughbred",
+          "confirmed": true
+        },
+        {
+          "id": "20190223-sebring",
+          "year": "2019",
+          "name": "Sebring",
+          "identity": "Australian racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20190203-special-tiara",
+          "year": "2019",
+          "name": "Special Tiara",
+          "identity": "Irish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20190121-evening-attire",
+          "year": "2019",
+          "name": "Evening Attire",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20201216-totilas",
+          "year": "2020",
+          "name": "Totilas",
+          "identity": "Dutch dressage horse",
+          "confirmed": true
+        },
+        {
+          "id": "20201215-awesome-again",
+          "year": "2020",
+          "name": "Awesome Again",
+          "identity": "Awesome Again, Canadian Hall of Fame racehorse.",
+          "confirmed": true
+        },
+        {
+          "id": "20201122-lupo",
+          "year": "2020",
+          "name": "Lupo",
+          "identity": "English dog",
+          "confirmed": true
+        },
+        {
+          "id": "20201103-anthony-van-dyck",
+          "year": "2020",
+          "name": "Anthony Van Dyck",
+          "identity": "Irish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20201021-jarvsofaks",
+          "year": "2020",
+          "name": "Järvsöfaks",
+          "identity": "Swedish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20200903-sixteen",
+          "year": "2020",
+          "name": "Sixteen",
+          "identity": "racehorse (double winner of Velká pardubická)",
+          "confirmed": true
+        },
+        {
+          "id": "20200829-subzero",
+          "year": "2020",
+          "name": "Subzero",
+          "identity": "Australian racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20200802-rip-van-winkle",
+          "year": "2020",
+          "name": "Rip Van Winkle",
+          "identity": "Irish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20200717-ana-romero-reguera",
+          "year": "2020",
+          "name": "Ana Romero Reguera",
+          "identity": "Spanish fighting bull rancher",
+          "confirmed": true
+        },
+        {
+          "id": "20200703-rubble",
+          "year": "2020",
+          "name": "Rubble",
+          "identity": "British cat",
+          "confirmed": true
+        },
+        {
+          "id": "20200616-bob",
+          "year": "2020",
+          "name": "Bob",
+          "identity": "a ginger cat (A Street Cat Named Bob (film))",
+          "confirmed": true
+        },
+        {
+          "id": "20200615-ocean-bay",
+          "year": "2020",
+          "name": "Ocean Bay",
+          "identity": "Venezuelan racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20200610-zoogin",
+          "year": "2020",
+          "name": "Zoogin",
+          "identity": "Swedish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20200604-pleasantly-perfect",
+          "year": "2020",
+          "name": "Pleasantly Perfect",
+          "identity": "American racehorse and sire",
+          "confirmed": true
+        },
+        {
+          "id": "20200520-dumbo",
+          "year": "2020",
+          "name": "Dumbo",
+          "identity": "Belgian elephant",
+          "confirmed": true
+        },
+        {
+          "id": "20200520-incredible",
+          "year": "2020",
+          "name": "Incredible",
+          "identity": "Dutch horse",
+          "confirmed": true
+        },
+        {
+          "id": "20200512-nigel",
+          "year": "2020",
+          "name": "Nigel",
+          "identity": "British golden retriever dog (Gardeners' World)",
+          "confirmed": true
+        },
+        {
+          "id": "20200416-shamardal",
+          "year": "2020",
+          "name": "Shamardal",
+          "identity": "racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20200412-might-and-power",
+          "year": "2020",
+          "name": "Might and Power",
+          "identity": "New Zealand-bred Australian racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20200311-war-emblem",
+          "year": "2020",
+          "name": "War Emblem",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20200309-eremein",
+          "year": "2020",
+          "name": "Eremein",
+          "identity": "Australian thoroughbred",
+          "confirmed": true
+        },
+        {
+          "id": "20200307-marnie",
+          "year": "2020",
+          "name": "Marnie",
+          "identity": "American Shih Tzu dog",
+          "confirmed": true
+        },
+        {
+          "id": "20200305-cc",
+          "year": "2020",
+          "name": "CC",
+          "identity": "American tabby cat",
+          "confirmed": true
+        },
+        {
+          "id": "20200302-bahamian-bounty",
+          "year": "2020",
+          "name": "Bahamian Bounty",
+          "identity": "British racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20200224-double-trigger",
+          "year": "2020",
+          "name": "Double Trigger",
+          "identity": "Irish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20200222-ap-indy",
+          "year": "2020",
+          "name": "A.P. Indy",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20200120-empire-maker",
+          "year": "2020",
+          "name": "Empire Maker",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20200119-bollin-eric",
+          "year": "2020",
+          "name": "Bollin Eric",
+          "identity": "British racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20200118-cajun-beat",
+          "year": "2020",
+          "name": "Cajun Beat",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20200113-tusk-iv",
+          "year": "2020",
+          "name": "Tusk IV",
+          "identity": "American Russian boar",
+          "confirmed": true
+        },
+        {
+          "id": "20211222-dansili",
+          "year": "2021",
+          "name": "Dansili",
+          "identity": "British thoroughbred racehorse and sire",
+          "confirmed": true
+        },
+        {
+          "id": "20211206-medina-spirit",
+          "year": "2021",
+          "name": "Medina Spirit",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20211125-erhaab",
+          "year": "2021",
+          "name": "Erhaab",
+          "identity": "American Thoroughbred race horse",
+          "confirmed": true
+        },
+        {
+          "id": "20211117-rock-hard-ten",
+          "year": "2021",
+          "name": "Rock Hard Ten",
+          "identity": "American racehorse and sire",
+          "confirmed": true
+        },
+        {
+          "id": "20210927-caressing",
+          "year": "2021",
+          "name": "Caressing",
+          "identity": "American racehorse and broodmare",
+          "confirmed": true
+        },
+        {
+          "id": "20210831-geronimo",
+          "year": "2021",
+          "name": "Geronimo",
+          "identity": "New Zealand-born alpaca",
+          "confirmed": true
+        },
+        {
+          "id": "20210822-sandro-hit",
+          "year": "2021",
+          "name": "Sandro Hit",
+          "identity": "German dressage horse and sire",
+          "confirmed": true
+        },
+        {
+          "id": "20210719-danza",
+          "year": "2021",
+          "name": "Danza",
+          "identity": "American racehorse and sire",
+          "confirmed": true
+        },
+        {
+          "id": "20210710-galileo",
+          "year": "2021",
+          "name": "Galileo",
+          "identity": "Irish racehorse (2001 Epsom Derby) and champion sire",
+          "confirmed": true
+        },
+        {
+          "id": "20210709-came-home",
+          "year": "2021",
+          "name": "Came Home",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20210702-arazi",
+          "year": "2021",
+          "name": "Arazi",
+          "identity": "American-bred French racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20210619-champ",
+          "year": "2021",
+          "name": "Champ",
+          "identity": "American dog",
+          "confirmed": true
+        },
+        {
+          "id": "20210519-malibu-moon",
+          "year": "2021",
+          "name": "Malibu Moon",
+          "identity": "American racehorse and sire",
+          "confirmed": true
+        },
+        {
+          "id": "20210517-kabang",
+          "year": "2021",
+          "name": "Kabang",
+          "identity": "Filipino dog",
+          "confirmed": true
+        },
+        {
+          "id": "20210517-tai",
+          "year": "2021",
+          "name": "Tai",
+          "identity": "Asian elephant (The Jungle Book",
+          "confirmed": true
+        },
+        {
+          "id": "20210402-april",
+          "year": "2021",
+          "name": "April",
+          "identity": "American giraffe",
+          "confirmed": true
+        },
+        {
+          "id": "20210325-finians-rainbow",
+          "year": "2021",
+          "name": "Finian&#8217;s Rainbow",
+          "identity": "British racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20210324-cockney-rebel",
+          "year": "2021",
+          "name": "Cockney Rebel",
+          "identity": "Irish thoroughbred racehorse and sire",
+          "confirmed": true
+        },
+        {
+          "id": "20210311-boston-harbor",
+          "year": "2021",
+          "name": "Boston Harbor",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20210308-kind",
+          "year": "2021",
+          "name": "Kind",
+          "identity": "Irish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20210224-pastoral-pursuits",
+          "year": "2021",
+          "name": "Pastoral Pursuits",
+          "identity": "British Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20210223-sealy-hill",
+          "year": "2021",
+          "name": "Sealy Hill",
+          "identity": "Canadian Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20210222-dakota",
+          "year": "2021",
+          "name": "Dakota",
+          "identity": "New Zealand police dog and reality TV star (Dog Squad)",
+          "confirmed": true
+        },
+        {
+          "id": "20210219-balanchine",
+          "year": "2021",
+          "name": "Balanchine",
+          "identity": "Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20210128-mangalamkunnu-karnan",
+          "year": "2021",
+          "name": "Mangalamkunnu Karnan",
+          "identity": "Indian elephant",
+          "confirmed": true
+        },
+        {
+          "id": "20210125-big-drama",
+          "year": "2021",
+          "name": "Big Drama",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20210115-dalakhani",
+          "year": "2021",
+          "name": "Dalakhani",
+          "identity": "Irish racehorse and sire",
+          "confirmed": true
+        },
+        {
+          "id": "20210108-zoffany",
+          "year": "2021",
+          "name": "Zoffany",
+          "identity": "Irish racehorse and sire",
+          "confirmed": true
+        },
+        {
+          "id": "20210106-goldikova",
+          "year": "2021",
+          "name": "金刚威",
+          "identity": "French Hall of Fame racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20221225-royal-applause",
+          "year": "2022",
+          "name": "Royal Applause",
+          "identity": "British Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20221223-cue-card",
+          "year": "2022",
+          "name": "Cue Card",
+          "identity": "British Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20221223-milan",
+          "year": "2022",
+          "name": "Milan",
+          "identity": "British Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20221218-p-22",
+          "year": "2022",
+          "name": "P-22",
+          "identity": "American celebrity mountain lion",
+          "confirmed": true
+        },
+        {
+          "id": "20221208-kayf-tara",
+          "year": "2022",
+          "name": "Kayf Tara",
+          "identity": "British Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20221206-salinero",
+          "year": "2022",
+          "name": "Salinero",
+          "identity": "Dutch horse",
+          "confirmed": true
+        },
+        {
+          "id": "20221203-noodle",
+          "year": "2022",
+          "name": "Noodle",
+          "identity": "American pug dog",
+          "confirmed": true
+        },
+        {
+          "id": "20221130-ouija-board",
+          "year": "2022",
+          "name": "Ouija Board",
+          "identity": "British Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20221127-montys-pass",
+          "year": "2022",
+          "name": "Monty&#8217;s Pass",
+          "identity": "Irish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20221119-tuan-tuan",
+          "year": "2022",
+          "name": "Tuan Tuan",
+          "identity": "Chinese giant panda",
+          "confirmed": true
+        },
+        {
+          "id": "20221110-tiutchev",
+          "year": "2022",
+          "name": "Tiutchev",
+          "identity": "English racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20221024-rock-of-gibraltar",
+          "year": "2022",
+          "name": "Rock of Gibraltar",
+          "identity": "Irish thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20221022-war-of-attrition",
+          "year": "2022",
+          "name": "War of Attrition",
+          "identity": "Irish racehorse (2006 Cheltenham Gold Cup)",
+          "confirmed": true
+        },
+        {
+          "id": "20220904-coroebus",
+          "year": "2022",
+          "name": "Coroebus",
+          "identity": "Irish Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20220902-zenno-rob-roy",
+          "year": "2022",
+          "name": "Zenno Rob Roy",
+          "identity": "Japanese Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20220721-an-an",
+          "year": "2022",
+          "name": "An An",
+          "identity": "Chinese-born giant panda",
+          "confirmed": true
+        },
+        {
+          "id": "20220707-tricia",
+          "year": "2022",
+          "name": "Tricia",
+          "identity": "Vietnamese-born Australian Asian elephant",
+          "confirmed": true
+        },
+        {
+          "id": "20220629-scope",
+          "year": "2022",
+          "name": "Scope",
+          "identity": "Irish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20220522-de-sjiem",
+          "year": "2022",
+          "name": "耶龙·迪贝尔丹",
+          "identity": "Dutch show jumping horse",
+          "confirmed": true
+        },
+        {
+          "id": "20220518-bernard-kelly",
+          "year": "2022",
+          "name": "Bernard Kelly",
+          "identity": "New Zealand horse racing administrator",
+          "confirmed": true
+        },
+        {
+          "id": "20220420-midnight-bourbon",
+          "year": "2022",
+          "name": "Midnight Bourbon",
+          "identity": "American thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20220416-zippy-chippy",
+          "year": "2022",
+          "name": "Zippy Chippy",
+          "identity": "American thoroughbred racehorse with a 0-100 lifetime record in thoroughbred races",
+          "confirmed": true
+        },
+        {
+          "id": "20220323-grindstone",
+          "year": "2022",
+          "name": "Grindstone",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20220322-zipping",
+          "year": "2022",
+          "name": "Zipping",
+          "identity": "Australian racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20220309-go-for-gin",
+          "year": "2022",
+          "name": "Go for Gin",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20220307-nadungamuwa-raja",
+          "year": "2022",
+          "name": "Nadungamuwa Raja",
+          "identity": "Sri Lankan elephant",
+          "confirmed": true
+        },
+        {
+          "id": "20220304-le-havre",
+          "year": "2022",
+          "name": "Le Havre",
+          "identity": "Irish-born racehorse and sire",
+          "confirmed": true
+        },
+        {
+          "id": "20220211-la-verite",
+          "year": "2022",
+          "name": "La Verite",
+          "identity": "Swedish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20220202-snowfall",
+          "year": "2022",
+          "name": "Snowfall",
+          "identity": "Japanese-bred Irish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20220129-alphabet-soup",
+          "year": "2022",
+          "name": "Alphabet Soup",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20220129-bucks-boy",
+          "year": "2022",
+          "name": "Buck&#8217;s Boy",
+          "identity": "American thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20220127-ozzie",
+          "year": "2022",
+          "name": "Ozzie",
+          "identity": "African-born American western lowland gorilla",
+          "confirmed": true
+        },
+        {
+          "id": "20220120-bobs-worth",
+          "year": "2022",
+          "name": "Bobs Worth",
+          "identity": "racehorse (Cheltenham Gold Cup)",
+          "confirmed": true
+        },
+        {
+          "id": "20220105-da-hoss",
+          "year": "2022",
+          "name": "Da Hoss",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20231228-forestry",
+          "year": "2023",
+          "name": "Forestry",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20231218-speightstown",
+          "year": "2023",
+          "name": "Speightstown",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20231124-stravinsky",
+          "year": "2023",
+          "name": "Stravinsky",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20231119-work-all-week",
+          "year": "2023",
+          "name": "Work All Week",
+          "identity": "American Throughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20231117-protectionist",
+          "year": "2023",
+          "name": "Protectionist",
+          "identity": "German Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20231102-geaux-rocket-ride",
+          "year": "2023",
+          "name": "Geaux Rocket Ride",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20231023-bobi",
+          "year": "2023",
+          "name": "Bobi",
+          "identity": "Portuguese dog",
+          "confirmed": true
+        },
+        {
+          "id": "20231023-desert-crown",
+          "year": "2023",
+          "name": "Desert Crown",
+          "identity": "British racehorse (2022 Epsom Derby)",
+          "confirmed": true
+        },
+        {
+          "id": "20231019-langfuhr",
+          "year": "2023",
+          "name": "Langfuhr",
+          "identity": "Canadian Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20230911-point-given",
+          "year": "2023",
+          "name": "Point Given",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20230828-art-collector",
+          "year": "2023",
+          "name": "Art Collector",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20230828-sarava",
+          "year": "2023",
+          "name": "Sarava",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20230820-balltze",
+          "year": "2023",
+          "name": "Balltze",
+          "identity": "Hong Kong Shiba Inu dog and Internet meme (Cheems)",
+          "confirmed": true
+        },
+        {
+          "id": "20230819-cave-rock",
+          "year": "2023",
+          "name": "Cave Rock",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20230716-funny-cide",
+          "year": "2023",
+          "name": "Funny Cide",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20230711-indian-haven",
+          "year": "2023",
+          "name": "Indian Haven",
+          "identity": "British Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20230705-elsu",
+          "year": "2023",
+          "name": "Elsu",
+          "identity": "New Zealand Standardbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20230608-fields-of-omagh",
+          "year": "2023",
+          "name": "Fields of Omagh",
+          "identity": "Australian Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20230601-fiorente",
+          "year": "2023",
+          "name": "Fiorente",
+          "identity": "Irish-bred Autralian Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20230530-rite-of-passage",
+          "year": "2023",
+          "name": "Rite of Passage",
+          "identity": "British Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20230526-kalanisi",
+          "year": "2023",
+          "name": "Kalanisi",
+          "identity": "Irish Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20230524-fusaichi-pegasus",
+          "year": "2023",
+          "name": "Fusaichi Pegasus",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20230517-loonkito",
+          "year": "2023",
+          "name": "Loonkito",
+          "identity": "Kenyan lion",
+          "confirmed": true
+        },
+        {
+          "id": "20230512-loonkiito",
+          "year": "2023",
+          "name": "Loonkiito",
+          "identity": "Kenyan lion",
+          "confirmed": true
+        },
+        {
+          "id": "20230430-havre-de-grace",
+          "year": "2023",
+          "name": "Havre de Grace",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20230429-dream-alliance",
+          "year": "2023",
+          "name": "Dream Alliance",
+          "identity": "British Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20230419-lin-hui",
+          "year": "2023",
+          "name": "Lin Hui",
+          "identity": "Chinese-born Thai giant panda",
+          "confirmed": true
+        },
+        {
+          "id": "20230405-bokito",
+          "year": "2023",
+          "name": "Bokito",
+          "identity": "German-born Dutch western gorilla",
+          "confirmed": true
+        },
+        {
+          "id": "20230324-one-for-arthur",
+          "year": "2023",
+          "name": "One For Arthur",
+          "identity": "Irish Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20230321-kicking-king",
+          "year": "2023",
+          "name": "Kicking King",
+          "identity": "Irish Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20230228-pirouz",
+          "year": "2023",
+          "name": "Pirouz",
+          "identity": "Asiatic cheetah",
+          "confirmed": true
+        },
+        {
+          "id": "20230215-afternoon-deelites",
+          "year": "2023",
+          "name": "Afternoon Deelites",
+          "identity": "American thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20230209-baracouda",
+          "year": "2023",
+          "name": "Baracouda",
+          "identity": "French racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20230205-le-le",
+          "year": "2023",
+          "name": "Le Le",
+          "identity": "Chinese giant panda",
+          "confirmed": true
+        },
+        {
+          "id": "20241219-uncle-mo",
+          "year": "2024",
+          "name": "Uncle Mo",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20241213-always-dreaming",
+          "year": "2024",
+          "name": "Always Dreaming",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20241213-lemon-drop-kid",
+          "year": "2024",
+          "name": "Lemon Drop Kid",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20241120-elvstroem",
+          "year": "2024",
+          "name": "Elvstroem",
+          "identity": "Australian Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20241030-charles-the-gorilla",
+          "year": "2024",
+          "name": "Charles the Gorilla",
+          "identity": "Gabonese–born Canadian western lowland gorilla",
+          "confirmed": true
+        },
+        {
+          "id": "20241023-grizzly-399",
+          "year": "2024",
+          "name": "Grizzly 399",
+          "identity": "American grizzly bear",
+          "confirmed": true
+        },
+        {
+          "id": "20241011-delta-blues",
+          "year": "2024",
+          "name": "Delta Blues",
+          "identity": "Japanese Thoroughbred horse",
+          "confirmed": true
+        },
+        {
+          "id": "20241005-tepin",
+          "year": "2024",
+          "name": "Tepin",
+          "identity": "American Hall of Fame racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20240927-bindaree",
+          "year": "2024",
+          "name": "Bindaree",
+          "identity": "Irish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20240822-sphen",
+          "year": "2024",
+          "name": "Sphen",
+          "identity": "Australian penguin",
+          "confirmed": true
+        },
+        {
+          "id": "20240817-black-caviar",
+          "year": "2024",
+          "name": "鱼子精华",
+          "identity": "Australian Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20240726-boris",
+          "year": "2024",
+          "name": "Boris",
+          "identity": "chimpanzee",
+          "confirmed": true
+        },
+        {
+          "id": "20240725-istabraq",
+          "year": "2024",
+          "name": "Istabraq",
+          "identity": "Irish Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20240716-winston",
+          "year": "2024",
+          "name": "Winston",
+          "identity": "oldest gorilla (San Diego Zoo Safari Park)",
+          "confirmed": true
+        },
+        {
+          "id": "20240628-superstar-leo",
+          "year": "2024",
+          "name": "Superstar Leo",
+          "identity": "British Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20240623-sergeant-cecil",
+          "year": "2024",
+          "name": "Sergeant Cecil",
+          "identity": "British Thoroughbred horse",
+          "confirmed": true
+        },
+        {
+          "id": "20240526-harchibald",
+          "year": "2024",
+          "name": "Harchibald",
+          "identity": "Irish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20240524-kabosu",
+          "year": "2024",
+          "name": "Kabosu",
+          "identity": "Japanese dog and Internet meme (Doge)",
+          "confirmed": true
+        },
+        {
+          "id": "20240513-native-upmanship",
+          "year": "2024",
+          "name": "Native Upmanship",
+          "identity": "Irish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20240429-red-giant",
+          "year": "2024",
+          "name": "Red Giant",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20240419-lonhro",
+          "year": "2024",
+          "name": "Lonhro",
+          "identity": "Australian Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20240412-war-chant",
+          "year": "2024",
+          "name": "War Chant",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20240329-limestone-lad",
+          "year": "2024",
+          "name": "Limestone Lad",
+          "identity": "Irish Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20240306-pigcasso",
+          "year": "2024",
+          "name": "Pigcasso",
+          "identity": "South African painting pig",
+          "confirmed": true
+        },
+        {
+          "id": "20240303-tizway",
+          "year": "2024",
+          "name": "Tizway",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20240302-eskendereya",
+          "year": "2024",
+          "name": "Eskendereya",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20240218-verry-elleegant",
+          "year": "2024",
+          "name": "Verry Elleegant",
+          "identity": "Australian racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20240205-hardy-eustace",
+          "year": "2024",
+          "name": "Hardy Eustace",
+          "identity": "Irish Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20240205-papineau",
+          "year": "2024",
+          "name": "Papineau",
+          "identity": "British Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20240201-jimmy-choux",
+          "year": "2024",
+          "name": "Jimmy Choux",
+          "identity": "New Zealand racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20240113-falbrav",
+          "year": "2024",
+          "name": "Falbrav",
+          "identity": "Irish racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20251202-hawk-wing",
+          "year": "2025",
+          "name": "Hawk Wing",
+          "identity": "American-bread Thoroughbred racehorse and sire",
+          "confirmed": true
+        },
+        {
+          "id": "20251201-uthopia",
+          "year": "2025",
+          "name": "Uthopia",
+          "identity": "British dressage horse",
+          "confirmed": true
+        },
+        {
+          "id": "20251201-valegro",
+          "year": "2025",
+          "name": "Valegro",
+          "identity": "British dressage horse",
+          "confirmed": true
+        },
+        {
+          "id": "20251126-gentildonna",
+          "year": "2025",
+          "name": "Gentildonna",
+          "identity": "Japanese Thoroughbred racehorse.",
+          "confirmed": true
+        },
+        {
+          "id": "20251124-rags-to-riches",
+          "year": "2025",
+          "name": "Rags to Riches",
+          "identity": "American Thoroughbred horse",
+          "confirmed": true
+        },
+        {
+          "id": "20251121-fernando-bale",
+          "year": "2025",
+          "name": "Fernando Bale",
+          "identity": "Australian racing greyhound",
+          "confirmed": true
+        },
+        {
+          "id": "20251112-dylan",
+          "year": "2025",
+          "name": "Dylan",
+          "identity": "Argentine pet dog",
+          "confirmed": true
+        },
+        {
+          "id": "20251020-so-you-think",
+          "year": "2025",
+          "name": "So You Think",
+          "identity": "New Zealand-bred Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20250923-wootton-bassett",
+          "year": "2025",
+          "name": "Wootton Bassett",
+          "identity": "British Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20250910-vinnie-roe",
+          "year": "2025",
+          "name": "Vinnie Roe",
+          "identity": "Irish Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20250909-haru-urara",
+          "year": "2025",
+          "name": "春丽",
+          "identity": "Japanese Thoroughbred horse",
+          "confirmed": true
+        },
+        {
+          "id": "20250908-fastnet-rock",
+          "year": "2025",
+          "name": "Fastnet Rock",
+          "identity": "Australian racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20250907-maru",
+          "year": "2025",
+          "name": "Maru",
+          "identity": "Japanese internet famous cat",
+          "confirmed": true
+        },
+        {
+          "id": "20250815-oscar",
+          "year": "2025",
+          "name": "Oscar",
+          "identity": "Jersey bionic cat",
+          "confirmed": true
+        },
+        {
+          "id": "20250808-grass-wonder",
+          "year": "2025",
+          "name": "Grass Wonder",
+          "identity": "American Thoroughbred racehorse and sire",
+          "confirmed": true
+        },
+        {
+          "id": "20250620-forbidden-apple",
+          "year": "2025",
+          "name": "Forbidden Apple",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20250530-soaring-free",
+          "year": "2025",
+          "name": "Soaring Free",
+          "identity": "Canadian Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20250428-liberty-island",
+          "year": "2025",
+          "name": "Liberty Island",
+          "identity": "Japanese Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20250424-happy-clapper",
+          "year": "2025",
+          "name": "Happy Clapper",
+          "identity": "Australian Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20250412-looks-like-trouble",
+          "year": "2025",
+          "name": "Looks Like Trouble",
+          "identity": "thoroughbred racehorse (2000 Cheltenham Gold Cup)",
+          "confirmed": true
+        },
+        {
+          "id": "20250410-authentic",
+          "year": "2025",
+          "name": "Authentic",
+          "identity": "Dutch show jumping horse",
+          "confirmed": true
+        },
+        {
+          "id": "20250305-roses-in-may",
+          "year": "2025",
+          "name": "Roses In May",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20250226-panty-raid",
+          "year": "2025",
+          "name": "Panty Raid",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20250219-papa-clem",
+          "year": "2025",
+          "name": "Papa Clem",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20250218-hurricane",
+          "year": "2025",
+          "name": "Hurricane",
+          "identity": "American Secret Service dog",
+          "confirmed": true
+        },
+        {
+          "id": "20250214-volponi",
+          "year": "2025",
+          "name": "Volponi",
+          "identity": "American Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20250207-love-divine",
+          "year": "2025",
+          "name": "Love Divine",
+          "identity": "British Thoroughbred racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20250204-jag-de-bellouet",
+          "year": "2025",
+          "name": "Jag de Bellouet",
+          "identity": "French racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20250128-norbert",
+          "year": "2025",
+          "name": "Norbert",
+          "identity": "American therapy dog",
+          "confirmed": true
+        },
+        {
+          "id": "20250123-gallo-blue-chip",
+          "year": "2025",
+          "name": "Gallo Blue Chip",
+          "identity": "American racehorse",
+          "confirmed": true
+        },
+        {
+          "id": "20250119-gu-gu",
+          "year": "2025",
+          "name": "古古",
+          "identity": "Chinese giant panda",
+          "confirmed": true
+        },
+        {
+          "id": "20250103-ripken",
+          "year": "2025",
+          "name": "Ripken",
+          "identity": "American retrieval dog",
+          "confirmed": true
+        }
+      ]
+    },
+    "C1_event_as_name": {
+      "count": 25,
+      "action": "review_only",
+      "rows": [
+        {
+          "id": "20150508-2015-pakistan-army-mil-mi-17-crash",
+          "year": "2015",
+          "name": "2015 Pakistan Army Mil Mi-17 crash",
+          "identity": "Norwegian diplomat"
+        },
+        {
+          "id": "20150426-2015-nepal-earthquake",
+          "year": "2015",
+          "name": "2015 Nepal earthquake",
+          "identity": "American executive"
+        },
+        {
+          "id": "20160116-2016-ouagadougou-attacks",
+          "year": "2016",
+          "name": "2016 Ouagadougou attacks",
+          "identity": "66"
+        },
+        {
+          "id": "20181226-2018-puebla-helicopter-crash",
+          "year": "2018",
+          "name": "2018 Puebla helicopter crash",
+          "identity": "Senator (2006–2010)"
+        },
+        {
+          "id": "20181223-2018-sunda-strait-tsunami",
+          "year": "2018",
+          "name": "2018 Sunda Strait tsunami",
+          "identity": "Indonesian actor"
+        },
+        {
+          "id": "20200821-2020-beirut-explosion",
+          "year": "2020",
+          "name": "2020 Beirut explosion",
+          "identity": "French architect"
+        },
+        {
+          "id": "20200806-2020-beirut-explosions",
+          "year": "2020",
+          "name": "2020 Beirut explosions",
+          "identity": "French architect"
+        },
+        {
+          "id": "20211209-2021-indian-air-force-mil-mi-17-crash",
+          "year": "2021",
+          "name": "2021 Indian Air Force Mil Mi-17 crash",
+          "identity": "military officer"
+        },
+        {
+          "id": "20210428-2021-pama-ambush",
+          "year": "2021",
+          "name": "2021 Pama ambush",
+          "identity": "Spanish journalist"
+        },
+        {
+          "id": "20210126-2021-palmas-fr-plane-crash",
+          "year": "2021",
+          "name": "2021 Palmas FR plane crash",
+          "identity": "footballer (Tupi"
+        },
+        {
+          "id": "20210125-2021-tocantinense-aviation-disaster",
+          "year": "2021",
+          "name": "2021 Tocantinense Aviation Disaster",
+          "identity": "23"
+        },
+        {
+          "id": "20210124-2021-tocantins-plane-crash",
+          "year": "2021",
+          "name": "2021 Tocantins plane crash",
+          "identity": "footballer"
+        },
+        {
+          "id": "20231013-2023-israel-hamas-war",
+          "year": "2023",
+          "name": "2023 Israel-Hamas War",
+          "identity": "footballer (Maccabi Herzliya"
+        },
+        {
+          "id": "20230829-2023-tver-oblast-plane-crash",
+          "year": "2023",
+          "name": "2023 Tver Oblast plane crash",
+          "identity": "mercenary leader"
+        },
+        {
+          "id": "20230823-2023-tver-plane-crash",
+          "year": "2023",
+          "name": "2023 Tver plane crash",
+          "identity": "Russian mercenary (PMC Wagner)"
+        },
+        {
+          "id": "20230622-5-people-killed",
+          "year": "2023",
+          "name": "5 people killed",
+          "identity": "Pakistani-British billionaire"
+        },
+        {
+          "id": "20230207-2023-turkey-syria-earthquake",
+          "year": "2023",
+          "name": "2023 Turkey–Syria earthquake",
+          "identity": "Syrian football player (Al-Wathba"
+        },
+        {
+          "id": "20230206-2023-turkey-syria-earthquakes",
+          "year": "2023",
+          "name": "2023 Turkey–Syria earthquakes",
+          "identity": "Syrian football player (Al-Wathba"
+        },
+        {
+          "id": "20230118-2023-kyiv-helicopter-crash",
+          "year": "2023",
+          "name": "2023 Kyiv helicopter crash",
+          "identity": "42"
+        },
+        {
+          "id": "20240928-2024-hezbollah-headquarters-strike",
+          "year": "2024",
+          "name": "2024 Hezbollah headquarters strike",
+          "identity": "Lebanese Shia cleric and politician"
+        },
+        {
+          "id": "20240611-2024-chikangawa-dornier-228-crash",
+          "year": "2024",
+          "name": "2024 Chikangawa Dornier 228 crash",
+          "identity": "Malawian economist and politician"
+        },
+        {
+          "id": "20240520-2024-varzaqan-helicopter-crash",
+          "year": "2024",
+          "name": "2024 Varzaqan helicopter crash",
+          "identity": "Iranian politician"
+        },
+        {
+          "id": "20250807-2025-ghanaian-air-force-z-9-helicopter-crash",
+          "year": "2025",
+          "name": "2025 Ghanaian Air Force Z-9 helicopter crash",
+          "identity": "minister for environment"
+        },
+        {
+          "id": "20250524-2025-san-diego-cessna-citation-ii-crash",
+          "year": "2025",
+          "name": "2025 San Diego Cessna Citation II crash",
+          "identity": "41–42"
+        },
+        {
+          "id": "20250130-2025-potomac-river-mid-air-collision",
+          "year": "2025",
+          "name": "2025 Potomac River mid-air collision",
+          "identity": "55"
+        }
+      ]
+    },
+    "C2_slug_name": {
+      "count": 6,
+      "action": "review_only",
+      "rows": [
+        {
+          "id": "20181112-httpwwwchunichicojpsarticle2018111101001297html",
+          "year": "2018",
+          "name": "20181112-httpwwwchunichicojpsarticle2018111101001297html",
+          "identity": "-"
+        },
+        {
+          "id": "20191205-band-of-brothers",
+          "year": "2019",
+          "name": "20191205-band-of-brothers",
+          "identity": "American veteran (Band of Brothers)"
+        },
+        {
+          "id": "20200606-92-news",
+          "year": "2020",
+          "name": "92 News",
+          "identity": "Pakistani journalist (92 News)"
+        },
+        {
+          "id": "20200110-5th-ward-weebie",
+          "year": "2020",
+          "name": "5th Ward Weebie",
+          "identity": "American rapper"
+        },
+        {
+          "id": "20210126-6-dogs",
+          "year": "2021",
+          "name": "6 Dogs",
+          "identity": "American rapper"
+        },
+        {
+          "id": "20230926-httpswwwwashingtonpostcomobituaries20230926brooks-robinson-third-baseman-orioles-dead",
+          "year": "2023",
+          "name": "20230926-httpswwwwashingtonpostcomobituaries20230926brooks-robinson-third-baseman-orioles-dead",
+          "identity": "-"
+        }
+      ]
+    },
+    "C3_long_name": {
+      "count": 80,
+      "action": "review_only_no_noble",
+      "rows": [
+        {
+          "id": "20140517-lao-peoples-liberation-army-air-force-an-74-crash",
+          "year": "2014",
+          "name": "Lao People&#8217;s Liberation Army Air Force An-74 crash",
+          "identity": "Governor of Vientiane"
+        },
+        {
+          "id": "20140308-david-smith",
+          "year": "2014",
+          "name": "David Smith Australian politician, Western Australia MLA",
+          "identity": "David Smith, an Australian politician and Western Australia MLA from 1983 to 1996, died on April 16, 2026, aged 82. He was a Labor Party member of the Legislative Assembly of Western Australia from 1983 to 1996 and served as a minister in the governments of Peter Dowding and Carmen Lawrence. Born in Bunbury, Western Australia, he studied law at the University of Western Australia after attending school in Bunbury and New Norcia. Smith had been a member of the Labor Party since 1967 and contested the seat of Bunbury at the 1977 state election before winning office in 1983."
+        },
+        {
+          "id": "20151002-franz-zu-erbach-erbach-und-von-wartenberg-roth",
+          "year": "2015",
+          "name": "Franz zu Erbach-Erbach und von Wartenberg-Roth",
+          "identity": "German noble"
+        },
+        {
+          "id": "20150704-abdullah-bin-abdulaziz-bin-musaed-bin-jiluwi-al-saud",
+          "year": "2015",
+          "name": "Abdullah bin Abdulaziz bin Musa&#8217;ed bin Jiluwi Al Saud",
+          "identity": "Saudi Arabian politician"
+        },
+        {
+          "id": "20171222-peter-terry",
+          "year": "2017",
+          "name": "Peter Terry South African actor, dramatist and poet",
+          "identity": "Peter Terry died on April 10, 2026. He was a South African actor known for Project Shadowchaser II and The Challenger Disaster, as well as a dramatist and poet. His work spanned acting and writing, and his name is associated with both screen and literary arts."
+        },
+        {
+          "id": "20170808-salman-bin-saad-bin-abdullah-bin-turki-al-saud",
+          "year": "2017",
+          "name": "Salman bin Saad bin Abdullah bin Turki Al Saud",
+          "identity": "Saudi prince"
+        },
+        {
+          "id": "20170224-steve-clark",
+          "year": "2017",
+          "name": "Steve Clark American swimmer, three-time Olympic champion",
+          "identity": "Steve Clark, an American swimmer and three-time Olympic champion, died on April 14, 2026, at age 82. Born in Oakland, California, on June 17, 1943, he was a competition swimmer for Yale University, where he won five NCAA titles. Clark qualified for the U.S. Olympic team in 1960 while still in high school and went on to win Olympic gold medals at the 1964 Games. He also set a world record and captured six individual and five AAU relay championships while swimming for the Santa Clara Swim Club."
+        },
+        {
+          "id": "20170131-katharine-macmillan-viscountess-macmillan-of-ovenden",
+          "year": "2017",
+          "name": "Katharine Macmillan, Viscountess Macmillan of Ovenden",
+          "identity": "British politician and aristocrat"
+        },
+        {
+          "id": "20181112-httpwwwchunichicojpsarticle2018111101001297html",
+          "year": "2018",
+          "name": "20181112-httpwwwchunichicojpsarticle2018111101001297html",
+          "identity": "-"
+        },
+        {
+          "id": "20180330-josie-farrington-baroness-farrington-of-ribbleton",
+          "year": "2018",
+          "name": "Josie Farrington, Baroness Farrington of Ribbleton",
+          "identity": "British politician"
+        },
+        {
+          "id": "20190221-abdullah-bin-faisal-bin-turki-bin-abdullah-al-saud",
+          "year": "2019",
+          "name": "Abdullah bin Faisal bin Turki bin Abdullah Al Saud",
+          "identity": "Saudi Arabian royal"
+        },
+        {
+          "id": "20201203-giuseppe-dalla-torre-del-tempio-di-sanguinetto",
+          "year": "2020",
+          "name": "Giuseppe Dalla Torre del Tempio di Sanguinetto",
+          "identity": "Italian jurist"
+        },
+        {
+          "id": "20201027-lindy-hamilton-temple-blackwood-marchioness-of-dufferin-and-ava",
+          "year": "2020",
+          "name": "Lindy Hamilton-Temple-Blackwood, Marchioness of Dufferin and Ava",
+          "identity": "British art patron and conservationist"
+        },
+        {
+          "id": "20200908-maria-azucena-marichu-vera-perez-maceda",
+          "year": "2020",
+          "name": "Maria Azucena &#8220;Marichu&#8221; Vera-Perez Maceda",
+          "identity": "Filipino film costumer"
+        },
+        {
+          "id": "20210426-detta-ocathain-baroness-ocathain",
+          "year": "2021",
+          "name": "Detta O&#8217;Cathain, Baroness O&#8217;Cathain",
+          "identity": "Irish-born British businesswoman and life peer"
+        },
+        {
+          "id": "20210404-morris-bb-dickerson-71-american-funk-bassist-and-singer-war",
+          "year": "2021",
+          "name": "Morris &#8220;B.B.&#8221; Dickerson, 71, American funk bassist and singer",
+          "identity": "American funk bassist and singer (War)"
+        },
+        {
+          "id": "20221217-belinda-douglas-scott-montagu-baroness-montagu-of-beaulieu",
+          "year": "2022",
+          "name": "Belinda Douglas-Scott-Montagu, Baroness Montagu of Beaulieu",
+          "identity": "British embroiderer"
+        },
+        {
+          "id": "20221217-veronica-linklater-baroness-linklater-of-butterstone",
+          "year": "2022",
+          "name": "Veronica Linklater, Baroness Linklater of Butterstone",
+          "identity": "British politician"
+        },
+        {
+          "id": "20221025-david-scott",
+          "year": "2022",
+          "name": "David Scott American politician, member of the House of Representatives",
+          "identity": "David Scott, an American politician and member of the House of Representatives since 2003, died on April 22, 2026, at age 80. He served as the U.S. representative for Georgia's 13th congressional district from 2003 until his death. Born in Aynor, South Carolina, Scott attended high school in Daytona Beach, Florida, earned a bachelor's degree in finance from Florida A&M University and an MBA from the Wharton School of the University of Pennsylvania. He also worked in business and founded Dayn-Mark Advertising in 1978."
+        },
+        {
+          "id": "20220325-vaele-paiaaua-iona-sekuini",
+          "year": "2022",
+          "name": "Va&#8217;ele Pa&#8217;ia&#8217;aua Iona Sekuini",
+          "identity": "Samoan politician"
+        },
+        {
+          "id": "20230926-httpswwwwashingtonpostcomobituaries20230926brooks-robinson-third-baseman-orioles-dead",
+          "year": "2023",
+          "name": "20230926-httpswwwwashingtonpostcomobituaries20230926brooks-robinson-third-baseman-orioles-dead",
+          "identity": "-"
+        },
+        {
+          "id": "20230605-elspeth-campbell-baroness-campbell-of-pittenweem",
+          "year": "2023",
+          "name": "Elspeth Campbell, Baroness Campbell of Pittenweem",
+          "identity": "British baroness"
+        },
+        {
+          "id": "20230313-susan-cunliffe-lister-baroness-masham-of-ilton",
+          "year": "2023",
+          "name": "Susan Cunliffe-Lister, Baroness Masham of Ilton",
+          "identity": "British politician"
+        },
+        {
+          "id": "20240526-tony-parkes",
+          "year": "2024",
+          "name": "Tony Parkes English football player and manager, complications from Alzheimer’s disease",
+          "identity": "Tony Parkes, an English football player and manager with Blackburn Rovers, died on April 22, 2026, at the age of 76 from complications of Alzheimer’s disease. A midfielder, he began his career at Buxton in non-League football in 1969 before joining Blackburn Rovers in 1970, where he remained until retiring in 1982. He played 350 league games and scored 38 goals for the club. After retiring, Parkes joined Blackburn’s coaching staff and later served as assistant manager. He was caretaker manager at Blackburn on six occasions between 1986 and 2004, and was most recently caretaker manager at Blackpool. As of 2011, he worked as a scout for Blackburn Rovers."
+        },
+        {
+          "id": "20240330-gerry-conway",
+          "year": "2024",
+          "name": "Gerry Conway American comic book writer, screenwriter and television producer",
+          "identity": "Gerry Conway, an American comic book writer, screenwriter and television producer, died on April 27, 2026, at age 73. He wrote for titles including The Amazing Spider-Man, Justice League and The Punisher, and was known for co-creating Marvel’s vigilante antihero the Punisher, along with Ben Reilly, the supervillain Jackal and the first Ms. Marvel. Born Gerard Francis Conway in New York City, he grew up in Brooklyn and developed an early interest in comics. A letter from him appeared in Fantastic Four #50 in 1966, when he was 13. He attended New York University for a time."
+        },
+        {
+          "id": "20251231-bobby-gosh",
+          "year": "2025",
+          "name": "Bobby Gosh American musician and singer-songwriter",
+          "identity": "Bobby Gosh, an American musician and singer-songwriter known for writing “A Little Bit More,” died on December 31, 2025, at age 89. Born Robert Gosch on May 31, 1936, in Stouchsburg, Pennsylvania, he grew up in Reading and studied classical piano from age 6. He toured as Kitty Callen’s pianist at 16, later attended Albright College, and went on to study orchestration at Juilliard. In New York, he performed in clubs, worked with Sammy Cahn, and toured with Paul Anka as pianist, orchestra conductor and co-writer. “A Little Bit More” became a hit for Dr. Hook in 1976."
+        },
+        {
+          "id": "20251231-godiya-akwashiki",
+          "year": "2025",
+          "name": "Godiya Akwashiki Only Eggon Representative In House of Rep",
+          "identity": "Godiya Akwashiki, Nigerian politician and senator representing Nasarawa North since 2019, died on December 31, 2025. He was elected to the Senate in Nigeria’s 2019 general elections and re-elected in 2023. Before entering the upper chamber, Akwashiki served as Deputy Speaker of the Nasarawa State House of Assembly. Born on August 3, 1973, in Angba Iggah, Nasarawa State, he later earned a Bachelor of Science in Business Administration from Nasarawa State University, Keffi. He was married with children."
+        },
+        {
+          "id": "20251231-pasha-kasanov",
+          "year": "2025",
+          "name": "Pasha Kasanov Ukrainian football player and manager",
+          "identity": "Pasha Kasanov, a Ukrainian football player and manager, died on December 31, 2025, at the age of 72. Known as Pasha Namazovych Kasanov, he played for Nyva Vinnytsia and Metalurh Zaporizhzhia and later worked as manager of Nyva Vinnytsia. He was born on January 19, 1953, and died at 72."
+        },
+        {
+          "id": "20251230-emilija-soklic",
+          "year": "2025",
+          "name": "Emilija Soklič Audio engineer for early Slovene film production, innovator",
+          "identity": "Emilija Soklič, a Slovene electrical engineer and audio engineer, died on December 30, 2025. She was known as one of the first professional filmmakers in Slovenia and for technical support that helped early Slovene film production, including the first sound feature, On Our Own Land (1948). In collaboration with Rudi Omota, she developed several innovations for sound recording. Born in Switzerland, she moved with her family to Ljubljana at age five and later worked in film after World War II, when Marjan Pengov invited her to head the technical department of Triglav Film."
+        },
+        {
+          "id": "20251230-killing-of-monique-and-spencer-tepe",
+          "year": "2025",
+          "name": "Killing of Monique and Spencer Tepe American dentist, shot",
+          "identity": "Monique Tepe, an American dentist, was shot dead on December 30, 2025, alongside her husband, Spencer Tepe, in their Columbus, Ohio, home. The couple were found after Spencer failed to arrive for work and a welfare check was requested. Their two young children and family dog were discovered unharmed. The investigation focused on Monique Tepe’s ex-husband, Michael David McKee, who was arrested in Illinois on January 10, 2026, and later indicted in Franklin County on four counts of aggravated murder and one count of aggravated burglary. Criminal proceedings remain ongoing."
+        },
+        {
+          "id": "20251230-killing-of-monique-and-spencer-tepe-2",
+          "year": "2025",
+          "name": "Killing of Monique and Spencer Tepe American early childhood educator, shot",
+          "identity": "Monique Tepe, an American early childhood educator, was shot dead on December 30, 2025, in Columbus, Ohio. She and her husband, Spencer Tepe, were found dead inside their home after Spencer failed to report to work and a welfare check was requested. Their two young children and the family dog were found unharmed. The investigation focused on Monique Tepe’s ex-husband, Michael David McKee, who was arrested in Illinois on January 10, 2026, and later indicted in Franklin County on four counts of aggravated murder and one count of aggravated burglary."
+        },
+        {
+          "id": "20251230-mate-mestrovic",
+          "year": "2025",
+          "name": "Mate Meštrović Journalist, academic, lobbyist, politician, ambassador",
+          "identity": "Mate Meštrović, a Croatian-American journalist, died on December 30, 2025, in Zagreb at the age of 95. Also known as Matthew Mestrovic and Matthew Meštrović, he was born in Zagreb on September 13, 1930. The son of Croatian-American sculptor Ivan Meštrović, he attended grade school in Zagreb before his family moved to Italy in 1942. He later studied in Switzerland and the United States, earning a PhD from Columbia University in 1957. Meštrović worked as a contributing editor of TIME and wrote for American and European newspapers and magazines. He also served as a lieutenant in the U.S. Army PsyWar in the Pacific from 1954 to 1956 and was a Korean War veteran."
+        },
+        {
+          "id": "20251230-thomas-w-bradshaw",
+          "year": "2025",
+          "name": "Thomas W. Bradshaw American politician, mayor of Raleigh, North Carolina",
+          "identity": "Thomas W. Bradshaw, an American politician and businessman who served as mayor of Raleigh, North Carolina, died on December 30, 2025, at age 87. A member of the Raleigh city council, he became the city’s youngest mayor and served one term from 1971 to 1973. Bradshaw later served as North Carolina secretary of transportation during the first term of Gov. Jim Hunt from 1977 to 1981. After leaving state government, he worked as managing director and co-head of the Transportation Group for Citigroup Global Markets. He was a candidate for a seat in the North Carolina Senate in 2014."
+        },
+        {
+          "id": "20251229-michael-j-schumacher",
+          "year": "2025",
+          "name": "Michael J. Schumacher Writer, journalist, biographer",
+          "identity": "Michael J. Schumacher, an American journalist and author, died on December 29, 2025, at age 75. Born in Topeka, Kansas, on May 22, 1950, he wrote biographies of Beat Generation poet Allen Ginsberg, filmmaker Francis Ford Coppola, musicians Eric Clapton and Phil Ochs, and comics legends Al Capp and Will Eisner. He also wrote a series of books on Great Lakes shipwrecks. His career began with interviews of writers for Writer’s Digest magazine, and he later interviewed musician Tom Waits for Playboy magazine."
+        },
+        {
+          "id": "20251229-tony-bracegirdle",
+          "year": "2025",
+          "name": "Tony Bracegirdle British rose breeder and horticulturist",
+          "identity": "Tony Bracegirdle, a British rose breeder and horticulturist, died on December 29, 2025, aged 83. Born Anthony James Bracegirdle in Bury, Greater Manchester, in April 1942, he began breeding roses in 1974. His floribunda rose won the Torridge Award for Best Amateur Rose in 1983, and he won the Royal National Rose Society Open Championships in 1996. In 2006, The Guardian described him as having \"all the breezy ebullience of Fred Dibnah\"."
+        },
+        {
+          "id": "20251228-monic-cecconi-botella",
+          "year": "2025",
+          "name": "Monic Cecconi-Botella French pianist, composer and academic",
+          "identity": "Monic Cecconi-Botella, a French pianist, music educator and composer, died on December 28, 2025. Born in Courbevoie on September 30, 1936, she studied at the Conservatoire de Paris with Maurice Duruflé, Jean Rivier and Henri Dutilleux. She later taught music theory at the Conservatoire of Aubervilliers and, from 1983, music analysis at the Conservatoire de Paris. In 1966, she won a First at the Prix de Rome. Her opera Noctuaile received a Grand Prix du Disque, and in 2008 she founded the Festival Seasons of the Voice in Gordes, Provence."
+        },
+        {
+          "id": "20251228-silvan-kindle",
+          "year": "2025",
+          "name": "Silvan Kindle Liechtenstein Olympic alpine skier",
+          "identity": "Silvan Kindle died on December 28, 2025. He was a Liechtenstein Olympic alpine skier who competed in 1960."
+        },
+        {
+          "id": "20251227-jonathan-powell-musician",
+          "year": "2025",
+          "name": "Jonathan Powell British pianist and musicologist",
+          "identity": "Jonathan Powell, the British pianist, musicologist and music editor, died on December 27, 2025, aged 56. Born in Lancashire in 1969, he was also a self-taught composer who wrote piano sonatas, string quartets and other chamber music. As a performer and scholar, he focused on music from Russia and Eastern Europe around 1900, including Alexander Scriabin, whose biography he contributed to The New Grove Dictionary of Music and Musicians. He recorded rarely played works by Georgi Conus, Konstantin Eiges, Alexander Goldenweiser, Egon Kornauth, Joseph Marx and Leonid Sabaneyev, as well as piano concertos by Hans Winterberg and Xaver Scharwenka."
+        },
+        {
+          "id": "20251226-don-bryant-songwriter",
+          "year": "2025",
+          "name": "Don Bryant American rhythm and blues singer and songwriter",
+          "identity": "Don Bryant, the American rhythm and blues singer and songwriter known for \"I Can't Stand the Rain,\" died on December 26, 2025, at age 83. Born Donald Maurice Bryant on April 4, 1942, in Memphis, Tennessee, he began singing in church at age five and later joined his father's family vocal group. He went on to sing with a high school gospel quartet, perform as part of The Four Kings, and begin writing songs in 1960 with \"I Got To Know\" for The 5 Royales. Bryant also wrote material for other artists at Hi Records and released a solo album in 1969."
+        },
+        {
+          "id": "20251226-stephen-boyden",
+          "year": "2025",
+          "name": "Stephen Boyden British-Australian scientist and writer",
+          "identity": "Stephen Boyden, a British-Australian scientist and writer, died on December 26, 2025. He was a professor emeritus at the Australian National University and was widely recognised for pioneering work in immunology and human ecology. Born in Croydon, England, on February 8, 1925, he attended the Royal Veterinary College in London before working at the University of Cambridge and the Rockefeller Institute in New York. He received a PhD in immunology from the University of Cambridge in 1951 and early in his career introduced the tanned red cell method of titrating antibodies."
+        },
+        {
+          "id": "20251225-andrew-arbuckle-politician",
+          "year": "2025",
+          "name": "Andrew Arbuckle Scottish journalist and politician, MSP",
+          "identity": "Andrew Arbuckle, Scottish journalist and politician who served as an MSP for the Mid Scotland and Fife region, died on December 25, 2025, aged 81. Andrew David Arbuckle MBE was first elected as a Fife councillor in 1986 and represented Newburgh until 2012. He served in the Scottish Parliament after replacing Keith Raffan in 2005, but failed to win re-election at the 2007 Scottish Parliament election. Arbuckle, who came from a farming background and was brought up at Logie Farm, Fife, was farming editor for The Courier from 1985 to 2005 and for The Scotsman from 2007. In 2012, he received the Netherthorpe award from the Guild of Agricultural Journalists."
+        },
+        {
+          "id": "20251225-david-rosen-businessman",
+          "year": "2025",
+          "name": "David Rosen American businessman, co-founder of Sega",
+          "identity": "David M. Rosen, an American businessman and co-founder of Sega, died on December 25, 2025, at age 95. Born on January 22, 1930, in Brooklyn, New York, he served in the United States Air Force from 1948 to 1952, primarily in Japan and the Far East during the Korean War. In 1954, he returned to Japan and started Rosen Enterprises, Inc., which sold art created in Japan to the American market and operated photo studios for Japanese identification cards. In 1957, Rosen Enterprises, Ltd. shifted to importing and operating coin-op amusement machines in Japan. He later served as chairman and CEO of Sega and retired from the company in 1996."
+        },
+        {
+          "id": "20251225-geeske-krol-benedictus",
+          "year": "2025",
+          "name": "Geeske Krol-Benedictus Dutch politician and Frisian cultural advocate, member of the Provincial Council of Friesland",
+          "identity": "Geeske Krol-Benedictus, a Dutch politician and Frisian cultural advocate who served on the Provincial Council of Friesland from 1978 to 1995, died on December 25, 2025. She was a member of the leadership of the Frisian National Party and worked for the West Frisian language, Frisian culture, and rural communities. Krol-Benedictus was considered one of the first prominent women leaders of the party and an important figure in the Frisian Movement."
+        },
+        {
+          "id": "20251225-robert-mosci",
+          "year": "2025",
+          "name": "Robert Mosci American jazz musician and pianist",
+          "identity": "Robert Mosci, an American jazz musician and pianist, died on December 25, 2025. Also a singer and songwriter, he was known for his long-standing performances at New York City piano bars, including the Beekman Tower Hotel’s Top of the Tower bar and Bemelmans Bar at The Carlyle in Manhattan. Raised in Queens in a musical family, with a father who played clarinet with the New York City Ballet Orchestra, Mosci studied at Cornell University before transferring to Berklee College of Music. He later spent six years playing clubs in Boston before returning to New York City, where he built a career over more than three decades and released several albums and EPs."
+        },
+        {
+          "id": "20251225-warwick-gould",
+          "year": "2025",
+          "name": "Warwick Gould Australian-born British literary scholar",
+          "identity": "Warwick Gould, an Australian-born British literary scholar, died on December 25, 2025. Born in Sydney in 1947, he specialized in the Irish Literary Revival, particularly the writings of W. B. Yeats, as well as textual transmission studies and the history of the book. After studying at the University of Queensland, he joined Royal Holloway and Bedford New College in 1973 as a lecturer in English language and literature. He later served as Professor of English Literature at the University of London from 1994 to 2013 and was the founding director of the Institute of English Studies in the university's School of Advanced Study from 1999 to 2013. He remained professor emeritus after retiring in 2013 and was a senior research fellow of the institute."
+        },
+        {
+          "id": "20251224-david-young-watergate",
+          "year": "2025",
+          "name": "David Young American-British lawyer and academic, heart failure",
+          "identity": "David Reginald Young, an American-British lawyer and academic, died on December 24, 2025, in Oxford, England, at the age of 89. He served as a Special Assistant at the National Security Council in the Nixon administration and as an Administrative Assistant to Henry Kissinger. Born in Jersey City, New Jersey, Young earned degrees from Wheaton College in Illinois and Queen’s College, Oxford, and received a Juris Doctor from Cornell University’s law school. He worked at the New York law firm of Milbank, Tweed, Hadley and McCloy in 1965 and lived in the United Kingdom from the mid-1970s."
+        },
+        {
+          "id": "20251223-dorothee-aimee-malenzapa",
+          "year": "2025",
+          "name": "Dorothée Aimée Malenzapa Central African politician, activist, and professor",
+          "identity": "Dorothée Aimée Malenzapa, a Central African politician, women's activist, and professor, died on December 23, 2025. Born in 1951, she served during Bozize's administration as Minister of International Cooperation, Regional Integration and Francophonie from 2011 to 2013 and as Minister of Rural Development in 2013. Malenzapa also worked as a professor of African literature at the École Normale Supérieure de Bangui and was an ambassador to the Francophonie in Paris from 1993 to 1998. While serving as ambassador, she founded the Association of Women Educators for Development in the Central African Republic in 1994."
+        },
+        {
+          "id": "20251222-daniel-treier",
+          "year": "2025",
+          "name": "Daniel Treier American biblical scholar and theologian",
+          "identity": "Daniel Treier, an American biblical scholar and theologian who served as Gunther H. Knoedler Professor of Theology at Wheaton College, died on December 22, 2025. Treier grew up near Bloomdale, Ohio, and studied at Cedarville University and Grand Rapids Theological Seminary before earning a PhD at Trinity Evangelical Divinity School under Kevin J. Vanhoozer. He specialized in theological interpretation of the Bible and wrote Introducing Theological Interpretation of Scripture: Recovering a Christian Practice (2008) and Introducing Evangelical Theology (2019)."
+        },
+        {
+          "id": "20251222-ray-lynch",
+          "year": "2025",
+          "name": "Ray Lynch American musician and songwriter, complications from a fall",
+          "identity": "Ray Lynch, an American musician and songwriter known for \"Celestial Soda Pop,\" died on December 22, 2025, in California at the age of 82 from complications from a fall. Born Raymond Augustus Lynch on July 3, 1943, in Salt Lake City, Utah, he was a guitarist, lutenist, keyboardist, and composer whose new-age releases in the 1980s included the album \"Deep Breakfast\" and the 1983 release \"The Sky of Mind.\" He also performed on the lute in New York's Renaissance Quartette in the late 1960s before later working in California."
+        },
+        {
+          "id": "20251222-syed-shahid-mahdi",
+          "year": "2025",
+          "name": "Syed Shahid Mahdi Indian civil servant and academic",
+          "identity": "Syed Shahid Mahdi, an Indian civil servant and academic, died on December 22, 2025. He served as the 11th vice-chancellor of Jamia Millia Islamia from 2000 to 2004. Mahdi was a 1963 batch IAS officer allotted to the Bihar cadre. After retiring from the vice-chancellorship, he served as vice-president of the Indian Council for Cultural Relations. He died in New Delhi and was buried in Jamia Graveyard."
+        },
+        {
+          "id": "20251221-joel-gougeon",
+          "year": "2025",
+          "name": "Joel Gougeon American politician, member of the Michigan Senate",
+          "identity": "Joel Gougeon, an American politician and Republican member of the Michigan Senate from 1993 to 2002, died on December 21, 2025, at the age of 82. He represented the 34th district, covering Ogemaw, Arenac, Bay, Tuscola and Huron counties, after first being elected in a 1993 special election. Before serving in the Senate, he was a member of the Bay County Board of Commissioners. Born in Lansing, he was also a lobbyist for Saginaw Valley State University after leaving the Legislature."
+        },
+        {
+          "id": "20251221-rob-burgess",
+          "year": "2025",
+          "name": "Rob Burgess Former CEO of Macromedia and Alias Research",
+          "identity": "Rob Burgess, a Canadian software executive who led Alias Research and Macromedia, died on December 21, 2025, at age 68. Born Robert Kenneth Burgess on August 29, 1957, he was chief executive officer of Macromedia from 1996 to 2005 and chairman from 1997 to 2005. He previously served as chief executive of Alias Research from 1991 to 1995. Burgess grew up in Toronto and earned a bachelor of commerce degree from McMaster University in 1979. He also held executive posts at Silicon Graphics from 1984 to 1991."
+        },
+        {
+          "id": "20251220-bayard-d-clarkson",
+          "year": "2025",
+          "name": "Bayard D. Clarkson American physician, hematologist and oncologist",
+          "identity": "Bayard D. Clarkson, an American physician, hematologist and oncologist, died on December 20, 2025. Born in New York City on July 15, 1926, he graduated from Yale and earned his M.D. from the Columbia University College of Physicians and Surgeons in 1952. He completed his medical internship and residency in endocrinology and hematology at New York Hospital, now Weill Cornell Medical Center. In 1958, he became a Special Lasker Fellow in Clinical Chemotherapy at Memorial Sloan Kettering."
+        },
+        {
+          "id": "20251220-ike-schab-2",
+          "year": "2025",
+          "name": "Ike Schab One of the last surviving Pearl Harbor attack veterans",
+          "identity": "Ike Schab, an American Navy sailor and World War II veteran, died on December 20, 2025, at age 105. Born Ira Schab in Chicago on July 4, 1920, he joined the United States Navy at 18. At age 21, he served aboard the USS Dobbin as a musician and sailor and was present during the Japanese attack on Pearl Harbor on December 7, 1941, helping pass ammunition to anti-aircraft guns. He was one of the last surviving servicemen from that attack."
+        },
+        {
+          "id": "20251220-ronald-chase",
+          "year": "2025",
+          "name": "Ronald Chase American artist, photographer and film director",
+          "identity": "Ronald Chase, an American artist, photographer and film director, died on December 20, 2025, at the age of 91. Born in Seminole, Oklahoma, on December 29, 1934, he studied dance, design and directing at Bard College, where he joined the Jean Erdman Dance Group. He toured with the José Limón Dance Company on its first European tour in 1956, remained in Italy and Spain to study painting, and later established a studio in the Gaspe Peninsula in Canada. Chase also worked as an educator, independent filmmaker and opera designer, and his work with projection and film was described as one of the most exciting developments in opera stage presentation."
+        },
+        {
+          "id": "20251220-seiichi-motohashi",
+          "year": "2025",
+          "name": "Seiichi Motohashi Japanese photographer and film director",
+          "identity": "Seiichi Motohashi died on December 20, 2025. He was a Japanese photographer and film director."
+        },
+        {
+          "id": "20251219-cynthia-mailman",
+          "year": "2025",
+          "name": "Cynthia Mailman American painter, pancreatic cancer",
+          "identity": "Cynthia Mailman, an American painter and educator, died on December 19, 2025, in New York City at age 82. She was known for figurative and landscape works done in a \"cool, pared-down\" style. Her early paintings were presented from inside her VW van, looking outward, and included mirrors, wipers and other interior elements against the exterior landscape, placing the observer in the driver's seat. Mailman was an active participant in the feminist art movement, an original member of SOHO20 Artists, and took part in The Sister Chapel at P.S.1 in 1978."
+        },
+        {
+          "id": "20251216-henry-moore-bishop",
+          "year": "2025",
+          "name": "Henry Moore English Anglican cleric, bishop of Cyprus and the Gulf",
+          "identity": "Henry Moore, English Anglican cleric and bishop of Cyprus and the Gulf, died on December 16, 2025, aged 102. Known commonly as Harry Moore, he was the second bishop of the Diocese of Cyprus and the Gulf, serving from 1983 to 1986. Born on November 2, 1923, he began his working life as a clerk with the London, Midland and Scottish Railway, served in the armed forces during the Second World War, and was ordained in 1951 after studying at Wycliffe Hall, Oxford. He later worked as a missionary in Khuzistan, held incumbencies in Burnage and Middleton, and spent 16 years with the Church Missionary Society before returning to England and retiring in 1990."
+        },
+        {
+          "id": "20251215-kim-mi-sub",
+          "year": "2025",
+          "name": "Kim Mi-sub South Korean Olympic modern pentathlete",
+          "identity": "Kim Mi-sub, a South Korean Olympic modern pentathlete, died on December 15, 2025, in Carrollton, Texas, at the age of 52. Born in Suncheon, South Korea, on December 24, 1972, he competed in the men's individual event at the 1996 Summer Olympics."
+        },
+        {
+          "id": "20251215-peter-ryan-police-officer",
+          "year": "2025",
+          "name": "Peter Ryan British-born Australian police officer, commissioner of New South Wales police",
+          "identity": "Peter Ryan, the British-born Australian police officer who served as commissioner of New South Wales police from 1996 to 2002, died on December 15, 2025. Born in Lancaster, Lancashire, on 18 May 1944, Ryan joined Lancashire Constabulary as a police cadet in 1961 and later moved to Australia, where New South Wales premier Bob Carr appointed him commissioner in 1996 to help restore public confidence after the Wood Royal Commission into police corruption. He led the force through a turbulent period before stepping down in 2002."
+        },
+        {
+          "id": "20251213-gerald-watt",
+          "year": "2025",
+          "name": "Gerald Watt Antiguan politician, MP and speaker of the House of Representatives",
+          "identity": "Sir Gerald Watt, Antiguan politician and former Speaker of the House of Representatives, died on December 13, 2025, at the age of 86. He represented St. John's Rural East in parliament from 1971 to 1976 and served as attorney general during that period, while also holding the cabinet portfolios of Minister of National Security, Labour, and Legal Affairs. Watt was later a onetime chairman of the Antigua & Barbuda Electoral Commission. He served as Speaker of the House of Representatives from June 25, 2014, until November 18, 2024."
+        },
+        {
+          "id": "20251213-ivan-r-schwab",
+          "year": "2025",
+          "name": "Ivan R. Schwab American ophthalmologist, heart failure",
+          "identity": "Ivan R. Schwab, an American ophthalmologist and professor of ophthalmology at the University of California Davis School of Medicine, died on December 13, 2025. He completed his undergraduate degree at West Virginia University and received his M.D. from the West Virginia University School of Medicine. Schwab later finished an ophthalmology residency at California Pacific Medical Center and a fellowship in corneal surgery at the University of California San Francisco in 1982. He was a Fellow of the American College of Surgeons and served as director of corneal and external disease services at UC Davis Medical Center. In addition to his clinical and teaching work, he conducted research in biomaterials and helped develop a bioengineered artificial cornea for patients with severe corneal damage."
+        },
+        {
+          "id": "20251213-jose-bantolo-2",
+          "year": "2025",
+          "name": "Jose Bantolo Filipino Roman Catholic prelate, bishop of Masbate",
+          "identity": "Jose Bantolo, a Filipino Roman Catholic prelate and bishop of Masbate since 2011, died on December 13, 2025, at the age of 65. Born Jose Salmorin Bantolo on November 12, 1960, in Guisijan, Laua-an, Antique, Philippines, he was appointed to the episcopacy by Pope Benedict XVI on March 19, 2011, and was consecrated on August 22, 2011. He had been ordained a priest for the Diocese of San Jose de Antique on April 21, 1986."
+        },
+        {
+          "id": "20251213-mohammad-shafiq-2",
+          "year": "2025",
+          "name": "Mohammad Shafiq Pakistani army general, governor of Khyber Pakhtunkhwa",
+          "identity": "Mohammad Shafiq, a Pakistani army general and former governor of Khyber Pakhtunkhwa, died on December 13, 2025, at the age of 91. Born in Kohat in April 1934, he was a three-star rank officer in the Pakistan Army. He served as governor of Khyber Pakhtunkhwa from 1999 to 2000, after being appointed on October 21, 1999, by General Pervez Musharraf. Shafiq later served as Pakistan’s ambassador to Bahrain from 2000 to 2002."
+        },
+        {
+          "id": "20251212-jayne-trcka",
+          "year": "2025",
+          "name": "Jayne Trcka American bodybuilder, fitness model and actress",
+          "identity": "Jayne Trcka, an American bodybuilder, fitness model and actress known for her role in Scary Movie, died on December 12, 2025. Born Jayne Marie Trcka in Saint Paul, Minnesota, on February 27, 1963, she worked as an actress, bodybuilder and fitness model from 2000 to 2025. She studied gymnastics and other sports in school before starting weight training after moving to Southern California in 1986. Trcka died at her home in San Diego at the age of 62."
+        },
+        {
+          "id": "20251212-philip-d-shutler",
+          "year": "2025",
+          "name": "Philip D. Shutler American marine lieutenant general",
+          "identity": "Philip D. Shutler, an American Marine lieutenant general, died on December 12, 2025, in Springfield, Virginia. He was 99. Shutler served as Deputy Commandant for Aviation for the Marine Corps from 1974 to 1975 and later as Director of Operations, Joint Staff, J-3. He graduated from the United States Naval Academy in 1948. Born in Springfield, Massachusetts, on October 13, 1926, he died in the same Virginia city where he lived."
+        },
+        {
+          "id": "20251211-junior-king",
+          "year": "2025",
+          "name": "Junior King South African dancer, TikTok personality and rapper, traffic collision",
+          "identity": "Junior King, a South African dancer, TikTok personality and rapper, died on December 11, 2025, in a traffic collision in Verkeerdevlei, Free State, South Africa. Born Dugulth Ferreira in Gqeberha, Eastern Cape, around 1996 or 1997, he was also a choreographer and social media influencer. King rose to national attention through TikTok and other platforms, where his dance videos and music collaborations drew wide notice. He was known for energetic performances and for contributing to Afrikaans hip hop culture, and he also founded dance groups and mentored young performers in his community."
+        },
+        {
+          "id": "20251211-kim-woo-nam-2",
+          "year": "2025",
+          "name": "Kim Woo-nam South Korean politician, MP, heart attack",
+          "identity": "Kim Woo-nam, a South Korean politician and former member of the National Assembly, died on December 11, 2025, of a heart attack. He was 70. Born in Pyeongdae-ri, Jeju Island, on July 12, 1955, he served in the 17th, 18th, and 19th National Assembly of South Korea."
+        },
+        {
+          "id": "20251208-stan-shillington",
+          "year": "2025",
+          "name": "Stan Shillington Canadian lacrosse historian and sportswriter",
+          "identity": "Stan Shillington, a Canadian lacrosse historian, sportswriter and statistician, died on December 8, 2025, at age 90. Born in Vancouver, British Columbia, on January 21, 1935, he was inducted into the Canadian Lacrosse Hall of Fame as a builder in 1977. Shillington kept score for 971 games over his career, including regular-season, playoff and Mann Cup contests. He also logged statistics on lacrosse games and later recounted the 1951 Mann Cup between the Peterborough Timbermen and Vancouver Combines."
+        },
+        {
+          "id": "20251208-tom-copeland",
+          "year": "2025",
+          "name": "Tom Copeland American politician, member and speaker of the Washington House of Representatives",
+          "identity": "Tom Copeland, an American politician and member and speaker of the Washington House of Representatives, died on December 8, 2025, at age 101. Born Thomas Lenox Copeland in Pendleton, Oregon, on April 17, 1924, he served in the U.S. Army during World War II as a tank destroyer commander in Europe and later remained with the Army as an administrator, rising to captain. He graduated from Washington State University with a degree in agricultural engineering. A Republican, he was elected to the Washington House in 1957 representing District 11 and served until 1972, including as whip, minority leader, and speaker pro tempore. In 1972, he retired to run unsuccessfully for the Washington State Senate."
+        },
+        {
+          "id": "20251206-abdul-rashid-hurdler",
+          "year": "2025",
+          "name": "Abdul Rashid Pakistani Olympic hurdler, heart attack",
+          "identity": "Abdul Rashid, a Pakistani Olympic hurdler, died on December 6, 2025, of a heart attack. Born in Khanewal, Punjab, Pakistan, in 1979, he represented Pakistan at the 2008 Summer Olympics in Beijing, where he competed in the men’s 110 m hurdles. He also won gold in the 110-metre hurdles at the 2004 South Asian Games in Islamabad, set a national record of 7.95 seconds in the men’s indoor 60 m hurdles at the 2005 Asian Indoor Games in Pattaya, and took bronze in the 110 m hurdles at the 2006 South Asian Games in Colombo."
+        },
+        {
+          "id": "20251206-byron-knutson",
+          "year": "2025",
+          "name": "Byron Knutson American politician, member of the North Dakota House of Representatives",
+          "identity": "Byron Knutson, an American politician and former member of the North Dakota House of Representatives, died on December 6, 2025, at age 96. A North Dakota Democratic-NPL Party member, he served in the state House from 1959 to 1962, as North Dakota Insurance Commissioner from 1977 to 1980, and as North Dakota Labor Commissioner from 1987 to 1990. Born near Harlow, North Dakota, on November 9, 1929, Knutson was raised in Harlow near Devis Lake and attended schools there before graduating from Benson County Agriculture and Training High School in Maddock, North Dakota. He also attended North Dakota State University, the University of North Dakota and Valley City State College."
+        },
+        {
+          "id": "20251205-marius-van-der-merwe",
+          "year": "2025",
+          "name": "Marius van der Merwe Whistleblower testimony at the Madlanga Commission of Inquiry as &#8220;Witness D&#8221;",
+          "identity": "Marius van der Merwe, a South African private security company owner and former Ekurhuleni Metropolitan Police Department official, died on December 5, 2025, after being shot. Also known as \"Vlam\" and by the codename \"Witness D\" during his testimony at the Madlanga Commission, he was a key whistleblower who gave evidence to the Judicial Commission of Inquiry into Criminality, Political Interference, and Corruption in the Criminal Justice System. He was 40 or 41."
+        },
+        {
+          "id": "20251202-alice-s-whittemore",
+          "year": "2025",
+          "name": "Alice S. Whittemore American epidemiologist and biostatistician",
+          "identity": "Alice S. Whittemore, an American epidemiologist and biostatistician, died on December 2, 2025. She studied the effects of genetics and lifestyle on cancer after an earlier career as a pure mathematician focused on group theory. Whittemore was a professor of health research and policy and of biomedical data science at Stanford University, and she served as president of the International Biometric Society. Born on July 5, 1936, she earned a bachelor’s degree from Marymount Manhattan College, a master’s degree from Hunter College, and a Ph.D. from the Graduate Center of the City University of New York."
+        },
+        {
+          "id": "20251103-robert-docter",
+          "year": "2025",
+          "name": "Robert Docter Ending corporal punishment in LAUSD; Advocacy of school integration",
+          "identity": "Robert Docter, an American educator and former member of the Los Angeles Board of Education, died on November 3, 2025, at age 97. He was a professor at California State University, Northridge, and served on the board during a tenure marked by his leadership in abolishing corporal punishment in the Los Angeles Unified School District and his support for court-ordered mandatory busing to achieve racial integration. Docter was also a longtime lay leader in the Salvation Army and the founding editor of New Frontier Publications."
+        },
+        {
+          "id": "20251102-allan-ludwig",
+          "year": "2025",
+          "name": "Allan Ludwig American historian and photographer",
+          "identity": "Allan Ludwig, an American historian and photographer, died on November 2, 2025, at age 92. Allan Ira Ludwig was an American art historian and photographer whose book Graven Images, an influential study in American Studies, helped spur interest in Puritan-era gravestone studies beginning in the 1960s. He was also known as a fine arts photographer whose work was exhibited and collected in the United States and abroad. Ludwig sometimes used the pseudonym Elisha Cook Jr. when documenting graffiti and street art."
+        },
+        {
+          "id": "20251102-herbert-a-donovan-jr",
+          "year": "2025",
+          "name": "Herbert A. Donovan Jr. American Episcopal cleric",
+          "identity": "Herbert A. Donovan Jr., an American Episcopal cleric and administrator who served as bishop of Arkansas, died on November 2, 2025, at age 94. Born in Washington, D.C., on July 14, 1931, Donovan served in several high-level posts in the American Episcopal Church and administered Episcopal charities working in Africa, the Middle East, Europe and Cuba. He also advocated for women and LGBTQ people."
+        },
+        {
+          "id": "20251102-james-diehl",
+          "year": "2025",
+          "name": "James Diehl American evangelical Christian minister",
+          "identity": "James H. Diehl, an American Christian minister and general superintendent emeritus in the Church of the Nazarene, died on November 2, 2025, at the age of 88. He was elected general superintendent in 1993 and served in that role until 2009."
+        },
+        {
+          "id": "20251020-rosalind-howells-baroness-howells-of-st-davids",
+          "year": "2025",
+          "name": "Rosalind Howells, Baroness Howells of St Davids",
+          "identity": "British politician"
+        },
+        {
+          "id": "20250324-valerie-howarth-baroness-howarth-of-breckland",
+          "year": "2025",
+          "name": "Valerie Howarth, Baroness Howarth of Breckland",
+          "identity": "British social worker and life peer"
+        }
+      ]
+    }
+  },
+  "applied": true,
+  "applied_summary": {
+    "a1_unescaped": 756,
+    "a2_identity_cleared": 1018,
+    "b_nonhuman_removed": 405,
+    "files_changed": 13,
+    "applied_at": "2026-11-26T09:49:31"
+  }
+}

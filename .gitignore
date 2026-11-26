@@ -15,3 +15,12 @@ archive-data/deadpeople-2026-fulltext.json
 
 # 噪音清理前的本地备份目录
 data/noise-clean-backup-*/
+
+# 历史归档清洗前的本地备份目录（约 40MB，不入库）
+archive-data/history-backup-*/
+
+# 2026 合并前本地备份（不入库）
+archive-data/2026-before-merge-backup.js
+
+# 自包含预览页（44MB，仅本地预览，不入库）
+archive-preview.html
