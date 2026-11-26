@@ -155,7 +155,6 @@ window.SOURCE_LINKS["20260817-ron-smith-footballer-born-1936"] = [{"n":"southpor
 window.SOURCE_LINKS["20260817-stanislas-lalanne"] = [{"n":"catholique95.fr","u":"https://www.catholique95.fr/retour-a-dieu-de-mgr-stanislas-lalanne/Retour"}];
 window.SOURCE_LINKS["20260818-juan-tamariz"] = [{"n":"rtve.es","u":"https://www.rtve.es/noticias/20260818/muere-juan-tamariz/17195010.shtml"}];
 window.SOURCE_LINKS["20260818-laura-cardoso"] = [{"n":"g1.globo.com","u":"https://g1.globo.com/google/amp/pop-arte/noticia/2026/08/18/laura-cardoso-um-dos-principais-nomes-da-dramaturgia-brasileira-morre-aos-99-anos.ghtml"}];
-window.SOURCE_LINKS["20260818-varenne"] = [{"n":"gazzetta.it","u":"https://www.gazzetta.it/Sport-Vari/18-08-2026/morto-varenne.shtml"}];
 window.SOURCE_LINKS["20260819-gorg-mallia"] = [{"n":"independent.com.mt","u":"https://www.independent.com.mt/articles/2026-08-19/local-news/Cartoonist-author-and-academic-Gorg-Mallia-dies-aged-68-6736292202"}];
 window.SOURCE_LINKS["20260819-michele-pinto"] = [{"n":"telecolore.it","u":"https://www.telecolore.it/e-morto-lex-ministro-michele-pinto/"}];
 window.SOURCE_LINKS["20260819-tsuri-sagi"] = [{"n":"ynetnews.com","u":"https://www.ynetnews.com/article/qdl5ahs2o"}];

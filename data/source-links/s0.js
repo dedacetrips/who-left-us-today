@@ -178,7 +178,6 @@ window.SOURCE_LINKS["20260906-bill-dundee"] = [{"n":"nodq.com","u":"https://nodq
 window.SOURCE_LINKS["20260906-hadassah-carlebach"] = [{"n":"matzav.com","u":"https://matzav.com/hadassah-carlebach-who-helped-save-hundreds-of-jewish-children-from-nazis-dies-at-99/"}];
 window.SOURCE_LINKS["20260906-matt-suhey"] = [{"n":"nbcchicago.com","u":"https://www.nbcchicago.com/news/local/matt-suhey-fullback-on-legendary-1985-bears-championship-team-dies/3985565/"}];
 window.SOURCE_LINKS["20260906-richard-tesarik-zpevak"] = [{"n":"zpravy.tiscali.cz","u":"https://zpravy.tiscali.cz/zemrel-richard-tesarik-hlas-legendarniho-rybitvi-skryval-bolest-o-ktere-vedel-malokdo-752607"}];
-window.SOURCE_LINKS["20260907-admire-moon"] = [{"n":"racingpost.com","u":"https://www.racingpost.com/bloodstock/bloodstock-news/a-great-horse-forever-etched-in-our-hearts-death-of-japanese-champion-admire-moon-aged-23-aBr7H6g0sp5L/"}];
 window.SOURCE_LINKS["20260907-gaston-acurio-velarde"] = [{"n":"infobae.com","u":"https://www.infobae.com/peru/2026/09/08/fallecio-gaston-acurio-velarde-a-los-96-anos-padre-del-chef-gaston-acurio-y-abuelo-del-tenista-ignacio-buse-te-has-ido-y-duele/"}];
 window.SOURCE_LINKS["20260907-tony-buss"] = [{"n":"bbc.com","u":"https://www.bbc.com/sport/cricket/articles/crern3p3dwwo"}];
 window.SOURCE_LINKS["20260908-peter-sincock"] = [{"n":"mytributes.com.au","u":"https://www.mytributes.com.au/notice/death-notices/peter-damien-sincock/6377264/"}];

@@ -136,7 +136,6 @@ window.SOURCE_LINKS["20260807-alphonse-vandenrydt"] = [{"n":"olympedia.org","u":
 window.SOURCE_LINKS["20260807-atle-mcadam"] = [{"n":"nrk.no","u":"https://www.nrk.no/sport/norgesmester-i-friidrett-atle-mcadam-dode-i-sykkelulykke-1.17984171"}];
 window.SOURCE_LINKS["20260807-ha-dinh-duc"] = [{"n":"laodong.vn","u":"https://laodong.vn/van-hoa/nha-rua-hoc-ha-dinh-duc-qua-doi-o-tuoi-87-1747393.ldo"}];
 window.SOURCE_LINKS["20260807-violet-hensley"] = [{"n":"ky3.com","u":"https://www.ky3.com/2026/08/07/violet-hensley-whittlin-fiddler-silver-dollar-city-legend-dies-109/"}];
-window.SOURCE_LINKS["20260808-girvin"] = [{"n":"thoroughbreddailynews.com","u":"https://www.thoroughbreddailynews.com/girvin-top-sire-of-two-year-olds-dies/"}];
 window.SOURCE_LINKS["20260810-alejandro-castellanos"] = [{"n":"latribuna.hn","u":"https://www.latribuna.hn/2026/08/10/muere-alejandro-castellanos-destacado-nadador-que-represento-a-honduras-en-sidney-2000/"}];
 window.SOURCE_LINKS["20260811-christy-knowings"] = [{"n":"Deadline","u":"https://deadline.com/2026/08/christy-knowings-dead-1237033066/"},{"n":"Forbes","u":"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOV3ZrR0NQVkhiN24xR3d1d0pRelVfeGVsZUtaMDFaNHd6V2d5dkxMYk56N2ZmMU4xUmNuU3BUbkZPVThiSElTTkJfc1BhT2o0V3E0eFlLdXVCX0txaDJjRWh3M0J0SU1iSVFjVEMtYjdzSUtONW8yYkdaWTBrNG9NVVM4enlXU3kxR2Utd3hnb1dPLUJMb2ZDR2lCTk85M0FpWkFjWFNPT1FXUQ?oc=5"},{"n":"People","u":"https://people.com/all-that-star-christy-knowings-dies-46-12059309"}];
 window.SOURCE_LINKS["20260811-ingeborg-friebe"] = [{"n":"monheim.de","u":"https://www.monheim.de/stadtleben-aktuelles/news/nachrichten/monheim-am-rhein-trauert-um-ehrenburgermeisterin-ingeborg-friebe-15529"}];
@@ -151,7 +150,6 @@ window.SOURCE_LINKS["20260815-barry-reazar-richards"] = [{"n":"wusa9.com","u":"h
 window.SOURCE_LINKS["20260815-heinz-peter-gasse"] = [{"n":"www1.wdr.de","u":"https://www1.wdr.de/nrw/ruhrgebiet/duisburg/gewerkschafter-peter-gasse-tot-100.html"}];
 window.SOURCE_LINKS["20260815-paschal-mcguinness"] = [{"n":"dignitymemorial.com","u":"https://www.dignitymemorial.com/obituaries/westwood-nj/michael-mcguinness-13004247"}];
 window.SOURCE_LINKS["20260817-mile-korun"] = [{"n":"rtvslo.si","u":"https://www.rtvslo.si/kultura/oder/umrl-je-gledaliski-reziser-in-dramatik-mile-korun/791111"}];
-window.SOURCE_LINKS["20260817-orientate"] = [{"n":"thoroughbreddailynews.com","u":"https://www.thoroughbreddailynews.com/champion-sprinter-and-gainesway-stallion-orientate-passes-away-at-28/"}];
 window.SOURCE_LINKS["20260818-mieczyslaw-szyszka"] = [{"n":"senat.gov.pl","u":"https://www.senat.gov.pl/aktualnoscilista/art,17728,zmarl-mieczyslaw-szyszka-senator-vi-kadencji.html"}];
 window.SOURCE_LINKS["20260818-phyllida-law"] = [{"n":"theguardian.com","u":"https://www.theguardian.com/film/2026/aug/18/phyllida-law-performer-stage-screen-dies"}];
 window.SOURCE_LINKS["20260818-samir-radwan"] = [{"n":"french.ahram.org.eg","u":"https://french.ahram.org.eg/UI/Front/Inner.aspx?NewsContentID=92229"}];

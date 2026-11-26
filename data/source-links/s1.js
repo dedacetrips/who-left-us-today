@@ -133,7 +133,6 @@ window.SOURCE_LINKS["20260807-austin-liato"] = [{"n":"lusakatimes.com","u":"http
 window.SOURCE_LINKS["20260807-bah-oumarou-sanda"] = [{"n":"koaci.com","u":"https://www.koaci.com/article/2026/08/07/cameroun/politique/cameroun-deces-a-86-ans-de-bah-oumarou-sanda-pilier-du-conseil-constitutionnel_199334.html"}];
 window.SOURCE_LINKS["20260807-charles-hollis-jones"] = [{"n":"limestonechapel.net","u":"https://www.limestonechapel.net/obituaries/charles-jones"}];
 window.SOURCE_LINKS["20260808-amy-lasten"] = [{"n":"noticiacla.com","u":"https://www.noticiacla.com/news/39168"}];
-window.SOURCE_LINKS["20260808-big-bucks"] = [{"n":"racingpost.com","u":"https://www.racingpost.com/news/jump-racing/big-bucks-dies-aged-23-as-paul-nicholls-hails-a-true-jumps-legend-with-as-much-ability-as-any-horse-ive-ever-trained-a0AD20S7Ybpk/"}];
 window.SOURCE_LINKS["20260808-ivo-slaus"] = [{"n":"info.hazu.hr","u":"https://www.info.hazu.hr/en/2026/08/umro-akademik-ivo-slaus/"}];
 window.SOURCE_LINKS["20260808-la-norma-fox"] = [{"n":"amtsavisen.dk","u":"https://amtsavisen.dk/randers/randers-egen-cirkusprinsesse-er-doed-100-aar-gammel-om-faa-uger-har-hendes-historie-teaterpremiere"}];
 window.SOURCE_LINKS["20260808-matsushige-ono"] = [{"n":"jiji.com","u":"https://www.jiji.com/jc/article?k=2026081000751&g=pol"}];
@@ -230,7 +229,6 @@ window.SOURCE_LINKS["20261015-barbara-jay"] = [{"n":"theguardian.com","u":"https
 window.SOURCE_LINKS["20261015-dominic-j-elioff"] = [{"n":"baumanfuneralhome.com","u":"https://www.baumanfuneralhome.com/obituaries/dominic-dom-elioff"}];
 window.SOURCE_LINKS["20261015-pierre-andre-kombila"] = [{"n":"gabonclic.info","u":"https://gabonclic.info/gabon-la-nation-en-deuil-le-professeur-pierre-andre-kombila-tire-sa-reverence-a-85-ans/"}];
 window.SOURCE_LINKS["20261016-hyron-andrews"] = [{"n":"sarugbymag.co.za","u":"https://www.sarugbymag.co.za/lions-player-dies-france/"}];
-window.SOURCE_LINKS["20261016-medaglia-doro-horse"] = [{"n":"drf.com","u":"https://www.drf.com/news/new-article-2026-16-10-14-49-06"}];
 window.SOURCE_LINKS["20261017-jacques-charlin"] = [{"n":"libramemoria.com","u":"https://www.libramemoria.com/defunts/charlin-jacques/912c6e0310a14021a3e8131429e8cf32"}];
 window.SOURCE_LINKS["20261018-james-p-axiotis"] = [{"n":"kennethpoeservices.com","u":"https://kennethpoeservices.com/obituaries/2547-james-photi-axiotis"}];
 window.SOURCE_LINKS["20261018-jost-hochuli"] = [{"n":"kath.ch","u":"https://www.kath.ch/medienspiegel/er-schrieb-die-typografie-bibel-jost-hochuli-ist-93-jaehrig-gestorben/"}];
@@ -298,7 +296,6 @@ window.SOURCE_LINKS["20261117-blas-ziarreta"] = [{"n":"kirolakeitb.eus","u":"htt
 window.SOURCE_LINKS["20261117-herrmann-zschoche"] = [{"n":"faz.net","u":"https://www.faz.net/aktuell/feuilleton/medien-und-film/kino/zum-tod-des-filmregisseurs-herrmann-zschoche-201694781.html"}];
 window.SOURCE_LINKS["20261117-peter-storey"] = [{"n":"The Mirror","u":"https://news.google.com/rss/articles/CBMikAFBVV95cUxPWUhsZENISEp0QlpoeFZlaTJMVEZQRFp0VW9ZNWN0OFNTYmZ0NjlOWWM2dG9SS3V3dUNKY2VQaEFEZGduLTBfcVF2TG1tcC0xUUVod09CelN4RnV0RDZEakJyRXNKODhBMXFIWjZadWdtU204VVRkUFJzU01nbFdXRmkyalV1SUJBUFVJeDZEcFjSAZYBQVVfeXFMTlVpc19xWnkxZVhWTU1Ja05OVjdXaXRYSDNhVmVrOEN4cGwzQm1fRzU1LWpzU3RENFR0Y0pLVHp6cWR0M2hMWk9nb1BmOTdRck9hMEdWb2NFeHhBcURFU0pKVXFHR0tWcktVNjFuUkhMNjJXNWx5WjZhUlhnRUN0Y2QyUFpPSFMxeVB1TW90dG9QV0JmTFFR?oc=5"}];
 window.SOURCE_LINKS["20261119-ej-carroll-actor"] = [{"n":"Deadline","u":"https://deadline.com/2026/11/e-j-carroll-dead-deuce-boardwalk-empire-blue-bloods-1237230599/"},{"n":"People","u":"https://people.com/e-j-carroll-known-for-roles-in-the-deuce-and-boardwalk-empire-dead-at-66-12268782"},{"n":"Variety","u":"https://variety.com/2026/tv/news/e-j-carroll-dead-the-deuce-1236954725/"}];
-window.SOURCE_LINKS["20261119-fiona-hippopotamus"] = [{"n":"BBC","u":"https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss"},{"n":"edition.cnn.com","u":"https://edition.cnn.com/2026/11/19/us/fiona-hippo-dies-cincinnati-zoo"}];
 window.SOURCE_LINKS["20261119-polikanov-dmitrii-valerievich"] = [{"n":"tass.ru","u":"https://tass.ru/obschestvo/28336623"}];
 window.SOURCE_LINKS["20261119-wally-horn"] = [{"n":"desmoinesregister.com","u":"https://www.desmoinesregister.com/story/news/politics/2026/11/20/wally-horn-record-setting-iowa-lawmaker-from-cedar-rapids-dies-at-92/92884788007/"}];
 window.SOURCE_LINKS["20261119-zhou-minglu"] = [{"n":"沈阳日报","u":"https://epaper.syd.com.cn/syrb/h5/html5/2026-11/25/content_121051_20050954.htm"}];

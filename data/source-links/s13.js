@@ -63,7 +63,6 @@ window.SOURCE_LINKS["20260701-sergei-kulichenko"] = [{"n":"ria.ru","u":"https://
 window.SOURCE_LINKS["20260701-stephen-pedley"] = [{"n":"churchtimes.co.uk","u":"https://www.churchtimes.co.uk/articles/2026/10-july/gazette/deaths/deaths"}];
 window.SOURCE_LINKS["20260702-szilagyi-tibor-szinmuvesz"] = [{"n":"origo.hu","u":"https://www.origo.hu/kultura/2026/07/szilagyi-tibor-gyaszhir"}];
 window.SOURCE_LINKS["20260703-jozsef-toth-hydrogeologist"] = [{"n":"demokrata.hu","u":"https://demokrata.hu/magyarorszag/elhunyt-toth-jozsef-2-1203595/"}];
-window.SOURCE_LINKS["20260703-motivator-horse"] = [{"n":"racingpost.com","u":"https://www.racingpost.com/bloodstock/news/derby-winner-and-treves-sire-motivator-dies-aged-24-ayI664D1Om2k/"}];
 window.SOURCE_LINKS["20260703-shahrnush-parsipur"] = [{"n":"radiofarda.com","u":"https://www.radiofarda.com/a/shahrnoush-parsipour-dead/33796572.html"}];
 window.SOURCE_LINKS["20260704-brian-paisley"] = [{"n":"edmontonjournal.com","u":"https://edmontonjournal.com/news/local-news/fringe-founder-brian-paisley-dies"}];
 window.SOURCE_LINKS["20260704-grzegorz-mietus"] = [{"n":"sport.interia.pl","u":"https://sport.interia.pl/skoki-narciarskie/news-dramat-w-polskich-skokach-nie-zyje-grzegorz-mietus-mial-33-l,nId,23509659"}];

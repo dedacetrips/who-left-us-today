@@ -124,7 +124,6 @@ window.SOURCE_LINKS["20260804-john-damore"] = [{"n":"chicago.suntimes.com","u":"
 window.SOURCE_LINKS["20260804-wayne-martin-cricketer-born-1953"] = [{"n":"deaths.taranakidailynews.co.nz","u":"https://deaths.taranakidailynews.co.nz/nz/obituaries/taranaki-daily-news-nz/name/wayne-martin-obituary?id=62134286"}];
 window.SOURCE_LINKS["20260805-jack-mortland"] = [{"n":"olympedia.org","u":"https://www.olympedia.org/athletes/78815"}];
 window.SOURCE_LINKS["20260806-harry-c-dorn"] = [{"n":"mccoyfuneralhome.com","u":"https://www.mccoyfuneralhome.com/obituaries/harry-dorn/#!/Obituary"}];
-window.SOURCE_LINKS["20260807-immortal-verse"] = [{"n":"thoroughbreddailynews.com","u":"https://www.thoroughbreddailynews.com/outstanding-broodmare-immortal-verse-dies-at-18/"}];
 window.SOURCE_LINKS["20260808-oded-stark"] = [{"n":"wne.uw.edu.pl","u":"https://www.wne.uw.edu.pl/en/news/memoriam-professor-oded-stark"}];
 window.SOURCE_LINKS["20260808-oihane-mateos"] = [{"n":"orain.eus","u":"https://orain.eus/eu/aktualitatea/gizartea/2026/08/08/oihane-mateos-orain-eitbren-albiste-zerbitzu-digitalaren-burua-hil-da/"}];
 window.SOURCE_LINKS["20260809-dennis-grey"] = [{"n":"thebiglead.com","u":"https://www.thebiglead.com/former-nets-center-dies-at-79/"}];

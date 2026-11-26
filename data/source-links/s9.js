@@ -29,7 +29,6 @@ window.SOURCE_LINKS["20260614-malcolm-harding-bishop-of-brandon"] = [{"n":"passa
 window.SOURCE_LINKS["20260615-rock-perdoni"] = [{"n":"aecarterfuneralhome.com","u":"https://www.aecarterfuneralhome.com/obituary/Renzo-Perdoni"}];
 window.SOURCE_LINKS["20260615-togba-zogbelemou"] = [{"n":"guinee28.info","u":"https://guinee28.info/deces-de-lancien-ministre-de-la-justice-maurice-togba-zogbelemou/"}];
 window.SOURCE_LINKS["20260617-bharat-bhushan-tiwari"] = [{"n":"indianexpress.com","u":"https://indianexpress.com/article/cities/patna/madness-bihar-man-livestreams-encounter-police-gunshots-death-10745527/"}];
-window.SOURCE_LINKS["20260617-major-oak"] = [{"n":"bbc.com","u":"https://www.bbc.com/news/articles/clyer9m0jmko"}];
 window.SOURCE_LINKS["20260617-tony-brown-journalist"] = [{"n":"journal-isms.com","u":"https://www.journal-isms.com/tony-brown-black-media-legend-dies-at-93/"}];
 window.SOURCE_LINKS["20260618-sam-y-zamrik"] = [{"n":"kochfuneralhome.com","u":"https://www.kochfuneralhome.com/obituaries/Dr-Sam-Y-Zamrik?obId=48791554"}];
 window.SOURCE_LINKS["20260619-emile-straker"] = [{"n":"nationnews.com","u":"https://nationnews.com/2026/06/19/barbadian-music-icon-sir-charles-emile-straker-passes-away/#"}];
@@ -297,7 +296,6 @@ window.SOURCE_LINKS["20261106-danuta-beata-postnikoff"] = [{"n":"facebook.com","
 window.SOURCE_LINKS["20261107-jeff-julian-runner"] = [{"n":"athletics.org.nz","u":"https://athletics.org.nz/weekly-round-up-9-november-2026/"}];
 window.SOURCE_LINKS["20261107-yan-zhen"] = [{"n":"中国作家网·讣告","u":"https://image.chinawriter.com.cn/n1/2026/1109/c403981-40830497.html"}];
 window.SOURCE_LINKS["20261108-domenico-berni"] = [{"n":"ewtnnews.com","u":"https://www.ewtnnews.com/es/mundo/america/fallece-obispo-agustino-amigo-leon"}];
-window.SOURCE_LINKS["20261109-ballabriggs"] = [{"n":"racingpost.com","u":"https://www.racingpost.com/news/jump-racing/grand-national-hero-ballabriggs-dies-aged-25-as-team-remembers-amazing-days-and-memories-he-gave-us-a9wUd0z3yBa4/"},{"n":"The Mirror","u":"https://news.google.com/rss/articles/CBMikAFBVV95cUxQX09QcDVmV0VLclRwUEpVY1E0UWhRLXJYUE82ZGlCaVBXaFA1eU5OdzhuQXAzLU1Pa29NRkRYa3ItNDBHaVk3M3J5eUUtcUdhbEprVnpmYXNiM0pGYkk5LVNxWUZLNDJWeU9DandmeC1lR2g2cE9ZODBOcnlxa0VRSHFicnJ1M3hUMi1xSk5GRHDSAZYBQVVfeXFMUFctNkp4cVdLR0RKMmJBV2JYZUxQMXlTYzNXSHhEbWFBMld6VHVqSW9vNWdvRmJlRWZIUFlIOEtrVmNUSUJpRnJ4ZllYdXRkbzM3bVN4WHdxaUhLYnI4UEFyc0RLcE9QRUlOUjYydnlEb1RvdUhtYVc0c1VOaWFXTnFQZURBR0pWYUJoQThmbkxHaDE5SzdR?oc=5"}];
 window.SOURCE_LINKS["20261109-bob-mills-businessman"] = [{"n":"okcfox.com","u":"https://okcfox.com/news/local/bob-mills-founder-of-bob-mills-furniture-dies-at-79"}];
 window.SOURCE_LINKS["20261109-vanderlei-lazaro"] = [{"n":"ge.globo.com","u":"https://ge.globo.com/google/amp/futebol/times/cruzeiro/noticia/2026/11/09/campeao-da-libertadores-com-cruzeiro-vanderlei-morre-aos-79-anos.ghtml"}];
 window.SOURCE_LINKS["20261110-samuel-o-freedman"] = [{"n":"necrologie.ca","u":"https://necrologie.ca/fr/avis-de-deces/samuel-o-freedman-montreal-qc-50008/"}];

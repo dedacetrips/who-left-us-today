@@ -1,0 +1,323 @@
+{
+  "generated": "2026-11-26T05:46:07.239343",
+  "total_before": 9666,
+  "remove_count": 62,
+  "remove": {
+    "20261119-fiona-hippopotamus": {
+      "reason": "动物：辛辛那提动物园河马 Fiona",
+      "name": "Fiona",
+      "date": "2026-11-19"
+    },
+    "20260617-major-oak": {
+      "reason": "植物：舍伍德森林橡树 Major Oak",
+      "name": "Major Oak",
+      "date": "2026-06-17"
+    },
+    "20261112-zee-zee-top": {
+      "reason": "赛马",
+      "name": "Zee Zee Top",
+      "date": "2026-11-12"
+    },
+    "20261109-ballabriggs": {
+      "reason": "赛马",
+      "name": "Ballabriggs",
+      "date": "2026-11-09"
+    },
+    "20261020-early-voting": {
+      "reason": "赛马",
+      "name": "Early Voting",
+      "date": "2026-10-20"
+    },
+    "20261016-medaglia-doro-horse": {
+      "reason": "赛马",
+      "name": "Medaglia d’Oro",
+      "date": "2026-10-16"
+    },
+    "20261011-toms-detat": {
+      "reason": "赛马",
+      "name": "Tom&#8217;s d&#8217;Etat",
+      "date": "2026-10-11"
+    },
+    "20261002-roy-h": {
+      "reason": "赛马",
+      "name": "Roy H",
+      "date": "2026-10-02"
+    },
+    "20260923-first-dude-horse": {
+      "reason": "赛马",
+      "name": "First Dude",
+      "date": "2026-09-23"
+    },
+    "20260922-hurricane-fly": {
+      "reason": "赛马",
+      "name": "Hurricane Fly",
+      "date": "2026-09-22"
+    },
+    "20260907-admire-moon": {
+      "reason": "赛马",
+      "name": "Admire Moon",
+      "date": "2026-09-07"
+    },
+    "20260901-galopin-des-champs": {
+      "reason": "赛马",
+      "name": "Galopin Des Champs",
+      "date": "2026-09-01"
+    },
+    "20260823-nakayama-festa": {
+      "reason": "赛马",
+      "name": "Nakayama Festa",
+      "date": "2026-08-23"
+    },
+    "20260818-varenne": {
+      "reason": "赛马",
+      "name": "Varenne",
+      "date": "2026-08-18"
+    },
+    "20260817-orientate": {
+      "reason": "赛马",
+      "name": "Orientate",
+      "date": "2026-08-17"
+    },
+    "20260808-big-bucks": {
+      "reason": "赛马",
+      "name": "Big Buck&#8217;s",
+      "date": "2026-08-08"
+    },
+    "20260808-girvin": {
+      "reason": "赛马",
+      "name": "Girvin",
+      "date": "2026-08-08"
+    },
+    "20260807-immortal-verse": {
+      "reason": "赛马",
+      "name": "Immortal Verse",
+      "date": "2026-08-07"
+    },
+    "20260802-tsurumaru-tsuyoshi": {
+      "reason": "赛马",
+      "name": "Tsurumaru Tsuyoshi",
+      "date": "2026-08-02"
+    },
+    "20260730-magic-weisner": {
+      "reason": "赛马",
+      "name": "Magic Weisner",
+      "date": "2026-07-30"
+    },
+    "20260728-ghanaati": {
+      "reason": "赛马",
+      "name": "Ghanaati",
+      "date": "2026-07-28"
+    },
+    "20260705-bayern-horse": {
+      "reason": "赛马",
+      "name": "Bayern",
+      "date": "2026-07-05"
+    },
+    "20260703-motivator-horse": {
+      "reason": "赛马",
+      "name": "Motivator",
+      "date": "2026-07-03"
+    },
+    "20260619-savabeel": {
+      "reason": "赛马",
+      "name": "Savabeel",
+      "date": "2026-06-19"
+    },
+    "20260508-auroras-encore": {
+      "reason": "赛马",
+      "name": "Auroras Encore",
+      "date": "2026-05-08"
+    },
+    "20260418-noble-yeats": {
+      "reason": "赛马",
+      "name": "Noble Yeats public figure",
+      "date": "2026-04-18"
+    },
+    "20260415-frosted": {
+      "reason": "赛马",
+      "name": "Frosted American Thoroughbred racehorse, euthanized",
+      "date": "2026-04-15"
+    },
+    "20260324-western-dreamer": {
+      "reason": "赛马",
+      "name": "Western Dreamer American Standardbred racehorse, Pacing Triple Crown winner",
+      "date": "2026-03-24"
+    },
+    "20260313-envoi-allen": {
+      "reason": "赛马",
+      "name": "Envoi Allen French thoroughbred racehorse",
+      "date": "2026-03-13"
+    },
+    "20260311-serenas-song": {
+      "reason": "赛马",
+      "name": "Serena&#8217;s Song American Thoroughbred racehorse",
+      "date": "2026-03-11"
+    },
+    "20260303-mujahid-horse": {
+      "reason": "赛马",
+      "name": "Mujahid American Thoroughbred racehorse",
+      "date": "2026-03-03"
+    },
+    "20260228-makybe-diva": {
+      "reason": "赛马",
+      "name": "戴花",
+      "date": "2026-02-28"
+    },
+    "20260219-reliable-man": {
+      "reason": "赛马",
+      "name": "Reliable Man British Thoroughbred racehorse",
+      "date": "2026-02-19"
+    },
+    "20260217-blue-prize": {
+      "reason": "赛马",
+      "name": "Blue Prize Argentinian Thoroughbred horse",
+      "date": "2026-02-17"
+    },
+    "20260206-afleet-alex": {
+      "reason": "赛马",
+      "name": "Afleet Alex American Thoroughbred racehorse",
+      "date": "2026-02-06"
+    },
+    "20260122-eldaafer": {
+      "reason": "赛马",
+      "name": "Eldaafer",
+      "date": "2026-01-22"
+    },
+    "20260120-daiwa-major": {
+      "reason": "赛马",
+      "name": "Daiwa Major",
+      "date": "2026-01-20"
+    },
+    "20260110-distorted-humor": {
+      "reason": "赛马",
+      "name": "Distorted Humor",
+      "date": "2026-01-10"
+    },
+    "20260520-denyse-lepage": {
+      "reason": "乐队团体本身（Lime）",
+      "name": "Lime (band)",
+      "date": "2026-05-20"
+    },
+    "20260518-peter-archer": {
+      "reason": "乐队团体本身（Crow）",
+      "name": "Crow",
+      "date": "2026-05-18"
+    },
+    "20260331-krec-rap-band": {
+      "reason": "乐队团体本身（KREC）",
+      "name": "KREC Russian rapper, traffic collision",
+      "date": "2026-03-31"
+    },
+    "20260327-boysetsfire": {
+      "reason": "乐队团体本身（BoySetsFire）",
+      "name": "BoySetsFire American drummer dies",
+      "date": "2026-03-27"
+    },
+    "20260317-eurogliders": {
+      "reason": "乐队团体本身（Eurogliders）",
+      "name": "Eurogliders Australian musician and songwriter",
+      "date": "2026-03-17"
+    },
+    "20260312-holograf": {
+      "reason": "乐队团体本身（Holograf）",
+      "name": "Holograf",
+      "date": "2026-03-12"
+    },
+    "20260307-goblin-band": {
+      "reason": "乐队团体本身（Goblin）",
+      "name": "Goblin Italian drummer",
+      "date": "2026-03-07"
+    },
+    "20260307-god-bless": {
+      "reason": "乐队团体本身（God Bless）",
+      "name": "God Bless Indonesian musician and songwriter",
+      "date": "2026-03-07"
+    },
+    "20260302-max-webster": {
+      "reason": "乐队团体本身（Max Webster）",
+      "name": "Max Webster",
+      "date": "2026-03-02"
+    },
+    "20260302-morlocks-swedish-band": {
+      "reason": "乐队团体本身（Morlocks）",
+      "name": "Morlocks",
+      "date": "2026-03-02"
+    },
+    "20260225-ariel-russian-band": {
+      "reason": "乐队团体本身（Ariel）",
+      "name": "Ariel",
+      "date": "2026-02-25"
+    },
+    "20260221-buranovskiye-babushki": {
+      "reason": "乐队团体本身（Buranovskiye Babushki）",
+      "name": "Buranovskiye Babushki",
+      "date": "2026-02-21"
+    },
+    "20260220-shortparis": {
+      "reason": "乐队团体本身（Shortparis）",
+      "name": "Shortparis",
+      "date": "2026-02-20"
+    },
+    "20260214-we-all-together": {
+      "reason": "乐队团体本身（We All Together）",
+      "name": "We All Together",
+      "date": "2026-02-14"
+    },
+    "20260202-slave-band": {
+      "reason": "乐队团体本身（Slave）",
+      "name": "Slave",
+      "date": "2026-02-02"
+    },
+    "20260308-herbs-band": {
+      "reason": "乐队团体本身（Herbs）",
+      "name": "Herbs",
+      "date": "2026-03-08"
+    },
+    "20260322-the-pillows": {
+      "reason": "姓名为乐队名 The Pillows，正文未给出成员姓名",
+      "name": "The Pillows",
+      "date": "2026-03-22"
+    },
+    "20260312-blood-duster": {
+      "reason": "姓名为乐队名 Blood Duster，正文未给出成员姓名",
+      "name": "Blood Duster",
+      "date": "2026-03-12"
+    },
+    "20260227-olympic-band": {
+      "reason": "姓名为乐队名 Olympic，正文未给出成员姓名",
+      "name": "Olympic Czech keyboardist",
+      "date": "2026-02-27"
+    },
+    "20260215-we-the-people-band": {
+      "reason": "姓名为乐队名 We the People，正文未给出成员姓名",
+      "name": "We the People",
+      "date": "2026-02-15"
+    },
+    "20260214-manchester-orchestra": {
+      "reason": "姓名为乐队名 Manchester Orchestra，正文未给出成员姓名",
+      "name": "Manchester Orchestra",
+      "date": "2026-02-14"
+    },
+    "20260214-merauder": {
+      "reason": "姓名为乐队名 Merauder，正文未给出成员姓名",
+      "name": "Merauder American guitarist",
+      "date": "2026-02-14"
+    },
+    "20260312-chaos-uk": {
+      "reason": "姓名为乐队名 Chaos UK，正文未给出成员姓名",
+      "name": "Chaos UK",
+      "date": "2026-03-12"
+    },
+    "20260320-los-piojos": {
+      "reason": "姓名为乐队名 Los Piojos，正文未给出成员姓名",
+      "name": "Los Piojos Argentine drummer",
+      "date": "2026-03-20"
+    }
+  },
+  "categories": {
+    "动物": 1,
+    "植物": 1,
+    "赛马": 36,
+    "乐队/团体": 24
+  }
+}

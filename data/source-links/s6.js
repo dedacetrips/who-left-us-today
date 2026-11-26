@@ -183,7 +183,6 @@ window.SOURCE_LINKS["20260822-bill-ayres"] = [{"n":"newsday.com","u":"https://ww
 window.SOURCE_LINKS["20260823-alphonse-djedje-mady"] = [{"n":"news.abidjan.net","u":"https://news.abidjan.net/articles/748987/cote-divoire-deces-du-pr-alphonse-djedje-mady-ancien-ministre-et-cadre-du-pdci-rda-a-lage-de-81-ans-proches"}];
 window.SOURCE_LINKS["20260823-bruno-schrecker"] = [{"n":"The Guardian","u":"https://www.theguardian.com/music/2026/sep/11/bruno-schrecker-obituary"}];
 window.SOURCE_LINKS["20260823-michael-westmore-ii"] = [{"n":"televisionacademy.com","u":"https://www.televisionacademy.com/bios/michael-westmore-ii"}];
-window.SOURCE_LINKS["20260823-nakayama-festa"] = [{"n":"gosugamers.net","u":"https://www.gosugamers.net/news/79028-nakayama-festa-the-legendary-japanese-racehorse-that-inspired-the-umamusume-character-has-died"}];
 window.SOURCE_LINKS["20260826-ole-andreasen"] = [{"n":"dr.dk","u":"https://www.dr.dk/nyheder/kultur/tidligere-chefredaktoer-og-matador-oplaeser-ole-andreasen-er-doed"}];
 window.SOURCE_LINKS["20260826-tsurilo-iurii-alekseevich"] = [{"n":"meduza.io","u":"https://meduza.io/news/2026/08/27/umer-akter-yuriy-tsurilo"}];
 window.SOURCE_LINKS["20260827-mary-tsingou"] = [{"n":"losalamosreporter.com","u":"https://losalamosreporter.com/2026/08/28/obituary-mary-tsingou-menzel-oct-14-1928-aug-27-2026/"}];
@@ -195,7 +194,6 @@ window.SOURCE_LINKS["20260830-paul-leduc-wrestler"] = [{"n":"fightful.com","u":"
 window.SOURCE_LINKS["20260831-frances-stonor-saunders"] = [{"n":"thetimes.com","u":"https://www.thetimes.com/comment/register/article/births-marriages-and-deaths-september-11-2026-mw8rqkbw9"}];
 window.SOURCE_LINKS["20260831-liam-king-hurler"] = [{"n":"rip.ie","u":"https://rip.ie/death-notice/liam-king-tipperary-lorrha-640743"}];
 window.SOURCE_LINKS["20260901-abu-hudhayfah-al-ansari"] = [{"n":"thearabweekly.com","u":"https://thearabweekly.com/yemen-says-isis-spokesman-killed-joint-counter-terrorism-operation"}];
-window.SOURCE_LINKS["20260901-galopin-des-champs"] = [{"n":"racingpost.com","u":"https://www.racingpost.com/news/jump-racing/galopin-des-champs-dies-aged-ten-just-five-days-after-retirement-announced-a1vwc5a9ZwoE/"},{"n":"The Mirror","u":"https://news.google.com/rss/articles/CBMikAFBVV95cUxNblRJUll5b3d2M0JrZ183ZFVyVmxqWGpvVHBEdzBDX1ZVYmY2QllDWVZGbWV3ZldVdlVNMXZCdFBBWkVONGpnT2U4QjZkNlZnMUtIZ3U3LXhabEZ4a2dYVGpGcWR2N1dXOWJPQ1IzaEphMTBaanBzUDZUcVRsaWVWaFJkdzFxdG0yWnk2OFJIQm7SAZYBQVVfeXFMTjc0OGRmWkV2aDFXTkFwbk1zcWpOQzJtaTNSOV9naHZLYTFVMndhLWlVV3JVTzNQTnd1dUZmaG1WNkdmV0FwTXRpUnZaLWh3YlQxUy13YmRJN2ZlUmFwZVg0QlBCakFycnJ3RnBPRWpMUlotTzhzVEhqdDZVTDNCM1N5OEItVVNybkRNRDBzRk82dTZKZ1h3?oc=5"}];
 window.SOURCE_LINKS["20260903-brian-fallon-critic"] = [{"n":"irishtimes.com","u":"https://www.irishtimes.com/culture/art/2026/09/04/former-irish-times-art-critic-brian-fallon-dies-aged-93/"}];
 window.SOURCE_LINKS["20260903-enos-mafokate"] = [{"n":"enca.com","u":"https://www.enca.com/news-sport-top-stories/king-horses-enos-mafokate-dies"}];
 window.SOURCE_LINKS["20260903-joseph-f-rice"] = [{"n":"The New York Times","u":"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1NQTNpTmRaTGE4SlpWNjNBd20tcE1TMHNJSlRzaW12cFhEUF9XMFpTTEw0OHdzcXdvc2tDa1F2WUNQTzRySENVTWFSUUdKMk4yeEllMDlpanhveEV3cW1sS3JJZnQ1SWM?oc=5"}];
@@ -232,7 +230,6 @@ window.SOURCE_LINKS["20260919-nico-perrone"] = [{"n":"barbadillo.it","u":"https:
 window.SOURCE_LINKS["20260919-willie-callaghan-footballer-born-1943"] = [{"n":"dafc.co.uk","u":"https://www.dafc.co.uk/news/2026/september/20/willie-callaghan---12-february-1943---19-september-2026/"}];
 window.SOURCE_LINKS["20260921-angry-anderson"] = [{"n":"theguardian.com","u":"https://www.theguardian.com/music/2026/sep/23/angry-anderson-dies-rose-tattoo-frontman-death-aged-79"}];
 window.SOURCE_LINKS["20260921-hdy-bs-nht"] = [{"n":"almuraqeb-aliraqi.org","u":"https://almuraqeb-aliraqi.org/?p=676604"}];
-window.SOURCE_LINKS["20260922-hurricane-fly"] = [{"n":"racingpost.com","u":"https://www.racingpost.com/news/jump-racing/legendary-dual-champion-hurdle-winner-hurricane-fly-dies-aged-22-aidRh9l0zjMR/"}];
 window.SOURCE_LINKS["20260922-james-becket"] = [{"n":"thetimes.com","u":"https://www.thetimes.com/comment/register/article/births-marriages-deaths-september-25-2026-h92wpk8k7"}];
 window.SOURCE_LINKS["20260922-konstantin-polezhayev"] = [{"n":"currenttime.tv","u":"https://www.currenttime.tv/a/rossiya-polezhaev-pogib-voyna/33860933.html"}];
 window.SOURCE_LINKS["20260923-bob-pettit"] = [{"n":"The New York Times","u":"https://www.nytimes.com/2026/09/24/obituaries/bob-pettit-dead.html"}];

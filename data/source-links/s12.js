@@ -264,7 +264,6 @@ window.SOURCE_LINKS["20261107-richard-lloyd-guitarist"] = [{"n":"nytimes.com","u
 window.SOURCE_LINKS["20261107-rick-kessell"] = [{"n":"obituaries.thestar.com","u":"https://obituaries.thestar.com/obituary/richard-kessell-1094154683"}];
 window.SOURCE_LINKS["20261107-stephen-roberts-australian-footballer"] = [{"n":"saints.com.au","u":"https://www.saints.com.au/news/2164629/vale-stephen-roberts"}];
 window.SOURCE_LINKS["20261109-brian-steele-rugby-union"] = [{"n":"nzherald.co.nz","u":"https://www.nzherald.co.nz/sport/rugby/oldest-former-all-black-brian-steele-dies-in-hawkes-bay/J6ZM4B3SGBF67DFUHC65Y72NVE/"}];
-window.SOURCE_LINKS["20261112-zee-zee-top"] = [{"n":"bloodhorse.com","u":"https://www.bloodhorse.com/horse-racing/articles/296026/2003-prix-de-lopera-winner-zee-zee-top-dies-at-27"}];
 window.SOURCE_LINKS["20261113-kevin-murray"] = [{"n":"lasentinel.net","u":"https://lasentinel.net/retired-state-senator-kevin-murray-passes-away.html"}];
 window.SOURCE_LINKS["20261113-peter-moran-bishop"] = [{"n":"rcda.scot","u":"https://www.rcda.scot/diocese-of-aberdeen-announces-death-of-bishop-emeritus-peter-moran/"}];
 window.SOURCE_LINKS["20261113-wolf-dietrich-niemeier"] = [{"n":"dainst.org","u":"https://www.dainst.org/newsroom/noslug/965"}];

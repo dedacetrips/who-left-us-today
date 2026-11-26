@@ -9,3 +9,9 @@ data/*.backup-*.js
 # 本地临时/中间产物
 *.tmp
 .DS_Store
+
+# 可再生的正文缓存（由 scripts/fetch_fulltext_2026.py 重新抓取）
+archive-data/deadpeople-2026-fulltext.json
+
+# 噪音清理前的本地备份目录
+data/noise-clean-backup-*/
